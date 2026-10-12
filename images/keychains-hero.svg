@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" fill="none" width="600" height="600">
+  <defs>
+    <radialGradient id="kcBg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F8FAFC" />
+    </radialGradient>
+    <linearGradient id="metalGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E2E8F0" />
+      <stop offset="40%" stop-color="#94A3B8" />
+      <stop offset="70%" stop-color="#CBD5E1" />
+      <stop offset="100%" stop-color="#64748B" />
+    </linearGradient>
+    <filter id="kcShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#0f172a" flood-opacity="0.18" />
+    </filter>
+  </defs>
+  <rect width="600" height="600" rx="24" fill="url(#kcBg)" />
+
+  <!-- Flat Key Ring & Swivel Chain -->
+  <g transform="translate(300, 110)" filter="url(#kcShadow)">
+    <circle cx="0" cy="0" r="45" stroke="url(#metalGrad)" stroke-width="12" fill="none" />
+    <path d="M0 45 L0 90" stroke="url(#metalGrad)" stroke-width="10" stroke-linecap="round" />
+    <circle cx="0" cy="95" r="10" fill="url(#metalGrad)" />
+    <path d="M0 105 L0 135" stroke="url(#metalGrad)" stroke-width="8" stroke-linecap="round" />
+  </g>
+
+  <!-- Outer Heavy Die-Cast Zinc Alloy Outer Frame -->
+  <g transform="translate(300, 360)" filter="url(#kcShadow)">
+    <circle cx="0" cy="0" r="130" stroke="url(#metalGrad)" stroke-width="22" fill="#FFFFFF" />
+    
+    <!-- Micro Ball Bearings Detail -->
+    <circle cx="0" cy="-105" r="6" fill="#475569" />
+    <circle cx="0" cy="105" r="6" fill="#475569" />
+
+    <!-- Center Rotating Soft PVC Core (Rotated 25 deg for 3D spin effect) -->
+    <g transform="rotate(25)">
+      <ellipse cx="0" cy="0" rx="90" ry="75" fill="#0070F3" stroke="#0051B3" stroke-width="5" />
+      <circle cx="0" cy="0" r="48" fill="#FF5B4D" />
+      <text x="0" y="8" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="24" fill="#FFFFFF" text-anchor="middle">NK</text>
+    </g>
+
+    <!-- Spin Motion Arc Lines -->
+    <path d="M-115 -40 A 120 120 0 0 1 -70 -100" stroke="#0070F3" stroke-width="3" stroke-dasharray="6 6" fill="none" />
+    <path d="M115 40 A 120 120 0 0 1 70 100" stroke="#0070F3" stroke-width="3" stroke-dasharray="6 6" fill="none" />
+  </g>
+
+  <!-- Spec Pill Badge -->
+  <rect x="180" y="520" width="240" height="38" rx="19" fill="#0F172A" filter="url(#kcShadow)" />
+  <text x="300" y="544" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="12" fill="#FFFFFF" text-anchor="middle">360&#176; SILENT BEARING SPINNER</text>
+</svg>

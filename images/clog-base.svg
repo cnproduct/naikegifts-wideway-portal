@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" fill="none" width="500" height="350">
+  <defs>
+    <filter id="shoeDrop" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#0f172a" flood-opacity="0.14" />
+    </filter>
+    <linearGradient id="clogSoleGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#334155" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Shadow & Outsole -->
+  <path d="M70 280 C60 220 80 140 150 90 C220 40 320 40 400 80 C460 110 470 170 460 230 C450 280 400 310 320 315 C220 320 100 320 70 280 Z" fill="url(#clogSoleGrad)" filter="url(#shoeDrop)" />
+  
+  <!-- Clog Body Upper (dynamic color fill target) -->
+  <path id="clogBodySvgPath" d="M80 270 C72 215 90 145 155 100 C220 55 315 55 390 90 C445 118 455 172 445 225 C435 272 390 300 315 305 C220 310 110 308 80 270 Z" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="4" />
+  
+  <!-- Clog Heel Strap Pivot & Strap -->
+  <path d="M120 220 C100 240 100 270 120 285 C140 295 180 290 200 275" stroke="#94A3B8" stroke-width="8" stroke-linecap="round" fill="none" opacity="0.4" />
+  <circle cx="120" cy="220" r="10" fill="#0F172A" />
+  <circle cx="120" cy="220" r="4" fill="#FFFFFF" />
+
+  <!-- Ventilation Holes (Guides for Charms) -->
+  <!-- Top Row -->
+  <ellipse cx="190" cy="147" rx="14" ry="14" fill="#1E293B" opacity="0.12" />
+  <ellipse cx="260" cy="133" rx="14" ry="14" fill="#1E293B" opacity="0.12" />
+  <ellipse cx="330" cy="154" rx="14" ry="14" fill="#1E293B" opacity="0.12" />
+
+  <!-- Middle Row -->
+  <ellipse cx="160" cy="196" rx="14" ry="14" fill="#1E293B" opacity="0.12" />
+  <ellipse cx="250" cy="189" rx="14" ry="14" fill="#1E293B" opacity="0.12" />
+  <ellipse cx="340" cy="203" rx="14" ry="14" fill="#1E293B" opacity="0.12" />
+
+  <!-- Lower Toe Row -->
+  <ellipse cx="210" cy="245" rx="14" ry="14" fill="#1E293B" opacity="0.12" />
+  <ellipse cx="290" cy="252" rx="14" ry="14" fill="#1E293B" opacity="0.12" />
+</svg>

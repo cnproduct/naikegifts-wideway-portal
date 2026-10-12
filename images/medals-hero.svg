@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" fill="none" width="600" height="600">
+  <defs>
+    <radialGradient id="medalBg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F1F5F9" />
+    </radialGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE047" />
+      <stop offset="40%" stop-color="#EAB308" />
+      <stop offset="80%" stop-color="#CA8A04" />
+      <stop offset="100%" stop-color="#A16207" />
+    </linearGradient>
+    <linearGradient id="ribbonGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00BFFF" />
+      <stop offset="33%" stop-color="#FFFFFF" />
+      <stop offset="66%" stop-color="#F556A0" />
+      <stop offset="100%" stop-color="#00BFFF" />
+    </linearGradient>
+    <filter id="medalShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#0f172a" flood-opacity="0.18" />
+    </filter>
+  </defs>
+
+  <rect width="600" height="600" rx="24" fill="url(#medalBg)" />
+
+  <!-- V-Neck Sublimation Ribbon -->
+  <path d="M 220 0 L 300 240 L 380 0 L 340 0 L 300 180 L 260 0 Z" fill="url(#ribbonGrad)" filter="url(#medalShadow)" />
+  <rect x="285" y="230" width="30" height="24" rx="4" fill="#CA8A04" />
+
+  <!-- Main Custom 3D Sports Medal Body -->
+  <g transform="translate(300, 370)" filter="url(#medalShadow)">
+    <!-- Outer Rim with Rope Texture -->
+    <circle cx="0" cy="0" r="140" fill="url(#goldGrad)" stroke="#854D0E" stroke-width="4" />
+    <circle cx="0" cy="0" r="126" fill="#FEF08A" stroke="#CA8A04" stroke-width="2" stroke-dasharray="6 4" />
+    
+    <!-- Recessed Enamel Ring -->
+    <circle cx="0" cy="0" r="110" fill="#0077B6" />
+    <text x="0" y="-86" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="12" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.16em">GLOBAL MARATHON CHAMPIONSHIP</text>
+    <text x="0" y="98" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="11" fill="#FEF08A" text-anchor="middle" letter-spacing="0.2em">FINISHER &#8226; 42.195 KM</text>
+
+    <!-- Center 3D Relief Runner & Landmark -->
+    <circle cx="0" cy="0" r="75" fill="url(#goldGrad)" stroke="#CA8A04" stroke-width="3" />
+    
+    <!-- Sculpted Runner Silhouette -->
+    <path d="M-10,-35 C-5,-35 -5,-25 -10,-25 C-15,-25 -15,-35 -10,-35 Z" fill="#713F12" />
+    <path d="M -12 -22 L -8 0 L -25 22 L -18 26 L -4 10 L 12 30 L 22 26 L 5 -5 L -2 -12 L 14 -18 L 10 -24 L -8 -15 Z" fill="#713F12" />
+    
+    <!-- 3D Star Accents -->
+    <polygon points="0,-18 5,-8 16,-8 7,0 11,10 0,3 -11,10 -7,0 -16,-8 -5,-8" fill="#FFFFFF" />
+  </g>
+
+  <!-- Quality Badge Pill -->
+  <rect x="40" y="40" width="180" height="34" rx="17" fill="#0B1120" />
+  <text x="130" y="62" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="11.5" fill="#00BFFF" text-anchor="middle" letter-spacing="0.06em">3D DIE-CAST ZINC ALLOY</text>
+
+  <!-- Tolerance Pill -->
+  <rect x="410" y="520" width="150" height="34" rx="17" fill="#10B981" />
+  <text x="485" y="542" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="11" fill="#FFFFFF" text-anchor="middle">SPINNING &amp; CUTOUT</text>
+</svg>

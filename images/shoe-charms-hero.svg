@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" fill="none" width="600" height="600">
+  <defs>
+    <radialGradient id="charmsBg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F1F5F9" />
+    </radialGradient>
+    <filter id="charmShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.16" />
+    </filter>
+  </defs>
+  <rect width="600" height="600" rx="24" fill="url(#charmsBg)" />
+  
+  <!-- Backing Card (Retail Blister Presentation) -->
+  <rect x="150" y="80" width="300" height="440" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2" filter="url(#charmShadow)" />
+  <circle cx="300" cy="115" r="8" fill="#E2E8F0" />
+  <rect x="180" y="140" width="240" height="28" rx="6" fill="#0070F3" />
+  <text x="300" y="159" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="13" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.08em">STREETWEAR DROPS &#8226; 5-PACK</text>
+  
+  <!-- Center Charm 1: 3D Glow Alien -->
+  <g transform="translate(230, 210)" filter="url(#charmShadow)">
+    <circle cx="70" cy="70" r="55" fill="#10B981" stroke="#059669" stroke-width="4" />
+    <ellipse cx="50" cy="60" rx="14" ry="20" fill="#0F172A" transform="rotate(-15 50 60)" />
+    <ellipse cx="90" cy="60" rx="14" ry="20" fill="#0F172A" transform="rotate(15 90 60)" />
+    <circle cx="48" cy="56" r="4" fill="#FFFFFF" />
+    <circle cx="88" cy="56" r="4" fill="#FFFFFF" />
+    <path d="M60 92 Q70 102 80 92" stroke="#0F172A" stroke-width="4" stroke-linecap="round" fill="none" />
+  </g>
+  
+  <!-- Side Charm 2: Neon Lightning Bolt -->
+  <g transform="translate(160, 360)" filter="url(#charmShadow)">
+    <polygon points="40,10 15,60 38,60 20,110 65,45 42,45" fill="#F59E0B" stroke="#D97706" stroke-width="3" />
+  </g>
+
+  <!-- Side Charm 3: Sweet Boba -->
+  <g transform="translate(360, 350)" filter="url(#charmShadow)">
+    <path d="M20 20 L25 80 Q25 90 40 90 L60 90 Q75 90 75 80 L80 20 Z" fill="#F556A0" stroke="#DB2777" stroke-width="3" />
+    <line x1="50" y1="5" x2="50" y2="40" stroke="#0F172A" stroke-width="6" stroke-linecap="round" />
+    <circle cx="40" cy="75" r="5" fill="#0F172A" />
+    <circle cx="60" cy="75" r="5" fill="#0F172A" />
+    <circle cx="50" cy="65" r="5" fill="#0F172A" />
+  </g>
+
+  <!-- Floating Badge -->
+  <rect x="340" y="470" width="180" height="38" rx="19" fill="#FF5B4D" filter="url(#charmShadow)" />
+  <text x="430" y="494" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="12" fill="#FFFFFF" text-anchor="middle">&gt;15KG RIVET PULL TESTED</text>
+</svg>

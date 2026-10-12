@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none" width="200" height="200">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="50%" stop-color="#FCD34D" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="90" fill="#0F172A" stroke="url(#goldGrad)" stroke-width="6" />
+  <circle cx="100" cy="100" r="76" stroke="#334155" stroke-width="2" stroke-dasharray="4 4" fill="none" />
+  
+  <!-- Text Ring -->
+  <text x="100" y="55" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="13" fill="#FCD34D" text-anchor="middle" letter-spacing="0.1em">SEDEX &#8226; SMETA</text>
+  <text x="100" y="80" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="24" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.05em">4-PILLAR</text>
+  <text x="100" y="105" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="11" fill="#10B981" text-anchor="middle" letter-spacing="0.08em">&#10003; AUDITED 2026</text>
+  
+  <!-- 4 Pillars Icons -->
+  <g transform="translate(45, 120)">
+    <text x="15" y="15" font-size="14">⚖️</text>
+    <text x="40" y="15" font-size="14">🌱</text>
+    <text x="65" y="15" font-size="14">🛡️</text>
+    <text x="90" y="15" font-size="14">🤝</text>
+  </g>
+  <text x="100" y="160" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="9" fill="#94A3B8" text-anchor="middle">LABOUR &#8226; HEALTH &#8226; ENVIRONMENT &#8226; ETHICS</text>
+</svg>

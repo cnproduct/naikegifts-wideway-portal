@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 380" fill="none" width="540" height="380">
+  <defs>
+    <filter id="boxShadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#000000" flood-opacity="0.3" />
+    </filter>
+    <linearGradient id="boxLidGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+  </defs>
+
+  <!-- Open Rigid Mailer Box Base -->
+  <g transform="translate(60, 40)" filter="url(#boxShadow)">
+    <!-- Base Bottom Tray -->
+    <rect x="0" y="80" width="420" height="220" rx="16" fill="#0F172A" stroke="#334155" stroke-width="2" />
+    
+    <!-- Interior Tissue Wrap / Foam Insert -->
+    <rect x="15" y="95" width="390" height="190" rx="10" fill="#1E293B" />
+
+    <!-- Open Lid Top (Isometric Angle) -->
+    <polygon points="0,80 420,80 380,10 40,10" fill="url(#boxLidGrad)" stroke="#475569" stroke-width="2" />
+    <text x="210" y="52" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="18" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.1em">CREATOR SWATCH BOX &#8226; 2026</text>
+
+    <!-- Content Items Inside the Box -->
+    <!-- 1. Charms Pack -->
+    <rect x="35" y="115" width="100" height="150" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5" />
+    <circle cx="85" cy="155" r="22" fill="#10B981" />
+    <text x="85" y="161" font-size="16" text-anchor="middle">👽</text>
+    <circle cx="65" cy="205" r="14" fill="#F59E0B" />
+    <circle cx="105" cy="205" r="14" fill="#F556A0" />
+    <text x="85" y="248" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="9" fill="#0F172A" text-anchor="middle">10x SHOE CHARMS</text>
+
+    <!-- 2. Landmark Fridge Magnet -->
+    <rect x="155" y="115" width="120" height="70" rx="8" fill="#0284C7" stroke="#38BDF8" stroke-width="1.5" />
+    <text x="215" y="155" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="11" fill="#FFFFFF" text-anchor="middle">3D RELIEF MAGNET</text>
+
+    <!-- 3. Spinner Keychain -->
+    <circle cx="215" cy="235" r="30" stroke="#CBD5E1" stroke-width="6" fill="#1E293B" />
+    <circle cx="215" cy="235" r="14" fill="#FF5B4D" />
+    <text x="215" y="239" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="8" fill="#FFFFFF" text-anchor="middle">SPIN</text>
+
+    <!-- 4. Mini Plush Keychain Mascot -->
+    <circle cx="335" cy="160" r="34" fill="#38BDF8" />
+    <circle cx="320" cy="155" r="4" fill="#0F172A" />
+    <circle cx="350" cy="155" r="4" fill="#0F172A" />
+    <text x="335" y="210" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="9" fill="#94A3B8" text-anchor="middle">MINI PLUSH</text>
+
+    <!-- 5. Material & Pantone Swatch Cards -->
+    <rect x="295" y="230" width="80" height="35" rx="4" fill="#F59E0B" />
+    <rect x="305" y="225" width="80" height="35" rx="4" fill="#EC4899" opacity="0.9" />
+    <rect x="315" y="220" width="80" height="35" rx="4" fill="#10B981" opacity="0.9" />
+  </g>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" fill="none" width="600" height="600">
+  <defs>
+    <radialGradient id="coinBg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F1F5F9" />
+    </radialGradient>
+    <linearGradient id="bronzeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D97706" />
+      <stop offset="50%" stop-color="#92400E" />
+      <stop offset="100%" stop-color="#78350F" />
+    </linearGradient>
+    <filter id="coinShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#0f172a" flood-opacity="0.18" />
+    </filter>
+  </defs>
+
+  <rect width="600" height="600" rx="24" fill="url(#coinBg)" />
+
+  <!-- Coin 1: 3D Diamond Cut Rope Edge Challenge Coin -->
+  <g transform="translate(230, 260)" filter="url(#coinShadow)">
+    <!-- Outer Rope / Diamond Cut Rim -->
+    <circle cx="0" cy="0" r="150" fill="url(#bronzeGrad)" stroke="#451A03" stroke-width="4" />
+    <circle cx="0" cy="0" r="136" fill="#F59E0B" stroke="#B45309" stroke-width="3" stroke-dasharray="8 4" />
+    
+    <!-- Outer Inscription Band -->
+    <circle cx="0" cy="0" r="120" fill="#0F172A" />
+    <text x="0" y="-95" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="13" fill="#FDE047" text-anchor="middle" letter-spacing="0.18em">UNITED STATES AIR COMMAND</text>
+    <text x="0" y="105" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="12" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.22em">&#8226; EXCELLENCE IN FLIGHT &#8226;</text>
+
+    <!-- Inner 3D Sculpted Eagle & Insignia -->
+    <circle cx="0" cy="0" r="80" fill="url(#bronzeGrad)" stroke="#CA8A04" stroke-width="3" />
+    <!-- Eagle Wings -->
+    <path d="M 0 -40 C 25 -40 55 -20 60 5 C 45 0 25 10 0 35 C -25 10 -45 0 -60 5 C -55 -20 -25 -40 0 -40 Z" fill="#FEF08A" />
+    <circle cx="0" cy="5" r="16" fill="#0077B6" />
+    <!-- 5 Stars -->
+    <polygon points="0,-18 3,-10 11,-10 5,-5 7,3 0,-1 -7,3 -5,-5 -11,-10 -3,-10" fill="#FFFFFF" />
+  </g>
+
+  <!-- Coin 2: Overlapping Functional Bottle Opener Coin (Artigifts Specialty) -->
+  <g transform="translate(420, 390)" filter="url(#coinShadow)">
+    <circle cx="0" cy="0" r="100" fill="#E2E8F0" stroke="#94A3B8" stroke-width="4" />
+    <circle cx="0" cy="0" r="88" fill="#0077B6" />
+    <!-- Cut-out Bottle Opener Lip -->
+    <path d="M -35 -40 L 35 -40 C 35 -15 20 0 0 0 C -20 0 -35 -15 -35 -40 Z" fill="#FFFFFF" stroke="#475569" stroke-width="3" />
+    <text x="0" y="45" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="11" fill="#FFFFFF" text-anchor="middle">4MM THICK HEAVYWEIGHT</text>
+    <text x="0" y="62" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="9.5" fill="#38BDF8" text-anchor="middle">BUILT-IN BOTTLE OPENER</text>
+  </g>
+
+  <!-- Tag Banner -->
+  <rect x="40" y="40" width="220" height="34" rx="17" fill="#0B1120" />
+  <text x="150" y="62" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="11" fill="#00BFFF" text-anchor="middle">MILITARY &amp; CORPORATE COINS</text>
+</svg>

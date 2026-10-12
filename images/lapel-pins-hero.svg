@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" fill="none" width="600" height="600">
+  <defs>
+    <radialGradient id="pinBg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F8FAFC" />
+    </radialGradient>
+    <filter id="pinShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#0f172a" flood-opacity="0.16" />
+    </filter>
+  </defs>
+
+  <rect width="600" height="600" rx="24" fill="url(#pinBg)" />
+
+  <!-- Center Pin 1: Hard Enamel Astronaut (Jin Sheu / Artigifts Style) -->
+  <g transform="translate(180, 150)" filter="url(#pinShadow)">
+    <!-- Gold Plating Outline -->
+    <path d="M 60 20 C 100 20 130 50 130 90 C 130 130 110 160 80 180 L 110 240 L 70 240 L 50 190 L 30 240 L -10 240 L 20 180 C -10 160 -30 130 -30 90 C -30 50 10 20 60 20 Z" fill="#EAB308" stroke="#CA8A04" stroke-width="4" />
+    <!-- Visor (Dark Cobalt with Glitter) -->
+    <ellipse cx="50" cy="85" rx="35" ry="25" fill="#0F172A" />
+    <path d="M 30 70 Q 50 65 70 70 Q 60 80 30 80 Z" fill="#38BDF8" opacity="0.8" />
+    <circle cx="65" cy="78" r="3" fill="#FFFFFF" />
+    <!-- Chest Plate (Vibrant Coral) -->
+    <rect x="25" y="125" width="50" height="40" rx="6" fill="#FF5A36" />
+    <circle cx="38" cy="140" r="5" fill="#00BFFF" />
+    <circle cx="62" cy="140" r="5" fill="#10B981" />
+  </g>
+
+  <!-- Side Pin 2: Cherry Blossom Hard Enamel with Glitter -->
+  <g transform="translate(390, 120)" filter="url(#pinShadow)">
+    <circle cx="60" cy="60" r="50" fill="#FDF2F8" stroke="#EAB308" stroke-width="4" />
+    <!-- 5 Petals -->
+    <path d="M 60 20 C 68 35 75 45 60 60 C 45 45 52 35 60 20 Z" fill="#F472B6" />
+    <path d="M 100 60 C 85 68 75 75 60 60 C 75 45 85 52 100 60 Z" fill="#F472B6" />
+    <path d="M 80 100 C 70 85 65 75 60 60 C 75 65 85 70 80 100 Z" fill="#F472B6" />
+    <path d="M 40 100 C 35 85 45 75 60 60 C 45 65 35 70 40 100 Z" fill="#F472B6" />
+    <path d="M 20 60 C 35 68 45 75 60 60 C 45 45 35 52 20 60 Z" fill="#F472B6" />
+    <circle cx="60" cy="60" r="10" fill="#EAB308" />
+  </g>
+
+  <!-- Side Pin 3: 3D Antique Bronze Shield Badge -->
+  <g transform="translate(360, 310)" filter="url(#pinShadow)">
+    <path d="M 20 20 L 120 20 C 120 80 100 130 70 160 C 40 130 20 80 20 20 Z" fill="#78350F" stroke="#451A03" stroke-width="4" />
+    <path d="M 30 30 L 110 30 C 110 75 95 120 70 145 C 45 120 30 75 30 30 Z" fill="#B45309" />
+    <!-- Star & Wings in Shield -->
+    <polygon points="70,55 75,70 90,70 78,80 82,95 70,85 58,95 62,80 50,70 65,70" fill="#FDE047" />
+    <text x="70" y="125" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="11" fill="#FEF3C7" text-anchor="middle" letter-spacing="0.1em">HONOR &#8226; VALOR</text>
+  </g>
+
+  <!-- Butterfly Clutch Backing Preview -->
+  <g transform="translate(90, 380)" filter="url(#pinShadow)">
+    <rect width="180" height="120" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2" />
+    <circle cx="60" cy="60" r="16" fill="#CA8A04" />
+    <rect x="56" y="30" width="8" height="60" rx="2" fill="#94A3B8" />
+    <path d="M 45 50 Q 60 40 75 50 L 70 70 Q 60 65 50 70 Z" fill="#EAB308" />
+    <text x="120" y="55" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="12" fill="#0F172A">BUTTERFLY</text>
+    <text x="120" y="75" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="11" fill="#64748B">CLUTCH &#8226; RUBBER</text>
+  </g>
+
+  <!-- Tag Banner -->
+  <rect x="40" y="40" width="200" height="34" rx="17" fill="#0B1120" />
+  <text x="140" y="62" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="11" fill="#00BFFF" text-anchor="middle">HARD &amp; SOFT ENAMEL PINS</text>
+</svg>

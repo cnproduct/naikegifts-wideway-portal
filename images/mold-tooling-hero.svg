@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="mtBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B132B"/>
+      <stop offset="100%" stop-color="#1C2541"/>
+    </linearGradient>
+    <linearGradient id="metalGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E2E8F0"/>
+      <stop offset="50%" stop-color="#94A3B8"/>
+      <stop offset="100%" stop-color="#475569"/>
+    </linearGradient>
+    <linearGradient id="laserGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00BFFF"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="16" fill="url(#mtBg)"/>
+  
+  <!-- CNC Machining Bed Graphic -->
+  <rect x="80" y="160" width="440" height="180" rx="8" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+  <line x1="80" y1="200" x2="520" y2="200" stroke="#1E293B" stroke-width="2"/>
+  <line x1="80" y1="240" x2="520" y2="240" stroke="#1E293B" stroke-width="2"/>
+  <line x1="80" y1="280" x2="520" y2="280" stroke="#1E293B" stroke-width="2"/>
+  
+  <!-- Steel Die Mold Block -->
+  <rect x="180" y="130" width="240" height="140" rx="6" fill="url(#metalGrad)" stroke="#CBD5E1" stroke-width="2"/>
+  <!-- Engraved Cavities -->
+  <circle cx="240" cy="200" r="32" fill="#334155" stroke="#1E293B" stroke-width="3"/>
+  <path d="M230 185 L250 185 L255 210 L235 215 Z" fill="#00BFFF" fill-opacity="0.8"/>
+  <circle cx="340" cy="200" r="32" fill="#334155" stroke="#1E293B" stroke-width="3"/>
+  <polygon points="340,175 350,195 372,198 356,213 360,235 340,224 320,235 324,213 308,198 330,195" fill="#F556A0" fill-opacity="0.8"/>
+  
+  <!-- CNC Spindle & Laser Toolhead -->
+  <rect x="285" y="40" width="30" height="70" fill="#64748b"/>
+  <polygon points="280,110 320,110 300,135" fill="#94A3B8"/>
+  <!-- Laser Beam -->
+  <line x1="300" y1="135" x2="300" y2="175" stroke="#00BFFF" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="300" cy="175" r="8" fill="#38BDF8" fill-opacity="0.6"/>
+  
+  <text x="300" y="360" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="16" font-weight="700" text-anchor="middle">5-Axis High-Precision CNC Mold Engraving (±0.02mm)</text>
+</svg>

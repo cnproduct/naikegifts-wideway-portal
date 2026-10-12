@@ -1,0 +1,34 @@
+# ==============================================================================
+# naikegifts.com - Production robots.txt (2026 Generative Engine Optimization)
+# ==============================================================================
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin
+Disallow: /scratch/
+Disallow: /*?*sort=
+
+# Major Search Engine & AI Search Crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+# Canonical Sitemaps & Machine-Readable Knowledge for SEO & AI
+Sitemap: https://www.naikegifts.com/sitemap.xml
+Sitemap: https://www.naikegifts.com/llms.txt
+Sitemap: https://www.naikegifts.com/llms-full.txt
