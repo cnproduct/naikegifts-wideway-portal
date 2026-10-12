@@ -471,7 +471,7 @@ def get_products_grid_html(products, filter_key=None):
             continue
         p_id = p.get("id", "")
         p_name = p.get("name", p_id)
-        p_img = p.get("image", "images/shoe-charms-hero.svg")
+        p_img = p.get("image", "images/products/custom-pvc-shoe-charms-croc-shoe-decorations.jpg")
         p_tag = p.get("tag", "Factory Direct")
         p_fob = p.get("fob_price", "$0.10 – $0.50")
         p_moq = p.get("moq", "100 Pcs")
@@ -552,7 +552,7 @@ def get_category_detailed_html(cat_key, cat_data, company_info, products, catego
 
     return f"""
     <!-- Category Hero / Subheader -->
-    <section class="page-banner" style="background: linear-gradient(rgba(15, 23, 42, 0.90), rgba(15, 23, 42, 0.96)), url('images/factory-workshop.svg') center/cover; padding: 70px 0; color: #fff; text-align: center;">
+    <section class="page-banner" style="background: linear-gradient(rgba(15, 23, 42, 0.90), rgba(15, 23, 42, 0.96)), url('images/factory-workshop.jpg') center/cover; padding: 70px 0; color: #fff; text-align: center;">
       <div class="container">
         <h1 style="font-size: 2.5rem; margin-bottom: 12px; color: #fff;">{cat_data.get('h1', cat_data['title'])}</h1>
         <p style="max-width: 850px; margin: 0 auto; color: #e2e8f0; font-size: 1.05rem; line-height: 1.6;">{cat_data.get('desc', '')}</p>
@@ -722,7 +722,7 @@ def generate_sitemap_xml(all_pages, products, company_info):
         image_tags = ""
         if clean_slug == "/":
             image_tags += f"""    <image:image>
-      <image:loc>https://www.{domain}/images/factory-workshop.svg</image:loc>
+      <image:loc>https://www.{domain}/images/factory-workshop.jpg</image:loc>
       <image:title>Naike Gifts Jinjiang 1,650sqm Production Campus</image:title>
     </image:image>\n"""
         elif clean_slug == "/products":
