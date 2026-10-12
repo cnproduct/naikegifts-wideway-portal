@@ -1077,5 +1077,73 @@
   "articles": [],
   "certifications": [],
   "factory_stats": {},
-  "faq_items": []
+  "faq_items": [],
+  "news": [
+    {
+      "id": "sedex-smeta-bsci-audit-pass-2026",
+      "slug": "news-detail",
+      "title": "Naike Gifts Jinjiang Production Campus Passes SEDEX SMETA 4-Pillar & amfori BSCI Re-Certification with Zero Non-Conformances",
+      "category": "Corporate Compliance",
+      "date": "2026-03-15",
+      "publish_date": "2026-03-15",
+      "author": "Naike Compliance Committee",
+      "image": "images/factory-workshop.jpg",
+      "summary": "Independent third-party auditing by SGS & Intertek verifies 100% compliance across labor standards, occupational health & safety, environmental stewardship, and business integrity for Fortune 500 supply chains."
+    },
+    {
+      "id": "1650sqm-micro-injection-expansion",
+      "slug": "news-detail",
+      "title": "1,650㎡ Clean Micro-Injection Expansion: Commissioning 8 Automated 12-Color Dispensing Lines in Jinjiang",
+      "category": "Manufacturing Capacity",
+      "date": "2026-02-28",
+      "publish_date": "2026-02-28",
+      "author": "Production Engineering Dept",
+      "image": "images/mold-tooling-hero.jpg",
+      "summary": "Doubling monthly capacity to 5,000,000+ units of 3D soft PVC shoe charms, multi-layered silicone bar service spill mats, and 3D miniature sneaker keychains with calibrated 0.1mm micro-droplet accuracy."
+    },
+    {
+      "id": "tensile-15kg-pom-rivet-testing",
+      "slug": "news-detail",
+      "title": "Tensile Safety Engineering: How Naike Gifts Calibrated 15kg Pull Force for POM Clog Rivets to Eliminate Detachment Hazards",
+      "category": "Technical Whitepaper",
+      "date": "2026-01-20",
+      "publish_date": "2026-01-20",
+      "author": "QC Laboratory Lead",
+      "image": "images/qc-lab-hero.jpg",
+      "summary": "Full physical testing methodology detailing ultrasonic weld depth, 12mm POM mushroom rivet tensile stress analysis, and US CPSIA zero-choking child safety compliance."
+    },
+    {
+      "id": "hard-enamel-vs-soft-enamel-guide",
+      "slug": "news-detail",
+      "title": "Engineering Metallurgy: Hard Enamel (Cloisonné) vs. Soft Enamel Durability & Salt Spray Resistance Standards",
+      "category": "Industry Insights",
+      "date": "2025-12-10",
+      "publish_date": "2025-12-10",
+      "author": "Senior Tooling Specialist",
+      "image": "images/products/personalized-character-soft-enamel-pins-with-case.jpg",
+      "summary": "Technical evaluation of mineral paste stone polishing baked at 800°C versus recessed cold enamel fills, complete with ASTM B117 72-hour neutral salt spray corrosion performance data."
+    },
+    {
+      "id": "grs-rpet-plush-mascot-sustainability",
+      "slug": "news-detail",
+      "title": "Sustainable Merchandise: Transitioning Corporate Mascot Plush Lines to 100% GRS-Certified Recycled RPET Velvet",
+      "category": "Sustainability & ESG",
+      "date": "2025-11-05",
+      "publish_date": "2025-11-05",
+      "author": "Sustainable Sourcing Team",
+      "image": "images/products/bespoke-corporate-brand-mascot-plush-toy.png",
+      "summary": "How global tech enterprises and financial brands are lowering carbon footprint with traceable post-consumer recycled polyfill and dual-head needle detection safety verification."
+    },
+    {
+      "id": "marathon-finisher-medal-3d-innovations",
+      "slug": "news-detail",
+      "title": "Kinetic & Interlocking Marathon Finisher Medals: High-Density Zinc Die-Casting Trends for World Athletics Events",
+      "category": "Product Innovation",
+      "date": "2025-10-18",
+      "publish_date": "2025-10-18",
+      "author": "Creative Directorship",
+      "image": "images/products/zinc-alloy-soft-enamel-3d-shape-metal-souvenir-medal.jpg",
+      "summary": "Reviewing 360° spinning centers, translucent cathedral stained glass enamel, and continuous dye-sublimated Grosgrain ribbons engineered for prestigious global road race finishers."
+    }
+  ]
 }

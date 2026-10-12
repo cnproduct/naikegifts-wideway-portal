@@ -452,7 +452,10 @@ def get_footer_html(company_info, categories):
         <span class="wa-subtitle">12h CAD Proof &bull; Avg reply &lt; 5m</span>
       </div>
     </a>
-  </div>"""
+  </div>
+  
+  <!-- Core Interactivity JavaScript (Guaranteed Global Load) -->
+  <script src="js/main.js?v=20261012_02" defer></script>"""
 
 def get_category_tabs_html(active_key, categories):
     tabs_html = f'        <a href="/products" class="tab-btn {"active" if active_key == "all" else ""}">All Products (34 SKUs)</a>\n'

@@ -2190,16 +2190,16 @@ footer {
   }
 }
 
-/* --- Scroll Animation Reveals --- */
+/* --- Scroll Animation Reveals (Always visible by default to prevent blank white areas) --- */
 .reveal {
-  opacity: 0;
-  transform: translateY(30px);
-  transition: opacity 0.8s ease, transform 0.8s ease;
+  opacity: 1;
+  transform: none;
+  transition: opacity 0.4s ease, transform 0.4s ease;
 }
 
 .reveal.active {
   opacity: 1;
-  transform: translateY(0);
+  transform: none;
 }
 
 /* --- Success Feedback Popup --- */
