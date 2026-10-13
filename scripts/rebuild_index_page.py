@@ -19,8 +19,8 @@ HTML_CONTENT = """<!DOCTYPE html>
   <link rel="icon" type="image/svg+xml" href="images/logo.svg"/>
   <meta property="og:title" content="Custom Promotional Gifts &amp; Metal Crafts Manufacturer | NAIKE GIFTS"/>
   <meta property="og:description" content="Factory-direct 3D PVC shoe charms, marathon finisher medals, enamel lapel pins, challenge coins, bar mats, and mascot plush toys. 1,650㎡ Jinjiang campus, low MOQ, 12h free CAD proofing."/>
-  <meta property="og:image" content="https://www.naikegifts.com/images/hero-showcase.svg"/>
-  <meta property="og:url" content="https://www.naikegifts.com/"/>
+  <meta property="og:image" content="https://www.customswagfactory.com/images/hero-showcase.svg"/>
+  <meta property="og:url" content="https://www.customswagfactory.com/"/>
   <meta property="og:site_name" content="NAIKE GIFTS"/>
   <meta property="og:type" content="website"/>
   <meta name="twitter:card" content="summary_large_image"/>
@@ -32,21 +32,21 @@ HTML_CONTENT = """<!DOCTYPE html>
     "@graph": [
       {
         "@type": "Organization",
-        "@id": "https://www.naikegifts.com/#organization",
+        "@id": "https://www.customswagfactory.com/#organization",
         "name": "Jinjiang Naike Promo Co., Ltd.",
         "alternateName": [
           "NAIKE GIFTS",
           "Naike Gifts",
           "Jinjiang Naike Promo Co., Ltd."
         ],
-        "url": "https://www.naikegifts.com/",
-        "logo": "https://www.naikegifts.com/images/logo.svg",
+        "url": "https://www.customswagfactory.com/",
+        "logo": "https://www.customswagfactory.com/images/logo.svg",
         "contactPoint": [
           {
             "@type": "ContactPoint",
             "telephone": "+86-135-9922-0505",
             "contactType": "export sales & engineering inquiry",
-            "email": "info@naikegifts.com",
+            "email": "info@customswagfactory.com",
             "availableLanguage": ["English", "Chinese"]
           }
         ],
@@ -70,11 +70,11 @@ HTML_CONTENT = """<!DOCTYPE html>
       },
       {
         "@type": "WebSite",
-        "@id": "https://www.naikegifts.com/#website",
-        "url": "https://www.naikegifts.com/",
+        "@id": "https://www.customswagfactory.com/#website",
+        "url": "https://www.customswagfactory.com/",
         "name": "NAIKE GIFTS Official B2B Export Portal",
         "publisher": {
-          "@id": "https://www.naikegifts.com/#organization"
+          "@id": "https://www.customswagfactory.com/#organization"
         }
       }
     ]

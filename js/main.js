@@ -1079,14 +1079,14 @@ function initWhatsAppWidget() {
 function initAntiCloningProtection() {
   try {
     // 1. Domain verification: Detect unauthorized reverse proxies / mirror cloners
-    const canonicalHost = 'www.naikegifts.com';
+    const canonicalHost = 'www.customswagfactory.com';
     const currentHost = window.location.hostname ? window.location.hostname.toLowerCase() : '';
     
     // Whitelist legitimate local development, IP previews, and canonical domain
     const isWhitelisted = (
       currentHost === '' ||
-      currentHost === 'naikegifts.com' ||
-      currentHost === 'www.naikegifts.com' ||
+      currentHost === 'customswagfactory.com' ||
+      currentHost === 'www.customswagfactory.com' ||
       currentHost.endsWith('github.io') ||
       currentHost === 'localhost' ||
       currentHost === '127.0.0.1' ||

@@ -12,10 +12,10 @@ precision_mold_content = """<!DOCTYPE html>
   <meta name="description" content="In-house 5-axis CNC mold engraving, copper spark erosion, and multi-cavity tooling for custom 3D PVC shoe charms, medals, lapel pins, and barware. ±0.02mm micro-tolerance.">
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" type="image/svg+xml" href="images/logo.svg">
-  <link rel="canonical" href="https://www.naikegifts.com/precision-mold-tooling">
+  <link rel="canonical" href="https://www.customswagfactory.com/precision-mold-tooling">
   <meta property="og:title" content="Precision CNC Mold Tooling | NAIKE GIFTS">
   <meta property="og:description" content="In-house CNC mold engineering and rapid physical prototyping in Jinjiang, Fujian.">
-  <meta property="og:url" content="https://www.naikegifts.com/precision-mold-tooling">
+  <meta property="og:url" content="https://www.customswagfactory.com/precision-mold-tooling">
   <meta property="og:site_name" content="NAIKE GIFTS">
   <meta property="og:type" content="website">
 </head>
@@ -65,7 +65,7 @@ redirect_html = """<!DOCTYPE html>
   <meta charset="utf-8">
   <title>Redirecting to Precision Tooling...</title>
   <meta http-equiv="refresh" content="0; url=precision-mold-tooling">
-  <link rel="canonical" href="https://www.naikegifts.com/precision-mold-tooling">
+  <link rel="canonical" href="https://www.customswagfactory.com/precision-mold-tooling">
 </head>
 <body>
   <p>Redirecting to <a href="precision-mold-tooling">Precision Mold Tooling</a>...</p>

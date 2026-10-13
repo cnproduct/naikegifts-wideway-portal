@@ -485,7 +485,7 @@ def main():
             "lead_time": specs["lead_time"],
             "image": rel_path,
             "gallery": [rel_path],
-            "source_url": raw.get("source", "https://www.naikegifts.com/"),
+            "source_url": raw.get("source", "https://www.customswagfactory.com/"),
             "dimensions": specs["dimensions"],
             "material": specs["material"],
             "hardware": specs["hardware"],

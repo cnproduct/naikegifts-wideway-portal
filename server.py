@@ -19,7 +19,7 @@ from http.server import SimpleHTTPRequestHandler, HTTPServer
 
 AUTH_PATH = os.path.join('data', 'auth.json')
 INQUIRIES_PATH = os.path.join('data', 'inquiries.json')
-DEFAULT_TARGET_EMAIL = "info@naikegifts.com"
+DEFAULT_TARGET_EMAIL = "info@customswagfactory.com"
 SESSIONS = {} # Token -> expiry timestamp
 
 def save_inquiry(inquiry_data):
@@ -40,11 +40,11 @@ def save_inquiry(inquiry_data):
 
 def dispatch_inquiry_notification(record):
     """
-    Dispatches inquiry notification to info@naikegifts.com.
+    Dispatches inquiry notification to info@customswagfactory.com.
     1. Redundant FormSubmit HTTP relay with proper origin/referer
     2. Optional SMTP dispatch if credentials exist in env or site_content.json
     """
-    target_email = "info@naikegifts.com"
+    target_email = "info@customswagfactory.com"
     
     # 1. Forward to FormSubmit.co
     try:
@@ -69,8 +69,8 @@ def dispatch_inquiry_notification(record):
             headers={
                 'Content-Type': 'application/json',
                 'Accept': 'application/json',
-                'Referer': 'https://www.naikegifts.com/contact',
-                'Origin': 'https://www.naikegifts.com',
+                'Referer': 'https://www.customswagfactory.com/contact',
+                'Origin': 'https://www.customswagfactory.com',
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) NAIKE GIFTS-B2B-Portal/2026'
             }
         )
@@ -109,7 +109,7 @@ def dispatch_inquiry_notification(record):
             msg['Reply-To'] = record.get('email', smtp_user)
             msg['Subject'] = f"[Website RFQ] {record.get('company', '')} - {record.get('product_interest', 'Footwear Sourcing')}"
             
-            body_text = f"""New B2B RFQ Inquiry Received from naikegifts.com:
+            body_text = f"""New B2B RFQ Inquiry Received from customswagfactory.com:
 --------------------------------------------------
 Inquiry ID: {record.get('id')}
 Date & Time: {record.get('timestamp')}
@@ -574,7 +574,7 @@ class AdminHandler(SimpleHTTPRequestHandler):
                 self.wfile.write(json.dumps({"status": "error", "message": str(e)}).encode('utf-8'))
             return
 
-        # Public Endpoint: Submit RFQ / Inquiry (routed to info@naikegifts.com)
+        # Public Endpoint: Submit RFQ / Inquiry (routed to info@customswagfactory.com)
         if self.path in ['/api/inquiry', '/api/rfq', '/api/inquiries', '/api/contact']:
             content_length = int(self.headers.get('Content-Length', 0))
             post_data = self.rfile.read(content_length) if content_length > 0 else b''
@@ -603,7 +603,7 @@ class AdminHandler(SimpleHTTPRequestHandler):
                 # 1. Persist permanently to disk
                 save_inquiry(record)
                 
-                # 2. Dispatch notification asynchronously to info@naikegifts.com
+                # 2. Dispatch notification asynchronously to info@customswagfactory.com
                 threading.Thread(target=dispatch_inquiry_notification, args=(record,), daemon=True).start()
                 
                 self.send_response(200)
@@ -1170,7 +1170,7 @@ class AdminHandler(SimpleHTTPRequestHandler):
             post_data = self.rfile.read(content_length)
             try:
                 data = json.loads(post_data.decode('utf-8'))
-                domain = data.get('domain', 'naikegifts.com')
+                domain = data.get('domain', 'customswagfactory.com')
                 
                 recommendations = [
                     {
@@ -1319,7 +1319,7 @@ class AdminHandler(SimpleHTTPRequestHandler):
                 Target Website: {partner_url}
                 Pitch Context: {context}
                 
-                Emphasize that we are Jinjiang Naike Promo Co., Ltd. (NAIKE GIFTS - https://www.naikegifts.com), a premier promotional craft and micro-injection manufacturer in Jinjiang with 16+ years of OEM/ODM experience. Certified by SEDEX SMETA 4-Pillar, amfori BSCI, and ISO 9001:2015, we specialize in 3D PVC shoe charms, custom marathon medals, enamel lapel pins, challenge coins, bar mats, and mascot plush toys. We provide free 12-hour 3D CAD mockups and 5-day rapid sampling. Keep the tone courteous, authoritative, and mutually beneficial.
+                Emphasize that we are Jinjiang Naike Promo Co., Ltd. (NAIKE GIFTS - https://www.customswagfactory.com), a premier promotional craft and micro-injection manufacturer in Jinjiang with 16+ years of OEM/ODM experience. Certified by SEDEX SMETA 4-Pillar, amfori BSCI, and ISO 9001:2015, we specialize in 3D PVC shoe charms, custom marathon medals, enamel lapel pins, challenge coins, bar mats, and mascot plush toys. We provide free 12-hour 3D CAD mockups and 5-day rapid sampling. Keep the tone courteous, authoritative, and mutually beneficial.
                 """
                 
                 # Call Gemini helper or return high-converting templates
@@ -1347,7 +1347,7 @@ I hope this message finds you well.
 
 I have been following {partner_url} and greatly appreciate your industry perspectives and technical coverage of footwear design, athletic apparel, and supply chain manufacturing trends.
 
-I am reaching out on behalf of Jinjiang Naike Promo Co., Ltd. (NAIKE GIFTS - https://www.naikegifts.com). Based in Jinjiang since 2008, we specialize in custom 3D PVC shoe charms, marathon finisher medals, enamel lapel pins, challenge coins, barware mats, and bespoke mascot plush toys, backed by SEDEX SMETA, BSCI, and ISO 9001 certifications.
+I am reaching out on behalf of Jinjiang Naike Promo Co., Ltd. (NAIKE GIFTS - https://www.customswagfactory.com). Based in Jinjiang since 2008, we specialize in custom 3D PVC shoe charms, marathon finisher medals, enamel lapel pins, challenge coins, barware mats, and bespoke mascot plush toys, backed by SEDEX SMETA, BSCI, and ISO 9001 certifications.
 
 Given your readership's focus on athletic performance, ergonomics, and sustainable footwear production, we have prepared a comprehensive engineering whitepaper titled:
 "Advancements in Dual-Density EVA Cushioning & Recycled Flyknit Weaving for High-Traction Athletic Footwear"
@@ -1360,8 +1360,8 @@ Warm regards,
 
 Amy Lin | International Business Director
 Jinjiang Wideway Import & Export Co., Ltd. (WIDEWAY GROUP)
-Website: https://www.naikegifts.com
-Email: info@naikegifts.com | Direct/WhatsApp: +86 135 9922 0505"""
+Website: https://www.customswagfactory.com
+Email: info@customswagfactory.com | Direct/WhatsApp: +86 135 9922 0505"""
                 
                 self.send_response(200)
                 self.send_header('Content-Type', 'application/json')

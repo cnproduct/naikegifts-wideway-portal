@@ -54,7 +54,7 @@ def make_page(title, desc, canonical, active_nav, body_content):
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{title}</title>
   <meta name="description" content="{desc}">
-  <link rel="canonical" href="https://www.naikegifts.com{canonical}">
+  <link rel="canonical" href="https://www.customswagfactory.com{canonical}">
   <link rel="icon" type="image/svg+xml" href="images/logo.svg">
   <link rel="stylesheet" href="css/style.css?v=20261012_02">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -63,9 +63,9 @@ def make_page(title, desc, canonical, active_nav, body_content):
   
   <meta property="og:title" content="{title}">
   <meta property="og:description" content="{desc}">
-  <meta property="og:url" content="https://www.naikegifts.com{canonical}">
+  <meta property="og:url" content="https://www.customswagfactory.com{canonical}">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="https://www.naikegifts.com/images/factory-workshop.jpg">
+  <meta property="og:image" content="https://www.customswagfactory.com/images/factory-workshop.jpg">
   <meta name="twitter:card" content="summary_large_image">
 </head>
 <body>
@@ -384,7 +384,7 @@ news_detail_content = """
           <ul style="font-size: 0.85rem; color: #334155; line-height: 1.8; margin-bottom: 20px; list-style: none; padding-left: 0;">
             <li>📍 <strong>Base:</strong> Jinjiang, Fujian, China</li>
             <li>💬 <strong>WhatsApp:</strong> <a href="https://wa.me/8613599220505" target="_blank" style="color: #25d366; font-weight: 700;">+86 135 9922 0505</a></li>
-            <li>✉️ <strong>Email:</strong> <a href="mailto:info@naikegifts.com" style="color: inherit;">info@naikegifts.com</a></li>
+            <li>✉️ <strong>Email:</strong> <a href="mailto:info@customswagfactory.com" style="color: inherit;">info@customswagfactory.com</a></li>
             <li>⚡ <strong>Response:</strong> 12h Free 3D CAD Mockup</li>
           </ul>
           <a href="/contact" class="btn btn-primary btn-sm" style="width: 100%; text-align: center; background: #00BFFF; border-color: #00BFFF; color: #0F172A; font-weight: 700;">Submit RFQ Online</a>

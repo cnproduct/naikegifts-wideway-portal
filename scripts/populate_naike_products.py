@@ -784,7 +784,7 @@ PRODUCTS = [
 
     # =========================================================================
     # Category 8: Bespoke Mascot Plush Toys & Curated Swag Solutions (2 SKUs)
-    # Benchmarks: naikegifts.com Proprietary
+    # Benchmarks: customswagfactory.com Proprietary
     # =========================================================================
     {
         "id": "bespoke-corporate-mascot-plush-toys",
@@ -807,7 +807,7 @@ PRODUCTS = [
         "seo_description": "Custom bespoke mascot plush toys made with GRS recycled velvet. EN71 and ASTM safety compliant, needle detected.",
         "geo_markets": "United States, United Kingdom, Germany, Japan, Singapore",
         "geo_origin": "Jinjiang Eco Plush & Sewing Production Line, Fujian, China",
-        "benchmark_source": "https://naikegifts.com/"
+        "benchmark_source": "https://customswagfactory.com/"
     },
     {
         "id": "curated-corporate-swag-mailer-box",
@@ -830,7 +830,7 @@ PRODUCTS = [
         "seo_description": "Turnkey corporate swag presentation boxes. Rigid mailer box with laser foam insert, mascot plush, charms, and pins.",
         "geo_markets": "United States, United Kingdom, Canada, Australia, European Union",
         "geo_origin": "Jinjiang Turnkey Kitting & Fulfillment Campus, Fujian, China",
-        "benchmark_source": "https://naikegifts.com/"
+        "benchmark_source": "https://customswagfactory.com/"
     }
 ]
 
@@ -851,9 +851,9 @@ def main():
     c["name_zh"] = ""
     c["brand_name"] = "NAIKE GIFTS"
     c["logo_text"] = "NAIKE GIFTS"
-    c["domain"] = "naikegifts.com"
-    c["email"] = "info@naikegifts.com"
-    c["email_secondary"] = "sales@naikegifts.com"
+    c["domain"] = "customswagfactory.com"
+    c["email"] = "info@customswagfactory.com"
+    c["email_secondary"] = "sales@customswagfactory.com"
     c["phone"] = "+86 135 9922 0505"
     c["whatsapp"] = "+86 135 9922 0505"
     c["wechat"] = "+86 135 9922 0505"

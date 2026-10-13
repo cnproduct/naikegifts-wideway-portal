@@ -12,10 +12,10 @@ pages = {
   <meta name="description" content="Jinjiang Naike Promo provides turnkey OEM & ODM manufacturing for 3D PVC shoe charms, custom marathon medals, enamel lapel pins, challenge coins, bar mats, and mascot plush toys. Free 12-hour 3D CAD mockups and 7-14 day bulk delivery.">
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" type="image/svg+xml" href="images/logo.svg">
-  <link rel="canonical" href="https://www.naikegifts.com/oem-odm">
+  <link rel="canonical" href="https://www.customswagfactory.com/oem-odm">
   <meta property="og:title" content="Turnkey OEM & ODM Custom Manufacturing | NAIKE GIFTS">
   <meta property="og:description" content="Free 12-hour 3D CAD proofing, rapid mold tooling, and high-precision micro-injection manufacturing in Jinjiang, China.">
-  <meta property="og:url" content="https://www.naikegifts.com/oem-odm">
+  <meta property="og:url" content="https://www.customswagfactory.com/oem-odm">
   <meta property="og:site_name" content="NAIKE GIFTS">
   <meta property="og:type" content="website">
 
@@ -25,21 +25,21 @@ pages = {
     "@graph": [
       {
         "@type": "Organization",
-        "@id": "https://www.naikegifts.com/#organization",
+        "@id": "https://www.customswagfactory.com/#organization",
         "name": "Jinjiang Naike Promo Co., Ltd.",
         "alternateName": "NAIKE GIFTS",
-        "url": "https://www.naikegifts.com/",
-        "logo": "https://www.naikegifts.com/images/logo.svg"
+        "url": "https://www.customswagfactory.com/",
+        "logo": "https://www.customswagfactory.com/images/logo.svg"
       },
       {
         "@type": "WebPage",
-        "@id": "https://www.naikegifts.com/oem-odm#webpage",
-        "url": "https://www.naikegifts.com/oem-odm",
+        "@id": "https://www.customswagfactory.com/oem-odm#webpage",
+        "url": "https://www.customswagfactory.com/oem-odm",
         "name": "Turnkey OEM & ODM Custom Manufacturing | NAIKE GIFTS"
       },
       {
         "@type": "FAQPage",
-        "@id": "https://www.naikegifts.com/oem-odm#faq",
+        "@id": "https://www.customswagfactory.com/oem-odm#faq",
         "mainEntity": [
           {
             "@type": "Question",
@@ -236,10 +236,10 @@ pages = {
   <meta name="description" content="Discover NAIKE GIFTS's 1,650㎡ modernized campus in Jinjiang, Fujian. 12 automated micro-injection lines, 6 high-pressure die-casting stations, 8 hydraulic stamping presses, and 2.5M monthly units capacity.">
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" type="image/svg+xml" href="images/logo.svg">
-  <link rel="canonical" href="https://www.naikegifts.com/production-capacity">
+  <link rel="canonical" href="https://www.customswagfactory.com/production-capacity">
   <meta property="og:title" content="Production Capacity &amp; Manufacturing Campus | NAIKE GIFTS">
   <meta property="og:description" content="1,650㎡ Clean Campus, 12 automated micro-injection lines, 2.5M monthly units, SEDEX SMETA &amp; BSCI certified.">
-  <meta property="og:url" content="https://www.naikegifts.com/production-capacity">
+  <meta property="og:url" content="https://www.customswagfactory.com/production-capacity">
   <meta property="og:site_name" content="NAIKE GIFTS">
   <meta property="og:type" content="website">
 
@@ -249,16 +249,16 @@ pages = {
     "@graph": [
       {
         "@type": "Organization",
-        "@id": "https://www.naikegifts.com/#organization",
+        "@id": "https://www.customswagfactory.com/#organization",
         "name": "Jinjiang Naike Promo Co., Ltd.",
         "alternateName": "NAIKE GIFTS",
-        "url": "https://www.naikegifts.com/",
-        "logo": "https://www.naikegifts.com/images/logo.svg"
+        "url": "https://www.customswagfactory.com/",
+        "logo": "https://www.customswagfactory.com/images/logo.svg"
       },
       {
         "@type": "WebPage",
-        "@id": "https://www.naikegifts.com/production-capacity#webpage",
-        "url": "https://www.naikegifts.com/production-capacity",
+        "@id": "https://www.customswagfactory.com/production-capacity#webpage",
+        "url": "https://www.customswagfactory.com/production-capacity",
         "name": "Production Capacity & Infrastructure | NAIKE GIFTS"
       }
     ]
@@ -435,10 +435,10 @@ pages = {
   <meta name="description" content="Explore NAIKE GIFTS's rigorous 5-stage quality control protocol. 25 lbs pull-force testing, 48-96h ASTM B117 salt spray testing, ISO 2409 paint adhesion, and 100% needle detection for plush toys.">
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" type="image/svg+xml" href="images/logo.svg">
-  <link rel="canonical" href="https://www.naikegifts.com/quality-control">
+  <link rel="canonical" href="https://www.customswagfactory.com/quality-control">
   <meta property="og:title" content="Quality Control &amp; Laboratory Testing | NAIKE GIFTS">
   <meta property="og:description" content="Rigorous 5-Gate Quality Assurance for custom shoe charms, medals, lapel pins, and mascot toys. Zero-defect testing aligned with CPSIA and EN71 standards.">
-  <meta property="og:url" content="https://www.naikegifts.com/quality-control">
+  <meta property="og:url" content="https://www.customswagfactory.com/quality-control">
   <meta property="og:site_name" content="NAIKE GIFTS">
   <meta property="og:type" content="website">
 
@@ -448,16 +448,16 @@ pages = {
     "@graph": [
       {
         "@type": "Organization",
-        "@id": "https://www.naikegifts.com/#organization",
+        "@id": "https://www.customswagfactory.com/#organization",
         "name": "Jinjiang Naike Promo Co., Ltd.",
         "alternateName": "NAIKE GIFTS",
-        "url": "https://www.naikegifts.com/",
-        "logo": "https://www.naikegifts.com/images/logo.svg"
+        "url": "https://www.customswagfactory.com/",
+        "logo": "https://www.customswagfactory.com/images/logo.svg"
       },
       {
         "@type": "WebPage",
-        "@id": "https://www.naikegifts.com/quality-control#webpage",
-        "url": "https://www.naikegifts.com/quality-control",
+        "@id": "https://www.customswagfactory.com/quality-control#webpage",
+        "url": "https://www.customswagfactory.com/quality-control",
         "name": "Quality Control & Laboratory Testing | NAIKE GIFTS"
       }
     ]
@@ -610,10 +610,10 @@ pages = {
   <meta name="description" content="View official compliance certificates for NAIKE GIFTS: SEDEX SMETA 4-Pillar, amfori BSCI, ISO 9001:2015, US CPSIA, California Prop 65, and European EN71 toy safety directives.">
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" type="image/svg+xml" href="images/logo.svg">
-  <link rel="canonical" href="https://www.naikegifts.com/certifications">
+  <link rel="canonical" href="https://www.customswagfactory.com/certifications">
   <meta property="og:title" content="Factory Certifications &amp; Audits | NAIKE GIFTS">
   <meta property="og:description" content="SEDEX SMETA 4-Pillar, BSCI Grade A, ISO 9001:2015, CPSIA &amp; California Proposition 65 verified factory in Jinjiang.">
-  <meta property="og:url" content="https://www.naikegifts.com/certifications">
+  <meta property="og:url" content="https://www.customswagfactory.com/certifications">
   <meta property="og:site_name" content="NAIKE GIFTS">
   <meta property="og:type" content="website">
 
@@ -623,16 +623,16 @@ pages = {
     "@graph": [
       {
         "@type": "Organization",
-        "@id": "https://www.naikegifts.com/#organization",
+        "@id": "https://www.customswagfactory.com/#organization",
         "name": "Jinjiang Naike Promo Co., Ltd.",
         "alternateName": "NAIKE GIFTS",
-        "url": "https://www.naikegifts.com/",
-        "logo": "https://www.naikegifts.com/images/logo.svg"
+        "url": "https://www.customswagfactory.com/",
+        "logo": "https://www.customswagfactory.com/images/logo.svg"
       },
       {
         "@type": "WebPage",
-        "@id": "https://www.naikegifts.com/certifications#webpage",
-        "url": "https://www.naikegifts.com/certifications",
+        "@id": "https://www.customswagfactory.com/certifications#webpage",
+        "url": "https://www.customswagfactory.com/certifications",
         "name": "Certifications & Compliance Audits | NAIKE GIFTS"
       }
     ]
@@ -731,10 +731,10 @@ pages = {
   <meta name="description" content="Learn about NAIKE GIFTS's sustainable manufacturing initiatives: GRS certified recycled RPET plush, 100% recyclable zinc alloy, non-phthalate bio-PVC, and zero-discharge wastewater recycling.">
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" type="image/svg+xml" href="images/logo.svg">
-  <link rel="canonical" href="https://www.naikegifts.com/sustainability">
+  <link rel="canonical" href="https://www.customswagfactory.com/sustainability">
   <meta property="og:title" content="Sustainability &amp; ESG Commitments | NAIKE GIFTS">
   <meta property="og:description" content="GRS certified recycled plush, 100% recyclable zinc alloy, and eco-friendly promotional manufacturing in Jinjiang.">
-  <meta property="og:url" content="https://www.naikegifts.com/sustainability">
+  <meta property="og:url" content="https://www.customswagfactory.com/sustainability">
   <meta property="og:site_name" content="NAIKE GIFTS">
   <meta property="og:type" content="website">
 </head>
@@ -791,10 +791,10 @@ pages = {
   <meta name="description" content="Discover how NAIKE GIFTS delivered 500k viral TikTok shoe charms, 45k kinetic marathon medals, and 10k turnkey corporate swag boxes for global enterprises.">
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" type="image/svg+xml" href="images/logo.svg">
-  <link rel="canonical" href="https://www.naikegifts.com/case-studies">
+  <link rel="canonical" href="https://www.customswagfactory.com/case-studies">
   <meta property="og:title" content="Client Case Studies &amp; Success Stories | NAIKE GIFTS">
   <meta property="og:description" content="Proven OEM/ODM promotional manufacturing track record for international brands, marathons, and technology unicorns.">
-  <meta property="og:url" content="https://www.naikegifts.com/case-studies">
+  <meta property="og:url" content="https://www.customswagfactory.com/case-studies">
   <meta property="og:site_name" content="NAIKE GIFTS">
   <meta property="og:type" content="website">
 </head>
@@ -870,10 +870,10 @@ pages = {
   <meta name="description" content="Contact NAIKE GIFTS (Jinjiang Naike Promo Co., Ltd.) directly. Request free 12-hour 3D CAD mockups, factory FOB/DDP quotations, or order physical sample kits. Direct WhatsApp: +86 135 9922 0505.">
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" type="image/svg+xml" href="images/logo.svg">
-  <link rel="canonical" href="https://www.naikegifts.com/contact">
+  <link rel="canonical" href="https://www.customswagfactory.com/contact">
   <meta property="og:title" content="Contact NAIKE GIFTS | Factory Direct Inquiries">
   <meta property="og:description" content="Direct factory sales &amp; engineering consultation. Average reply time under 5 minutes on WhatsApp.">
-  <meta property="og:url" content="https://www.naikegifts.com/contact">
+  <meta property="og:url" content="https://www.customswagfactory.com/contact">
   <meta property="og:site_name" content="NAIKE GIFTS">
   <meta property="og:type" content="website">
 </head>
@@ -913,8 +913,8 @@ pages = {
         <div style="margin-bottom: 25px;">
           <div style="color: #94A3B8; font-size: 0.85rem; margin-bottom: 4px;">✉️ Export Sourcing Emails:</div>
           <div style="font-size: 1rem; color: #E2E8F0;">
-            <a href="mailto:info@naikegifts.com" style="color: #00BFFF; text-decoration: none;">info@naikegifts.com</a> / 
-            <a href="mailto:sales@naikegifts.com" style="color: #00BFFF; text-decoration: none;">sales@naikegifts.com</a>
+            <a href="mailto:info@customswagfactory.com" style="color: #00BFFF; text-decoration: none;">info@customswagfactory.com</a> / 
+            <a href="mailto:sales@customswagfactory.com" style="color: #00BFFF; text-decoration: none;">sales@customswagfactory.com</a>
           </div>
         </div>
 
@@ -1013,10 +1013,10 @@ pages = {
   <meta name="description" content="Official NAIKE GIFTS visual design system: Electric Cyan (#00BFFF), Deep Navy Slate (#0F172A), and Neon Pink (#F556A0). Vector specifications for promotional merchandise, retail packaging, and exhibition architecture.">
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" type="image/svg+xml" href="images/logo.svg">
-  <link rel="canonical" href="https://www.naikegifts.com/brand-identity">
+  <link rel="canonical" href="https://www.customswagfactory.com/brand-identity">
   <meta property="og:title" content="NAIKE GIFTS Brand Identity Standards">
   <meta property="og:description" content="Official Brand Identity and Design Standards for NAIKE GIFTS.">
-  <meta property="og:url" content="https://www.naikegifts.com/brand-identity">
+  <meta property="og:url" content="https://www.customswagfactory.com/brand-identity">
   <meta property="og:site_name" content="NAIKE GIFTS">
   <meta property="og:type" content="website">
 </head>

@@ -1117,7 +1117,7 @@
                   <span style="font-size: 1.2rem;">📥</span>
                   <div style="text-align: left;">
                     <div style="font-weight: 700;">Manage RFQ Leads &amp; Export CSV</div>
-                    <div style="font-size: 0.78rem; color: var(--text-muted);">All inquiries delivered to amy@naikegifts.com</div>
+                    <div style="font-size: 0.78rem; color: var(--text-muted);">All inquiries delivered to amy@customswagfactory.com</div>
                   </div>
                 </button>
               </div>
@@ -1128,7 +1128,7 @@
               <div class="card-header">
                 <div>
                   <h2>📥 Recent Inquiries Feed</h2>
-                  <div class="header-desc">Live buyer submissions routed to amy@naikegifts.com</div>
+                  <div class="header-desc">Live buyer submissions routed to amy@customswagfactory.com</div>
                 </div>
                 <button class="btn btn-secondary btn-sm" onclick="switchTab('inquiries_crm')">View All</button>
               </div>
@@ -1154,7 +1154,7 @@
             <div class="grid-2" style="margin-bottom: 20px;">
               <div class="input-group">
                 <label>1. Search String (Exact Text / URL / Phone / Image)</label>
-                <input type="text" id="globalSearchInput" class="input-field" placeholder="e.g. +86 185 0595 9266 or amy@naikegifts.com or shoes" onkeyup="executeGlobalSearch()">
+                <input type="text" id="globalSearchInput" class="input-field" placeholder="e.g. +86 185 0595 9266 or amy@customswagfactory.com or shoes" onkeyup="executeGlobalSearch()">
               </div>
               <div class="input-group">
                 <label>2. Replacement String (Optional for Batch Replace)</label>
@@ -1470,7 +1470,7 @@
             <div class="card-header">
               <div>
                 <h2>📥 Inquiries &amp; Buyer RFQ Lead CRM</h2>
-                <div class="header-desc">Every website inquiry is stored here permanently and routed to <strong>amy@naikegifts.com</strong>.</div>
+                <div class="header-desc">Every website inquiry is stored here permanently and routed to <strong>amy@customswagfactory.com</strong>.</div>
               </div>
               <div style="display: flex; gap: 10px;">
                 <button class="btn btn-secondary btn-sm" onclick="exportInquiriesCsv()">
@@ -1532,11 +1532,11 @@
               </div>
               <div class="input-group">
                 <label>Inquiry Dispatch Target Email (Mandatory)</label>
-                <input type="email" id="cfgEmail" class="input-field" placeholder="amy@naikegifts.com">
+                <input type="email" id="cfgEmail" class="input-field" placeholder="amy@customswagfactory.com">
               </div>
               <div class="input-group">
                 <label>Secondary / Backup Email</label>
-                <input type="email" id="cfgEmailSecondary" class="input-field" placeholder="kelly@naikegifts.com">
+                <input type="email" id="cfgEmailSecondary" class="input-field" placeholder="kelly@customswagfactory.com">
               </div>
               <div class="input-group">
                 <label>Export Sea Port</label>
@@ -1684,7 +1684,7 @@
                 </div>
               </div>
               <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 20px;">
-                Clicking the button below will automatically package all HTML pages, CSS, JS, and media assets, upload them to the production server root (<code>/var/www/naikegifts.com</code>), apply file permissions, and reload Nginx.
+                Clicking the button below will automatically package all HTML pages, CSS, JS, and media assets, upload them to the production server root (<code>/var/www/customswagfactory.com</code>), apply file permissions, and reload Nginx.
               </p>
               <button class="btn btn-brand-red btn-block" style="padding: 14px;" onclick="triggerProductionDeploy()">
                 <span>🚀 Deploy Live to 43.130.32.54</span>
@@ -2083,7 +2083,7 @@
               <div style="background:#ffffff; color:#202124; padding:12px 14px; border-radius:6px; border:1px solid #dadce0; font-family:arial,sans-serif;">
                 <div style="font-size:0.72rem; color:#202124; display:flex; align-items:center; gap:6px; margin-bottom:3px;">
                   <span style="background:#e8f0fe; color:#1a73e8; padding:1px 4px; border-radius:3px; font-weight:700; font-size:0.65rem;">GEO</span>
-                  <span id="serpPreviewUrl" style="color:#202124; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; font-size:0.72rem;">https://www.naikegifts.com/product-detail?id=women-s-wd2500222</span>
+                  <span id="serpPreviewUrl" style="color:#202124; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; font-size:0.72rem;">https://www.customswagfactory.com/product-detail?id=women-s-wd2500222</span>
                 </div>
                 <div id="serpPreviewTitle" style="color:#1a0dab; font-size:0.98rem; font-weight:500; line-height:1.25; margin-bottom:3px; cursor:pointer;">WOMEN'S WD2500222 | NAIKE GIFTS Footwear</div>
                 <div id="serpPreviewDesc" style="color:#4d5156; font-size:0.76rem; line-height:1.35; max-height:48px; overflow:hidden;">Engineered by NAIKE GIFTS engineering lab...</div>
@@ -2172,7 +2172,7 @@
         <button class="modal-close-btn" onclick="closeDeployConsoleModal()">✕</button>
       </div>
       <div style="margin-bottom: 14px; font-size: 0.9rem; color: var(--text-muted);">
-        Destination: <strong>43.130.32.54:2222</strong> | Target: <code>/var/www/naikegifts.com</code>
+        Destination: <strong>43.130.32.54:2222</strong> | Target: <code>/var/www/customswagfactory.com</code>
       </div>
       <div class="terminal-console" id="deployConsoleOutput">Connecting to server and deploying assets...</div>
       <div style="display: flex; justify-content: flex-end; margin-top: 18px;">
@@ -2796,8 +2796,8 @@
       document.getElementById('cfgNameEn').value = c.name_en || '';
       document.getElementById('cfgNameZh').value = c.name_zh || '';
       document.getElementById('cfgPhone').value = c.phone || '+86 185 0595 9266';
-      document.getElementById('cfgEmail').value = c.email || 'amy@naikegifts.com';
-      document.getElementById('cfgEmailSecondary').value = c.email_secondary || 'kelly@naikegifts.com';
+      document.getElementById('cfgEmail').value = c.email || 'amy@customswagfactory.com';
+      document.getElementById('cfgEmailSecondary').value = c.email_secondary || 'kelly@customswagfactory.com';
       document.getElementById('cfgPort').value = c.port || '';
       document.getElementById('cfgAddress').value = c.address || '';
       document.getElementById('cfgRegisteredAddress').value = c.registered_address || '';
@@ -2976,7 +2976,7 @@
       const originEl = document.getElementById('serpPreviewOrigin');
       const marketsEl = document.getElementById('serpPreviewMarkets');
 
-      if (urlEl) urlEl.textContent = `https://www.naikegifts.com/product-detail?id=${slug}`;
+      if (urlEl) urlEl.textContent = `https://www.customswagfactory.com/product-detail?id=${slug}`;
       if (titleEl) titleEl.textContent = seoTitle;
       if (descEl) descEl.textContent = seoDesc;
       if (originEl) originEl.textContent = geoOrigin.split('(')[0].trim();

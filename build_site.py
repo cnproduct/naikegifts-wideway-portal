@@ -42,9 +42,9 @@ def get_header_html(filename, company_info, categories, products=None):
     clean_current = clean_url_slug(filename)
     brand_name = company_info.get("brand_name", "NAIKE GIFTS")
     logo_text = company_info.get("logo_text", "NAIKE GIFTS")
-    domain = company_info.get("domain", "naikegifts.com")
+    domain = company_info.get("domain", "customswagfactory.com")
     phone = company_info.get("phone", "+86 135 9922 0505")
-    email = company_info.get("email", "info@naikegifts.com")
+    email = company_info.get("email", "info@customswagfactory.com")
     wa_clean = company_info.get("whatsapp", "+86 135 9922 0505").replace("+", "").replace(" ", "").replace("-", "")
     prod_count = len(products) if products else 217
 
@@ -352,7 +352,7 @@ def get_header_html(filename, company_info, categories, products=None):
 def get_footer_html(company_info, categories):
     phone = company_info.get("phone", "+86 135 9922 0505")
     wa_clean = company_info.get("whatsapp", "+86 135 9922 0505").replace("+", "").replace(" ", "").replace("-", "")
-    email = company_info.get("email", "info@naikegifts.com")
+    email = company_info.get("email", "info@customswagfactory.com")
     name_en = company_info.get("name_en", "Jinjiang Naike Promo Co., Ltd.")
     name_zh = company_info.get("name_zh", "")
     logo_text = company_info.get("logo_text", "NAIKE GIFTS")
@@ -621,7 +621,7 @@ def inject_seo_and_geo_tags(html, filename, company_info):
         return html
 
     clean_slug = clean_url_slug(filename)
-    domain = company_info.get("domain", "naikegifts.com")
+    domain = company_info.get("domain", "customswagfactory.com")
     canonical_url = f"https://www.{domain}{clean_slug}"
     brand_name = company_info.get("brand_name", "NAIKE GIFTS")
 
@@ -734,7 +734,7 @@ Sitemap: https://www.{domain}/llms-full.txt
 
 def generate_sitemap_xml(all_pages, products, company_info):
     today_iso = datetime.datetime.now().strftime("%Y-%m-%d")
-    domain = company_info.get("domain", "naikegifts.com")
+    domain = company_info.get("domain", "customswagfactory.com")
     sitemap_xml = '<?xml version="1.0" encoding="UTF-8"?>\n'
     sitemap_xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"\n'
     sitemap_xml += '        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n'
@@ -770,7 +770,7 @@ def generate_sitemap_xml(all_pages, products, company_info):
     print("  Generated Google Image-Extended clean sitemap.xml")
 
 def generate_llms_txt(company_info, categories, products=None):
-    domain = company_info.get("domain", "naikegifts.com")
+    domain = company_info.get("domain", "customswagfactory.com")
     brand = company_info.get("brand_name", "NAIKE GIFTS")
     name_en = company_info.get("name_en", "Jinjiang Naike Promo Co., Ltd.")
     prod_count = len(products) if products else 217
@@ -819,7 +819,7 @@ https://www.{domain}/llms-full.txt
     print(f"  Generated standardized llms.txt ({prod_count} SKUs)")
 
 def generate_llms_full_txt(company_info, products, categories):
-    domain = company_info.get("domain", "naikegifts.com")
+    domain = company_info.get("domain", "customswagfactory.com")
     brand = company_info.get("brand_name", "NAIKE GIFTS")
     name_en = company_info.get("name_en", "Jinjiang Naike Promo Co., Ltd.")
 
@@ -963,7 +963,7 @@ def compile_site():
     generate_sitemap_xml(all_compiled_pages, products, company_info)
 
     # 4. Generate AI-Ready robots.txt
-    generate_robots_txt(company_info.get("domain", "naikegifts.com"))
+    generate_robots_txt(company_info.get("domain", "customswagfactory.com"))
 
     # 5. Generate standardized llms.txt & deep technical llms-full.txt
     generate_llms_txt(company_info, categories, products)

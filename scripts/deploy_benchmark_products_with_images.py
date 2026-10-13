@@ -209,7 +209,7 @@ for img_url, title in coins_urls:
 # ==============================================================================
 print("--> Category: barware-magnets...")
 # 1) Naike Factory Fridge Magnets
-mag_path = download_image("https://www.naikegifts.com/assets/fridge-magnets.png", "naike-3d-embossed-fridge-magnets.png")
+mag_path = download_image("https://www.customswagfactory.com/assets/fridge-magnets.png", "naike-3d-embossed-fridge-magnets.png")
 if mag_path:
     deployed_products.append({
         "id": "naike-3d-embossed-fridge-magnets",
@@ -220,7 +220,7 @@ if mag_path:
         "lead_time": "8–12 days",
         "image": mag_path,
         "gallery": [mag_path],
-        "source_url": "https://www.naikegifts.com/",
+        "source_url": "https://www.customswagfactory.com/",
         "dimensions": "60mm × 80mm × 4.5mm Multi-Layer Relief",
         "material": "Eco-Friendly Soft PVC Rubber + Rubber Magnet Sheet (0.8mm isotropic)",
         "hardware": "Integrated Non-Demagnetizing Ferrite/Rubber Magnet Sheet",
@@ -261,7 +261,7 @@ deployed_products.extend(st_squishy)
 # ==============================================================================
 print("--> Crawling Category: keychains...")
 # 1) Naike PVC Keychain
-kc_pvc_path = download_image("https://www.naikegifts.com/assets/keychain-pvc.jpg", "naike-custom-pvc-rubber-keychain.jpg")
+kc_pvc_path = download_image("https://www.customswagfactory.com/assets/keychain-pvc.jpg", "naike-custom-pvc-rubber-keychain.jpg")
 if kc_pvc_path:
     deployed_products.append({
         "id": "naike-custom-pvc-rubber-keychain",
@@ -272,7 +272,7 @@ if kc_pvc_path:
         "lead_time": "7–10 days",
         "image": kc_pvc_path,
         "gallery": [kc_pvc_path],
-        "source_url": "https://www.naikegifts.com/",
+        "source_url": "https://www.customswagfactory.com/",
         "dimensions": "55mm × 40mm × 4mm",
         "material": "Phthalate-Free Soft PVC Resin (CPSIA & California Prop 65 Certified)",
         "hardware": "Nickel-Plated Flat Ring + 4-Link Chain + Swivel Eyelet",
@@ -321,7 +321,7 @@ for full_url, title in jinsheu_items:
 # ==============================================================================
 print("--> Category: plush-swag (Naike Core Factory Photography)...")
 # 1) Mascot Plush Toy
-plush_toy_path = download_image("https://www.naikegifts.com/assets/plush-toys.png", "bespoke-corporate-brand-mascot-plush-toy.png")
+plush_toy_path = download_image("https://www.customswagfactory.com/assets/plush-toys.png", "bespoke-corporate-brand-mascot-plush-toy.png")
 if plush_toy_path:
     deployed_products.append({
         "id": "bespoke-mascot-plush-toy",
@@ -332,7 +332,7 @@ if plush_toy_path:
         "lead_time": "15–20 days (7d PPS)",
         "image": plush_toy_path,
         "gallery": [plush_toy_path],
-        "source_url": "https://www.naikegifts.com/",
+        "source_url": "https://www.customswagfactory.com/",
         "dimensions": "20 cm Standing Height (Custom 10cm–45cm)",
         "material": "GRS Certified Recycled RPET Crystal Velvet + 100% Recycled Cotton",
         "hardware": "Anti-Pull Safety Eyes & Computerized High-Density Tajima Embroidery",
@@ -341,7 +341,7 @@ if plush_toy_path:
     })
 
 # 2) Mini Mascot Plush Charm Keychain
-plush_charm_path = download_image("https://www.naikegifts.com/assets/solutions/solution-brand-mascots.jpg", "mini-mascot-plush-keychain-charm.jpg")
+plush_charm_path = download_image("https://www.customswagfactory.com/assets/solutions/solution-brand-mascots.jpg", "mini-mascot-plush-keychain-charm.jpg")
 if plush_charm_path:
     deployed_products.append({
         "id": "mini-mascot-plush-keychain",
@@ -352,7 +352,7 @@ if plush_charm_path:
         "lead_time": "12–15 days",
         "image": plush_charm_path,
         "gallery": [plush_charm_path],
-        "source_url": "https://www.naikegifts.com/",
+        "source_url": "https://www.customswagfactory.com/",
         "dimensions": "10 cm Height",
         "material": "Super Soft Short Plush Fabric + Clean PP Cotton Filling",
         "hardware": "Zinc Alloy Lobster Swivel Clasp & Custom Woven Label Tag",
@@ -361,7 +361,7 @@ if plush_charm_path:
     })
 
 # 3) Curated Swag Gift Box
-swag_box_path = download_image("https://www.naikegifts.com/assets/solutions/solution-retail-merch.jpg", "turnkey-curated-swag-gift-box.jpg")
+swag_box_path = download_image("https://www.customswagfactory.com/assets/solutions/solution-retail-merch.jpg", "turnkey-curated-swag-gift-box.jpg")
 if swag_box_path:
     deployed_products.append({
         "id": "turnkey-curated-swag-box",
@@ -372,7 +372,7 @@ if swag_box_path:
         "lead_time": "14–18 days",
         "image": swag_box_path,
         "gallery": [swag_box_path],
-        "source_url": "https://www.naikegifts.com/",
+        "source_url": "https://www.customswagfactory.com/",
         "dimensions": "32 cm × 24 cm × 10 cm Custom Magnetic Gift Box",
         "material": "FSC-Certified 1200gsm Rigid Paperboard with Matte Soft-Touch Lamination",
         "hardware": "Precision Die-Cut EVA Foam Cavity Insert with Silk Pull Ribbon",
@@ -381,7 +381,7 @@ if swag_box_path:
     })
 
 # 4) Event Merch Kit
-event_kit_path = download_image("https://www.naikegifts.com/assets/solutions/solution-event-giveaways.jpg", "event-merchandise-swag-pack.jpg")
+event_kit_path = download_image("https://www.customswagfactory.com/assets/solutions/solution-event-giveaways.jpg", "event-merchandise-swag-pack.jpg")
 if event_kit_path:
     deployed_products.append({
         "id": "event-merchandise-swag-pack",
@@ -392,7 +392,7 @@ if event_kit_path:
         "lead_time": "10–14 days",
         "image": event_kit_path,
         "gallery": [event_kit_path],
-        "source_url": "https://www.naikegifts.com/",
+        "source_url": "https://www.customswagfactory.com/",
         "dimensions": "Full Custom Exhibition Swag Kit",
         "material": "Eco-Friendly Recycled Cotton Tote + Enamel Badge + Sublimated Lanyard",
         "hardware": "Heavy Duty Clasp & Safety Hardware",
