@@ -658,6 +658,8 @@ def inject_seo_and_geo_tags(html, filename, company_info):
     html = re.sub(r'<meta\s+property=["\']og:url["\'][^>]*>\s*', '', html)
     html = re.sub(r'<meta\s+name=["\']geo\.[^>]*>\s*', '', html)
     html = re.sub(r'<meta\s+name=["\']ICBM["\'][^>]*>\s*', '', html)
+    html = re.sub(r'<!--\s*OpenGraph URL\s*-->\s*', '', html)
+    html = re.sub(r'<link\s+[^>]*rel=["\']icon["\'][^>]*>\s*', '', html)
     html = re.sub(r'<link\s+[^>]*href=["\']images/favicon-[^>]*>\s*', '', html)
     html = re.sub(r'<link\s+[^>]*href=["\']favicon\.ico["\'][^>]*>\s*', '', html)
     html = re.sub(r'<link\s+rel=["\']preconnect["\'][^>]*>\s*', '', html)

@@ -1,6 +1,7 @@
 /* Jinjiang Naike Promo Co., Ltd. (NAIKE GIFTS) - Promotional Gifts Interactivity Scripts */
 document.addEventListener('DOMContentLoaded', () => {
   initAntiCloningProtection();
+  initHeroSlider();
   initCompassNavigation();
   initScrollReveal();
   initFaqAccordion();
@@ -14,6 +15,139 @@ document.addEventListener('DOMContentLoaded', () => {
   initNavDropdowns();
   initWhatsAppWidget();
 });
+
+// 0. Interactive B2B Hero Banner Carousel (3 Specialized Capabilities)
+function initHeroSlider() {
+  const section = document.getElementById('heroSection');
+  if (!section) return;
+
+  const slides = section.querySelectorAll('.hero-slide');
+  const indicators = section.querySelectorAll('.indicator-pill');
+  const prevBtn = document.getElementById('heroPrevBtn');
+  const nextBtn = document.getElementById('heroNextBtn');
+
+  if (slides.length <= 1) return;
+
+  let currentIndex = 0;
+  let progressInterval = null;
+  let progress = 0;
+  const slideDuration = 6000; // 6 seconds per slide
+  const stepInterval = 50;
+  let isPaused = false;
+
+  function goToSlide(index) {
+    if (index === currentIndex && slides[index].classList.contains('active')) return;
+    
+    // Deactivate current slide & indicator
+    slides[currentIndex].classList.remove('active');
+    indicators[currentIndex].classList.remove('active');
+    indicators[currentIndex].setAttribute('aria-selected', 'false');
+
+    const oldBar = indicators[currentIndex].querySelector('.progress-bar');
+    if (oldBar) oldBar.style.width = '0%';
+
+    // Calculate new index
+    currentIndex = (index + slides.length) % slides.length;
+
+    // Activate new slide & indicator
+    slides[currentIndex].classList.add('active');
+    indicators[currentIndex].classList.add('active');
+    indicators[currentIndex].setAttribute('aria-selected', 'true');
+
+    resetProgressTimer();
+  }
+
+  function resetProgressTimer() {
+    clearInterval(progressInterval);
+    progress = 0;
+    const currentBar = indicators[currentIndex].querySelector('.progress-bar');
+
+    if (isPaused) return;
+
+    progressInterval = setInterval(() => {
+      if (isPaused) return;
+      progress += (stepInterval / slideDuration) * 100;
+      if (currentBar) currentBar.style.width = Math.min(progress, 100) + '%';
+      if (progress >= 100) {
+        clearInterval(progressInterval);
+        goToSlide(currentIndex + 1);
+      }
+    }, stepInterval);
+  }
+
+  function pauseAutoplay() {
+    isPaused = true;
+  }
+
+  function resumeAutoplay() {
+    isPaused = false;
+    resetProgressTimer();
+  }
+
+  // Next & Previous Buttons
+  if (nextBtn) {
+    nextBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      goToSlide(currentIndex + 1);
+    });
+  }
+
+  if (prevBtn) {
+    prevBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      goToSlide(currentIndex - 1);
+    });
+  }
+
+  // Indicator Pills Click
+  indicators.forEach(pill => {
+    pill.addEventListener('click', (e) => {
+      e.preventDefault();
+      const targetIdx = parseInt(pill.getAttribute('data-index'), 10);
+      if (!isNaN(targetIdx)) {
+        goToSlide(targetIdx);
+      }
+    });
+  });
+
+  // Pause on hover or focus for accessibility
+  section.addEventListener('mouseenter', pauseAutoplay);
+  section.addEventListener('mouseleave', resumeAutoplay);
+  section.addEventListener('focusin', pauseAutoplay);
+  section.addEventListener('focusout', resumeAutoplay);
+
+  // Mobile Touch Swipe Navigation
+  let touchStartX = 0;
+  let touchEndX = 0;
+
+  section.addEventListener('touchstart', (e) => {
+    touchStartX = e.changedTouches[0].screenX;
+  }, { passive: true });
+
+  section.addEventListener('touchend', (e) => {
+    touchEndX = e.changedTouches[0].screenX;
+    const diff = touchStartX - touchEndX;
+    if (Math.abs(diff) > 45) {
+      if (diff > 0) {
+        goToSlide(currentIndex + 1);
+      } else {
+        goToSlide(currentIndex - 1);
+      }
+    }
+  }, { passive: true });
+
+  // Keyboard Navigation
+  section.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowLeft') {
+      goToSlide(currentIndex - 1);
+    } else if (e.key === 'ArrowRight') {
+      goToSlide(currentIndex + 1);
+    }
+  });
+
+  // Start initial timer
+  resetProgressTimer();
+}
 
 // 1. Sitemap Navigation Control (Rock-Solid Click-Driven Modal with Backdrop & Close Button)
 window.toggleSitemap = function(e) {
