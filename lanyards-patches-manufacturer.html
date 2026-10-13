@@ -31,8 +31,8 @@
       "name": "Jinjiang Naike Promo Co., Ltd.",
       "alternateName": [
         "NAIKE GIFTS",
-        "晋江耐客生态科技有限公司",
-        "晋江耐客生态科技有限公司"
+        "Jinjiang Naike Promo Co., Ltd.",
+        "Jinjiang Naike Promo Co., Ltd."
       ],
       "url": "https://www.naikegifts.com/",
       "logo": {
@@ -144,6 +144,10 @@
   <link rel="icon" type="image/svg+xml" href="images/logo.svg">
   <!-- OpenGraph URL -->
   <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+  <!-- OpenGraph URL -->
+  <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+  <!-- OpenGraph URL -->
+  <link rel="icon" type="image/svg+xml" href="images/logo.svg">
   <!-- 2026 Core Web Vitals Font Acceleration -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -172,7 +176,7 @@
   <a href="#mainContent" class="skip-link">Skip to main content</a>
 
   <!-- Overlay backdrop for mobile overlay click to close -->
-  <div class="compass-backdrop" id="compassBackdrop"></div>
+  <div class="compass-backdrop" id="compassBackdrop" onclick="window.closeSitemap && window.closeSitemap(event)"></div>
 
   <header id="siteHeader" class="site-header site-header-centered">
     <!-- 1. Header Top Bar (Brand Logo Centered + Contact & Actions Balanced) -->
@@ -206,7 +210,7 @@
         <!-- Right: Actions (SITEMAP Compass & Request Quote) -->
         <div class="header-top-right">
           <div class="compass-nav-container" id="compassNav" role="navigation" aria-label="Interactive Navigation Compass">
-            <button class="compass-trigger" id="compassTrigger" aria-label="Toggle Navigation Compass" aria-haspopup="true" aria-expanded="false" aria-controls="compassMenu">
+            <button class="compass-trigger" id="compassTrigger" aria-label="Toggle Navigation Compass" aria-haspopup="true" aria-expanded="false" aria-controls="compassMenu" onclick="window.toggleSitemap && window.toggleSitemap(event)">
               <div class="compass-dial pc-only">
                 <div class="compass-dial-ring"></div>
                 <div class="compass-needle"></div>
@@ -227,15 +231,15 @@
                   <span>🧭</span>
                   <span>Naike Gifts Directory &amp; Clean Sitemap</span>
                 </div>
-                <button type="button" class="compass-menu-close" id="compassCloseBtn" aria-label="Close Sitemap">✕</button>
+                <button type="button" class="compass-menu-close" id="compassCloseBtn" aria-label="Close Sitemap" onclick="window.closeSitemap && window.closeSitemap(event)">✕</button>
               </div>
       <a href="/" class="compass-item " style="--item-index: 0;" title="Home" role="menuitem">
         <span class="item-icon">🏠</span>
         <span class="item-label">Home</span>
       </a>
-      <a href="/products" class="compass-item " style="--item-index: 1;" title="All Products (34 SKUs)" role="menuitem">
+      <a href="/products" class="compass-item " style="--item-index: 1;" title="All Products (217 SKUs)" role="menuitem">
         <span class="item-icon">📦</span>
-        <span class="item-label">All Products (34 SKUs)</span>
+        <span class="item-label">All Products (217 SKUs)</span>
       </a>
       <a href="/shoe-charms-wholesale" class="compass-item " style="--item-index: 2;" title="3D Soft PVC Shoe Charms & Clog Accessories" role="menuitem">
         <span class="item-icon">👟</span>
@@ -353,7 +357,7 @@
             <div class="nav-dropdown-menu" role="menu">
               <div class="dropdown-header">
                 <span>Promotional &amp; Metal/PVC Crafts</span>
-                <span class="badge">34 Production SKUs</span>
+                <span class="badge">217 Production SKUs</span>
               </div>
               <div class="dropdown-grid">
                 <a href="/shoe-charms-wholesale" class="dropdown-card " role="menuitem">
@@ -414,7 +418,7 @@
                 </a>
               </div>
               <div class="dropdown-footer">
-                <a href="/products" class="dropdown-view-all">Browse Complete Catalog (All 34 Production SKUs) &rarr;</a>
+                <a href="/products" class="dropdown-view-all">Browse Complete Catalog (All 217 Production SKUs) &rarr;</a>
               </div>
             </div>
           </li>
@@ -540,7 +544,7 @@
     <!-- Main Container -->
     <div class="container" style="padding-top: 40px; padding-bottom: 60px;">
             <div class="tabs-container reveal" style="display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-bottom: 30px;">
-        <a href="/products" class="tab-btn ">All Products (34 SKUs)</a>
+        <a href="/products" class="tab-btn ">All Products (217 SKUs)</a>
         <a href="/shoe-charms-wholesale" class="tab-btn">3D Soft PVC Shoe Charms & Clog Accessories Wholesale</a>
         <a href="/custom-medals-awards-wholesale" class="tab-btn">Custom Marathon & Sports Finisher Medals Wholesale</a>
         <a href="/enamel-lapel-pins-manufacturer" class="tab-btn">Custom Enamel Lapel Pins & Metal Badges Manufacturer</a>
@@ -1368,7 +1372,7 @@
       </div>
 
       <div class="footer-bottom">
-        <p>&copy; 2026 Jinjiang Naike Promo Co., Ltd. (晋江耐客生态科技有限公司). All Rights Reserved.</p>
+        <p>&copy; 2026 Jinjiang Naike Promo Co., Ltd.. All Rights Reserved.</p>
         <p>Engineered for Global B2B Brands &amp; Promotional Buyers | Port of Shipment: Xiamen Port / Quanzhou Port / Shenzhen Port</p>
       </div>
     </div>
@@ -1389,89 +1393,5 @@
   <!-- Core Interactivity JavaScript (Guaranteed Global Load) -->
   <script src="js/main.js?v=20261012_02" defer></script>
 <!-- END_GLOBAL_FOOTER -->
-<!-- GLOBAL_CHAT_WIDGET -->
-  <!-- Floating WhatsApp Live Chat Sidebar / Dock Widget -->
-  <div class="b2b-whatsapp-floating-widget" id="whatsappFloatingWidget">
-    <!-- Floating Trigger Pill -->
-    <button type="button" class="whatsapp-trigger-pill" id="whatsappTriggerBtn" aria-label="Open WhatsApp Live Chat" onclick="toggleWhatsAppWidget(event)">
-      <div class="wa-icon-wrap">
-        <svg viewBox="0 0 24 24" width="22" height="22" fill="#fff"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.73-1.455L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.745 1.45 5.58-.002 10.118-4.541 10.121-10.125a10.024 10.024 0 0 0-2.959-7.149 10.024 10.024 0 0 0-7.142-2.977C5.787 2.355 1.25 6.892 1.247 12.477c-.001 1.637.458 3.235 1.332 4.678L1.611 21.91l4.894-1.28c.002-.001.002-.001.002-.001z M17.07 14.364c-.273-.137-1.62-.8-1.87-.892-.25-.092-.43-.137-.61.137-.18.274-.7.892-.857 1.074-.158.182-.317.205-.59.068a10.51 10.51 0 0 1-3.665-2.261 11.59 11.59 0 0 1-2.535-3.158c-.164-.282-.018-.434.12-.57.124-.122.272-.317.41-.476.136-.159.182-.272.272-.454.09-.181.046-.34-.022-.477-.068-.137-.61-1.474-.836-2.02-.22-.53-.44-.457-.61-.466-.157-.008-.34-.01-.522-.01-.182 0-.476.068-.726.34-.25.274-.954.932-.954 2.27 0 1.34.977 2.634 1.113 2.817.136.182 1.922 2.935 4.657 4.116.65.28 1.158.448 1.554.574.654.208 1.25.178 1.722.108.525-.078 1.62-.662 1.848-1.27.227-.607.227-1.127.159-1.27-.069-.143-.25-.227-.523-.364z"/></svg>
-        <span class="wa-pulsing-beacon"></span>
-      </div>
-      <div class="wa-trigger-text pc-only">
-        <span class="wa-trigger-title">WhatsApp Live</span>
-        <span class="wa-trigger-status"><span class="green-dot"></span> Online</span>
-      </div>
-      <span class="wa-trigger-arrow pc-only">▾</span>
-    </button>
-
-    <!-- WhatsApp Popup Card -->
-    <div class="whatsapp-panel-card" id="whatsappPanelCard">
-      <div class="wa-panel-header">
-        <div class="wa-header-brand">
-          <div class="wa-header-logo-icon">
-            <svg viewBox="0 0 24 24" width="18" height="18" fill="#fff"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.73-1.455L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.745 1.45 5.58-.002 10.118-4.541 10.121-10.125a10.024 10.024 0 0 0-2.959-7.149 10.024 10.024 0 0 0-7.142-2.977C5.787 2.355 1.25 6.892 1.247 12.477c-.001 1.637.458 3.235 1.332 4.678L1.611 21.91l4.894-1.28c.002-.001.002-.001.002-.001z M17.07 14.364c-.273-.137-1.62-.8-1.87-.892-.25-.092-.43-.137-.61.137-.18.274-.7.892-.857 1.074-.158.182-.317.205-.59.068a10.51 10.51 0 0 1-3.665-2.261 11.59 11.59 0 0 1-2.535-3.158c-.164-.282-.018-.434.12-.57.124-.122.272-.317.41-.476.136-.159.182-.272.272-.454.09-.181.046-.34-.022-.477-.068-.137-.61-1.474-.836-2.02-.22-.53-.44-.457-.61-.466-.157-.008-.34-.01-.522-.01-.182 0-.476.068-.726.34-.25.274-.954.932-.954 2.27 0 1.34.977 2.634 1.113 2.817.136.182 1.922 2.935 4.657 4.116.65.28 1.158.448 1.554.574.654.208 1.25.178 1.722.108.525-.078 1.62-.662 1.848-1.27.227-.607.227-1.127.159-1.27-.069-.143-.25-.227-.523-.364z"/></svg>
-          </div>
-          <div>
-            <div class="wa-header-heading">Direct WhatsApp Sales Desk</div>
-            <div class="wa-header-sub">Instant quotation &amp; technical inquiry</div>
-          </div>
-        </div>
-        <button type="button" class="wa-close-btn" onclick="toggleWhatsAppWidget(event, false)" aria-label="Close WhatsApp Panel">✕</button>
-      </div>
-
-      <div class="wa-panel-body">
-        <p class="wa-panel-intro">Chat directly with our export engineering leads for fast quote &amp; sample requests:</p>
-
-        <!-- Official Contact Card -->
-        <div class="wa-rep-card">
-          <div class="wa-rep-avatar-wrap">
-            <div class="wa-rep-avatar ad">WW</div>
-            <span class="wa-rep-online-dot" title="Online Now"></span>
-          </div>
-          <div class="wa-rep-info">
-            <div class="wa-rep-name-row">
-              <strong class="wa-rep-name">NAIKE GIFTS Sales Desk</strong>
-              <span class="wa-rep-tag">Direct Factory</span>
-            </div>
-            <div class="wa-rep-role">OEM/ODM Tooling &amp; Technical Lead</div>
-            <div class="wa-rep-phone-num">WhatsApp / Tel: +86 185 0595 9266</div>
-            <a href="https://wa.me/8618505959266?text=Hi%20NAIKE GIFTS,%20I'm%20contacting%20you%20from%20naikegifts.com%20regarding%20manufacturing..." target="_blank" rel="noopener noreferrer" class="wa-chat-action-btn">
-              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.73-1.455L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.745 1.45 5.58-.002 10.118-4.541 10.121-10.125a10.024 10.024 0 0 0-2.959-7.149 10.024 10.024 0 0 0-7.142-2.977C5.787 2.355 1.25 6.892 1.247 12.477c-.001 1.637.458 3.235 1.332 4.678L1.611 21.91l4.894-1.28c.002-.001.002-.001.002-.001z M17.07 14.364c-.273-.137-1.62-.8-1.87-.892-.25-.092-.43-.137-.61.137-.18.274-.7.892-.857 1.074-.158.182-.317.205-.59.068a10.51 10.51 0 0 1-3.665-2.261 11.59 11.59 0 0 1-2.535-3.158c-.164-.282-.018-.434.12-.57.124-.122.272-.317.41-.476.136-.159.182-.272.272-.454.09-.181.046-.34-.022-.477-.068-.137-.61-1.474-.836-2.02-.22-.53-.44-.457-.61-.466-.157-.008-.34-.01-.522-.01-.182 0-.476.068-.726.34-.25.274-.954.932-.954 2.27 0 1.34.977 2.634 1.113 2.817.136.182 1.922 2.935 4.657 4.116.65.28 1.158.448 1.554.574.654.208 1.25.178 1.722.108.525-.078 1.62-.662 1.848-1.27.227-.607.227-1.127.159-1.27-.069-.143-.25-.227-.523-.364z"/></svg>
-              <span>Chat on WhatsApp (+86 185 0595 9266)</span>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div class="wa-panel-footer">
-        <span>✉️ <a href="mailto:info@naikegifts.com">info@naikegifts.com</a></span>
-        <span style="color: #cbd5e1;">•</span>
-        <span>⏱️ Fast Reply (&lt; 5 mins)</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- Mobile Ergonomic Sticky Bottom Dock -->
-  <div class="mobile-sticky-dock" role="navigation" aria-label="Mobile Contact Dock">
-    <a href="https://wa.me/8618505959266?text=Hi%20NAIKE GIFTS,%20I'm%20inquiring%20about%20footwear..." target="_blank" class="dock-btn dock-whatsapp" title="WhatsApp">
-      <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.73-1.455L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.745 1.45 5.58-.002 10.118-4.541 10.121-10.125a10.024 10.024 0 0 0-2.959-7.149 10.024 10.024 0 0 0-7.142-2.977C5.787 2.355 1.25 6.892 1.247 12.477c-.001 1.637.458 3.235 1.332 4.678L1.611 21.91l4.894-1.28c.002-.001.002-.001.002-.001z M17.07 14.364c-.273-.137-1.62-.8-1.87-.892-.25-.092-.43-.137-.61.137-.18.274-.7.892-.857 1.074-.158.182-.317.205-.59.068a10.51 10.51 0 0 1-3.665-2.261 11.59 11.59 0 0 1-2.535-3.158c-.164-.282-.018-.434.12-.57.124-.122.272-.317.41-.476.136-.159.182-.272.272-.454.09-.181.046-.34-.022-.477-.068-.137-.61-1.474-.836-2.02-.22-.53-.44-.457-.61-.466-.157-.008-.34-.01-.522-.01-.182 0-.476.068-.726.34-.25.274-.954.932-.954 2.27 0 1.34.977 2.634 1.113 2.817.136.182 1.922 2.935 4.657 4.116.65.28 1.158.448 1.554.574.654.208 1.25.178 1.722.108.525-.078 1.62-.662 1.848-1.27.227-.607.227-1.127.159-1.27-.069-.143-.25-.227-.523-.364z"/></svg>
-      <span>WhatsApp</span>
-    </a>
-    <a href="tel:+8618505959266" class="dock-btn dock-phone" title="Call Direct">
-      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
-      <span>Call Direct</span>
-    </a>
-    <a href="/contact" class="dock-btn dock-phone" title="WeChat / Factory Info" style="background: #eff6ff; color: #1d4ed8; border: 1px solid #bfdbfe;">
-      <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M8.384 10.94c.484 0 .878-.387.878-.865 0-.478-.394-.866-.878-.866a.87.87 0 0 0-.879.866c0 .478.394.865.879.865zm4.823 0c.484 0 .879-.387.879-.865 0-.478-.395-.866-.879-.866a.87.87 0 0 0-.878.866c0 .478.394.865.878.865z M18.558 13.064c.245-.06.495-.094.75-.094 2.457 0 4.45 1.71 4.45 3.82 0 1.16-.6 2.21-1.57 2.91.13.43.51 1.29.51 1.29s-.88-.24-1.83-.8c-.53.15-1.09.23-1.66.23-2.457 0-4.45-1.71-4.45-3.82 0-1.72 1.33-3.17 3.25-3.536z M16.718 16.59c.316 0 .573-.253.573-.565 0-.312-.257-.565-.573-.565s-.572.253-.572.565c0 .312.257.565.572.565zm2.864 0c.316 0 .573-.253.573-.565 0-.312-.257-.565-.573-.565s-.572.253-.572.565c0 .312.257.565-.572.565z M14.334 11.23c0-3.823-3.99-6.924-8.91-6.924C2.316 4.306 0 7.407 0 11.23c0 2.234 1.334 4.225 3.425 5.426-.266.862-1.05 2.584-1.05 2.584s1.776-.492 3.738-1.636c.99.294 2.052.45 3.156.45 4.92 0 9.065-3.1 9.065-6.824z"/></svg>
-      <span>WeChat</span>
-    </a>
-    <a href="#inquiry" class="dock-btn dock-quote" title="Request Factory Quotation">
-      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
-      <span>Quote</span>
-    </a>
-  </div>
-<!-- END_GLOBAL_CHAT_WIDGET -->
-<script src="js/main.js?v=20260913_09" defer></script>
 </body>
 </html>

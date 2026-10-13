@@ -369,13 +369,13 @@ img {
   transform: rotate(180deg);
 }
 
-/* Mega-Menu Dropdown Panel (Fixed Centered Viewport Modal - Zero Edge Clipping) */
+/* Mega-Menu Dropdown Panel (Desktop: Absolute anchored under SITEMAP button) */
 .compass-menu {
-  position: fixed !important;
-  top: 90px !important;
-  left: 50% !important;
-  right: auto !important;
-  transform: translateX(-50%) translateY(-10px) !important;
+  position: absolute !important;
+  top: calc(100% + 10px) !important;
+  right: 0 !important;
+  left: auto !important;
+  transform: translateY(-8px) scale(0.98) !important;
   width: 680px !important;
   max-width: calc(100vw - 32px) !important;
   max-height: calc(100vh - 110px) !important;
@@ -397,23 +397,24 @@ img {
   box-sizing: border-box !important;
 }
 
-/* Invisible bridge */
+/* Invisible bridge between button and dropdown */
 .compass-menu::before {
   content: '';
   position: absolute;
   top: -16px;
-  left: -10px;
-  right: -10px;
+  left: 0;
+  right: 0;
   height: 20px;
   background: transparent;
   pointer-events: auto;
 }
 
-/* Active State: Controlled by Click for Rock-Solid Stability */
-.compass-nav-container.active .compass-menu {
+/* Active State & Desktop Hover State: Supports both click and hover */
+.compass-nav-container.active .compass-menu,
+.compass-nav-container:hover .compass-menu {
   opacity: 1 !important;
   visibility: visible !important;
-  transform: translateX(-50%) translateY(0) !important;
+  transform: translateY(0) scale(1) !important;
   pointer-events: auto !important;
 }
 

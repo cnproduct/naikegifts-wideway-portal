@@ -91,7 +91,7 @@ about_content = """
   <section class="page-banner" style="background: linear-gradient(rgba(15, 23, 42, 0.90), rgba(15, 23, 42, 0.96)), url('images/factory-workshop.jpg') center/cover; padding: 75px 0; color: #fff; text-align: center;">
     <div class="container">
       <span style="display: inline-block; background: rgba(0, 191, 255, 0.15); color: #00BFFF; border: 1px solid #00BFFF; font-weight: 700; font-size: 0.82rem; padding: 4px 14px; border-radius: 20px; text-transform: uppercase; margin-bottom: 12px;">Enterprise Heritage Since 2008</span>
-      <h1 style="font-size: 2.8rem; margin-bottom: 15px; color: #fff; font-weight: 800;">About NAIKE GIFTS (晋江耐客)</h1>
+      <h1 style="font-size: 2.8rem; margin-bottom: 15px; color: #fff; font-weight: 800;">About NAIKE GIFTS</h1>
       <p style="max-width: 860px; margin: 0 auto; color: #e2e8f0; font-size: 1.05rem; line-height: 1.6;">Premier manufacturer of creative promotional merchandise, 3D soft PVC micro-injection products, custom marathon finisher medals, enamel lapel pins, challenge coins, and mascot plush toys based in Jinjiang, Fujian—China's Footwear & Light Industrial Capital.</p>
     </div>
   </section>
@@ -128,7 +128,7 @@ about_content = """
         <span style="font-size: 0.85rem; font-weight: 700; color: #00BFFF; text-transform: uppercase; letter-spacing: 1px;">From Tooling Roots to Global Export Leader</span>
         <h2 style="font-size: 2.2rem; color: #0F172A; margin: 10px 0 16px 0; font-weight: 800;">Engineering Integrity Built into Every Single Piece</h2>
         <p style="color: #475569; font-size: 1rem; line-height: 1.7; margin-bottom: 16px;">
-          Established in 2008 in Chendai town, Jinjiang—the core epicenter of China's polymer injection, mold fabrication, and footwear manufacturing—<strong>Jinjiang Naike Promo Co., Ltd. (Naike Gifts / 晋江耐客生态科技有限公司)</strong> has spent nearly two decades mastering high-precision micro-injection dispensing and metal die casting.
+          Established in 2008 in Chendai town, Jinjiang—the core epicenter of China's polymer injection, mold fabrication, and footwear manufacturing—<strong>Jinjiang Naike Promo Co., Ltd. (NAIKE GIFTS)</strong> has spent nearly two decades mastering high-precision micro-injection dispensing and metal die casting.
         </p>
         <p style="color: #475569; font-size: 1rem; line-height: 1.7; margin-bottom: 20px;">
           Unlike conventional trading intermediaries, Naike Gifts owns and operates its self-built <strong>1,650 m² modern manufacturing plant</strong> equipped with automated 12-color liquid PVC dispensers, 5-axis high-speed CNC mold carving machines, high-pressure zinc alloy die-casting stations, automated Grosgrain ribbon sublimation printers, and Tajima digital embroidery lines.
@@ -693,62 +693,62 @@ glossary_content = """
   <div class="container" style="padding: 50px 0 70px 0;">
     <div class="grid grid-2" style="gap: 25px;">
       <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 22px;">
-        <h4 style="color: #0F172A; margin-bottom: 6px; font-size: 1.1rem; font-weight: 700;">Micro-Injection (微量射出 / 滴塑)</h4>
+        <h4 style="color: #0F172A; margin-bottom: 6px; font-size: 1.1rem; font-weight: 700;">Micro-Injection (Liquid PVC Dispensing)</h4>
         <p style="font-size: 0.88rem; color: #64748b; line-height: 1.6;">Automated computer-controlled dispensing of multi-colored liquid plastisol PVC or silicone into micro-grooved brass/aluminum molds to produce sharp, layered 2D/3D emblems.</p>
       </div>
 
       <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 22px;">
-        <h4 style="color: #0F172A; margin-bottom: 6px; font-size: 1.1rem; font-weight: 700;">Hard Enamel / Cloisonné (景泰蓝 / 硬珐琅)</h4>
+        <h4 style="color: #0F172A; margin-bottom: 6px; font-size: 1.1rem; font-weight: 700;">Hard Enamel / Cloisonné (Cloisonné Process)</h4>
         <p style="font-size: 0.88rem; color: #64748b; line-height: 1.6;">Mineral glass-based color paste hand-infilled into stamped copper/brass recesses, baked at 800°C and hand-stoned flat to match the metal borders flush for jewelry-grade scratch resistance.</p>
       </div>
 
       <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 22px;">
-        <h4 style="color: #0F172A; margin-bottom: 6px; font-size: 1.1rem; font-weight: 700;">Soft Enamel (软珐琅 / 烤漆)</h4>
+        <h4 style="color: #0F172A; margin-bottom: 6px; font-size: 1.1rem; font-weight: 700;">Soft Enamel (Die-Struck Enamel)</h4>
         <p style="font-size: 0.88rem; color: #64748b; line-height: 1.6;">Liquid enamel paint infilled beneath raised die-struck metal borders and baked at 160°C. Creates tactile dimensional ridges with the option of adding a protective clear epoxy dome.</p>
       </div>
 
       <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 22px;">
-        <h4 style="color: #0F172A; margin-bottom: 6px; font-size: 1.1rem; font-weight: 700;">POM Mushroom Rivet (聚甲醛防脱蘑菇扣)</h4>
+        <h4 style="color: #0F172A; margin-bottom: 6px; font-size: 1.1rem; font-weight: 700;">POM Mushroom Rivet (Anti-Pop Back Stud)</h4>
         <p style="font-size: 0.88rem; color: #64748b; line-height: 1.6;">Engineered polyoxymethylene backing stud calibrated to 12mm diameter with 15kg tensile pull resistance, specifically designed for secure insertion into foam clogs without detaching.</p>
       </div>
 
       <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 22px;">
-        <h4 style="color: #0F172A; margin-bottom: 6px; font-size: 1.1rem; font-weight: 700;">Zinc Alloy Die-Casting (高压锌合金压铸)</h4>
+        <h4 style="color: #0F172A; margin-bottom: 6px; font-size: 1.1rem; font-weight: 700;">Zinc Alloy Die-Casting (High-Pressure Hydraulic Forming)</h4>
         <p style="font-size: 0.88rem; color: #64748b; line-height: 1.6;">Molten Zamak zinc injected under high hydraulic pressure into hardened steel dies. Enables heavy 3D sculptural reliefs, hollow cutouts, and kinetic spinning centers in finisher medals.</p>
       </div>
 
       <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 22px;">
-        <h4 style="color: #0F172A; margin-bottom: 6px; font-size: 1.1rem; font-weight: 700;">Dye-Sublimation (热升华全彩转印)</h4>
+        <h4 style="color: #0F172A; margin-bottom: 6px; font-size: 1.1rem; font-weight: 700;">Dye-Sublimation (Thermal Transfer)</h4>
         <p style="font-size: 0.88rem; color: #64748b; line-height: 1.6;">High-temperature thermal gas transfer of inks directly into polyester ribbon and lanyard fibers, producing photographic-grade gradient artwork with 100% rub fastness.</p>
       </div>
 
       <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 22px;">
-        <h4 style="color: #0F172A; margin-bottom: 6px; font-size: 1.1rem; font-weight: 700;">ASTM B117 Salt Spray (中性盐雾测试)</h4>
+        <h4 style="color: #0F172A; margin-bottom: 6px; font-size: 1.1rem; font-weight: 700;">ASTM B117 Salt Spray (Corrosion Resistance Lab)</h4>
         <p style="font-size: 0.88rem; color: #64748b; line-height: 1.6;">Standard accelerated corrosion testing chamber spraying 5% NaCl solution at 35°C for 48–72 hours to verify electroplated metal resistance to oxidation, tarnishing, and sweat.</p>
       </div>
 
       <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 22px;">
-        <h4 style="color: #0F172A; margin-bottom: 6px; font-size: 1.1rem; font-weight: 700;">CA Prop 65 Non-Phthalate (加州65无邻苯测试)</h4>
+        <h4 style="color: #0F172A; margin-bottom: 6px; font-size: 1.1rem; font-weight: 700;">CA Prop 65 Non-Phthalate (Certified Toxic-Free & Lead-Free)</h4>
         <p style="font-size: 0.88rem; color: #64748b; line-height: 1.6;">Stringent chemical screening certifying that plasticizers (DEHP, DBP, BBP, DINP, DIDP, DnOP) remain non-detectable or below 50 ppm, well within Californian toxic exposure limits.</p>
       </div>
 
       <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 22px;">
-        <h4 style="color: #0F172A; margin-bottom: 6px; font-size: 1.1rem; font-weight: 700;">GRS Recycled Standard (全球回收标准)</h4>
+        <h4 style="color: #0F172A; margin-bottom: 6px; font-size: 1.1rem; font-weight: 700;">GRS Recycled Standard (Global Recycled PET Polyester)</h4>
         <p style="font-size: 0.88rem; color: #64748b; line-height: 1.6;">International voluntary standard tracking and verifying recycled polyester content from post-consumer PET bottles into plush fabrics and neck lanyards.</p>
       </div>
 
       <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 22px;">
-        <h4 style="color: #0F172A; margin-bottom: 6px; font-size: 1.1rem; font-weight: 700;">Tajima Digital Embroidery (田岛数控精密刺绣)</h4>
+        <h4 style="color: #0F172A; margin-bottom: 6px; font-size: 1.1rem; font-weight: 700;">Tajima Digital Embroidery (High-Density Multi-Head Stitching)</h4>
         <p style="font-size: 0.88rem; color: #64748b; line-height: 1.6;">High-density computerized multi-head embroidery stitching up to 12 thread colors per tactical patch with merrowed or laser-cut heat-sealed borders.</p>
       </div>
 
       <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 22px;">
-        <h4 style="color: #0F172A; margin-bottom: 6px; font-size: 1.1rem; font-weight: 700;">3D Bas-Relief (多层立体浅浮雕)</h4>
+        <h4 style="color: #0F172A; margin-bottom: 6px; font-size: 1.1rem; font-weight: 700;">3D Bas-Relief (Sculptural Multi-Tiered Contouring)</h4>
         <p style="font-size: 0.88rem; color: #64748b; line-height: 1.6;">Sculptural molding technique creating gradual curvature, realistic human/animal anatomical contours, and multi-tiered architectural depth on challenge coins and medals.</p>
       </div>
 
       <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 22px;">
-        <h4 style="color: #0F172A; margin-bottom: 6px; font-size: 1.1rem; font-weight: 700;">Antique Electroplating (仿古做旧电镀)</h4>
+        <h4 style="color: #0F172A; margin-bottom: 6px; font-size: 1.1rem; font-weight: 700;">Antique Electroplating (Hand-Relieved Two-Tone Patina)</h4>
         <p style="font-size: 0.88rem; color: #64748b; line-height: 1.6;">A two-step electroplating and chemical darkening process followed by manual reliefer polishing that leaves dark oxide in recesses to accentuate fine 3D details on challenge coins.</p>
       </div>
     </div>
@@ -792,7 +792,7 @@ kg_content = """
         <div style="background: #f8fafc; padding: 25px; border-radius: 8px; border-left: 4px solid #00BFFF;">
           <h4 style="color: #0F172A; font-size: 1.1rem; margin-bottom: 8px; font-weight: 700;">🏢 Enterprise Entity</h4>
           <p style="font-size: 0.88rem; color: #64748b; line-height: 1.6;">
-            <strong>Jinjiang Naike Promo Co., Ltd. (晋江耐客生态科技有限公司)</strong><br>
+            <strong>Jinjiang Naike Promo Co., Ltd. (Jinjiang Naike Promo Co., Ltd.)</strong><br>
             Est. 2008 &bull; 1,650㎡ Cleanroom Campus<br>
             Chendai Industrial Park, Jinjiang, Fujian, China<br>
             Capacity: 5,000,000+ Units Monthly

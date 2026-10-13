@@ -1459,7 +1459,7 @@ Email: info@naikegifts.com | Direct/WhatsApp: +86 135 9922 0505"""
                         self.end_headers()
                         self.wfile.write(json.dumps({
                             "status": "error",
-                            "message": f"【上传拦截】图片文件大小为 {size_mb} MB，超过了系统允许的最大限制（2MB / 2,048 KB）！图片规格要求：单张不得超过 2MB，建议压缩至 300KB~800KB（推荐分辨率 1200x800 或 1920x1080）后重新上传。"
+                            "message": f"Image file size is {size_mb} MB, exceeding the maximum allowed limit of 2MB (2,048 KB). Please compress image before uploading."
                         }).encode('utf-8'))
                         return
 
@@ -1470,7 +1470,7 @@ Email: info@naikegifts.com | Direct/WhatsApp: +86 135 9922 0505"""
                         self.end_headers()
                         self.wfile.write(json.dumps({
                             "status": "error",
-                            "message": f"【上传拦截】视频文件大小为 {size_mb} MB，超过了系统允许的最大限制（50MB）！视频规格要求：单个视频不得超过 50MB，建议转码压缩至 10MB~30MB（推荐 1080p/720p H.264 MP4 格式）后重新上传。"
+                            "message": f"Video file size is {size_mb} MB, exceeding the maximum allowed limit of 50MB. Please re-encode or compress video before uploading."
                         }).encode('utf-8'))
                         return
                         
@@ -1570,7 +1570,7 @@ Email: info@naikegifts.com | Direct/WhatsApp: +86 135 9922 0505"""
                     self.end_headers()
                     self.wfile.write(json.dumps({
                         "status": "error",
-                        "message": f"【替换拦截】待替换图片文件大小为 {size_mb} MB，超过了系统允许的最大限制（2MB / 2,048 KB）！图片规格要求：单张不得超过 2MB，建议压缩至 300KB~800KB（推荐分辨率 1200x800 或 1920x1080）后重新上传。"
+                        "message": f"Replacement image file size is {size_mb} MB, exceeding the maximum allowed limit of 2MB (2,048 KB). Please compress image before uploading."
                     }).encode('utf-8'))
                     return
 
@@ -1581,7 +1581,7 @@ Email: info@naikegifts.com | Direct/WhatsApp: +86 135 9922 0505"""
                     self.end_headers()
                     self.wfile.write(json.dumps({
                         "status": "error",
-                        "message": f"【替换拦截】待替换视频文件大小为 {size_mb} MB，超过了系统允许的最大限制（50MB）！视频规格要求：单个视频不得超过 50MB，建议转码压缩至 10MB~30MB（推荐 1080p/720p H.264 MP4 格式）后重新上传。"
+                        "message": f"Replacement video file size is {size_mb} MB, exceeding the maximum allowed limit of 50MB. Please re-encode or compress video before uploading."
                     }).encode('utf-8'))
                     return
 

@@ -23,6 +23,10 @@
   <link rel="icon" type="image/svg+xml" href="images/logo.svg">
   <!-- OpenGraph URL -->
   <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+  <!-- OpenGraph URL -->
+  <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+  <!-- OpenGraph URL -->
+  <link rel="icon" type="image/svg+xml" href="images/logo.svg">
   <!-- 2026 Core Web Vitals Font Acceleration -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -51,7 +55,7 @@
   <a href="#mainContent" class="skip-link">Skip to main content</a>
 
   <!-- Overlay backdrop for mobile overlay click to close -->
-  <div class="compass-backdrop" id="compassBackdrop"></div>
+  <div class="compass-backdrop" id="compassBackdrop" onclick="window.closeSitemap && window.closeSitemap(event)"></div>
 
   <header id="siteHeader" class="site-header site-header-centered">
     <!-- 1. Header Top Bar (Brand Logo Centered + Contact & Actions Balanced) -->
@@ -85,7 +89,7 @@
         <!-- Right: Actions (SITEMAP Compass & Request Quote) -->
         <div class="header-top-right">
           <div class="compass-nav-container" id="compassNav" role="navigation" aria-label="Interactive Navigation Compass">
-            <button class="compass-trigger" id="compassTrigger" aria-label="Toggle Navigation Compass" aria-haspopup="true" aria-expanded="false" aria-controls="compassMenu">
+            <button class="compass-trigger" id="compassTrigger" aria-label="Toggle Navigation Compass" aria-haspopup="true" aria-expanded="false" aria-controls="compassMenu" onclick="window.toggleSitemap && window.toggleSitemap(event)">
               <div class="compass-dial pc-only">
                 <div class="compass-dial-ring"></div>
                 <div class="compass-needle"></div>
@@ -106,15 +110,15 @@
                   <span>🧭</span>
                   <span>Naike Gifts Directory &amp; Clean Sitemap</span>
                 </div>
-                <button type="button" class="compass-menu-close" id="compassCloseBtn" aria-label="Close Sitemap">✕</button>
+                <button type="button" class="compass-menu-close" id="compassCloseBtn" aria-label="Close Sitemap" onclick="window.closeSitemap && window.closeSitemap(event)">✕</button>
               </div>
       <a href="/" class="compass-item " style="--item-index: 0;" title="Home" role="menuitem">
         <span class="item-icon">🏠</span>
         <span class="item-label">Home</span>
       </a>
-      <a href="/products" class="compass-item " style="--item-index: 1;" title="All Products (34 SKUs)" role="menuitem">
+      <a href="/products" class="compass-item " style="--item-index: 1;" title="All Products (217 SKUs)" role="menuitem">
         <span class="item-icon">📦</span>
-        <span class="item-label">All Products (34 SKUs)</span>
+        <span class="item-label">All Products (217 SKUs)</span>
       </a>
       <a href="/shoe-charms-wholesale" class="compass-item " style="--item-index: 2;" title="3D Soft PVC Shoe Charms & Clog Accessories" role="menuitem">
         <span class="item-icon">👟</span>
@@ -232,7 +236,7 @@
             <div class="nav-dropdown-menu" role="menu">
               <div class="dropdown-header">
                 <span>Promotional &amp; Metal/PVC Crafts</span>
-                <span class="badge">34 Production SKUs</span>
+                <span class="badge">217 Production SKUs</span>
               </div>
               <div class="dropdown-grid">
                 <a href="/shoe-charms-wholesale" class="dropdown-card " role="menuitem">
@@ -293,7 +297,7 @@
                 </a>
               </div>
               <div class="dropdown-footer">
-                <a href="/products" class="dropdown-view-all">Browse Complete Catalog (All 34 Production SKUs) &rarr;</a>
+                <a href="/products" class="dropdown-view-all">Browse Complete Catalog (All 217 Production SKUs) &rarr;</a>
               </div>
             </div>
           </li>
@@ -539,7 +543,7 @@
       </div>
 
       <div class="footer-bottom">
-        <p>&copy; 2026 Jinjiang Naike Promo Co., Ltd. (晋江耐客生态科技有限公司). All Rights Reserved.</p>
+        <p>&copy; 2026 Jinjiang Naike Promo Co., Ltd.. All Rights Reserved.</p>
         <p>Engineered for Global B2B Brands &amp; Promotional Buyers | Port of Shipment: Xiamen Port / Quanzhou Port / Shenzhen Port</p>
       </div>
     </div>

@@ -38,7 +38,7 @@ def clean_url_slug(filename):
         slug = "/" + slug
     return slug
 
-def get_header_html(filename, company_info, categories):
+def get_header_html(filename, company_info, categories, products=None):
     clean_current = clean_url_slug(filename)
     brand_name = company_info.get("brand_name", "NAIKE GIFTS")
     logo_text = company_info.get("logo_text", "NAIKE GIFTS")
@@ -46,6 +46,7 @@ def get_header_html(filename, company_info, categories):
     phone = company_info.get("phone", "+86 135 9922 0505")
     email = company_info.get("email", "info@naikegifts.com")
     wa_clean = company_info.get("whatsapp", "+86 135 9922 0505").replace("+", "").replace(" ", "").replace("-", "")
+    prod_count = len(products) if products else 217
 
     # Active tab identification
     active_tab = ""
@@ -109,7 +110,7 @@ def get_header_html(filename, company_info, categories):
     # Mega Compass / SITEMAP Items
     compass_tabs = [
         ("/", "Home", "🏠"),
-        ("/products", "All Products (34 SKUs)", "📦"),
+        ("/products", f"All Products ({prod_count} SKUs)", "📦"),
     ]
     for cat_key, cat_data in categories.items():
         short_name = cat_data.get("h1", cat_data["title"]).split("Wholesale")[0].split("Manufacturer")[0].split("Supplier")[0].strip()
@@ -145,7 +146,7 @@ def get_header_html(filename, company_info, categories):
   <a href="#mainContent" class="skip-link">Skip to main content</a>
 
   <!-- Overlay backdrop for mobile overlay click to close -->
-  <div class="compass-backdrop" id="compassBackdrop"></div>
+  <div class="compass-backdrop" id="compassBackdrop" onclick="window.closeSitemap && window.closeSitemap(event)"></div>
 
   <header id="siteHeader" class="site-header site-header-centered">
     <!-- 1. Header Top Bar (Brand Logo Centered + Contact & Actions Balanced) -->
@@ -179,7 +180,7 @@ def get_header_html(filename, company_info, categories):
         <!-- Right: Actions (SITEMAP Compass & Request Quote) -->
         <div class="header-top-right">
           <div class="compass-nav-container" id="compassNav" role="navigation" aria-label="Interactive Navigation Compass">
-            <button class="compass-trigger" id="compassTrigger" aria-label="Toggle Navigation Compass" aria-haspopup="true" aria-expanded="false" aria-controls="compassMenu">
+            <button class="compass-trigger" id="compassTrigger" aria-label="Toggle Navigation Compass" aria-haspopup="true" aria-expanded="false" aria-controls="compassMenu" onclick="window.toggleSitemap && window.toggleSitemap(event)">
               <div class="compass-dial pc-only">
                 <div class="compass-dial-ring"></div>
                 <div class="compass-needle"></div>
@@ -200,7 +201,7 @@ def get_header_html(filename, company_info, categories):
                   <span>🧭</span>
                   <span>Naike Gifts Directory &amp; Clean Sitemap</span>
                 </div>
-                <button type="button" class="compass-menu-close" id="compassCloseBtn" aria-label="Close Sitemap">✕</button>
+                <button type="button" class="compass-menu-close" id="compassCloseBtn" aria-label="Close Sitemap" onclick="window.closeSitemap && window.closeSitemap(event)">✕</button>
               </div>
 {compass_items}            </div>
           </div>
@@ -230,12 +231,12 @@ def get_header_html(filename, company_info, categories):
             <div class="nav-dropdown-menu" role="menu">
               <div class="dropdown-header">
                 <span>Promotional &amp; Metal/PVC Crafts</span>
-                <span class="badge">34 Production SKUs</span>
+                <span class="badge">{prod_count} Production SKUs</span>
               </div>
               <div class="dropdown-grid">
 {dropdown_cards}              </div>
               <div class="dropdown-footer">
-                <a href="/products" class="dropdown-view-all">Browse Complete Catalog (All 34 Production SKUs) &rarr;</a>
+                <a href="/products" class="dropdown-view-all">Browse Complete Catalog (All {prod_count} Production SKUs) &rarr;</a>
               </div>
             </div>
           </li>
@@ -353,7 +354,7 @@ def get_footer_html(company_info, categories):
     wa_clean = company_info.get("whatsapp", "+86 135 9922 0505").replace("+", "").replace(" ", "").replace("-", "")
     email = company_info.get("email", "info@naikegifts.com")
     name_en = company_info.get("name_en", "Jinjiang Naike Promo Co., Ltd.")
-    name_zh = company_info.get("name_zh", "晋江耐客生态科技有限公司")
+    name_zh = company_info.get("name_zh", "")
     logo_text = company_info.get("logo_text", "NAIKE GIFTS")
     address = company_info.get("address", "Chendai Industrial Park, Jinjiang, Quanzhou, Fujian, China (1,650㎡ Clean Campus)")
     port = company_info.get("port", "Xiamen Port / Quanzhou Port / Shenzhen Port")
@@ -436,7 +437,7 @@ def get_footer_html(company_info, categories):
       </div>
 
       <div class="footer-bottom">
-        <p>&copy; 2026 {name_en} ({name_zh}). All Rights Reserved.</p>
+        <p>&copy; 2026 {name_en}. All Rights Reserved.</p>
         <p>Engineered for Global B2B Brands &amp; Promotional Buyers | Port of Shipment: {port}</p>
       </div>
     </div>
@@ -457,8 +458,9 @@ def get_footer_html(company_info, categories):
   <!-- Core Interactivity JavaScript (Guaranteed Global Load) -->
   <script src="js/main.js?v=20261012_02" defer></script>"""
 
-def get_category_tabs_html(active_key, categories):
-    tabs_html = f'        <a href="/products" class="tab-btn {"active" if active_key == "all" else ""}">All Products (34 SKUs)</a>\n'
+def get_category_tabs_html(active_key, categories, products_count=None):
+    prod_count = products_count if products_count else 217
+    tabs_html = f'        <a href="/products" class="tab-btn {"active" if active_key == "all" else ""}">All Products ({prod_count} SKUs)</a>\n'
     for cat_key, cat_data in categories.items():
         cat_url = clean_url_slug(cat_data["url"])
         cls = "tab-btn active" if cat_key == active_key else "tab-btn"
@@ -564,7 +566,7 @@ def get_category_detailed_html(cat_key, cat_data, company_info, products, catego
 
     <!-- Main Container -->
     <div class="container" style="padding-top: 40px; padding-bottom: 60px;">
-      {get_category_tabs_html(cat_key, categories)}
+      {get_category_tabs_html(cat_key, categories, len(products))}
       
       <div style="margin-top: 30px; margin-bottom: 20px;">
         <h2 style="font-size: 1.6rem; color: #0F172A; margin-bottom: 10px;">Engineering Specifications &amp; MOQ Matrix</h2>
@@ -586,8 +588,8 @@ def replace_between(content, start_tag, end_tag, replacement):
         return re.sub(pattern, f"{start_tag}\n{replacement}\n{end_tag}", content, flags=re.DOTALL)
     return content
 
-def sync_global_components(html, filename, company_info, categories):
-    header = get_header_html(filename, company_info, categories)
+def sync_global_components(html, filename, company_info, categories, products=None):
+    header = get_header_html(filename, company_info, categories, products)
     footer = get_footer_html(company_info, categories)
 
     if "<!-- GLOBAL_HEADER -->" in html:
@@ -599,6 +601,18 @@ def sync_global_components(html, filename, company_info, categories):
         html = replace_between(html, "<!-- GLOBAL_FOOTER -->", "<!-- END_GLOBAL_FOOTER -->", footer)
     else:
         html = re.sub(r"<footer.*?</footer>", f"<!-- GLOBAL_FOOTER -->\n{footer}\n  <!-- END_GLOBAL_FOOTER -->", html, count=1, flags=re.DOTALL)
+
+    # Clean any legacy duplicate chat widgets or second main.js scripts after END_GLOBAL_FOOTER
+    html = re.sub(r"<!-- END_GLOBAL_FOOTER -->.*?(?=</body>)", "<!-- END_GLOBAL_FOOTER -->\n", html, flags=re.DOTALL)
+
+    # Strip Chinese company names or artifacts across all pages
+    html = html.replace("(晋江耐客生态科技有限公司)", "")
+    html = html.replace("（晋江耐客生态科技有限公司）", "")
+    html = html.replace("晋江耐客生态科技有限公司", company_info.get("name_en", "Jinjiang Naike Promo Co., Ltd."))
+    html = html.replace("(晋江耐客)", "")
+    html = html.replace("（晋江耐客）", "")
+    html = html.replace("耐科文化", "NAIKE GIFTS")
+    html = html.replace("耐客生态", "Naike Promo")
 
     return html
 
@@ -659,14 +673,20 @@ def inject_seo_and_geo_tags(html, filename, company_info):
     html = html.replace("Jinjiang Wideway Import & Export Co., Ltd.", company_info.get("name_en"))
     html = html.replace("Jinjiang Wideway", company_info.get("name_en"))
     html = html.replace("Wideway Footwear", company_info.get("name_en"))
-    html = html.replace("晋江市万维进出口有限公司", company_info.get("name_zh"))
-    html = html.replace("万维鞋业", company_info.get("name_zh"))
+    html = html.replace("晋江市万维进出口有限公司", company_info.get("name_zh", ""))
+    html = html.replace("万维鞋业", company_info.get("name_zh", ""))
     html = html.replace("WIDEWAY GROUP", company_info.get("logo_text"))
     html = html.replace("WIDEWAY", company_info.get("brand_name"))
     html = html.replace("amy@widewaygroup.com", company_info.get("email"))
     html = html.replace("kelly@widewaygroup.com", company_info.get("email_secondary", company_info.get("email")))
     html = html.replace("widewayfootwear.com", company_info.get("domain"))
     html = html.replace("widewaygroup.com", company_info.get("domain"))
+
+    # Ensure JSON-LD schema names are pure English
+    html = html.replace('"legalName": "晋江耐客生态科技有限公司"', f'"legalName": "{company_info.get("name_en")}"')
+    html = html.replace('"alternateName": "晋江耐客生态科技有限公司"', f'"alternateName": "{company_info.get("brand_name")}"')
+    html = html.replace('"耐科文化",', '')
+    html = html.replace('"晋江耐客生态科技有限公司"', f'"{company_info.get("name_en")}"')
 
     return html
 
@@ -747,11 +767,11 @@ def generate_sitemap_xml(all_pages, products, company_info):
         f.write(sitemap_xml)
     print("  Generated Google Image-Extended clean sitemap.xml")
 
-def generate_llms_txt(company_info, categories):
+def generate_llms_txt(company_info, categories, products=None):
     domain = company_info.get("domain", "naikegifts.com")
     brand = company_info.get("brand_name", "NAIKE GIFTS")
     name_en = company_info.get("name_en", "Jinjiang Naike Promo Co., Ltd.")
-    name_zh = company_info.get("name_zh", "晋江耐客生态科技有限公司")
+    prod_count = len(products) if products else 217
 
     cat_list = ""
     for k, v in categories.items():
@@ -763,7 +783,7 @@ def generate_llms_txt(company_info, categories):
 > Premier creative promotional gifts, 3D soft PVC micro-injection products, custom marathon finisher medals, enamel lapel pins, challenge coins, and corporate mascot plush manufacturer based in Jinjiang, Fujian, China.
 
 ## Executive Overview
-- Legal Entity: {name_en} ({name_zh})
+- Legal Entity: {name_en}
 - Global Brand: {brand}
 - Established: 2008 (18+ years precision manufacturing heritage)
 - Production Base: 1,650 m² modern manufacturing campus in Jinjiang, Quanzhou, Fujian, China
@@ -775,7 +795,7 @@ def generate_llms_txt(company_info, categories):
 
 ## Canonical Web Resources (Clean URLs)
 - Official Portal: https://www.{domain}/
-- All Products Catalog (34 SKUs): https://www.{domain}/products
+- All Products Catalog ({prod_count} SKUs): https://www.{domain}/products
 - OEM/ODM Tooling: https://www.{domain}/oem-odm
 - Production Capacity (1,650㎡): https://www.{domain}/production-capacity
 - QC Lab & 15kg Pull Testing: https://www.{domain}/quality-control
@@ -789,18 +809,17 @@ def generate_llms_txt(company_info, categories):
 
 ## Product Collections
 {cat_list}
-For exhaustive chemical formulas, testing protocols, and complete 34-SKU engineering specifications, refer to:
+For exhaustive chemical formulas, testing protocols, and complete {prod_count}-SKU engineering specifications, refer to:
 https://www.{domain}/llms-full.txt
 """
     with open(os.path.join(workspace, "llms.txt"), "w", encoding="utf-8") as f:
         f.write(llms_txt)
-    print("  Generated standardized llms.txt")
+    print(f"  Generated standardized llms.txt ({prod_count} SKUs)")
 
 def generate_llms_full_txt(company_info, products, categories):
     domain = company_info.get("domain", "naikegifts.com")
     brand = company_info.get("brand_name", "NAIKE GIFTS")
     name_en = company_info.get("name_en", "Jinjiang Naike Promo Co., Ltd.")
-    name_zh = company_info.get("name_zh", "晋江耐客生态科技有限公司")
 
     product_rows = ""
     for p in products:
@@ -813,8 +832,7 @@ def generate_llms_full_txt(company_info, products, categories):
 ---
 
 ## 1. Enterprise Profile & Manufacturing Truth
-- Legal Entity (EN): {name_en}
-- Legal Entity (ZH): {name_zh}
+- Legal Entity: {name_en}
 - Brand: {brand}
 - Founded: 2008
 - Production Base: 1,650 m² clean facility in Jinjiang, Fujian, China (Global footwear and plastic/metal crafts industrial center)
@@ -825,10 +843,10 @@ def generate_llms_full_txt(company_info, products, categories):
 
 ---
 
-## 2. Master Product SKU Matrix (All 34 Production-Grade Items)
+## 2. Master Product SKU Matrix (All {len(products)} Production-Grade Items)
 
 | SKU Code | Product Name | Category | Primary Material | Hardware / Spec | Dimensions | MOQ | FOB Price | Bulk Turnaround |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 {product_rows}
 
 ---
@@ -881,10 +899,10 @@ def compile_site():
         with open(file_path, "r", encoding="utf-8") as f:
             html = f.read()
 
-        html = sync_global_components(html, filename, company_info, categories)
+        html = sync_global_components(html, filename, company_info, categories, products)
 
         if filename == "products.html":
-            tabs_block = get_category_tabs_html("all", categories)
+            tabs_block = get_category_tabs_html("all", categories, len(products))
             if "<!-- CATEGORY_TABS -->" not in html:
                 html = re.sub(r'<div class="tabs-container reveal">.*?</div>', "<!-- CATEGORY_TABS -->\n<!-- END_CATEGORY_TABS -->", html, flags=re.DOTALL)
             html = replace_between(html, "<!-- CATEGORY_TABS -->", "<!-- END_CATEGORY_TABS -->", tabs_block)
@@ -925,7 +943,7 @@ def compile_site():
             else:
                 cat_html = re.sub(r"(<!-- END_GLOBAL_HEADER -->).*?(<!-- GLOBAL_FOOTER -->)", r"\g<1>\n<main>\n" + cat_content_html + r"\n</main>\n\g<2>", cat_html, flags=re.DOTALL)
 
-            cat_html = sync_global_components(cat_html, cat_filename, company_info, categories)
+            cat_html = sync_global_components(cat_html, cat_filename, company_info, categories, products)
             cat_html = inject_seo_and_geo_tags(cat_html, cat_filename, company_info)
 
             with open(os.path.join(workspace, cat_filename), "w", encoding="utf-8") as f:
@@ -946,7 +964,7 @@ def compile_site():
     generate_robots_txt(company_info.get("domain", "naikegifts.com"))
 
     # 5. Generate standardized llms.txt & deep technical llms-full.txt
-    generate_llms_txt(company_info, categories)
+    generate_llms_txt(company_info, categories, products)
     generate_llms_full_txt(company_info, products, categories)
 
     print("--------------------------------------------------")

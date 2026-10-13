@@ -16,6 +16,10 @@
   <meta name="twitter:card" content="summary_large_image">
   <!-- OpenGraph URL -->
   <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+  <!-- OpenGraph URL -->
+  <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+  <!-- OpenGraph URL -->
+  <link rel="icon" type="image/svg+xml" href="images/logo.svg">
   <!-- 2026 Core Web Vitals Font Acceleration -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -47,7 +51,7 @@
   <a href="#mainContent" class="skip-link">Skip to main content</a>
 
   <!-- Overlay backdrop for mobile overlay click to close -->
-  <div class="compass-backdrop" id="compassBackdrop"></div>
+  <div class="compass-backdrop" id="compassBackdrop" onclick="window.closeSitemap && window.closeSitemap(event)"></div>
 
   <header id="siteHeader" class="site-header site-header-centered">
     <!-- 1. Header Top Bar (Brand Logo Centered + Contact & Actions Balanced) -->
@@ -81,7 +85,7 @@
         <!-- Right: Actions (SITEMAP Compass & Request Quote) -->
         <div class="header-top-right">
           <div class="compass-nav-container" id="compassNav" role="navigation" aria-label="Interactive Navigation Compass">
-            <button class="compass-trigger" id="compassTrigger" aria-label="Toggle Navigation Compass" aria-haspopup="true" aria-expanded="false" aria-controls="compassMenu">
+            <button class="compass-trigger" id="compassTrigger" aria-label="Toggle Navigation Compass" aria-haspopup="true" aria-expanded="false" aria-controls="compassMenu" onclick="window.toggleSitemap && window.toggleSitemap(event)">
               <div class="compass-dial pc-only">
                 <div class="compass-dial-ring"></div>
                 <div class="compass-needle"></div>
@@ -102,15 +106,15 @@
                   <span>🧭</span>
                   <span>Naike Gifts Directory &amp; Clean Sitemap</span>
                 </div>
-                <button type="button" class="compass-menu-close" id="compassCloseBtn" aria-label="Close Sitemap">✕</button>
+                <button type="button" class="compass-menu-close" id="compassCloseBtn" aria-label="Close Sitemap" onclick="window.closeSitemap && window.closeSitemap(event)">✕</button>
               </div>
       <a href="/" class="compass-item " style="--item-index: 0;" title="Home" role="menuitem">
         <span class="item-icon">🏠</span>
         <span class="item-label">Home</span>
       </a>
-      <a href="/products" class="compass-item " style="--item-index: 1;" title="All Products (34 SKUs)" role="menuitem">
+      <a href="/products" class="compass-item " style="--item-index: 1;" title="All Products (217 SKUs)" role="menuitem">
         <span class="item-icon">📦</span>
-        <span class="item-label">All Products (34 SKUs)</span>
+        <span class="item-label">All Products (217 SKUs)</span>
       </a>
       <a href="/shoe-charms-wholesale" class="compass-item " style="--item-index: 2;" title="3D Soft PVC Shoe Charms & Clog Accessories" role="menuitem">
         <span class="item-icon">👟</span>
@@ -228,7 +232,7 @@
             <div class="nav-dropdown-menu" role="menu">
               <div class="dropdown-header">
                 <span>Promotional &amp; Metal/PVC Crafts</span>
-                <span class="badge">34 Production SKUs</span>
+                <span class="badge">217 Production SKUs</span>
               </div>
               <div class="dropdown-grid">
                 <a href="/shoe-charms-wholesale" class="dropdown-card " role="menuitem">
@@ -289,7 +293,7 @@
                 </a>
               </div>
               <div class="dropdown-footer">
-                <a href="/products" class="dropdown-view-all">Browse Complete Catalog (All 34 Production SKUs) &rarr;</a>
+                <a href="/products" class="dropdown-view-all">Browse Complete Catalog (All 217 Production SKUs) &rarr;</a>
               </div>
             </div>
           </li>
@@ -420,62 +424,62 @@
   <div class="container" style="padding: 50px 0 70px 0;">
     <div class="grid grid-2" style="gap: 25px;">
       <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 22px;">
-        <h4 style="color: #0F172A; margin-bottom: 6px; font-size: 1.1rem; font-weight: 700;">Micro-Injection (微量射出 / 滴塑)</h4>
+        <h4 style="color: #0F172A; margin-bottom: 6px; font-size: 1.1rem; font-weight: 700;">Micro-Injection (Liquid PVC Dispensing)</h4>
         <p style="font-size: 0.88rem; color: #64748b; line-height: 1.6;">Automated computer-controlled dispensing of multi-colored liquid plastisol PVC or silicone into micro-grooved brass/aluminum molds to produce sharp, layered 2D/3D emblems.</p>
       </div>
 
       <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 22px;">
-        <h4 style="color: #0F172A; margin-bottom: 6px; font-size: 1.1rem; font-weight: 700;">Hard Enamel / Cloisonné (景泰蓝 / 硬珐琅)</h4>
+        <h4 style="color: #0F172A; margin-bottom: 6px; font-size: 1.1rem; font-weight: 700;">Hard Enamel / Cloisonné Process</h4>
         <p style="font-size: 0.88rem; color: #64748b; line-height: 1.6;">Mineral glass-based color paste hand-infilled into stamped copper/brass recesses, baked at 800°C and hand-stoned flat to match the metal borders flush for jewelry-grade scratch resistance.</p>
       </div>
 
       <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 22px;">
-        <h4 style="color: #0F172A; margin-bottom: 6px; font-size: 1.1rem; font-weight: 700;">Soft Enamel (软珐琅 / 烤漆)</h4>
+        <h4 style="color: #0F172A; margin-bottom: 6px; font-size: 1.1rem; font-weight: 700;">Soft Enamel (Die-Struck Enamel)</h4>
         <p style="font-size: 0.88rem; color: #64748b; line-height: 1.6;">Liquid enamel paint infilled beneath raised die-struck metal borders and baked at 160°C. Creates tactile dimensional ridges with the option of adding a protective clear epoxy dome.</p>
       </div>
 
       <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 22px;">
-        <h4 style="color: #0F172A; margin-bottom: 6px; font-size: 1.1rem; font-weight: 700;">POM Mushroom Rivet (聚甲醛防脱蘑菇扣)</h4>
+        <h4 style="color: #0F172A; margin-bottom: 6px; font-size: 1.1rem; font-weight: 700;">POM Mushroom Rivet (Anti-Pop Back Stud)</h4>
         <p style="font-size: 0.88rem; color: #64748b; line-height: 1.6;">Engineered polyoxymethylene backing stud calibrated to 12mm diameter with 15kg tensile pull resistance, specifically designed for secure insertion into foam clogs without detaching.</p>
       </div>
 
       <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 22px;">
-        <h4 style="color: #0F172A; margin-bottom: 6px; font-size: 1.1rem; font-weight: 700;">Zinc Alloy Die-Casting (高压锌合金压铸)</h4>
+        <h4 style="color: #0F172A; margin-bottom: 6px; font-size: 1.1rem; font-weight: 700;">Zinc Alloy Die-Casting</h4>
         <p style="font-size: 0.88rem; color: #64748b; line-height: 1.6;">Molten Zamak zinc injected under high hydraulic pressure into hardened steel dies. Enables heavy 3D sculptural reliefs, hollow cutouts, and kinetic spinning centers in finisher medals.</p>
       </div>
 
       <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 22px;">
-        <h4 style="color: #0F172A; margin-bottom: 6px; font-size: 1.1rem; font-weight: 700;">Dye-Sublimation (热升华全彩转印)</h4>
+        <h4 style="color: #0F172A; margin-bottom: 6px; font-size: 1.1rem; font-weight: 700;">Dye-Sublimation (Thermal Transfer)</h4>
         <p style="font-size: 0.88rem; color: #64748b; line-height: 1.6;">High-temperature thermal gas transfer of inks directly into polyester ribbon and lanyard fibers, producing photographic-grade gradient artwork with 100% rub fastness.</p>
       </div>
 
       <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 22px;">
-        <h4 style="color: #0F172A; margin-bottom: 6px; font-size: 1.1rem; font-weight: 700;">ASTM B117 Salt Spray (中性盐雾测试)</h4>
+        <h4 style="color: #0F172A; margin-bottom: 6px; font-size: 1.1rem; font-weight: 700;">ASTM B117 Salt Spray Corrosion Lab</h4>
         <p style="font-size: 0.88rem; color: #64748b; line-height: 1.6;">Standard accelerated corrosion testing chamber spraying 5% NaCl solution at 35°C for 48–72 hours to verify electroplated metal resistance to oxidation, tarnishing, and sweat.</p>
       </div>
 
       <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 22px;">
-        <h4 style="color: #0F172A; margin-bottom: 6px; font-size: 1.1rem; font-weight: 700;">CA Prop 65 Non-Phthalate (加州65无邻苯测试)</h4>
+        <h4 style="color: #0F172A; margin-bottom: 6px; font-size: 1.1rem; font-weight: 700;">CA Prop 65 Non-Phthalate Certified</h4>
         <p style="font-size: 0.88rem; color: #64748b; line-height: 1.6;">Stringent chemical screening certifying that plasticizers (DEHP, DBP, BBP, DINP, DIDP, DnOP) remain non-detectable or below 50 ppm, well within Californian toxic exposure limits.</p>
       </div>
 
       <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 22px;">
-        <h4 style="color: #0F172A; margin-bottom: 6px; font-size: 1.1rem; font-weight: 700;">GRS Recycled Standard (全球回收标准)</h4>
+        <h4 style="color: #0F172A; margin-bottom: 6px; font-size: 1.1rem; font-weight: 700;">GRS Recycled Standard (RPET)</h4>
         <p style="font-size: 0.88rem; color: #64748b; line-height: 1.6;">International voluntary standard tracking and verifying recycled polyester content from post-consumer PET bottles into plush fabrics and neck lanyards.</p>
       </div>
 
       <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 22px;">
-        <h4 style="color: #0F172A; margin-bottom: 6px; font-size: 1.1rem; font-weight: 700;">Tajima Digital Embroidery (田岛数控精密刺绣)</h4>
+        <h4 style="color: #0F172A; margin-bottom: 6px; font-size: 1.1rem; font-weight: 700;">Tajima Digital Precision Embroidery</h4>
         <p style="font-size: 0.88rem; color: #64748b; line-height: 1.6;">High-density computerized multi-head embroidery stitching up to 12 thread colors per tactical patch with merrowed or laser-cut heat-sealed borders.</p>
       </div>
 
       <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 22px;">
-        <h4 style="color: #0F172A; margin-bottom: 6px; font-size: 1.1rem; font-weight: 700;">3D Bas-Relief (多层立体浅浮雕)</h4>
+        <h4 style="color: #0F172A; margin-bottom: 6px; font-size: 1.1rem; font-weight: 700;">3D Bas-Relief Sculptural Molding</h4>
         <p style="font-size: 0.88rem; color: #64748b; line-height: 1.6;">Sculptural molding technique creating gradual curvature, realistic human/animal anatomical contours, and multi-tiered architectural depth on challenge coins and medals.</p>
       </div>
 
       <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 22px;">
-        <h4 style="color: #0F172A; margin-bottom: 6px; font-size: 1.1rem; font-weight: 700;">Antique Electroplating (仿古做旧电镀)</h4>
+        <h4 style="color: #0F172A; margin-bottom: 6px; font-size: 1.1rem; font-weight: 700;">Antique Electroplating &amp; Patina</h4>
         <p style="font-size: 0.88rem; color: #64748b; line-height: 1.6;">A two-step electroplating and chemical darkening process followed by manual reliefer polishing that leaves dark oxide in recesses to accentuate fine 3D details on challenge coins.</p>
       </div>
     </div>
@@ -563,7 +567,7 @@
       </div>
 
       <div class="footer-bottom">
-        <p>&copy; 2026 Jinjiang Naike Promo Co., Ltd. (晋江耐客生态科技有限公司). All Rights Reserved.</p>
+        <p>&copy; 2026 Jinjiang Naike Promo Co., Ltd.. All Rights Reserved.</p>
         <p>Engineered for Global B2B Brands &amp; Promotional Buyers | Port of Shipment: Xiamen Port / Quanzhou Port / Shenzhen Port</p>
       </div>
     </div>

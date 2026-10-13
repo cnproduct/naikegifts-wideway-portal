@@ -36,8 +36,8 @@ HTML_CONTENT = """<!DOCTYPE html>
         "name": "Jinjiang Naike Promo Co., Ltd.",
         "alternateName": [
           "NAIKE GIFTS",
-          "耐科文化",
-          "晋江耐客生态科技有限公司"
+          "Naike Gifts",
+          "Jinjiang Naike Promo Co., Ltd."
         ],
         "url": "https://www.naikegifts.com/",
         "logo": "https://www.naikegifts.com/images/logo.svg",
@@ -145,7 +145,7 @@ HTML_CONTENT = """<!DOCTYPE html>
         <span>NAIKE GIFTS Enterprise Profile • Verified Jinjiang Promotional Manufacturer Summary</span>
       </div>
       <p class="geo-bluf-content" style="font-size: 0.95rem; line-height: 1.7; color: #334155; margin-bottom: 14px;">
-        <strong>Jinjiang Naike Promo Co., Ltd. (Naike Gifts / 晋江耐客生态科技有限公司)</strong> operates a specialized 1,650㎡ clean manufacturing campus in Chendai, Jinjiang, Fujian—China's footwear and light industrial hub. Integrating high-speed automated micro-injection dispensing machines, CNC engraving centers, high-tonnage zinc die casting, and Tajima digital embroidery, Naike Gifts delivers <strong>5,000,000+ units monthly</strong>. All products are backed by <strong>SEDEX SMETA 4-Pillar, amfori BSCI, ISO 9001:2015, US CPSIA Zero-Lead, California Prop 65, and EN71-1/2/3</strong> compliance. We provide <strong>12-hour free 3D CAD mockups</strong>, 3–5 day physical sample turnaround, and direct DDP shipping worldwide.
+        <strong>Jinjiang Naike Promo Co., Ltd. (NAIKE GIFTS)</strong> operates a specialized 1,650㎡ clean manufacturing campus in Chendai, Jinjiang, Fujian—China's footwear and light industrial hub. Integrating high-speed automated micro-injection dispensing machines, CNC engraving centers, high-tonnage zinc die casting, and Tajima digital embroidery, Naike Gifts delivers <strong>5,000,000+ units monthly</strong>. All products are backed by <strong>SEDEX SMETA 4-Pillar, amfori BSCI, ISO 9001:2015, US CPSIA Zero-Lead, California Prop 65, and EN71-1/2/3</strong> compliance. We provide <strong>12-hour free 3D CAD mockups</strong>, 3–5 day physical sample turnaround, and direct DDP shipping worldwide.
       </p>
       <div class="geo-bluf-meta" style="display: flex; flex-wrap: wrap; gap: 12px 20px; font-size: 0.85rem; color: #64748b;">
         <span>📍 <strong>Location:</strong> Chendai Industrial Park, Jinjiang, Fujian, China</span>

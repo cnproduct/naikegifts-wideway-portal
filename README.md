@@ -7,7 +7,7 @@
 ## 🌟 Key Highlights & Engineering Truths
 
 - **Manufacturing Foundation**:
-  - **Company**: Jinjiang Naike Promo Co., Ltd. / 耐科文化 (`naikegifts.com`), founded in 2008 in Jinjiang, Fujian (China's Polymer Injection & Shoe Accessory Capital).
+  - **Company**: Jinjiang Naike Promo Co., Ltd. (NAIKE GIFTS, `naikegifts.com`), founded in 2008 in Jinjiang, Fujian (China's Polymer Injection & Shoe Accessory Capital).
   - **Facility**: 1,650 m² modernized clean production campus in Chendai Industrial Park.
   - **Workshops & Machinery**: 12 multi-color automated micro-injection dispensing lines, 6 high-pressure zinc alloy die-casting stations (88T–160T), 8 hydraulic stamping presses (up to 1,000 tons), 4 high-speed 5-axis CNC mold engraving centers, computerized Tajima embroidery lines, and pneumatic fiber filling lines.
   - **Monthly Capacity**: 2,500,000 pcs PVC shoe charms, 500,000 pcs custom medals & coins, 800,000 pcs enamel pins, 300,000 pcs bar mats & magnets, 150,000 pcs bespoke mascot plush toys.

@@ -848,7 +848,7 @@ def main():
     # Ensure company info has all correct facts
     c = site_data.get("company_info", {})
     c["name_en"] = "Jinjiang Naike Promo Co., Ltd."
-    c["name_zh"] = "晋江耐客生态科技有限公司"
+    c["name_zh"] = ""
     c["brand_name"] = "NAIKE GIFTS"
     c["logo_text"] = "NAIKE GIFTS"
     c["domain"] = "naikegifts.com"

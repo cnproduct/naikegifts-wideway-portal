@@ -1,4 +1,4 @@
-/* Jinjiang Wideway Import & Export Co., Ltd. (WIDEWAY GROUP) - Footwear Interactivity Scripts */
+/* Jinjiang Naike Promo Co., Ltd. (NAIKE GIFTS) - Promotional Gifts Interactivity Scripts */
 document.addEventListener('DOMContentLoaded', () => {
   initAntiCloningProtection();
   initCompassNavigation();
@@ -16,6 +16,41 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // 1. Sitemap Navigation Control (Rock-Solid Click-Driven Modal with Backdrop & Close Button)
+window.toggleSitemap = function(e) {
+  if (e) {
+    e.preventDefault();
+    e.stopPropagation();
+  }
+  const container = document.getElementById('compassNav');
+  const trigger = document.getElementById('compassTrigger');
+  const backdrop = document.getElementById('compassBackdrop');
+  if (!container) return;
+  if (container.classList.contains('active')) {
+    container.classList.remove('active');
+    if (trigger) trigger.setAttribute('aria-expanded', 'false');
+    if (backdrop) backdrop.classList.remove('active');
+  } else {
+    container.classList.add('active');
+    if (trigger) trigger.setAttribute('aria-expanded', 'true');
+    if (backdrop) backdrop.classList.add('active');
+  }
+};
+
+window.closeSitemap = function(e) {
+  if (e) {
+    e.preventDefault();
+    e.stopPropagation();
+  }
+  const container = document.getElementById('compassNav');
+  const trigger = document.getElementById('compassTrigger');
+  const backdrop = document.getElementById('compassBackdrop');
+  if (container) {
+    container.classList.remove('active');
+    if (trigger) trigger.setAttribute('aria-expanded', 'false');
+    if (backdrop) backdrop.classList.remove('active');
+  }
+};
+
 function initCompassNavigation() {
   const container = document.getElementById('compassNav');
   const trigger = document.getElementById('compassTrigger');
@@ -25,6 +60,8 @@ function initCompassNavigation() {
   const menuItems = document.querySelectorAll('.compass-item');
 
   if (!container || !trigger) return;
+  if (trigger.dataset.sitemapBound === 'true') return;
+  trigger.dataset.sitemapBound = 'true';
 
   function openMenu() {
     container.classList.add('active');
@@ -421,7 +458,7 @@ function initTrustedBrands() {
   }
 }
 
-// 10. High-Performance IntersectionObserver Number Counter (跳转数字 / Odometer)
+// 10. High-Performance IntersectionObserver Number Counter (Odometer)
 function initNumberCounters() {
   const statSelectors = [
     '.stat-number', '.counter', '[data-counter]',
@@ -908,14 +945,15 @@ function initWhatsAppWidget() {
 function initAntiCloningProtection() {
   try {
     // 1. Domain verification: Detect unauthorized reverse proxies / mirror cloners
-    const canonicalHost = 'www.widewayfootwear.com';
+    const canonicalHost = 'www.naikegifts.com';
     const currentHost = window.location.hostname ? window.location.hostname.toLowerCase() : '';
     
     // Whitelist legitimate local development, IP previews, and canonical domain
     const isWhitelisted = (
       currentHost === '' ||
-      currentHost === 'widewayfootwear.com' ||
-      currentHost === 'www.widewayfootwear.com' ||
+      currentHost === 'naikegifts.com' ||
+      currentHost === 'www.naikegifts.com' ||
+      currentHost.endsWith('github.io') ||
       currentHost === 'localhost' ||
       currentHost === '127.0.0.1' ||
       currentHost === '0.0.0.0' ||
@@ -928,7 +966,7 @@ function initAntiCloningProtection() {
     );
 
     if (!isWhitelisted && typeof window !== 'undefined' && window.location) {
-      console.warn('⚠️ Security Alert: Unauthorized domain cloning detected. Redirecting to authentic WIDEWAY source.');
+      console.warn('⚠️ Security Alert: Unauthorized domain cloning detected. Redirecting to authentic NAIKE GIFTS source.');
       const targetUrl = 'https://' + canonicalHost + window.location.pathname + window.location.search + window.location.hash;
       window.location.replace(targetUrl);
       return;

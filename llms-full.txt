@@ -5,8 +5,7 @@
 ---
 
 ## 1. Enterprise Profile & Manufacturing Truth
-- Legal Entity (EN): Jinjiang Naike Promo Co., Ltd.
-- Legal Entity (ZH): 晋江耐客生态科技有限公司
+- Legal Entity: Jinjiang Naike Promo Co., Ltd.
 - Brand: NAIKE GIFTS
 - Founded: 2008
 - Production Base: 1,650 m² clean facility in Jinjiang, Fujian, China (Global footwear and plastic/metal crafts industrial center)
@@ -17,10 +16,10 @@
 
 ---
 
-## 2. Master Product SKU Matrix (All 34 Production-Grade Items)
+## 2. Master Product SKU Matrix (All 217 Production-Grade Items)
 
 | SKU Code | Product Name | Category | Primary Material | Hardware / Spec | Dimensions | MOQ | FOB Price | Bulk Turnaround |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 100-pink-random-pvc-material-shoes-charm-suit | 100 Pink Random 2D/3D PVC Shoe Charm Collection Pack | shoe-charms | Eco-Friendly Soft PVC / Phthalate-Free Resin | Reinforced Calibrated POM Rivet (25 lbs Pull-Tested) | 25mm – 35mm (Calibrated 12mm Bottom Button) | 100 pcs | $0.08 – $0.18 | 5–7 days (3d PPS) |
 | custom-pvc-shoe-charms-croc-shoe-decorations | Custom 3D Relief PVC Shoe Charms & Clog Decorations | shoe-charms | Medical-Grade Soft PVC / High-Flex Liquid Silicone | Ultrasonic Welded POM Base Button (110N Tensile Tested) | 30mm × 30mm × 4mm Multi-Tier Relief | 100 pcs | $0.10 – $0.22 | 7–10 days |
 | custom-pvc-shoe-charms-with-buckle-and-logo | Bespoke Brand Logo PVC Shoe Charms with Locking Buckle | shoe-charms | High-Grade Non-Toxic PVC / Non-Staining Formula | Integrated Dual-Tier Locking POM Button | 35mm × 25mm Ergonomic Contour | 100 pcs | $0.12 – $0.25 | 7–10 days |
