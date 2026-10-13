@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
-Generate publication-grade index.html for Naike Gifts
-conforming to the Global Clean URLs Standard and Wideway framework.
+Generate publication-grade index.html for Custom Swag Factory
+conforming to the Global Clean URLs Standard, Wideway framework,
+and high-converting B2B Swag keywords.
 """
 
 from pathlib import Path
@@ -13,15 +14,15 @@ HTML_CONTENT = """<!DOCTYPE html>
 <head>
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>Custom Promotional Gifts, PVC Shoe Charms &amp; Metal Awards Manufacturer | NAIKE GIFTS</title>
-  <meta content="Jinjiang Naike Promo Co., Ltd. (Naike Gifts) is a premier manufacturer of 3D soft PVC shoe charms, custom marathon finisher medals, enamel lapel pins, challenge coins, bar service mats, and bespoke mascot plush toys. SEDEX SMETA 4-Pillar, BSCI, and ISO 9001 certified with 12-hour free 3D CAD proofing." name="description"/>
+  <title>Custom Swag Factory | Enterprise Corporate Swag, Custom Swag Boxes &amp; Event Merchandise Manufacturer</title>
+  <meta content="Jinjiang Naike Promo Co., Ltd. (Custom Swag Factory) is a premier manufacturer of custom corporate swag, employee onboarding swag boxes, event swag kits, 3D soft PVC shoe charms, custom marathon finisher medals, enamel lapel pins, challenge coins, bar service mats, and bespoke mascot plush toys. SEDEX SMETA 4-Pillar, BSCI, and ISO 9001 certified with 12-hour free 3D CAD proofing." name="description"/>
   <link href="css/style.css?v=20260913_09" rel="stylesheet"/>
   <link rel="icon" type="image/svg+xml" href="images/logo.svg"/>
-  <meta property="og:title" content="Custom Promotional Gifts &amp; Metal Crafts Manufacturer | NAIKE GIFTS"/>
-  <meta property="og:description" content="Factory-direct 3D PVC shoe charms, marathon finisher medals, enamel lapel pins, challenge coins, bar mats, and mascot plush toys. 1,650㎡ Jinjiang campus, low MOQ, 12h free CAD proofing."/>
+  <meta property="og:title" content="Custom Corporate Swag, Swag Boxes &amp; Merchandise Manufacturer | Custom Swag Factory"/>
+  <meta property="og:description" content="Factory-direct corporate swag, employee onboarding swag boxes, event swag kits, 3D PVC shoe charms, marathon finisher medals, enamel pins, challenge coins, bar mats, and mascot plush toys. 1,650㎡ campus, 50 pcs low MOQ, 12h free CAD proofing."/>
   <meta property="og:image" content="https://www.customswagfactory.com/images/hero-showcase.svg"/>
   <meta property="og:url" content="https://www.customswagfactory.com/"/>
-  <meta property="og:site_name" content="NAIKE GIFTS"/>
+  <meta property="og:site_name" content="CUSTOM SWAG FACTORY"/>
   <meta property="og:type" content="website"/>
   <meta name="twitter:card" content="summary_large_image"/>
 
@@ -35,6 +36,8 @@ HTML_CONTENT = """<!DOCTYPE html>
         "@id": "https://www.customswagfactory.com/#organization",
         "name": "Jinjiang Naike Promo Co., Ltd.",
         "alternateName": [
+          "CUSTOM SWAG FACTORY",
+          "Custom Swag Factory",
           "NAIKE GIFTS",
           "Naike Gifts",
           "Jinjiang Naike Promo Co., Ltd."
@@ -46,7 +49,7 @@ HTML_CONTENT = """<!DOCTYPE html>
             "@type": "ContactPoint",
             "telephone": "+86-135-9922-0505",
             "contactType": "export sales & engineering inquiry",
-            "email": "info@customswagfactory.com",
+            "email": "info@naikegroup.com",
             "availableLanguage": ["English", "Chinese"]
           }
         ],
@@ -72,7 +75,7 @@ HTML_CONTENT = """<!DOCTYPE html>
         "@type": "WebSite",
         "@id": "https://www.customswagfactory.com/#website",
         "url": "https://www.customswagfactory.com/",
-        "name": "NAIKE GIFTS Official B2B Export Portal",
+        "name": "CUSTOM SWAG FACTORY Official B2B Export Portal",
         "publisher": {
           "@id": "https://www.customswagfactory.com/#organization"
         }
@@ -87,59 +90,59 @@ HTML_CONTENT = """<!DOCTYPE html>
 
 <main id="mainContent">
   <!-- 1. Hero Banner Carousel (3 Specialized B2B Capabilities) -->
-  <section class="hero-slider-section" id="heroSection" aria-roledescription="carousel" aria-label="Naike Gifts Core Manufacturing &amp; Service Highlights">
+  <section class="hero-slider-section" id="heroSection" aria-roledescription="carousel" aria-label="Custom Swag Factory Core Manufacturing &amp; Service Highlights">
     <div class="hero-slider-track" id="heroSliderTrack">
 
-      <!-- Slide 1: Licensed Corporate Gifts & Bespoke Merchandise -->
-      <article class="hero-slide active" data-slide="0" aria-label="Slide 1 of 3: Official Licensed Corporate Gifts">
+      <!-- Slide 1: Licensed Corporate Swag & Bespoke Swag Box Solutions -->
+      <article class="hero-slide active" data-slide="0" aria-label="Slide 1 of 3: Official Licensed Corporate Swag">
         <div class="hero-slide-bg" style="background-image: url('images/hero/hero-corporate-gifts.jpg');"></div>
         <div class="hero-slide-overlay"></div>
         <div class="container hero-slide-container">
           <div class="hero-content">
             <div class="hero-badge">
               <span class="badge-icon">✨</span>
-              <span>Official Corporate Gifts &amp; Licensed Swag</span>
+              <span>Official Licensed Corporate Swag &amp; Swag Packs</span>
             </div>
             <h1 class="hero-title">
-              Official Licensed Corporate Gifts &amp; <br/>
-              <span class="hero-accent">Bespoke Merchandise Solutions.</span>
+              Official Licensed Corporate Swag &amp; <br/>
+              <span class="hero-accent">Bespoke Swag Box Solutions.</span>
             </h1>
             <p class="hero-desc">
-              Direct Jinjiang promotional crafts manufacturing for global brands, sporting events, and corporate gifting. Specializing in 3D soft PVC shoe charms, custom marathon finisher medals, cloisonné enamel lapel pins, dual-tone challenge coins, bar service mats, and bespoke mascot plush toys. Certified by SEDEX SMETA 4-Pillar, amfori BSCI, and ISO 9001.
+              Direct factory manufacturing for global brands, tech companies, enterprise HR teams, and corporate gifting. Specializing in bespoke employee onboarding swag boxes, event swag kits, 3D soft PVC shoe charms, custom marathon medals, cloisonné enamel lapel pins, challenge coins, bar service mats, and bespoke mascot plush toys. Certified by SEDEX SMETA 4-Pillar, amfori BSCI, and ISO 9001.
             </p>
             <div class="hero-actions">
-              <a class="btn btn-primary btn-hero-cta" href="/products">Explore 217+ Production SKUs &rarr;</a>
-              <a class="btn btn-secondary btn-hero-secondary" href="/case-studies">Global Brand Cases</a>
-              <a class="btn btn-outline btn-hero-outline" href="/contact">Request Free 12h Mockup</a>
+              <a class="btn btn-primary btn-hero-cta" href="/products">Explore 217+ Swag Production SKUs &rarr;</a>
+              <a class="btn btn-secondary btn-hero-secondary" href="/case-studies">Global Brand Swag Cases</a>
+              <a class="btn btn-outline btn-hero-outline" href="/contact">Request Free 12h Swag Mockup</a>
             </div>
             <div class="hero-trust-strip">
-              <span class="trust-item"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg> 217+ Active Production SKUs</span>
-              <span class="trust-item"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg> SMETA 4-Pillar &amp; BSCI Audited</span>
-              <span class="trust-item"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg> Retail Packaging &amp; Gift Sets</span>
+              <span class="trust-item"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg> 217+ Active Swag Production SKUs</span>
+              <span class="trust-item"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg> SMETA 4-Pillar &amp; BSCI Audited Swag Plant</span>
+              <span class="trust-item"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg> Custom Swag Boxes &amp; Gift Sets</span>
             </div>
           </div>
         </div>
       </article>
 
       <!-- Slide 2: Strong Factory Manufacturing Ability -->
-      <article class="hero-slide" data-slide="1" aria-label="Slide 2 of 3: Massive Industrial Capacity">
+      <article class="hero-slide" data-slide="1" aria-label="Slide 2 of 3: Massive Swag Manufacturing Capacity">
         <div class="hero-slide-bg" style="background-image: url('images/hero/hero-factory-ability.jpg');"></div>
         <div class="hero-slide-overlay"></div>
         <div class="container hero-slide-container">
           <div class="hero-content">
             <div class="hero-badge badge-mfg">
               <span class="badge-icon">🏭</span>
-              <span>1,650㎡ Clean Campus • Jinjiang Manufacturing</span>
+              <span>1,650㎡ Clean Campus • High-Speed Swag Manufacturing</span>
             </div>
             <h1 class="hero-title">
-              Massive Industrial Tooling Capacity: <br/>
+              Massive Swag Manufacturing Capacity: <br/>
               <span class="hero-accent">5,000,000+ Units Monthly Output.</span>
             </h1>
             <p class="hero-desc">
-              18-year precision manufacturing heritage in Fujian's light industrial core. Operating 12 automated multi-color micro-injection robotic dispensing lines, high-tonnage zinc alloy die-casting stations (88T–160T), 4 high-speed 5-axis CNC mold engraving centers, and computerized Tajima embroidery. Built for large-scale enterprise contracts and flawless repeatability.
+              18-year precision manufacturing heritage in Fujian's light industrial core. Operating 12 automated multi-color micro-injection robotic dispensing lines, high-tonnage zinc alloy die-casting stations (88T–160T), 4 high-speed 5-axis CNC mold engraving centers, and computerized Tajima embroidery. Built for enterprise company swag programs, global trade show launches, and turnkey bulk delivery.
             </p>
             <div class="hero-actions">
-              <a class="btn btn-primary btn-hero-cta" href="/production-capacity">Tour Factory Capacity &rarr;</a>
+              <a class="btn btn-primary btn-hero-cta" href="/production-capacity">Tour Swag Production Capacity &rarr;</a>
               <a class="btn btn-secondary btn-hero-secondary" href="/videos">Watch 4K Factory Tour</a>
               <a class="btn btn-outline btn-hero-outline" href="/quality-control">15kg Rivet Pull Lab</a>
             </div>
@@ -153,26 +156,26 @@ HTML_CONTENT = """<!DOCTYPE html>
       </article>
 
       <!-- Slide 3: Professional Service & Rapid Turnaround -->
-      <article class="hero-slide" data-slide="2" aria-label="Slide 3 of 3: Professional B2B Service">
+      <article class="hero-slide" data-slide="2" aria-label="Slide 3 of 3: Professional B2B Swag Service">
         <div class="hero-slide-bg" style="background-image: url('images/hero/hero-professional-service.jpg');"></div>
         <div class="hero-slide-overlay"></div>
         <div class="container hero-slide-container">
           <div class="hero-content">
             <div class="hero-badge badge-service">
               <span class="badge-icon">⚡</span>
-              <span>12h Proofing • Low MOQ • Global DDP Delivery</span>
+              <span>12h Swag Proofing • 50 Pcs Low MOQ • Global DDP Delivery</span>
             </div>
             <h1 class="hero-title">
-              12-Hour Free 3D CAD Mockups &amp; <br/>
+              12-Hour Free 3D Swag Proofs &amp; <br/>
               <span class="hero-accent">Flexible Low MOQ from 50 Pcs.</span>
             </h1>
             <p class="hero-desc">
-              Experience seamless B2B sourcing engineered for agile brands. Send your logo, sketch, or 2D vector file to receive free 3D digital CAD proofs and mold cross-sections within 12 hours. Rapid physical pre-production samples delivered in 3–5 days, backed by 1v1 dedicated engineering consultation and turnkey door-to-door DDP logistics.
+              Experience turnkey corporate swag sourcing engineered for marketing leaders, HR professionals, and agency buyers. Send your logo, sketch, or 2D vector graphic to receive free 3D digital CAD proofs and packaging mockups within 12 hours. Rapid physical pre-production samples delivered in 3–5 days, backed by 1v1 dedicated engineering consultation and turnkey door-to-door DDP logistics.
             </p>
             <div class="hero-actions">
-              <a class="btn btn-primary btn-hero-cta" href="/contact">Request 12h Free Mockup &rarr;</a>
-              <a class="btn btn-secondary btn-hero-secondary" href="/oem-odm">OEM/ODM 3D Tooling Guide</a>
-              <a class="btn btn-outline btn-hero-outline" href="/knowledge-base">B2B Buyer FAQ</a>
+              <a class="btn btn-primary btn-hero-cta" href="/contact">Request 12h Free Swag Mockup &rarr;</a>
+              <a class="btn btn-secondary btn-hero-secondary" href="/oem-odm">OEM/ODM Swag Tooling Guide</a>
+              <a class="btn btn-outline btn-hero-outline" href="/knowledge-base">Corporate Swag Buyer FAQ</a>
             </div>
             <div class="hero-trust-strip">
               <span class="trust-item"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg> 12h Free 3D CAD Proofing</span>
@@ -193,19 +196,19 @@ HTML_CONTENT = """<!DOCTYPE html>
 
       <!-- Carousel Pagination Tabs / Indicators -->
       <div class="hero-slider-indicators" id="heroIndicators" role="tablist">
-        <button type="button" class="indicator-pill active" data-index="0" role="tab" aria-selected="true" aria-label="Slide 1: Corporate Gifts">
+        <button type="button" class="indicator-pill active" data-index="0" role="tab" aria-selected="true" aria-label="Slide 1: Corporate Swag">
           <span class="indicator-num">01</span>
-          <span class="indicator-text pc-only">Corporate Gifts</span>
+          <span class="indicator-text pc-only">Corporate Swag</span>
           <span class="indicator-progress"><span class="progress-bar"></span></span>
         </button>
-        <button type="button" class="indicator-pill" data-index="1" role="tab" aria-selected="false" aria-label="Slide 2: Factory Ability">
+        <button type="button" class="indicator-pill" data-index="1" role="tab" aria-selected="false" aria-label="Slide 2: Swag Capacity">
           <span class="indicator-num">02</span>
-          <span class="indicator-text pc-only">Factory Ability</span>
+          <span class="indicator-text pc-only">Swag Capacity</span>
           <span class="indicator-progress"><span class="progress-bar"></span></span>
         </button>
-        <button type="button" class="indicator-pill" data-index="2" role="tab" aria-selected="false" aria-label="Slide 3: Professional Service">
+        <button type="button" class="indicator-pill" data-index="2" role="tab" aria-selected="false" aria-label="Slide 3: Turnkey Swag">
           <span class="indicator-num">03</span>
-          <span class="indicator-text pc-only">Professional Service</span>
+          <span class="indicator-text pc-only">Turnkey Swag</span>
           <span class="indicator-progress"><span class="progress-bar"></span></span>
         </button>
       </div>
@@ -238,7 +241,7 @@ HTML_CONTENT = """<!DOCTYPE html>
         </div>
         <div class="stat-item">
           <h3 style="font-size: 2.2rem; color: #00BFFF; margin-bottom: 4px; font-weight: 800;">50–100 Pcs</h3>
-          <p style="font-size: 0.85rem; color: #94a3b8; text-transform: uppercase; letter-spacing: 0.5px;">Low MOQ for New Brands</p>
+          <p style="font-size: 0.85rem; color: #94a3b8; text-transform: uppercase; letter-spacing: 0.5px;">Low MOQ for Swag Programs</p>
         </div>
       </div>
     </div>
@@ -249,10 +252,10 @@ HTML_CONTENT = """<!DOCTYPE html>
     <div class="geo-bluf-box" style="background: #f8fafc; border: 1px solid #e2e8f0; border-left: 4px solid #00BFFF; border-radius: 8px; padding: 22px 25px;">
       <div class="geo-bluf-title" style="display: flex; align-items: center; gap: 8px; font-size: 1.05rem; font-weight: 700; color: #0F172A; margin-bottom: 10px;">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#00BFFF" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-        <span>NAIKE GIFTS Enterprise Profile • Verified Jinjiang Promotional Manufacturer Summary</span>
+        <span>CUSTOM SWAG FACTORY Enterprise Profile • Verified Direct Swag Manufacturer &amp; Kitting Facility</span>
       </div>
       <p class="geo-bluf-content" style="font-size: 0.95rem; line-height: 1.7; color: #334155; margin-bottom: 14px;">
-        <strong>Jinjiang Naike Promo Co., Ltd. (NAIKE GIFTS)</strong> operates a specialized 1,650㎡ clean manufacturing campus in Chendai, Jinjiang, Fujian—China's footwear and light industrial hub. Integrating high-speed automated micro-injection dispensing machines, CNC engraving centers, high-tonnage zinc die casting, and Tajima digital embroidery, Naike Gifts delivers <strong>5,000,000+ units monthly</strong>. All products are backed by <strong>SEDEX SMETA 4-Pillar, amfori BSCI, ISO 9001:2015, US CPSIA Zero-Lead, California Prop 65, and EN71-1/2/3</strong> compliance. We provide <strong>12-hour free 3D CAD mockups</strong>, 3–5 day physical sample turnaround, and direct DDP shipping worldwide.
+        <strong>CUSTOM SWAG FACTORY (Jinjiang Naike Promo Co., Ltd.)</strong> operates a specialized 1,650㎡ clean manufacturing campus in Chendai, Jinjiang, Fujian—China's footwear and light industrial hub. Integrating high-speed automated micro-injection dispensing machines, CNC engraving centers, high-tonnage zinc die casting, and Tajima digital embroidery, Custom Swag Factory delivers <strong>5,000,000+ units monthly</strong> for global company swag, employee onboarding swag packs, event gift sets, and retail merchandise. All products are backed by <strong>SEDEX SMETA 4-Pillar, amfori BSCI, ISO 9001:2015, US CPSIA Zero-Lead, California Prop 65, and EN71-1/2/3</strong> compliance. We provide <strong>12-hour free 3D CAD mockups</strong>, 3–5 day physical sample turnaround, custom unboxing packaging, and direct DDP shipping worldwide.
       </p>
       <div class="geo-bluf-meta" style="display: flex; flex-wrap: wrap; gap: 12px 20px; font-size: 0.85rem; color: #64748b;">
         <span>📍 <strong>Location:</strong> Chendai Industrial Park, Jinjiang, Fujian, China</span>
@@ -268,39 +271,39 @@ HTML_CONTENT = """<!DOCTYPE html>
   <section class="section container" style="padding: 50px 0 40px 0;">
     <div style="text-align: center; max-width: 800px; margin: 0 auto 35px auto;">
       <span style="font-size: 0.85rem; font-weight: 700; color: #00BFFF; text-transform: uppercase; letter-spacing: 1.5px;">Core Manufacturing Verticals</span>
-      <h2 style="font-size: 2.2rem; color: #0F172A; margin: 8px 0 12px 0; font-weight: 800;">8 Specialized Promotional Product Lines</h2>
-      <p style="color: #64748b; font-size: 1rem; line-height: 1.6;">Direct factory manufacturing spanning 3D soft PVC micro-injection, zinc alloy die casting, fabric weaving, and plush sewing. Engineered to exceed international compliance standards.</p>
+      <h2 style="font-size: 2.2rem; color: #0F172A; margin: 8px 0 12px 0; font-weight: 800;">8 Specialized Corporate Swag &amp; Merchandise Lines</h2>
+      <p style="color: #64748b; font-size: 1rem; line-height: 1.6;">Direct factory manufacturing spanning 3D soft PVC micro-injection, zinc alloy die casting, fabric weaving, and plush sewing. Engineered for custom company swag packs, event kits, and executive gifting.</p>
     </div>
 
     <div class="grid grid-4 reveal" style="gap: 20px;">
       <!-- Category 1: Shoe Charms -->
       <a href="/shoe-charms-wholesale" class="category-card" style="background: #fff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 22px; text-decoration: none; color: inherit; display: flex; flex-direction: column; transition: transform 0.3s ease, box-shadow 0.3s ease;">
         <div style="font-size: 2.2rem; margin-bottom: 12px;">👟</div>
-        <h3 style="font-size: 1.15rem; color: #0F172A; margin-bottom: 8px; font-weight: 700;">3D PVC Shoe Charms</h3>
-        <p style="font-size: 0.85rem; color: #64748b; line-height: 1.5; margin-bottom: 12px; flex: 1;">Calibrated 12mm POM mushroom rivets tested to 15kg pull force. LED flashing, rhinestone crystal, and 3D sneaker models.</p>
+        <h3 style="font-size: 1.15rem; color: #0F172A; margin-bottom: 8px; font-weight: 700;">3D PVC Shoe Charms &amp; Clog Swag</h3>
+        <p style="font-size: 0.85rem; color: #64748b; line-height: 1.5; margin-bottom: 12px; flex: 1;">Calibrated 12mm POM mushroom rivets tested to 15kg pull force. Custom branded charms, LED flashing, and 3D retail clog swag.</p>
         <span style="font-size: 0.82rem; font-weight: 700; color: #00BFFF;">6 SKUs &bull; View Wholesale &rarr;</span>
       </a>
 
       <!-- Category 2: Medals -->
       <a href="/custom-medals-awards-wholesale" class="category-card" style="background: #fff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 22px; text-decoration: none; color: inherit; display: flex; flex-direction: column; transition: transform 0.3s ease, box-shadow 0.3s ease;">
         <div style="font-size: 2.2rem; margin-bottom: 12px;">🏅</div>
-        <h3 style="font-size: 1.15rem; color: #0F172A; margin-bottom: 8px; font-weight: 700;">Custom Marathon Medals</h3>
-        <p style="font-size: 0.85rem; color: #64748b; line-height: 1.5; margin-bottom: 12px; flex: 1;">Heavy die-cast zinc alloy, 360° spinning kinetic medallions, translucent stained glass awards, and full-color sublimation ribbons.</p>
+        <h3 style="font-size: 1.15rem; color: #0F172A; margin-bottom: 8px; font-weight: 700;">Custom Marathon Medals &amp; Sports Swag</h3>
+        <p style="font-size: 0.85rem; color: #64748b; line-height: 1.5; margin-bottom: 12px; flex: 1;">Heavy die-cast zinc alloy, 360° spinning kinetic medallions, translucent stained glass awards, and race finisher swag ribbons.</p>
         <span style="font-size: 0.82rem; font-weight: 700; color: #00BFFF;">5 SKUs &bull; View Wholesale &rarr;</span>
       </a>
 
       <!-- Category 3: Lapel Pins -->
       <a href="/enamel-lapel-pins-manufacturer" class="category-card" style="background: #fff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 22px; text-decoration: none; color: inherit; display: flex; flex-direction: column; transition: transform 0.3s ease, box-shadow 0.3s ease;">
         <div style="font-size: 2.2rem; margin-bottom: 12px;">📌</div>
-        <h3 style="font-size: 1.15rem; color: #0F172A; margin-bottom: 8px; font-weight: 700;">Enamel Lapel Pins</h3>
-        <p style="font-size: 0.85rem; color: #64748b; line-height: 1.5; margin-bottom: 12px; flex: 1;">Museum-grade hard enamel (cloisonné), dimensional soft enamel die-struck pins, glow-in-the-dark, and 3D antique badges.</p>
+        <h3 style="font-size: 1.15rem; color: #0F172A; margin-bottom: 8px; font-weight: 700;">Enamel Lapel Pins &amp; Conference Swag</h3>
+        <p style="font-size: 0.85rem; color: #64748b; line-height: 1.5; margin-bottom: 12px; flex: 1;">Museum-grade hard enamel (cloisonné), dimensional soft enamel die-struck pins, glow-in-the-dark badges, and tech conference trade show swag.</p>
         <span style="font-size: 0.82rem; font-weight: 700; color: #00BFFF;">5 SKUs &bull; View Wholesale &rarr;</span>
       </a>
 
       <!-- Category 4: Challenge Coins -->
       <a href="/challenge-coins-wholesale-supplier" class="category-card" style="background: #fff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 22px; text-decoration: none; color: inherit; display: flex; flex-direction: column; transition: transform 0.3s ease, box-shadow 0.3s ease;">
         <div style="font-size: 2.2rem; margin-bottom: 12px;">🪙</div>
-        <h3 style="font-size: 1.15rem; color: #0F172A; margin-bottom: 8px; font-weight: 700;">3D Military Challenge Coins</h3>
+        <h3 style="font-size: 1.15rem; color: #0F172A; margin-bottom: 8px; font-weight: 700;">3D Military Challenge Coins &amp; Executive Swag</h3>
         <p style="font-size: 0.85rem; color: #64748b; line-height: 1.5; margin-bottom: 12px; flex: 1;">4mm heavyweight zinc alloy with diamond-cut spiral rope edges, dual-sided 3D bas-relief, laser serialization, and opener coins.</p>
         <span style="font-size: 0.82rem; font-weight: 700; color: #00BFFF;">3 SKUs &bull; View Wholesale &rarr;</span>
       </a>
@@ -308,23 +311,23 @@ HTML_CONTENT = """<!DOCTYPE html>
       <!-- Category 5: Barware & Magnets -->
       <a href="/soft-pvc-barware-magnets-supplier" class="category-card" style="background: #fff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 22px; text-decoration: none; color: inherit; display: flex; flex-direction: column; transition: transform 0.3s ease, box-shadow 0.3s ease;">
         <div style="font-size: 2.2rem; margin-bottom: 12px;">🍺</div>
-        <h3 style="font-size: 1.15rem; color: #0F172A; margin-bottom: 8px; font-weight: 700;">PVC Bar Mats &amp; Magnets</h3>
-        <p style="font-size: 0.85rem; color: #64748b; line-height: 1.5; margin-bottom: 12px; flex: 1;">Heavy-duty 10mm spill-proof bar runners, heat-resistant coasters, 3D relief fridge magnets with bottle openers, and luggage tags.</p>
+        <h3 style="font-size: 1.15rem; color: #0F172A; margin-bottom: 8px; font-weight: 700;">PVC Bar Mats, Coasters &amp; Beverage Swag</h3>
+        <p style="font-size: 0.85rem; color: #64748b; line-height: 1.5; margin-bottom: 12px; flex: 1;">Heavy-duty 10mm spill-proof bar runners, heat-resistant coasters, 3D relief fridge magnets with bottle openers, and brewery swag.</p>
         <span style="font-size: 0.82rem; font-weight: 700; color: #00BFFF;">5 SKUs &bull; View Wholesale &rarr;</span>
       </a>
 
       <!-- Category 6: Keychains -->
       <a href="/custom-keychains-wholesale-supplier" class="category-card" style="background: #fff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 22px; text-decoration: none; color: inherit; display: flex; flex-direction: column; transition: transform 0.3s ease, box-shadow 0.3s ease;">
         <div style="font-size: 2.2rem; margin-bottom: 12px;">🔑</div>
-        <h3 style="font-size: 1.15rem; color: #0F172A; margin-bottom: 8px; font-weight: 700;">Spinning Fidget Keychains</h3>
-        <p style="font-size: 0.85rem; color: #64748b; line-height: 1.5; margin-bottom: 12px; flex: 1;">ABEC-7 precision ball bearing spinning keyrings, 3D rubber sneaker miniatures, heavy embroidered flight tags, and acrylic keychains.</p>
+        <h3 style="font-size: 1.15rem; color: #0F172A; margin-bottom: 8px; font-weight: 700;">Spinning Keychains &amp; Everyday Carry Swag</h3>
+        <p style="font-size: 0.85rem; color: #64748b; line-height: 1.5; margin-bottom: 12px; flex: 1;">ABEC-7 precision ball bearing spinning keyrings, 3D rubber sneaker miniatures, heavy embroidered flight tags, and EDC swag.</p>
         <span style="font-size: 0.82rem; font-weight: 700; color: #00BFFF;">4 SKUs &bull; View Wholesale &rarr;</span>
       </a>
 
       <!-- Category 7: Lanyards & Patches -->
       <a href="/lanyards-patches-manufacturer" class="category-card" style="background: #fff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 22px; text-decoration: none; color: inherit; display: flex; flex-direction: column; transition: transform 0.3s ease, box-shadow 0.3s ease;">
         <div style="font-size: 2.2rem; margin-bottom: 12px;">🎗️</div>
-        <h3 style="font-size: 1.15rem; color: #0F172A; margin-bottom: 8px; font-weight: 700;">Lanyards &amp; Morale Patches</h3>
+        <h3 style="font-size: 1.15rem; color: #0F172A; margin-bottom: 8px; font-weight: 700;">Lanyards, Morale Patches &amp; Event Swag Packs</h3>
         <p style="font-size: 0.85rem; color: #64748b; line-height: 1.5; margin-bottom: 12px; flex: 1;">Full-color dye-sublimation lanyards with safety buckles, tactical velcro morale patches, medical-grade silicone wristbands, and woven labels.</p>
         <span style="font-size: 0.82rem; font-weight: 700; color: #00BFFF;">4 SKUs &bull; View Wholesale &rarr;</span>
       </a>
@@ -332,8 +335,8 @@ HTML_CONTENT = """<!DOCTYPE html>
       <!-- Category 8: Mascot Plush & Swag -->
       <a href="/plush-mascot-toys-wholesale" class="category-card" style="background: #fff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 22px; text-decoration: none; color: inherit; display: flex; flex-direction: column; transition: transform 0.3s ease, box-shadow 0.3s ease;">
         <div style="font-size: 2.2rem; margin-bottom: 12px;">🧸</div>
-        <h3 style="font-size: 1.15rem; color: #0F172A; margin-bottom: 8px; font-weight: 700;">Mascot Plush &amp; Swag Kits</h3>
-        <p style="font-size: 0.85rem; color: #64748b; line-height: 1.5; margin-bottom: 12px; flex: 1;">100% GRS RPET crystal velvet character dolls with Tajima digital embroidery and needle detection safety. Plus turnkey VIP presentation mailer boxes.</p>
+        <h3 style="font-size: 1.15rem; color: #0F172A; margin-bottom: 8px; font-weight: 700;">Mascot Plush Toys &amp; Curated Swag Boxes</h3>
+        <p style="font-size: 0.85rem; color: #64748b; line-height: 1.5; margin-bottom: 12px; flex: 1;">100% GRS RPET crystal velvet character dolls with Tajima digital embroidery and needle detection safety. Plus turnkey VIP employee onboarding swag boxes.</p>
         <span style="font-size: 0.82rem; font-weight: 700; color: #00BFFF;">2 SKUs &bull; View Wholesale &rarr;</span>
       </a>
     </div>
@@ -344,8 +347,8 @@ HTML_CONTENT = """<!DOCTYPE html>
     <div class="container">
       <div style="text-align: center; max-width: 780px; margin: 0 auto 40px auto;">
         <span class="hero-badge" style="background: #eff6ff; color: #1d4ed8; border: 1px solid #bfdbfe; padding: 5px 12px; border-radius: 16px; font-size: 0.8rem; font-weight: 700; text-transform: uppercase;">1,650㎡ Clean Production Campus</span>
-        <h2 style="font-size: clamp(1.8rem, 3.5vw, 2.5rem); color: #0F172A; margin: 12px 0 10px 0; font-weight: 800;">Integrated Manufacturing &amp; Testing Ecosystem</h2>
-        <p style="color: #64748b; font-size: 1rem; line-height: 1.6;">From 12-hour 3D CAD modeling to automated micro-injection dispensing, CNC die-casting, and zero-defect QA testing, discover why top brands partner with Naike Gifts.</p>
+        <h2 style="font-size: clamp(1.8rem, 3.5vw, 2.5rem); color: #0F172A; margin: 12px 0 10px 0; font-weight: 800;">Integrated Swag Manufacturing &amp; Testing Ecosystem</h2>
+        <p style="color: #64748b; font-size: 1rem; line-height: 1.6;">From 12-hour 3D CAD modeling to automated micro-injection dispensing, CNC die-casting, and zero-defect QA testing, discover why top brands, tech giants, and HR leaders partner with Custom Swag Factory.</p>
       </div>
 
       <div class="bento-grid" style="display: grid; grid-template-columns: repeat(12, 1fr); gap: 20px;">
@@ -403,7 +406,7 @@ HTML_CONTENT = """<!DOCTYPE html>
             <span style="background: #fef3c7; color: #d97706; padding: 4px 10px; border-radius: 4px; font-size: 0.75rem; font-weight: 700; text-transform: uppercase;">📜 Certified Facility</span>
             <h3 style="font-size: 1.4rem; margin: 12px 0 8px 0; color: #0F172A; font-weight: 800;">SEDEX SMETA 4-Pillar, amfori BSCI &amp; ISO 9001:2015</h3>
             <p style="color: #64748b; font-size: 0.92rem; line-height: 1.6;">
-              Fully audited manufacturing plant passing international social responsibility, labor rights, fire safety, and environmental protection audits. Safe and verified supply chain for Fortune 500 brands and global supermarket retail.
+              Fully audited manufacturing plant passing international social responsibility, labor rights, fire safety, and environmental protection audits. Safe and verified supply chain for Fortune 500 brands, tech unicorns, and global supermarket retail.
             </p>
           </div>
           <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-top: 15px;">
@@ -422,21 +425,21 @@ HTML_CONTENT = """<!DOCTYPE html>
     <div class="grid grid-2 reveal" style="align-items: center; gap: 50px;">
       <div>
         <span style="color: #00BFFF; font-weight: 700; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 1px;">Turnkey OEM/ODM Partnership</span>
-        <h2 style="font-size: 2.2rem; color: #0F172A; margin: 10px 0 18px 0; line-height: 1.3;">Empowering Emerging Brands &amp; Global Retailers</h2>
+        <h2 style="font-size: 2.2rem; color: #0F172A; margin: 10px 0 18px 0; line-height: 1.3;">Empowering Emerging Brands, Tech Leaders &amp; Corporate Swag Buyers</h2>
         <p style="color: #475569; font-size: 1rem; line-height: 1.7; margin-bottom: 16px;">
-          Unlike traditional factories that impose prohibitive 5,000+ pcs minimum orders, Naike Gifts supports growing brands, e-commerce sellers, and corporate gift buyers with flexible <strong>50–100 pcs low MOQ starter runs</strong>.
+          Unlike traditional factories that impose prohibitive 5,000+ pcs minimum orders, Custom Swag Factory supports growing brands, e-commerce sellers, HR teams, and corporate swag buyers with flexible <strong>50–100 pcs low MOQ starter runs</strong>.
         </p>
         <p style="color: #475569; font-size: 1rem; line-height: 1.7; margin-bottom: 25px;">
-          Our in-house mold tooling shop utilizes high-precision CNC engraving machines and modular mold bases, allowing rapid physical prototyping in <strong>3–5 working days</strong>. Complete turnkey fulfillment—including custom backing cards, retail blister packing, barcode labeling, and global DDP door-to-door delivery—is managed under one roof.
+          Our in-house mold tooling shop utilizes high-precision CNC engraving machines and modular mold bases, allowing rapid physical prototyping in <strong>3–5 working days</strong>. Complete turnkey fulfillment—including custom swag mailer boxes, unboxing tissue, barcode labeling, and global DDP door-to-door delivery—is managed under one roof.
         </p>
         <div style="display: flex; gap: 14px; flex-wrap: wrap;">
-          <a class="btn btn-primary" href="/oem-odm" style="background: #00BFFF; border-color: #00BFFF; color: #0F172A; font-weight: 700;">Explore Tooling Process</a>
-          <a class="btn btn-secondary" href="/contact" style="border-color: #0F172A; color: #0F172A;">Request Custom Quote</a>
+          <a class="btn btn-primary" href="/oem-odm" style="background: #00BFFF; border-color: #00BFFF; color: #0F172A; font-weight: 700;">Explore Swag Tooling Process</a>
+          <a class="btn btn-secondary" href="/contact" style="border-color: #0F172A; color: #0F172A;">Request Custom Swag Quote</a>
         </div>
       </div>
       <div>
         <div style="position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 12px 35px rgba(15, 23, 42, 0.12); border: 1px solid #e2e8f0;">
-          <img alt="Naike Gifts Clean Workshop" src="images/factory-workshop.svg" style="width: 100%; height: 100%; object-fit: cover; display: block;"/>
+          <img alt="Custom Swag Factory Clean Workshop" src="images/factory-workshop.svg" style="width: 100%; height: 100%; object-fit: cover; display: block;"/>
           <div style="position: absolute; bottom: 0; inset-inline: 0; background: linear-gradient(transparent, rgba(15, 23, 42, 0.92)); padding: 22px; color: #fff;">
             <h4 style="color: #fff; margin-bottom: 4px; font-size: 1.1rem;">Jinjiang 1,650㎡ Clean Manufacturing Campus</h4>
             <p style="font-size: 0.85rem; color: #cbd5e1;">Chendai Industrial Park, Jinjiang, Quanzhou, Fujian, China</p>
@@ -450,9 +453,9 @@ HTML_CONTENT = """<!DOCTYPE html>
   <section class="section" id="inquiry" style="background: linear-gradient(135deg, #091b2e, #0F172A); color: #fff; padding: 75px 0;">
     <div class="container" style="max-width: 800px; text-align: center;">
       <span style="color: #00BFFF; font-weight: 700; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 1.5px;">Ready to Start Your Project?</span>
-      <h2 style="font-size: 2.2rem; color: #fff; margin: 10px 0 15px 0; font-weight: 800;">Get a Direct Factory Quote &amp; 12h Free Mockup</h2>
+      <h2 style="font-size: 2.2rem; color: #fff; margin: 10px 0 15px 0; font-weight: 800;">Get a Direct Swag Factory Quote &amp; 12h Free Mockup</h2>
       <p style="color: #cbd5e1; font-size: 1rem; line-height: 1.6; margin-bottom: 30px;">
-        Contact our senior export sales and engineering team. Receive detailed FOB/DDP tier pricing, tooling lead times, and digital 3D CAD proofs within 12 hours.
+        Contact our senior swag engineering and export sales team at info@naikegroup.com. Receive detailed FOB/DDP tier pricing, tooling lead times, and digital 3D CAD proofs within 12 hours.
       </p>
       <div style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;">
         <a class="btn btn-primary" href="/contact" style="background: #00BFFF; border-color: #00BFFF; color: #0F172A; font-weight: 700; padding: 14px 28px; font-size: 1rem;">Open RFQ Form &rarr;</a>
@@ -471,4 +474,4 @@ HTML_CONTENT = """<!DOCTYPE html>
 """
 
 INDEX_PATH.write_text(HTML_CONTENT, encoding="utf-8")
-print(f"✅ Generated high-converting Naike Gifts index.html ({len(HTML_CONTENT)} bytes)")
+print(f"✅ Generated high-converting Custom Swag Factory index.html ({len(HTML_CONTENT)} bytes)")

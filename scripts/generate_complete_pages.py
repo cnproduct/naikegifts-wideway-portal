@@ -384,7 +384,7 @@ news_detail_content = """
           <ul style="font-size: 0.85rem; color: #334155; line-height: 1.8; margin-bottom: 20px; list-style: none; padding-left: 0;">
             <li>📍 <strong>Base:</strong> Jinjiang, Fujian, China</li>
             <li>💬 <strong>WhatsApp:</strong> <a href="https://wa.me/8613599220505" target="_blank" style="color: #25d366; font-weight: 700;">+86 135 9922 0505</a></li>
-            <li>✉️ <strong>Email:</strong> <a href="mailto:info@customswagfactory.com" style="color: inherit;">info@customswagfactory.com</a></li>
+            <li>✉️ <strong>Email:</strong> <a href="mailto:info@naikegroup.com" style="color: inherit;">info@naikegroup.com</a></li>
             <li>⚡ <strong>Response:</strong> 12h Free 3D CAD Mockup</li>
           </ul>
           <a href="/contact" class="btn btn-primary btn-sm" style="width: 100%; text-align: center; background: #00BFFF; border-color: #00BFFF; color: #0F172A; font-weight: 700;">Submit RFQ Online</a>

@@ -35,8 +35,8 @@ def migrate_domain():
         original = content
         
         # 1. Replace domain and emails
-        content = content.replace("info@customswagfactory.com", "info@customswagfactory.com")
-        content = content.replace("sales@customswagfactory.com", "sales@customswagfactory.com")
+        content = content.replace("info@naikegroup.com", "info@naikegroup.com")
+        content = content.replace("sales@naikegroup.com", "sales@naikegroup.com")
         content = content.replace("www.customswagfactory.com", "www.customswagfactory.com")
         content = content.replace("customswagfactory.com", "customswagfactory.com")
         

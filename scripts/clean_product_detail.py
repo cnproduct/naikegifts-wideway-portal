@@ -180,7 +180,7 @@ content = content.replace(tab4_old, tab4_new)
 
 # Clean RFQ and footer sections
 content = content.replace("Inquire directly with Jinjiang Wideway (NAIKE GIFTS) engineering team.", "Inquire directly with the NAIKE GIFTS engineering & export team.")
-content = content.replace("Amy@widewaygroup.com", "info@customswagfactory.com")
+content = content.replace("Amy@widewaygroup.com", "info@naikegroup.com")
 content = content.replace("e.g. 500 pairs / 2,000 pairs", "e.g. 500 pcs / 5,000 pcs")
 content = content.replace("Acme Athletic Retail Ltd", "Acme Promo Brands LLC")
 content = content.replace("👟 More Footwear Models in this Category", "✨ More High-Value Promotional Crafts in this Category")

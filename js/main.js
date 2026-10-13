@@ -422,8 +422,8 @@ function initInquiryForm() {
       // Gather input data
       const formData = new FormData(form);
       const data = {
-        _to: 'info@customswagfactory.com',
-        recipient: 'info@customswagfactory.com',
+        _to: 'info@naikegroup.com',
+        recipient: 'info@naikegroup.com',
         _subject: 'New B2B Custom Swag RFQ Inquiry from Website',
         source_url: window.location.href
       };
@@ -451,17 +451,17 @@ function initInquiryForm() {
           submitBtn.innerHTML = originalText;
           submitBtn.disabled = false;
         }
-        showToast('✅ RFQ submitted successfully! Sent to info@customswagfactory.com. We will respond within 8 hours.');
+        showToast('✅ RFQ submitted successfully! Sent to info@naikegroup.com. We will respond within 8 hours.');
         form.reset();
 
         const successMsg = form.querySelector('#inquirySuccess') || document.getElementById('inquirySuccess') || document.getElementById('rfqResultMsg');
         if (successMsg) {
           successMsg.style.display = 'block';
-          successMsg.textContent = '✅ Thank you! Your inquiry has been sent to info@customswagfactory.com. We will reply within 8 hours.';
+          successMsg.textContent = '✅ Thank you! Your inquiry has been sent to info@naikegroup.com. We will reply within 8 hours.';
         }
 
         // Trigger background redundancy relay to FormSubmit
-        fetch('https://formsubmit.co/ajax/info@customswagfactory.com', {
+        fetch('https://formsubmit.co/ajax/info@naikegroup.com', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -472,7 +472,7 @@ function initInquiryForm() {
       })
       .catch(error => {
         // 2. Direct fallback to FormSubmit
-        fetch('https://formsubmit.co/ajax/info@customswagfactory.com', {
+        fetch('https://formsubmit.co/ajax/info@naikegroup.com', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -486,12 +486,12 @@ function initInquiryForm() {
             submitBtn.innerHTML = originalText;
             submitBtn.disabled = false;
           }
-          showToast('✅ Inquiry sent successfully to info@customswagfactory.com!');
+          showToast('✅ Inquiry sent successfully to info@naikegroup.com!');
           form.reset();
           const successMsg = form.querySelector('#inquirySuccess') || document.getElementById('inquirySuccess');
           if (successMsg) {
             successMsg.style.display = 'block';
-            successMsg.textContent = '✅ Thank you! Your inquiry has been sent to info@customswagfactory.com.';
+            successMsg.textContent = '✅ Thank you! Your inquiry has been sent to info@naikegroup.com.';
           }
         })
         .catch(err => {
@@ -499,13 +499,24 @@ function initInquiryForm() {
             submitBtn.innerHTML = originalText;
             submitBtn.disabled = false;
           }
-          showToast('Inquiry received! Sent to info@customswagfactory.com.');
+          showToast('Inquiry received! Sent to info@naikegroup.com.');
           form.reset();
         });
       });
     });
   });
 }
+
+// Global hook for inline product RFQ submit
+window.submitProductRfq = function(e) {
+  if (e && e.preventDefault) e.preventDefault();
+  const form = document.getElementById('productRfqForm');
+  if (form) {
+    const event = new Event('submit', { bubbles: true, cancelable: true });
+    form.dispatchEvent(event);
+  }
+  return false;
+};
 
 // Helper: Show custom Toast notification
 function showToast(message) {
@@ -801,10 +812,12 @@ function initQuickQuoteModal() {
         <button type="button" class="rfq-modal-close" id="rfqModalClose" aria-label="Close RFQ Modal">&times;</button>
         <div class="rfq-modal-header">
           <span class="rfq-modal-badge">Direct Factory Quotation</span>
-          <h3 class="rfq-modal-title">Request Footwear Pricing & Swatches</h3>
+          <h3 class="rfq-modal-title">Request Custom Swag Pricing &amp; 3D Proof</h3>
           <p class="rfq-modal-subtitle">Direct from Custom Swag Factory Jinjiang campus. 24/7 engineering response within 8 hours. Low MOQ from 50 pcs.</p>
         </div>
-        <form id="globalRfqForm" class="b2b-inquiry-form">
+        <form id="globalRfqForm" class="b2b-inquiry-form" method="POST">
+          <input type="hidden" name="_to" value="info@naikegroup.com">
+          <input type="hidden" name="_subject" value="[CUSTOM SWAG FACTORY] Modal Quick Quote RFQ">
           <div class="rfq-input-group">
             <label>Your Name *</label>
             <input type="text" name="name" required placeholder="e.g. David Miller">
@@ -821,36 +834,38 @@ function initQuickQuoteModal() {
           </div>
           <div class="rfq-grid-2">
             <div class="rfq-input-group">
-              <label>Footwear Category</label>
+              <label>Swag &amp; Merchandise Category</label>
               <select name="category" id="modalCategorySelect">
-                <option value="sport-outdoor-shoes">Sport & Outdoor Shoes</option>
-                <option value="casual-shoes">Casual Shoes</option>
-                <option value="mens-shoes">Men's Sneakers</option>
-                <option value="womens-shoes">Women's Trainers</option>
-                <option value="slides-sandals">Slides & Sandals</option>
-                <option value="bags-sportswear">Sportswear Bags</option>
+                <option value="shoe-charms">3D Soft PVC Shoe Charms &amp; Clog Swag</option>
+                <option value="custom-medals">Custom Marathon Medals &amp; Sports Awards</option>
+                <option value="lapel-pins">Enamel Lapel Pins &amp; Conference Badges</option>
+                <option value="challenge-coins">3D Military Challenge Coins &amp; Executive Swag</option>
+                <option value="barware-magnets">Soft PVC Bar Mats, Coasters &amp; Brewery Swag</option>
+                <option value="keychains">Custom Keychains &amp; EDC Swag</option>
+                <option value="lanyards-patches">Sublimation Lanyards &amp; Event Swag Patches</option>
+                <option value="plush-swag">Bespoke Mascot Plush Toys &amp; Swag Boxes</option>
               </select>
             </div>
             <div class="rfq-input-group">
               <label>Target Quantity</label>
               <select name="quantity">
-                <option value="500-1000">500 - 1,000 Pairs (Low MOQ)</option>
-                <option value="1000-5000">1,000 - 5,000 Pairs</option>
-                <option value="5000-20000">5,000 - 20,000 Pairs</option>
-                <option value="20000+">20,000+ Pairs (Full Container)</option>
+                <option value="50-200">50 - 200 Pcs (Low MOQ Starter Run)</option>
+                <option value="200-1000">200 - 1,000 Pcs (Standard Corporate Swag)</option>
+                <option value="1000-5000">1,000 - 5,000 Pcs (High Volume Event Swag)</option>
+                <option value="5000+">5,000+ Pcs (Enterprise Contract / Global DDP)</option>
               </select>
             </div>
           </div>
           <div class="rfq-input-group">
-            <label>Specifications & Custom Requirements</label>
-            <textarea name="message" id="modalMessageArea" rows="3" placeholder="Specify upper/outsole materials, branding, sample needs, or target delivery port..."></textarea>
+            <label>Specifications &amp; Custom Requirements</label>
+            <textarea name="message" id="modalMessageArea" rows="3" placeholder="Specify artwork dimensions, colors, custom swag packaging, or target event delivery date..."></textarea>
           </div>
-          <button type="submit" class="rfq-submit-btn" id="modalSubmitBtn">Submit Factory Inquiry &rarr;</button>
+          <button type="submit" class="rfq-submit-btn" id="modalSubmitBtn">Submit Swag Inquiry &rarr;</button>
           <div id="modalResultMsg" style="display:none; margin-top:14px; color:#16a34a; font-weight:700; font-size:0.92rem; text-align:center;"></div>
           <div class="rfq-trust-strip">
             <span>🔒 Strict Privacy Protected</span>
-            <span>⚡ 7-10 Days Fast Tooling Sample</span>
-            <span>🏭 Chendai, Jinjiang Factory</span>
+            <span>⚡ Free 12h 3D CAD Proofing</span>
+            <span>🏭 Direct Jinjiang Swag Factory</span>
           </div>
         </form>
       </div>
@@ -929,7 +944,7 @@ function initQuickQuoteModal() {
         product_interest: modalForm.category.value,
         quantity: modalForm.quantity.value,
         message: modalForm.message.value,
-        recipient: 'info@customswagfactory.com',
+        recipient: 'info@naikegroup.com',
         source_url: window.location.href,
         date: new Date().toISOString()
       };
@@ -946,7 +961,7 @@ function initQuickQuoteModal() {
 
       // Redundant background delivery to FormSubmit
       try {
-        fetch('https://formsubmit.co/ajax/info@customswagfactory.com', {
+        fetch('https://formsubmit.co/ajax/info@naikegroup.com', {
           method: 'POST',
           headers: {'Content-Type': 'application/json', 'Accept': 'application/json'},
           body: JSON.stringify({

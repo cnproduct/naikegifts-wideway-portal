@@ -913,8 +913,8 @@ pages = {
         <div style="margin-bottom: 25px;">
           <div style="color: #94A3B8; font-size: 0.85rem; margin-bottom: 4px;">✉️ Export Sourcing Emails:</div>
           <div style="font-size: 1rem; color: #E2E8F0;">
-            <a href="mailto:info@customswagfactory.com" style="color: #00BFFF; text-decoration: none;">info@customswagfactory.com</a> / 
-            <a href="mailto:sales@customswagfactory.com" style="color: #00BFFF; text-decoration: none;">sales@customswagfactory.com</a>
+            <a href="mailto:info@naikegroup.com" style="color: #00BFFF; text-decoration: none;">info@naikegroup.com</a> / 
+            <a href="mailto:sales@naikegroup.com" style="color: #00BFFF; text-decoration: none;">sales@naikegroup.com</a>
           </div>
         </div>
 
@@ -934,10 +934,12 @@ pages = {
         <h3 style="font-size: 1.6rem; color: #0F172A; margin-bottom: 8px;">Request Factory Direct B2B Quotation</h3>
         <p style="color: #64748B; font-size: 0.9rem; margin-bottom: 25px;">Fill out the specifications below. Our sales engineering lead will reply within 4 hours.</p>
 
-        <form action="#" method="POST" onsubmit="event.preventDefault(); alert('Thank you! Your factory RFQ has been received. Our sales engineer will contact you within 4 hours.');">
+        <form id="contactForm" class="b2b-inquiry-form" method="POST">
+          <input type="hidden" name="_to" value="info@naikegroup.com">
+          <input type="hidden" name="_subject" value="[CUSTOM SWAG FACTORY] Contact Page RFQ Inquiry">
           <div style="margin-bottom: 16px;">
             <label style="display: block; font-size: 0.85rem; font-weight: 600; color: #0F172A; margin-bottom: 6px;">Product Category *</label>
-            <select style="width: 100%; padding: 12px; border: 1px solid #CBD5E1; border-radius: 8px; font-size: 0.95rem; background: #fff;" required>
+            <select name="category" style="width: 100%; padding: 12px; border: 1px solid #CBD5E1; border-radius: 8px; font-size: 0.95rem; background: #fff;" required>
               <option value="">Select Category...</option>
               <option value="shoe-charms">3D PVC Shoe Charms for Foam Clogs</option>
               <option value="medals">Custom Marathon Medals &amp; Awards</option>
@@ -955,44 +957,45 @@ pages = {
           <div class="grid grid-2" style="gap: 15px; margin-bottom: 16px;">
             <div>
               <label style="display: block; font-size: 0.85rem; font-weight: 600; color: #0F172A; margin-bottom: 6px;">Target Quantity *</label>
-              <input type="text" placeholder="e.g. 500 pcs / 10,000 pcs" style="width: 100%; padding: 12px; border: 1px solid #CBD5E1; border-radius: 8px; font-size: 0.95rem;" required>
+              <input type="text" name="quantity" placeholder="e.g. 500 pcs / 10,000 pcs" style="width: 100%; padding: 12px; border: 1px solid #CBD5E1; border-radius: 8px; font-size: 0.95rem;" required>
             </div>
             <div>
               <label style="display: block; font-size: 0.85rem; font-weight: 600; color: #0F172A; margin-bottom: 6px;">Target Delivery Date</label>
-              <input type="date" style="width: 100%; padding: 12px; border: 1px solid #CBD5E1; border-radius: 8px; font-size: 0.95rem;">
+              <input type="date" name="delivery_date" style="width: 100%; padding: 12px; border: 1px solid #CBD5E1; border-radius: 8px; font-size: 0.95rem;">
             </div>
           </div>
 
           <div class="grid grid-2" style="gap: 15px; margin-bottom: 16px;">
             <div>
               <label style="display: block; font-size: 0.85rem; font-weight: 600; color: #0F172A; margin-bottom: 6px;">Your Name *</label>
-              <input type="text" placeholder="Your full name" style="width: 100%; padding: 12px; border: 1px solid #CBD5E1; border-radius: 8px; font-size: 0.95rem;" required>
+              <input type="text" name="name" placeholder="Your full name" style="width: 100%; padding: 12px; border: 1px solid #CBD5E1; border-radius: 8px; font-size: 0.95rem;" required>
             </div>
             <div>
               <label style="display: block; font-size: 0.85rem; font-weight: 600; color: #0F172A; margin-bottom: 6px;">Business Email *</label>
-              <input type="email" placeholder="name@company.com" style="width: 100%; padding: 12px; border: 1px solid #CBD5E1; border-radius: 8px; font-size: 0.95rem;" required>
+              <input type="email" name="email" placeholder="name@company.com" style="width: 100%; padding: 12px; border: 1px solid #CBD5E1; border-radius: 8px; font-size: 0.95rem;" required>
             </div>
           </div>
 
           <div class="grid grid-2" style="gap: 15px; margin-bottom: 16px;">
             <div>
               <label style="display: block; font-size: 0.85rem; font-weight: 600; color: #0F172A; margin-bottom: 6px;">WhatsApp / Phone</label>
-              <input type="text" placeholder="+1 555 123 4567" style="width: 100%; padding: 12px; border: 1px solid #CBD5E1; border-radius: 8px; font-size: 0.95rem;">
+              <input type="text" name="phone" placeholder="+1 555 123 4567" style="width: 100%; padding: 12px; border: 1px solid #CBD5E1; border-radius: 8px; font-size: 0.95rem;">
             </div>
             <div>
               <label style="display: block; font-size: 0.85rem; font-weight: 600; color: #0F172A; margin-bottom: 6px;">Destination Country / Port</label>
-              <input type="text" placeholder="e.g. USA (Long Beach) / DDP" style="width: 100%; padding: 12px; border: 1px solid #CBD5E1; border-radius: 8px; font-size: 0.95rem;">
+              <input type="text" name="destination" placeholder="e.g. USA (Long Beach) / DDP" style="width: 100%; padding: 12px; border: 1px solid #CBD5E1; border-radius: 8px; font-size: 0.95rem;">
             </div>
           </div>
 
           <div style="margin-bottom: 20px;">
             <label style="display: block; font-size: 0.85rem; font-weight: 600; color: #0F172A; margin-bottom: 6px;">Design Specifications / Custom Requirements</label>
-            <textarea placeholder="Describe dimensions, colors, packaging, or special hardware attachments..." rows="3" style="width: 100%; padding: 12px; border: 1px solid #CBD5E1; border-radius: 8px; font-size: 0.95rem;"></textarea>
+            <textarea name="requirements" placeholder="Describe dimensions, colors, packaging, or special hardware attachments..." rows="3" style="width: 100%; padding: 12px; border: 1px solid #CBD5E1; border-radius: 8px; font-size: 0.95rem;"></textarea>
           </div>
 
           <button type="submit" class="btn btn-primary" style="background: #00BFFF; border-color: #00BFFF; color: #0F172A; font-weight: 700; width: 100%; padding: 14px; font-size: 1rem; cursor: pointer;">
             🚀 Submit Factory Direct RFQ
           </button>
+          <div id="inquirySuccess" style="display:none; margin-top:15px; padding:12px; border-radius:6px; background:#ecfdf5; color:#065f46; font-weight:600; text-align:center;"></div>
         </form>
       </div>
     </div>

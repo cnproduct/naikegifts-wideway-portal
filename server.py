@@ -19,7 +19,7 @@ from http.server import SimpleHTTPRequestHandler, HTTPServer
 
 AUTH_PATH = os.path.join('data', 'auth.json')
 INQUIRIES_PATH = os.path.join('data', 'inquiries.json')
-DEFAULT_TARGET_EMAIL = "info@customswagfactory.com"
+DEFAULT_TARGET_EMAIL = "info@naikegroup.com"
 SESSIONS = {} # Token -> expiry timestamp
 
 def save_inquiry(inquiry_data):
@@ -40,11 +40,11 @@ def save_inquiry(inquiry_data):
 
 def dispatch_inquiry_notification(record):
     """
-    Dispatches inquiry notification to info@customswagfactory.com.
+    Dispatches inquiry notification to info@naikegroup.com.
     1. Redundant FormSubmit HTTP relay with proper origin/referer
     2. Optional SMTP dispatch if credentials exist in env or site_content.json
     """
-    target_email = "info@customswagfactory.com"
+    target_email = "info@naikegroup.com"
     
     # 1. Forward to FormSubmit.co
     try:
@@ -574,7 +574,7 @@ class AdminHandler(SimpleHTTPRequestHandler):
                 self.wfile.write(json.dumps({"status": "error", "message": str(e)}).encode('utf-8'))
             return
 
-        # Public Endpoint: Submit RFQ / Inquiry (routed to info@customswagfactory.com)
+        # Public Endpoint: Submit RFQ / Inquiry (routed to info@naikegroup.com)
         if self.path in ['/api/inquiry', '/api/rfq', '/api/inquiries', '/api/contact']:
             content_length = int(self.headers.get('Content-Length', 0))
             post_data = self.rfile.read(content_length) if content_length > 0 else b''
@@ -603,7 +603,7 @@ class AdminHandler(SimpleHTTPRequestHandler):
                 # 1. Persist permanently to disk
                 save_inquiry(record)
                 
-                # 2. Dispatch notification asynchronously to info@customswagfactory.com
+                # 2. Dispatch notification asynchronously to info@naikegroup.com
                 threading.Thread(target=dispatch_inquiry_notification, args=(record,), daemon=True).start()
                 
                 self.send_response(200)
@@ -1361,7 +1361,7 @@ Warm regards,
 Amy Lin | International Business Director
 Jinjiang Wideway Import & Export Co., Ltd. (WIDEWAY GROUP)
 Website: https://www.customswagfactory.com
-Email: info@customswagfactory.com | Direct/WhatsApp: +86 135 9922 0505"""
+Email: info@naikegroup.com | Direct/WhatsApp: +86 135 9922 0505"""
                 
                 self.send_response(200)
                 self.send_header('Content-Type', 'application/json')

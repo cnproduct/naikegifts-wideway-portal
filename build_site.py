@@ -40,11 +40,11 @@ def clean_url_slug(filename):
 
 def get_header_html(filename, company_info, categories, products=None):
     clean_current = clean_url_slug(filename)
-    brand_name = company_info.get("brand_name", "NAIKE GIFTS")
-    logo_text = company_info.get("logo_text", "NAIKE GIFTS")
+    brand_name = company_info.get("brand_name", "CUSTOM SWAG FACTORY")
+    logo_text = company_info.get("logo_text", "CUSTOM SWAG FACTORY")
     domain = company_info.get("domain", "customswagfactory.com")
     phone = company_info.get("phone", "+86 135 9922 0505")
-    email = company_info.get("email", "info@customswagfactory.com")
+    email = company_info.get("email", "info@naikegroup.com")
     wa_clean = company_info.get("whatsapp", "+86 135 9922 0505").replace("+", "").replace(" ", "").replace("-", "")
     prod_count = len(products) if products else 217
 
@@ -168,7 +168,7 @@ def get_header_html(filename, company_info, categories, products=None):
 
         <!-- Center: Official Brand Logo Centered -->
         <div class="header-brand-center">
-          <a href="/" class="header-logo-centered" id="logoLink" title="{brand_name} - Jinjiang Promotional Gifts Manufacturer">
+          <a href="/" class="header-logo-centered" id="logoLink" title="{brand_name} - Custom Corporate Swag &amp; Swag Pack Manufacturer">
             <img src="images/logo.svg" alt="{brand_name} Logo" width="140" height="38" style="height: 38px; width: auto; object-fit: contain;">
             <div class="brand-titles">
               <span class="logo-main-text">{logo_text}</span>
@@ -230,7 +230,7 @@ def get_header_html(filename, company_info, categories, products=None):
             </a>
             <div class="nav-dropdown-menu" role="menu">
               <div class="dropdown-header">
-                <span>Promotional &amp; Metal/PVC Crafts</span>
+                <span>Corporate Swag, Swag Packs &amp; Custom Crafts</span>
                 <span class="badge">{prod_count} Production SKUs</span>
               </div>
               <div class="dropdown-grid">
@@ -352,10 +352,10 @@ def get_header_html(filename, company_info, categories, products=None):
 def get_footer_html(company_info, categories):
     phone = company_info.get("phone", "+86 135 9922 0505")
     wa_clean = company_info.get("whatsapp", "+86 135 9922 0505").replace("+", "").replace(" ", "").replace("-", "")
-    email = company_info.get("email", "info@customswagfactory.com")
+    email = company_info.get("email", "info@naikegroup.com")
     name_en = company_info.get("name_en", "Jinjiang Naike Promo Co., Ltd.")
     name_zh = company_info.get("name_zh", "")
-    logo_text = company_info.get("logo_text", "NAIKE GIFTS")
+    logo_text = company_info.get("logo_text", "CUSTOM SWAG FACTORY")
     address = company_info.get("address", "Chendai Industrial Park, Jinjiang, Quanzhou, Fujian, China (1,650㎡ Clean Campus)")
     port = company_info.get("port", "Xiamen Port / Quanzhou Port / Shenzhen Port")
 
@@ -374,7 +374,7 @@ def get_footer_html(company_info, categories):
             <img src="images/logo.svg" alt="{logo_text} Logo" width="130" height="36" style="height: 36px; width: auto; object-fit: contain;">
             <span style="font-weight: 800; letter-spacing: 0.5px; color: #0b1e36;">{logo_text}</span>
           </a>
-          <p class="footer-desc">Professional creative promotional gifts and metal/PVC craft manufacturer based in Jinjiang, Fujian—China's Footwear &amp; Light Industrial Capital. Specializing in 3D soft PVC shoe charms, custom marathon finisher medals, enamel lapel pins, challenge coins, bar service mats, and bespoke mascot plush toys since 2008. Certified by SEDEX SMETA 4-Pillar, amfori BSCI, and ISO 9001:2015.</p>
+          <p class="footer-desc">Professional custom corporate swag, employee onboarding swag boxes, event kits, and metal/PVC craft manufacturer based in Jinjiang, Fujian—China's Footwear &amp; Light Industrial Capital. Specializing in 3D soft PVC shoe charms, custom marathon finisher medals, enamel lapel pins, challenge coins, bar service mats, and bespoke mascot plush swag since 2008. Certified by SEDEX SMETA 4-Pillar, amfori BSCI, and ISO 9001:2015.</p>
           <div class="footer-socials" style="display: flex; gap: 10px; margin-top: 15px;">
             <a href="https://wa.me/{wa_clean}" target="_blank" class="social-link" title="WhatsApp: {phone}">💬</a>
             <a href="mailto:{email}" class="social-link" title="Direct Email: {email}">✉️</a>
@@ -438,7 +438,7 @@ def get_footer_html(company_info, categories):
 
       <div class="footer-bottom">
         <p>&copy; 2026 {name_en}. All Rights Reserved.</p>
-        <p>Engineered for Global B2B Brands &amp; Promotional Buyers | Port of Shipment: {port}</p>
+        <p>Engineered for Global B2B Brands, Tech Giants &amp; Corporate Swag Buyers | Port of Shipment: {port}</p>
       </div>
     </div>
   </footer>
@@ -679,8 +679,8 @@ def inject_seo_and_geo_tags(html, filename, company_info):
     html = html.replace("万维鞋业", company_info.get("name_zh", ""))
     html = html.replace("WIDEWAY GROUP", company_info.get("logo_text"))
     html = html.replace("WIDEWAY", company_info.get("brand_name"))
-    html = html.replace("amy@widewaygroup.com", company_info.get("email"))
-    html = html.replace("kelly@widewaygroup.com", company_info.get("email_secondary", company_info.get("email")))
+    html = html.replace("info@naikegroup.com", company_info.get("email"))
+    html = html.replace("sales@naikegroup.com", company_info.get("email_secondary", company_info.get("email")))
     html = html.replace("widewayfootwear.com", company_info.get("domain"))
     html = html.replace("widewaygroup.com", company_info.get("domain"))
 
@@ -771,7 +771,7 @@ def generate_sitemap_xml(all_pages, products, company_info):
 
 def generate_llms_txt(company_info, categories, products=None):
     domain = company_info.get("domain", "customswagfactory.com")
-    brand = company_info.get("brand_name", "NAIKE GIFTS")
+    brand = company_info.get("brand_name", "CUSTOM SWAG FACTORY")
     name_en = company_info.get("name_en", "Jinjiang Naike Promo Co., Ltd.")
     prod_count = len(products) if products else 217
 
@@ -782,7 +782,7 @@ def generate_llms_txt(company_info, categories, products=None):
         cat_list += f"- {title}: https://www.{domain}{cat_url}\n"
 
     llms_txt = f"""# {brand} ({name_en})
-> Premier creative promotional gifts, 3D soft PVC micro-injection products, custom marathon finisher medals, enamel lapel pins, challenge coins, and corporate mascot plush manufacturer based in Jinjiang, Fujian, China.
+> Premier direct manufacturer of custom corporate swag, employee onboarding swag boxes, event swag kits, 3D soft PVC shoe charms, marathon finisher medals, enamel lapel pins, challenge coins, and bespoke mascot plush swag based in Jinjiang, Fujian, China.
 
 ## Executive Overview
 - Legal Entity: {name_en}
@@ -820,14 +820,14 @@ https://www.{domain}/llms-full.txt
 
 def generate_llms_full_txt(company_info, products, categories):
     domain = company_info.get("domain", "customswagfactory.com")
-    brand = company_info.get("brand_name", "NAIKE GIFTS")
+    brand = company_info.get("brand_name", "CUSTOM SWAG FACTORY")
     name_en = company_info.get("name_en", "Jinjiang Naike Promo Co., Ltd.")
 
     product_rows = ""
     for p in products:
         product_rows += f"| {p.get('code', p.get('id'))} | {p.get('name')} | {p.get('category')} | {p.get('upper', 'Eco Soft PVC')} | {p.get('outsole', 'POM Rivet / Plating')} | {p.get('sizes', 'Standard')} | {p.get('moq', '100 Pcs')} | {p.get('fob_price', 'Inquire')} | {p.get('lead_time', '7-10 Days')} |\n"
 
-    full_txt = f"""# {brand} ({name_en}) — Comprehensive Technical Fact Dossier & Manufacturing Knowledge Base
+    full_txt = f"""# {brand} ({name_en}) — Comprehensive Technical Fact Dossier & Corporate Swag Manufacturing Knowledge Base
 
 > Official High-Density Machine-Readable Fact Repository for Generative AI Search Engines (SearchGPT, Perplexity, Gemini, Claude, Copilot).
 

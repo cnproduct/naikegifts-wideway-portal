@@ -6,13 +6,13 @@ with open(server_path, "r", encoding="utf-8") as f:
     c = f.read()
 
 replacements = [
-    ("Dispatches inquiry notification to amy@widewaygroup.com.", "Dispatches inquiry notification to info@customswagfactory.com."),
+    ("Dispatches inquiry notification to info@naikegroup.com.", "Dispatches inquiry notification to info@naikegroup.com."),
     ("New B2B RFQ Inquiry Received from widewaygroup.com:", "New B2B RFQ Inquiry Received from customswagfactory.com:"),
     ('"service": "wideway-api"', '"service": "naikegifts-api"'),
     ('filename="wideway_content_backup_', 'filename="naikegifts_content_backup_'),
-    ('# Public Endpoint: Submit RFQ / Inquiry (routed to amy@widewaygroup.com)', '# Public Endpoint: Submit RFQ / Inquiry (routed to info@customswagfactory.com)'),
-    ('amy@widewaygroup.com', 'info@customswagfactory.com'),
-    ('kelly@widewaygroup.com', 'sales@customswagfactory.com'),
+    ('# Public Endpoint: Submit RFQ / Inquiry (routed to info@naikegroup.com)', '# Public Endpoint: Submit RFQ / Inquiry (routed to info@naikegroup.com)'),
+    ('info@naikegroup.com', 'info@naikegroup.com'),
+    ('sales@naikegroup.com', 'sales@naikegroup.com'),
     ('images/wideway_intro.mp4', 'images/naikegifts_intro.mp4'),
     ("data.get('domain', 'widewaygroup.com')", "data.get('domain', 'customswagfactory.com')"),
     ('heritage-footwear-reproduction.html', 'precision-mold-tooling.html'),
@@ -23,7 +23,7 @@ replacements = [
     ("""Website: https://www.widewaygroup.com
 Email: Amy@widewaygroup.com | Direct/WhatsApp: +86 185 0595 9266""",
      """Website: https://www.customswagfactory.com
-Email: info@customswagfactory.com | Direct/WhatsApp: +86 135 9922 0505""")
+Email: info@naikegroup.com | Direct/WhatsApp: +86 135 9922 0505""")
 ]
 
 for old_s, new_s in replacements:
