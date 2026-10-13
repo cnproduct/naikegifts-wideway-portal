@@ -422,9 +422,9 @@ function initInquiryForm() {
       // Gather input data
       const formData = new FormData(form);
       const data = {
-        _to: 'amy@widewaygroup.com',
-        recipient: 'amy@widewaygroup.com',
-        _subject: 'New B2B Footwear RFQ Inquiry from Website',
+        _to: 'info@customswagfactory.com',
+        recipient: 'info@customswagfactory.com',
+        _subject: 'New B2B Custom Swag RFQ Inquiry from Website',
         source_url: window.location.href
       };
       formData.forEach((value, key) => {
@@ -451,17 +451,17 @@ function initInquiryForm() {
           submitBtn.innerHTML = originalText;
           submitBtn.disabled = false;
         }
-        showToast('✅ RFQ submitted successfully! Sent to amy@widewaygroup.com. We will respond within 8 hours.');
+        showToast('✅ RFQ submitted successfully! Sent to info@customswagfactory.com. We will respond within 8 hours.');
         form.reset();
 
         const successMsg = form.querySelector('#inquirySuccess') || document.getElementById('inquirySuccess') || document.getElementById('rfqResultMsg');
         if (successMsg) {
           successMsg.style.display = 'block';
-          successMsg.textContent = '✅ Thank you! Your inquiry has been sent to amy@widewaygroup.com. We will reply within 8 hours.';
+          successMsg.textContent = '✅ Thank you! Your inquiry has been sent to info@customswagfactory.com. We will reply within 8 hours.';
         }
 
         // Trigger background redundancy relay to FormSubmit
-        fetch('https://formsubmit.co/ajax/amy@widewaygroup.com', {
+        fetch('https://formsubmit.co/ajax/info@customswagfactory.com', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -472,7 +472,7 @@ function initInquiryForm() {
       })
       .catch(error => {
         // 2. Direct fallback to FormSubmit
-        fetch('https://formsubmit.co/ajax/amy@widewaygroup.com', {
+        fetch('https://formsubmit.co/ajax/info@customswagfactory.com', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -486,12 +486,12 @@ function initInquiryForm() {
             submitBtn.innerHTML = originalText;
             submitBtn.disabled = false;
           }
-          showToast('✅ Inquiry sent successfully to amy@widewaygroup.com!');
+          showToast('✅ Inquiry sent successfully to info@customswagfactory.com!');
           form.reset();
           const successMsg = form.querySelector('#inquirySuccess') || document.getElementById('inquirySuccess');
           if (successMsg) {
             successMsg.style.display = 'block';
-            successMsg.textContent = '✅ Thank you! Your inquiry has been sent to amy@widewaygroup.com.';
+            successMsg.textContent = '✅ Thank you! Your inquiry has been sent to info@customswagfactory.com.';
           }
         })
         .catch(err => {
@@ -499,7 +499,7 @@ function initInquiryForm() {
             submitBtn.innerHTML = originalText;
             submitBtn.disabled = false;
           }
-          showToast('Inquiry received! Sent to amy@widewaygroup.com.');
+          showToast('Inquiry received! Sent to info@customswagfactory.com.');
           form.reset();
         });
       });
@@ -802,7 +802,7 @@ function initQuickQuoteModal() {
         <div class="rfq-modal-header">
           <span class="rfq-modal-badge">Direct Factory Quotation</span>
           <h3 class="rfq-modal-title">Request Footwear Pricing & Swatches</h3>
-          <p class="rfq-modal-subtitle">Direct from WIDEWAY Jinjiang factory. 24/7 engineering response within 8 hours. Low MOQ from 500 pairs.</p>
+          <p class="rfq-modal-subtitle">Direct from Custom Swag Factory Jinjiang campus. 24/7 engineering response within 8 hours. Low MOQ from 50 pcs.</p>
         </div>
         <form id="globalRfqForm" class="b2b-inquiry-form">
           <div class="rfq-input-group">
@@ -929,7 +929,7 @@ function initQuickQuoteModal() {
         product_interest: modalForm.category.value,
         quantity: modalForm.quantity.value,
         message: modalForm.message.value,
-        recipient: 'amy@widewaygroup.com',
+        recipient: 'info@customswagfactory.com',
         source_url: window.location.href,
         date: new Date().toISOString()
       };
@@ -946,11 +946,11 @@ function initQuickQuoteModal() {
 
       // Redundant background delivery to FormSubmit
       try {
-        fetch('https://formsubmit.co/ajax/amy@widewaygroup.com', {
+        fetch('https://formsubmit.co/ajax/info@customswagfactory.com', {
           method: 'POST',
           headers: {'Content-Type': 'application/json', 'Accept': 'application/json'},
           body: JSON.stringify({
-            _subject: `[WIDEWAY Footwear RFQ] ${payload.name} - ${payload.category}`,
+            _subject: `[CUSTOM SWAG FACTORY RFQ] ${payload.name} - ${payload.category}`,
             _replyto: payload.email,
             Name: payload.name,
             Email: payload.email,
@@ -1121,7 +1121,7 @@ function initAntiCloningProtection() {
     // 3. Digital Signature & Watermark Console Guard
     if (typeof console !== 'undefined' && console.log) {
       console.log(
-        '%c🔒 WIDEWAY GROUP™ %c Official Footwear OEM/ODM Global Portal | Anti-Cloning Armor Active',
+        '%c🔒 CUSTOM SWAG FACTORY™ %c Official B2B Corporate Swag & Promotional Crafts Portal | Anti-Cloning Armor Active',
         'background: #e50408; color: #fff; font-weight: bold; padding: 4px 8px; border-radius: 3px;',
         'color: #0b1528; font-weight: 600; padding: 4px;'
       );
