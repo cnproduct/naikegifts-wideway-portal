@@ -557,10 +557,35 @@ def get_category_detailed_html(cat_key, cat_data, company_info, products, catego
 
     return f"""
     <!-- Category Hero / Subheader -->
-    <section class="page-banner" style="background: linear-gradient(rgba(15, 23, 42, 0.90), rgba(15, 23, 42, 0.96)), url('images/factory-workshop.jpg') center/cover; padding: 70px 0; color: #fff; text-align: center;">
+    <section class="page-banner">
       <div class="container">
-        <h1 style="font-size: 2.5rem; margin-bottom: 12px; color: #fff;">{cat_data.get('h1', cat_data['title'])}</h1>
-        <p style="max-width: 850px; margin: 0 auto; color: #e2e8f0; font-size: 1.05rem; line-height: 1.6;">{cat_data.get('desc', '')}</p>
+        <div class="page-banner-card">
+          <span class="page-banner-badge">✨ Official B2B Swag &amp; Crafts Manufacturer</span>
+          <h1 class="page-banner-title">{cat_data.get('h1', cat_data['title'])}</h1>
+          <p class="page-banner-desc">{cat_data.get('desc', '')}</p>
+          <div class="banner-partners-showcase">
+            <div class="banner-partners-header">
+              <span class="banner-partners-pulse"></span>
+              <span>Trusted Manufacturing Partner for Global Licensed Brands &amp; Enterprises:</span>
+            </div>
+            <div class="banner-partners-img-wrap">
+              <img src="images/partners-tiles-only.png" alt="Global Licensed Brand Partners: Disney, Marvel, Coca-Cola, Netflix, Walmart, Starbucks" class="banner-partners-img" width="1024" height="271" loading="lazy">
+            </div>
+            <div class="banner-partners-chips">
+              <span class="partner-chip">Marvel</span>
+              <span class="partner-chip">Disney</span>
+              <span class="partner-chip">Coca-Cola</span>
+              <span class="partner-chip">Netflix</span>
+              <span class="partner-chip">Walmart</span>
+              <span class="partner-chip">McDonald's</span>
+              <span class="partner-chip">Starbucks</span>
+              <span class="partner-chip">Amazon</span>
+              <span class="partner-chip">Unilever</span>
+              <span class="partner-chip">Heineken</span>
+              <span class="partner-chip partner-chip-more">+30 More</span>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 

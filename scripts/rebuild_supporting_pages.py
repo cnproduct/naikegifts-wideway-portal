@@ -85,11 +85,35 @@ pages = {
   <!-- END_GLOBAL_HEADER -->
 
   <!-- Hero Banner -->
-  <section class="page-banner" style="background: linear-gradient(rgba(15, 23, 42, 0.92), rgba(15, 23, 42, 0.97)), url('images/factory-workshop.svg') center/cover; padding: 75px 0; color: #fff; text-align: center;">
+  <section class="page-banner">
     <div class="container">
-      <span style="display: inline-block; background: rgba(0, 191, 255, 0.15); color: #00BFFF; border: 1px solid #00BFFF; font-weight: 700; font-size: 0.82rem; padding: 4px 14px; border-radius: 20px; text-transform: uppercase; margin-bottom: 12px;">Full-Service B2B &amp; D2C Manufacturing</span>
-      <h1 style="font-size: 2.6rem; margin-bottom: 15px; color: #fff; font-weight: 800;">Turnkey OEM &amp; ODM Custom Manufacturing</h1>
-      <p style="max-width: 860px; margin: 0 auto; color: #e2e8f0; font-size: 1.05rem; line-height: 1.6;">From 12-hour 3D CAD concept modeling and rapid CNC mold tooling to automated micro-injection, vibrant electroplating, and turnkey DDP global fulfillment.</p>
+      <div class="page-banner-card">
+        <span class="page-banner-badge">Full-Service B2B &amp; D2C Manufacturing</span>
+        <h1 class="page-banner-title">Turnkey OEM &amp; ODM Custom Manufacturing</h1>
+        <p class="page-banner-desc">From 12-hour 3D CAD concept modeling and rapid CNC mold tooling to automated micro-injection, vibrant electroplating, and turnkey DDP global fulfillment.</p>
+        <div class="banner-partners-showcase">
+          <div class="banner-partners-header">
+            <span class="banner-partners-pulse"></span>
+            <span>Trusted Manufacturing Partner for Global Licensed Brands &amp; Enterprises:</span>
+          </div>
+          <div class="banner-partners-img-wrap">
+            <img src="images/partners-tiles-only.png" alt="Global Licensed Brand Partners: Disney, Marvel, Coca-Cola, Netflix, Walmart, Starbucks" class="banner-partners-img" width="1024" height="271" loading="lazy">
+          </div>
+          <div class="banner-partners-chips">
+            <span class="partner-chip">Marvel</span>
+            <span class="partner-chip">Disney</span>
+            <span class="partner-chip">Coca-Cola</span>
+            <span class="partner-chip">Netflix</span>
+            <span class="partner-chip">Walmart</span>
+            <span class="partner-chip">McDonald's</span>
+            <span class="partner-chip">Starbucks</span>
+            <span class="partner-chip">Amazon</span>
+            <span class="partner-chip">Unilever</span>
+            <span class="partner-chip">Heineken</span>
+            <span class="partner-chip partner-chip-more">+30 More</span>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -270,11 +294,35 @@ pages = {
   <header class="site-header"></header>
   <!-- END_GLOBAL_HEADER -->
 
-  <section class="page-banner" style="background: linear-gradient(rgba(15, 23, 42, 0.92), rgba(15, 23, 42, 0.97)), url('images/factory-workshop.svg') center/cover; padding: 75px 0; color: #fff; text-align: center;">
+  <section class="page-banner">
     <div class="container">
-      <span style="display: inline-block; background: rgba(0, 191, 255, 0.15); color: #00BFFF; border: 1px solid #00BFFF; font-weight: 700; font-size: 0.82rem; padding: 4px 14px; border-radius: 20px; text-transform: uppercase; margin-bottom: 12px;">Heavy Industrial Footprint</span>
-      <h1 style="font-size: 2.6rem; margin-bottom: 15px; color: #fff; font-weight: 800;">Modernized Campus &amp; Production Capacity</h1>
-      <p style="max-width: 860px; margin: 0 auto; color: #e2e8f0; font-size: 1.05rem; line-height: 1.6;">Operating a 1,650㎡ specialized micro-injection, metal die-casting, and clean sewing manufacturing campus in Chendai Industrial Park, Jinjiang, Fujian.</p>
+      <div class="page-banner-card">
+        <span class="page-banner-badge">Heavy Industrial Footprint</span>
+        <h1 class="page-banner-title">Modernized Campus &amp; Production Capacity</h1>
+        <p class="page-banner-desc">Operating a 1,650㎡ specialized micro-injection, metal die-casting, and clean sewing manufacturing campus in Chendai Industrial Park, Jinjiang, Fujian.</p>
+        <div class="banner-partners-showcase">
+          <div class="banner-partners-header">
+            <span class="banner-partners-pulse"></span>
+            <span>Trusted Manufacturing Partner for Global Licensed Brands &amp; Enterprises:</span>
+          </div>
+          <div class="banner-partners-img-wrap">
+            <img src="images/partners-tiles-only.png" alt="Global Licensed Brand Partners: Disney, Marvel, Coca-Cola, Netflix, Walmart, Starbucks" class="banner-partners-img" width="1024" height="271" loading="lazy">
+          </div>
+          <div class="banner-partners-chips">
+            <span class="partner-chip">Marvel</span>
+            <span class="partner-chip">Disney</span>
+            <span class="partner-chip">Coca-Cola</span>
+            <span class="partner-chip">Netflix</span>
+            <span class="partner-chip">Walmart</span>
+            <span class="partner-chip">McDonald's</span>
+            <span class="partner-chip">Starbucks</span>
+            <span class="partner-chip">Amazon</span>
+            <span class="partner-chip">Unilever</span>
+            <span class="partner-chip">Heineken</span>
+            <span class="partner-chip partner-chip-more">+30 More</span>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -469,11 +517,35 @@ pages = {
   <header class="site-header"></header>
   <!-- END_GLOBAL_HEADER -->
 
-  <section class="page-banner" style="background: linear-gradient(rgba(15, 23, 42, 0.92), rgba(15, 23, 42, 0.97)), url('images/factory-workshop.svg') center/cover; padding: 75px 0; color: #fff; text-align: center;">
+  <section class="page-banner">
     <div class="container">
-      <span style="display: inline-block; background: rgba(0, 191, 255, 0.15); color: #00BFFF; border: 1px solid #00BFFF; font-weight: 700; font-size: 0.82rem; padding: 4px 14px; border-radius: 20px; text-transform: uppercase; margin-bottom: 12px;">Zero-Defect Standards</span>
-      <h1 style="font-size: 2.6rem; margin-bottom: 15px; color: #fff; font-weight: 800;">5-Gate Quality Assurance &amp; Testing Protocol</h1>
-      <p style="max-width: 860px; margin: 0 auto; color: #e2e8f0; font-size: 1.05rem; line-height: 1.6;">Every piece engineered by NAIKE GIFTS undergoes rigorous in-house mechanical stress, chemical non-toxicity, and optical inspection before packaging.</p>
+      <div class="page-banner-card">
+        <span class="page-banner-badge">Zero-Defect Standards</span>
+        <h1 class="page-banner-title">5-Gate Quality Assurance &amp; Testing Protocol</h1>
+        <p class="page-banner-desc">Every piece engineered by NAIKE GIFTS undergoes rigorous in-house mechanical stress, chemical non-toxicity, and optical inspection before packaging.</p>
+        <div class="banner-partners-showcase">
+          <div class="banner-partners-header">
+            <span class="banner-partners-pulse"></span>
+            <span>Trusted Manufacturing Partner for Global Licensed Brands &amp; Enterprises:</span>
+          </div>
+          <div class="banner-partners-img-wrap">
+            <img src="images/partners-tiles-only.png" alt="Global Licensed Brand Partners: Disney, Marvel, Coca-Cola, Netflix, Walmart, Starbucks" class="banner-partners-img" width="1024" height="271" loading="lazy">
+          </div>
+          <div class="banner-partners-chips">
+            <span class="partner-chip">Marvel</span>
+            <span class="partner-chip">Disney</span>
+            <span class="partner-chip">Coca-Cola</span>
+            <span class="partner-chip">Netflix</span>
+            <span class="partner-chip">Walmart</span>
+            <span class="partner-chip">McDonald's</span>
+            <span class="partner-chip">Starbucks</span>
+            <span class="partner-chip">Amazon</span>
+            <span class="partner-chip">Unilever</span>
+            <span class="partner-chip">Heineken</span>
+            <span class="partner-chip partner-chip-more">+30 More</span>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -644,11 +716,35 @@ pages = {
   <header class="site-header"></header>
   <!-- END_GLOBAL_HEADER -->
 
-  <section class="page-banner" style="background: linear-gradient(rgba(15, 23, 42, 0.92), rgba(15, 23, 42, 0.97)), url('images/factory-workshop.svg') center/cover; padding: 75px 0; color: #fff; text-align: center;">
+  <section class="page-banner">
     <div class="container">
-      <span style="display: inline-block; background: rgba(0, 191, 255, 0.15); color: #00BFFF; border: 1px solid #00BFFF; font-weight: 700; font-size: 0.82rem; padding: 4px 14px; border-radius: 20px; text-transform: uppercase; margin-bottom: 12px;">Verified Audits &amp; Standards</span>
-      <h1 style="font-size: 2.6rem; margin-bottom: 15px; color: #fff; font-weight: 800;">International Certifications &amp; Social Audits</h1>
-      <p style="max-width: 860px; margin: 0 auto; color: #e2e8f0; font-size: 1.05rem; line-height: 1.6;">NAIKE GIFTS meets the stringent ethical, social responsibility, and chemical non-toxicity mandates of global enterprise brands, marathon committees, and retail distributors.</p>
+      <div class="page-banner-card">
+        <span class="page-banner-badge">Verified Audits &amp; Standards</span>
+        <h1 class="page-banner-title">International Certifications &amp; Social Audits</h1>
+        <p class="page-banner-desc">NAIKE GIFTS meets the stringent ethical, social responsibility, and chemical non-toxicity mandates of global enterprise brands, marathon committees, and retail distributors.</p>
+        <div class="banner-partners-showcase">
+          <div class="banner-partners-header">
+            <span class="banner-partners-pulse"></span>
+            <span>Trusted Manufacturing Partner for Global Licensed Brands &amp; Enterprises:</span>
+          </div>
+          <div class="banner-partners-img-wrap">
+            <img src="images/partners-tiles-only.png" alt="Global Licensed Brand Partners: Disney, Marvel, Coca-Cola, Netflix, Walmart, Starbucks" class="banner-partners-img" width="1024" height="271" loading="lazy">
+          </div>
+          <div class="banner-partners-chips">
+            <span class="partner-chip">Marvel</span>
+            <span class="partner-chip">Disney</span>
+            <span class="partner-chip">Coca-Cola</span>
+            <span class="partner-chip">Netflix</span>
+            <span class="partner-chip">Walmart</span>
+            <span class="partner-chip">McDonald's</span>
+            <span class="partner-chip">Starbucks</span>
+            <span class="partner-chip">Amazon</span>
+            <span class="partner-chip">Unilever</span>
+            <span class="partner-chip">Heineken</span>
+            <span class="partner-chip partner-chip-more">+30 More</span>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -743,11 +839,35 @@ pages = {
   <header class="site-header"></header>
   <!-- END_GLOBAL_HEADER -->
 
-  <section class="page-banner" style="background: linear-gradient(rgba(15, 23, 42, 0.92), rgba(15, 23, 42, 0.97)), url('images/factory-workshop.svg') center/cover; padding: 75px 0; color: #fff; text-align: center;">
+  <section class="page-banner">
     <div class="container">
-      <span style="display: inline-block; background: rgba(0, 191, 255, 0.15); color: #00BFFF; border: 1px solid #00BFFF; font-weight: 700; font-size: 0.82rem; padding: 4px 14px; border-radius: 20px; text-transform: uppercase; margin-bottom: 12px;">Eco-Conscious Manufacturing</span>
-      <h1 style="font-size: 2.6rem; margin-bottom: 15px; color: #fff; font-weight: 800;">Sustainable Manufacturing &amp; ESG Initiatives</h1>
-      <p style="max-width: 860px; margin: 0 auto; color: #e2e8f0; font-size: 1.05rem; line-height: 1.6;">Transforming the promotional products industry through recycled materials, closed-loop metallurgy, and ethical environmental stewardship.</p>
+      <div class="page-banner-card">
+        <span class="page-banner-badge">Eco-Conscious Manufacturing</span>
+        <h1 class="page-banner-title">Sustainable Manufacturing &amp; ESG Initiatives</h1>
+        <p class="page-banner-desc">Transforming the promotional products industry through recycled materials, closed-loop metallurgy, and ethical environmental stewardship.</p>
+        <div class="banner-partners-showcase">
+          <div class="banner-partners-header">
+            <span class="banner-partners-pulse"></span>
+            <span>Trusted Manufacturing Partner for Global Licensed Brands &amp; Enterprises:</span>
+          </div>
+          <div class="banner-partners-img-wrap">
+            <img src="images/partners-tiles-only.png" alt="Global Licensed Brand Partners: Disney, Marvel, Coca-Cola, Netflix, Walmart, Starbucks" class="banner-partners-img" width="1024" height="271" loading="lazy">
+          </div>
+          <div class="banner-partners-chips">
+            <span class="partner-chip">Marvel</span>
+            <span class="partner-chip">Disney</span>
+            <span class="partner-chip">Coca-Cola</span>
+            <span class="partner-chip">Netflix</span>
+            <span class="partner-chip">Walmart</span>
+            <span class="partner-chip">McDonald's</span>
+            <span class="partner-chip">Starbucks</span>
+            <span class="partner-chip">Amazon</span>
+            <span class="partner-chip">Unilever</span>
+            <span class="partner-chip">Heineken</span>
+            <span class="partner-chip partner-chip-more">+30 More</span>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -803,11 +923,35 @@ pages = {
   <header class="site-header"></header>
   <!-- END_GLOBAL_HEADER -->
 
-  <section class="page-banner" style="background: linear-gradient(rgba(15, 23, 42, 0.92), rgba(15, 23, 42, 0.97)), url('images/factory-workshop.svg') center/cover; padding: 75px 0; color: #fff; text-align: center;">
+  <section class="page-banner">
     <div class="container">
-      <span style="display: inline-block; background: rgba(0, 191, 255, 0.15); color: #00BFFF; border: 1px solid #00BFFF; font-weight: 700; font-size: 0.82rem; padding: 4px 14px; border-radius: 20px; text-transform: uppercase; margin-bottom: 12px;">Proven Execution</span>
-      <h1 style="font-size: 2.6rem; margin-bottom: 15px; color: #fff; font-weight: 800;">Global Client Case Studies</h1>
-      <p style="max-width: 860px; margin: 0 auto; color: #e2e8f0; font-size: 1.05rem; line-height: 1.6;">Real-world delivery records for world marathon organizers, viral direct-to-consumer footwear accessories, and Silicon Valley corporate swag programs.</p>
+      <div class="page-banner-card">
+        <span class="page-banner-badge">Proven Execution</span>
+        <h1 class="page-banner-title">Global Client Case Studies</h1>
+        <p class="page-banner-desc">Real-world delivery records for world marathon organizers, viral direct-to-consumer footwear accessories, and Silicon Valley corporate swag programs.</p>
+        <div class="banner-partners-showcase">
+          <div class="banner-partners-header">
+            <span class="banner-partners-pulse"></span>
+            <span>Trusted Manufacturing Partner for Global Licensed Brands &amp; Enterprises:</span>
+          </div>
+          <div class="banner-partners-img-wrap">
+            <img src="images/partners-tiles-only.png" alt="Global Licensed Brand Partners: Disney, Marvel, Coca-Cola, Netflix, Walmart, Starbucks" class="banner-partners-img" width="1024" height="271" loading="lazy">
+          </div>
+          <div class="banner-partners-chips">
+            <span class="partner-chip">Marvel</span>
+            <span class="partner-chip">Disney</span>
+            <span class="partner-chip">Coca-Cola</span>
+            <span class="partner-chip">Netflix</span>
+            <span class="partner-chip">Walmart</span>
+            <span class="partner-chip">McDonald's</span>
+            <span class="partner-chip">Starbucks</span>
+            <span class="partner-chip">Amazon</span>
+            <span class="partner-chip">Unilever</span>
+            <span class="partner-chip">Heineken</span>
+            <span class="partner-chip partner-chip-more">+30 More</span>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -882,11 +1026,35 @@ pages = {
   <header class="site-header"></header>
   <!-- END_GLOBAL_HEADER -->
 
-  <section class="page-banner" style="background: linear-gradient(rgba(15, 23, 42, 0.92), rgba(15, 23, 42, 0.97)), url('images/factory-workshop.svg') center/cover; padding: 75px 0; color: #fff; text-align: center;">
+  <section class="page-banner">
     <div class="container">
-      <span style="display: inline-block; background: rgba(0, 191, 255, 0.15); color: #00BFFF; border: 1px solid #00BFFF; font-weight: 700; font-size: 0.82rem; padding: 4px 14px; border-radius: 20px; text-transform: uppercase; margin-bottom: 12px;">Factory Direct Inquiries</span>
-      <h1 style="font-size: 2.6rem; margin-bottom: 15px; color: #fff; font-weight: 800;">Contact Factory Engineering &amp; Export Sales</h1>
-      <p style="max-width: 860px; margin: 0 auto; color: #e2e8f0; font-size: 1.05rem; line-height: 1.6;">Receive factory FOB/DDP pricing, custom mold tooling assessments, and free 3D CAD mockups within 12 hours.</p>
+      <div class="page-banner-card">
+        <span class="page-banner-badge">Factory Direct Inquiries</span>
+        <h1 class="page-banner-title">Contact Factory Engineering &amp; Export Sales</h1>
+        <p class="page-banner-desc">Receive factory FOB/DDP pricing, custom mold tooling assessments, and free 3D CAD mockups within 12 hours.</p>
+        <div class="banner-partners-showcase">
+          <div class="banner-partners-header">
+            <span class="banner-partners-pulse"></span>
+            <span>Trusted Manufacturing Partner for Global Licensed Brands &amp; Enterprises:</span>
+          </div>
+          <div class="banner-partners-img-wrap">
+            <img src="images/partners-tiles-only.png" alt="Global Licensed Brand Partners: Disney, Marvel, Coca-Cola, Netflix, Walmart, Starbucks" class="banner-partners-img" width="1024" height="271" loading="lazy">
+          </div>
+          <div class="banner-partners-chips">
+            <span class="partner-chip">Marvel</span>
+            <span class="partner-chip">Disney</span>
+            <span class="partner-chip">Coca-Cola</span>
+            <span class="partner-chip">Netflix</span>
+            <span class="partner-chip">Walmart</span>
+            <span class="partner-chip">McDonald's</span>
+            <span class="partner-chip">Starbucks</span>
+            <span class="partner-chip">Amazon</span>
+            <span class="partner-chip">Unilever</span>
+            <span class="partner-chip">Heineken</span>
+            <span class="partner-chip partner-chip-more">+30 More</span>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -1028,11 +1196,35 @@ pages = {
   <header class="site-header"></header>
   <!-- END_GLOBAL_HEADER -->
 
-  <section class="page-banner" style="background: linear-gradient(rgba(15, 23, 42, 0.92), rgba(15, 23, 42, 0.97)), url('images/factory-workshop.svg') center/cover; padding: 75px 0; color: #fff; text-align: center;">
+  <section class="page-banner">
     <div class="container">
-      <span style="display: inline-block; background: rgba(0, 191, 255, 0.15); color: #00BFFF; border: 1px solid #00BFFF; font-weight: 700; font-size: 0.82rem; padding: 4px 14px; border-radius: 20px; text-transform: uppercase; margin-bottom: 12px;">Visual Identity System</span>
-      <h1 style="font-size: 2.6rem; margin-bottom: 15px; color: #fff; font-weight: 800;">NAIKE GIFTS Brand Identity (VI/CI)</h1>
-      <p style="max-width: 860px; margin: 0 auto; color: #e2e8f0; font-size: 1.05rem; line-height: 1.6;">Our primary design palette: Electric Cyan (#00BFFF / PMS 299 C), Deep Slate (#0F172A), and Neon Pink (#F556A0 / PMS 806 C).</p>
+      <div class="page-banner-card">
+        <span class="page-banner-badge">Visual Identity System</span>
+        <h1 class="page-banner-title">NAIKE GIFTS Brand Identity (VI/CI)</h1>
+        <p class="page-banner-desc">Our primary design palette: Electric Cyan (#00BFFF / PMS 299 C), Deep Slate (#0F172A), and Neon Pink (#F556A0 / PMS 806 C).</p>
+        <div class="banner-partners-showcase">
+          <div class="banner-partners-header">
+            <span class="banner-partners-pulse"></span>
+            <span>Trusted Manufacturing Partner for Global Licensed Brands &amp; Enterprises:</span>
+          </div>
+          <div class="banner-partners-img-wrap">
+            <img src="images/partners-tiles-only.png" alt="Global Licensed Brand Partners: Disney, Marvel, Coca-Cola, Netflix, Walmart, Starbucks" class="banner-partners-img" width="1024" height="271" loading="lazy">
+          </div>
+          <div class="banner-partners-chips">
+            <span class="partner-chip">Marvel</span>
+            <span class="partner-chip">Disney</span>
+            <span class="partner-chip">Coca-Cola</span>
+            <span class="partner-chip">Netflix</span>
+            <span class="partner-chip">Walmart</span>
+            <span class="partner-chip">McDonald's</span>
+            <span class="partner-chip">Starbucks</span>
+            <span class="partner-chip">Amazon</span>
+            <span class="partner-chip">Unilever</span>
+            <span class="partner-chip">Heineken</span>
+            <span class="partner-chip partner-chip-more">+30 More</span>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 

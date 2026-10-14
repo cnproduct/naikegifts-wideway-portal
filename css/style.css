@@ -5002,3 +5002,205 @@ footer {
   transition: max-height 0.35s ease-in-out;
 }
 
+/* ==========================================================================
+   2026 DESIGNER HERO & SUBPAGE BANNERS WITH PARTNER SHOWCASE & GLASS-CARDS
+   ========================================================================== */
+
+/* 1. Homepage Hero Glass Card */
+.hero-slide .hero-content.hero-glass-card {
+  max-width: 780px;
+  background: rgba(11, 26, 46, 0.82);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 20px;
+  padding: 36px 42px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6), 0 0 30px rgba(0, 191, 255, 0.08);
+}
+
+@media (max-width: 768px) {
+  .hero-slide .hero-content.hero-glass-card {
+    padding: 24px 18px;
+    border-radius: 14px;
+    max-width: 100%;
+  }
+}
+
+/* 2. Enhanced Subpage Banner */
+.page-banner {
+  position: relative !important;
+  overflow: hidden !important;
+  background-color: #091b2e !important;
+  background-image: linear-gradient(rgba(9, 27, 46, 0.72), rgba(9, 27, 46, 0.88)), url('../images/page-banner-partners-bg.jpg') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  padding: 60px 0 50px 0 !important;
+  color: #fff !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+
+/* 3. Subpage Banner Text Background Box (Glassmorphic Shield) */
+.page-banner-card {
+  position: relative;
+  z-index: 3;
+  max-width: 980px;
+  margin: 0 auto;
+  background: rgba(11, 26, 46, 0.84);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 20px 45px -10px rgba(0, 0, 0, 0.55), 0 0 35px rgba(0, 191, 255, 0.08);
+  border-radius: 20px;
+  padding: 34px 40px 28px 40px;
+  text-align: center;
+}
+
+.page-banner-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(0, 191, 255, 0.12);
+  color: #00BFFF;
+  border: 1px solid rgba(0, 191, 255, 0.35);
+  font-weight: 700;
+  font-size: 0.80rem;
+  padding: 5px 16px;
+  border-radius: 9999px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+}
+
+.page-banner-title {
+  font-size: clamp(1.8rem, 3.2vw, 2.5rem);
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 10px;
+  letter-spacing: -0.015em;
+  line-height: 1.25;
+}
+
+.page-banner-desc {
+  max-width: 820px;
+  margin: 0 auto 20px auto;
+  color: #cbd5e1;
+  font-size: 0.98rem;
+  line-height: 1.65;
+}
+
+/* 4. Tasteful Partner Brands Showcase Bar */
+.banner-partners-showcase {
+  margin-top: 18px;
+  padding-top: 18px;
+  border-top: 1px solid rgba(255, 255, 255, 0.10);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner-partners-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #94a3b8;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+.banner-partners-pulse {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #00BFFF;
+  box-shadow: 0 0 10px #00BFFF;
+  display: inline-block;
+  animation: pulse-glow 2s infinite ease-in-out;
+}
+
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.6; transform: scale(0.9); }
+  50% { opacity: 1; transform: scale(1.2); }
+}
+
+.banner-partners-img-wrap {
+  width: 100%;
+  max-width: 680px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+  background: rgba(15, 23, 42, 0.7);
+  margin-bottom: 12px;
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.banner-partners-img-wrap:hover {
+  transform: translateY(-2px);
+  border-color: rgba(0, 191, 255, 0.45);
+  box-shadow: 0 15px 35px rgba(0, 191, 255, 0.25);
+}
+
+.banner-partners-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.banner-partners-chips {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px 10px;
+}
+
+.partner-chip {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: #e2e8f0;
+  font-size: 0.76rem;
+  font-weight: 600;
+  padding: 4px 11px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.partner-chip:hover {
+  background: rgba(0, 191, 255, 0.15);
+  border-color: rgba(0, 191, 255, 0.4);
+  color: #38bdf8;
+  transform: translateY(-1px);
+}
+
+.partner-chip-more {
+  background: rgba(0, 191, 255, 0.12);
+  border-color: rgba(0, 191, 255, 0.3);
+  color: #00BFFF;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .page-banner-card {
+    padding: 24px 18px 20px 18px;
+    border-radius: 14px;
+  }
+  .page-banner-title {
+    font-size: 1.6rem;
+  }
+  .page-banner-desc {
+    font-size: 0.92rem;
+  }
+  .banner-partners-img-wrap {
+    max-width: 100%;
+  }
+  .banner-partners-chips {
+    gap: 4px 6px;
+  }
+  .partner-chip {
+    font-size: 0.70rem;
+    padding: 3px 8px;
+  }
+}
+
