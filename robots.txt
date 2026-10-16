@@ -18,6 +18,7 @@ Allow: /ai/
 Allow: /ai/summary.json
 Allow: /ai/audits.json
 Allow: /ai/faq.json
+Allow: /ai/compliance.json
 Allow: /certifications
 
 # OpenAI / ChatGPT Search & Grounding Bots

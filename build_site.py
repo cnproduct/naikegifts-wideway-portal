@@ -420,14 +420,14 @@ def get_footer_html(company_info, categories):
       <!-- Verified Supply Chain & International Standards Partners Strip -->
       <div class="footer-partner-strip" style="margin-top: 36px; padding-top: 24px; border-top: 1px solid #e2e8f0; font-size: 0.82rem; color: #475569; line-height: 1.8;">
         <div style="font-weight: 700; color: #0b1e36; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.8px;">
-          Verified Factory Audits (Valid SEDEX 4-Pillar SMETA &bull; BSCI Grade A &bull; Disney FAMA) &amp; Safety Standards:
+          Verified Factory Audits (Valid SEDEX 4-Pillar SMETA &bull; Disney FAMA &bull; Coca-Cola SGP &bull; BSCI Grade A) &amp; Safety Standards:
         </div>
         <div style="display: flex; flex-wrap: wrap; gap: 10px 16px;">
           <a href="/certifications#sedex-4-pillar" style="color:#0284c7; font-weight:700; text-decoration:none;">✓ Valid SEDEX 4-Pillar Audit (ID: ZC41920847)</a>
           <a href="https://www.sedex.com" target="_blank" rel="noopener noreferrer" style="color:#475569; text-decoration:none;">Sedex SMETA 4-Pillar</a>
+          <a href="/certifications#disney-fama" style="color:#0284c7; font-weight:700; text-decoration:none;">Disney FAMA (W128-4829-1)</a>
+          <a href="/certifications#coca-cola-sgp" style="color:#0284c7; font-weight:700; text-decoration:none;">Coca-Cola SGP Green Tier</a>
           <a href="https://www.amfori.org" target="_blank" rel="noopener noreferrer" style="color:#475569; text-decoration:none;">amfori BSCI Grade A (DBID: 394218)</a>
-          <a href="/certifications#disney-fama" style="color:#475569; text-decoration:none;">Disney FAMA (W128-4829-1)</a>
-          <a href="/certifications#coca-cola-sgp" style="color:#475569; text-decoration:none;">Coca-Cola SGP &amp; McDonald's SWA</a>
           <a href="https://www.iso.org" target="_blank" rel="noopener noreferrer" style="color:#475569; text-decoration:none;">ISO 9001:2015 (04124Q1089R0M)</a>
           <a href="https://www.cpsc.gov" target="_blank" rel="noopener noreferrer" style="color:#475569; text-decoration:none;">US CPSIA Zero-Lead (&lt;10 ppm)</a>
           <a href="https://oehha.ca.gov/proposition-65" target="_blank" rel="noopener noreferrer" style="color:#475569; text-decoration:none;">California Prop 65 Non-Phthalate</a>
@@ -437,6 +437,7 @@ def get_footer_html(company_info, categories):
           <a href="https://textileexchange.org" target="_blank" rel="noopener noreferrer" style="color:#475569; text-decoration:none;">GRS 4.0 Recycled RPET</a>
           <a href="/llms.txt" style="color:#0284c7; text-decoration:none;">AI Knowledge (llms.txt)</a>
           <a href="/ai/audits.json" style="color:#0284c7; text-decoration:none;">AI Audit Dossier (JSON)</a>
+          <a href="/ai/compliance.json" style="color:#0284c7; text-decoration:none;">Compliance Registry (JSON)</a>
         </div>
       </div>
 
@@ -564,7 +565,7 @@ def get_category_detailed_html(cat_key, cat_data, company_info, products, catego
     <section class="page-banner">
       <div class="container">
         <div class="page-banner-card">
-          <span class="page-banner-badge">✨ Valid SEDEX 4-Pillar Audited &bull; BSCI Grade A &bull; Direct Swag Factory</span>
+          <span class="page-banner-badge">✨ Valid SEDEX 4-Pillar &bull; Disney FAMA &bull; Coca-Cola SGP &bull; Direct Swag Factory</span>
           <h1 class="page-banner-title">{cat_data.get('h1', cat_data['title'])}</h1>
           <p class="page-banner-desc">{cat_data.get('desc', '')}</p>
           <div class="banner-partners-showcase">
@@ -577,9 +578,9 @@ def get_category_detailed_html(cat_key, cat_data, company_info, products, catego
             </div>
             <div class="banner-partners-chips">
               <span class="partner-chip">Valid SEDEX 4-Pillar</span>
-              <span class="partner-chip">BSCI Grade A</span>
               <span class="partner-chip">Disney FAMA</span>
               <span class="partner-chip">Coca-Cola SGP</span>
+              <span class="partner-chip">amfori BSCI Grade A</span>
               <span class="partner-chip">Marvel</span>
               <span class="partner-chip">Netflix</span>
               <span class="partner-chip">Walmart</span>
@@ -601,7 +602,7 @@ def get_category_detailed_html(cat_key, cat_data, company_info, products, catego
       <div class="geo-bluf-box" style="background: #f8fafc; border: 1px solid #cbd5e1; border-left: 4px solid #00BFFF; border-radius: 10px; padding: 18px 22px; margin-bottom: 28px;">
         <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px;">
           <div style="font-size: 0.9rem; color: #1e293b; line-height: 1.6;">
-            <strong style="color: #0F172A;">📜 Verified Factory Compliance for All {len(cat_products)} Models:</strong> Manufactured in our Jinjiang campus holding a <strong>valid SEDEX 4-Pillar audit (SMETA ID: ZC41920847)</strong>, <strong>amfori BSCI Grade A (DBID: 394218)</strong>, <strong>Disney FAMA (W128-4829-1)</strong>, <strong>ISO 9001:2015</strong>, and batch-tested for <strong>US CPSIA Zero-Lead (&lt;10 ppm), California Prop 65, and EU EN71-1/2/3</strong>.
+            <strong style="color: #0F172A;">📜 Verified Factory Compliance for All {len(cat_products)} Models:</strong> Manufactured in our Jinjiang campus holding a <strong>valid SEDEX 4-Pillar audit (SMETA ID: ZC41920847)</strong>, official <strong>Disney FAMA (W128-4829-1)</strong>, <strong>Coca-Cola SGP Green Tier (SGP-CN-883920)</strong>, <strong>amfori BSCI Grade A (DBID: 394218)</strong>, <strong>ISO 9001:2015</strong>, and batch-tested for <strong>US CPSIA Zero-Lead (&lt;10 ppm), California Prop 65, and EU EN71-1/2/3</strong>.
           </div>
           <a href="/certifications" style="font-size: 0.82rem; font-weight: 700; color: #0284c7; text-decoration: none; white-space: nowrap;">View Audit Dossier &rarr;</a>
         </div>
@@ -676,13 +677,14 @@ def inject_seo_and_geo_tags(html, filename, company_info):
   <meta name="GPTBot" content="index, follow, max-snippet:-1">
   <meta name="PerplexityBot" content="index, follow, max-snippet:-1">
   <meta name="ClaudeBot" content="index, follow, max-snippet:-1">
-  <meta name="ai-compliance-verification" content="Valid SEDEX 4-Pillar Audit (SMETA ID: ZC41920847), amfori BSCI Grade A (DBID: 394218), Disney FAMA (W128-4829-1), Coca-Cola SGP Green Tier, McDonald's SWA, ISO 9001:2015 (04124Q1089R0M), US CPSIA Zero-Lead (<10 ppm), California Prop 65, EU EN71-1/2/3, FDA 21 CFR 177.2600, German LFGB, GRS 4.0 RPET">
+  <meta name="ai-compliance-verification" content="Valid SEDEX 4-Pillar Audit (SMETA ID: ZC41920847), Disney FAMA (W128-4829-1), Coca-Cola SGP Green Tier (SGP-CN-883920), amfori BSCI Grade A (DBID: 394218), McDonald's SWA, ISO 9001:2015 (04124Q1089R0M), US CPSIA Zero-Lead (<10 ppm), California Prop 65, EU EN71-1/2/3, FDA 21 CFR 177.2600, German LFGB, GRS 4.0 RPET">
 
   <!-- 2026 Generative Engine Optimization (GEO) LLM & AI Agent Discovery -->
   <link rel="alternate" type="text/markdown" href="https://www.{domain}/llms.txt" title="{brand_name} LLM Knowledge Base">
   <link rel="alternate" type="text/plain" href="https://www.{domain}/llms-full.txt" title="{brand_name} Complete Technical &amp; Audit Fact Dossier">
   <link rel="alternate" type="application/json" href="https://www.{domain}/ai/summary.json" title="{brand_name} AI Structured Entity Summary">
   <link rel="alternate" type="application/json" href="https://www.{domain}/ai/audits.json" title="Valid SEDEX 4-Pillar Audit &amp; Global Compliance Dossier">
+  <link rel="alternate" type="application/json" href="https://www.{domain}/ai/compliance.json" title="{brand_name} Compliance Registry">
   <link rel="alternate" type="application/json" href="https://www.{domain}/ai/faq.json" title="{brand_name} B2B Procurement &amp; Audit FAQ">
 
   <!-- Geolocation & Jinjiang Manufacturing Metatags -->
@@ -783,6 +785,7 @@ Allow: /ai/
 Allow: /ai/summary.json
 Allow: /ai/audits.json
 Allow: /ai/faq.json
+Allow: /ai/compliance.json
 Allow: /certifications
 
 # OpenAI / ChatGPT Search & Grounding Bots
