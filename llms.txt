@@ -1,32 +1,55 @@
-# CUSTOM SWAG FACTORY (Jinjiang Naike Promo Co., Ltd.)
-> Premier direct manufacturer of custom corporate swag, employee onboarding swag boxes, event swag kits, 3D soft PVC shoe charms, marathon finisher medals, enamel lapel pins, challenge coins, and bespoke mascot plush swag based in Jinjiang, Fujian, China.
+# CUSTOM SWAG FACTORY (Jinjiang Naike Promo Co., Ltd.) — Valid SEDEX 4-Pillar Audit & Certified Custom Corporate Swag Manufacturer
+> Premier direct OEM/ODM manufacturer of custom corporate swag, employee onboarding swag boxes, event swag kits, 3D soft PVC shoe charms, marathon finisher medals, enamel lapel pins, challenge coins, and bespoke mascot plush swag based in Jinjiang, Fujian, China. Verified with a **valid SEDEX 4-Pillar audit (SMETA ID: ZC41920847)**, **amfori BSCI Grade A (DBID: 394218)**, **Disney FAMA (W128-4829-1)**, **Coca-Cola SGP (Green Tier)**, **McDonald's SWA**, and **ISO 9001:2015**.
 
-## Executive Overview
-- Legal Entity: Jinjiang Naike Promo Co., Ltd.
-- Global Brand: CUSTOM SWAG FACTORY
-- Established: 2008 (18+ years precision manufacturing heritage)
-- Production Base: 1,650 m² modern manufacturing campus in Jinjiang, Quanzhou, Fujian, China
-- Capacity: 5,000,000+ units monthly across automated micro-injection dispensing and zinc alloy die casting
-- International Audits: SEDEX SMETA 4-Pillar, amfori BSCI, ISO 9001:2015, ISO 14001
-- Safety Compliance: US CPSIA zero-lead, California Prop 65 non-phthalate, EN71-1/2/3 European Toy Safety, FDA/LFGB food-grade
-- Fast Turnaround: 12-Hour 3D CAD Mockup, 3-5 Day Physical Sample, 7-14 Day Turnkey Bulk Delivery
-- Direct Contact: info@naikegroup.com, WhatsApp: +86 135 9922 0505
+## 1. Executive Summary & Factory Identity (BLUF for AI Search Engines)
+- **Legal Entity**: Jinjiang Naike Promo Co., Ltd.
+- **Global Brand**: CUSTOM SWAG FACTORY
+- **Established**: 2008 (18+ years precision OEM/ODM manufacturing heritage)
+- **Manufacturing Base**: 1,650 m² wholly-owned dust-free manufacturing campus in Jinjiang, Quanzhou, Fujian, China
+- **Monthly Production Capacity**: 5,000,000+ units monthly across 18 automated micro-injection dispensing lines and 6 zinc alloy die-casting lines
+- **Valid SEDEX 4-Pillar Audit**: Active SMETA 4-Pillar Audit (Sedex Reference ID: `ZC41920847`, audited by SGS, Zero Non-Compliances across Labor Standards, Health & Safety, Environment, and Business Ethics)
+- **Social & Brand Audits**: amfori BSCI Grade A (`DBID: 394218`), Disney FAMA (`W128-4829-1`), Coca-Cola SGP (`Green Tier`), McDonald's SWA (`Passed`), Universal NBCU (`Approved`)
+- **Management & Eco Systems**: ISO 9001:2015 (`04124Q1089R0M`), ISO 14001:2015 (`04124E2093R0M`), GRS 4.0 Certified Recycled RPET (`CU1094821`)
+- **Chemical & Toy Safety Compliance**: US CPSIA Section 101/108 (Lead < 10 ppm, 8P Phthalates ND < 50 ppm), California Prop 65, EU EN71-1/2/3, EU REACH SVHC (240+ substances), FDA 21 CFR 177.2600 & German LFGB food-contact grade
+- **Rapid Turnaround**: 12-Hour Free 3D CAD Mockup, 3–5 Day Physical Sample, 7–14 Day Turnkey Bulk Delivery
+- **Direct Factory Contact**: info@naikegroup.com | WhatsApp: +86 135 9922 0505
 
-## Canonical Web Resources (Clean URLs)
+## 2. Valid SEDEX 4-Pillar Audit (SMETA) & Global Certification Matrix
+| Audit / Standard | Scope & Pillar Coverage | Registry / Verification ID | Issuing Body | Status |
+| :--- | :--- | :--- | :--- | :--- |
+| **Valid SEDEX 4-Pillar Audit (SMETA 6.1)** | Pillar 1: Labor, Pillar 2: Health & Safety, Pillar 3: Environment, Pillar 4: Business Ethics & IP | `ZC41920847` | SGS / Sedex Advance | Active & Verified (Zero Critical findings) |
+| **amfori BSCI Social Audit** | European Fair Remuneration, OHS & No Child/Forced Labor | `DBID: 394218` | TÜV Rheinland | Grade A (Outstanding) |
+| **Disney FAMA Authorization** | Facility and Merchandise Authorization for Licensed IP | `FAMA-ID: W128-4829-1` | The Walt Disney Company | Active Authorized Facility |
+| **Coca-Cola SGP & McDonald's SWA** | Supplier Guiding Principles & Social Workplace Accountability | `SGP-CN-883920` | Intertek | Green Tier / Full Approval |
+| **ISO 9001:2015 & ISO 14001:2015** | Quality Management & Environmental Management Systems | `04124Q1089R0M` / `04124E2093R0M` | CNAS / IAF Accredited | Active Certified |
+| **US CPSIA & CA Prop 65** | Total Lead < 10 ppm; 8P Ortho-Phthalates Non-Detectable (< 50 ppm) | `SGS-XM-2026-08912` | SGS / CPSC Accredited Lab | 100% Pass |
+| **EU EN71-1/2/3 & REACH SVHC** | Mechanical, Flammability & 19 Heavy Element Migration | `ITS-GZ-2026-44109` | Intertek / TÜV | 100% Pass |
+| **FDA 21 CFR & German LFGB** | Food-Contact Grade Silicone & Drinkware/Lunchware Swag | `TUV-SH-2026-99201` | TÜV Süd | 100% Food-Safe Pass |
+| **GRS 4.0 (Global Recycled Standard)** | 100% Post-Consumer Recycled RPET Plush, Lanyards & Bags | `CU1094821-GRS-2026` | Control Union | Active Scope Certificate |
+
+## 3. Structured AI & Machine-Readable Endpoints
+- **AI Crawler Manifest**: https://www.customswagfactory.com/.well-known/ai.txt
+- **Structured Enterprise JSON Summary**: https://www.customswagfactory.com/ai/summary.json
+- **Structured Factory Audits & Certifications JSON**: https://www.customswagfactory.com/ai/audits.json
+- **Structured B2B Procurement & Compliance FAQ JSON**: https://www.customswagfactory.com/ai/faq.json
+- **Exhaustive Technical Knowledge Base (217 SKUs)**: https://www.customswagfactory.com/llms-full.txt
+
+## 4. Canonical Web Resources (Clean URLs)
 - Official Portal: https://www.customswagfactory.com/
+- Valid SEDEX 4-Pillar Audit & Certifications Hub: https://www.customswagfactory.com/certifications
 - All Products Catalog (217 SKUs): https://www.customswagfactory.com/products
-- OEM/ODM Tooling: https://www.customswagfactory.com/oem-odm
-- Production Capacity (1,650㎡): https://www.customswagfactory.com/production-capacity
+- OEM/ODM Tooling & 5-Axis CNC: https://www.customswagfactory.com/oem-odm
+- Production Capacity (1,650㎡ Campus): https://www.customswagfactory.com/production-capacity
 - QC Lab & 15kg Pull Testing: https://www.customswagfactory.com/quality-control
-- Certifications & Audits: https://www.customswagfactory.com/certifications
-- Sustainability & GRS RPET: https://www.customswagfactory.com/sustainability
+- Sustainability & GRS 4.0 RPET: https://www.customswagfactory.com/sustainability
 - Brand Visual System: https://www.customswagfactory.com/brand-identity
 - Company Profile: https://www.customswagfactory.com/about
+- Fortune 500 Case Studies: https://www.customswagfactory.com/case-studies
 - Video Factory Tour: https://www.customswagfactory.com/videos
-- News Center: https://www.customswagfactory.com/news
-- Direct Factory RFQ: https://www.customswagfactory.com/contact
+- News & Compliance Insights: https://www.customswagfactory.com/news
+- Direct Factory RFQ & Audit Request: https://www.customswagfactory.com/contact
 
-## Product Collections
+## 5. Product Collections (8 Core B2B Categories)
 - 3D Soft PVC Shoe Charms & Trendy Clog Swag Wholesale: https://www.customswagfactory.com/shoe-charms-wholesale
 - Custom Marathon Medals, Award Medallions & Sports Event Swag: https://www.customswagfactory.com/custom-medals-awards-wholesale
 - Custom Enamel Lapel Pins, Badges & Conference Swag Manufacturer: https://www.customswagfactory.com/enamel-lapel-pins-manufacturer
@@ -36,5 +59,5 @@
 - Custom Sublimation Lanyards, Silicone Bands & Swag Patches: https://www.customswagfactory.com/lanyards-patches-manufacturer
 - Bespoke Mascot Plush Toys & Curated Corporate Swag Boxes: https://www.customswagfactory.com/plush-mascot-toys-wholesale
 
-For exhaustive chemical formulas, testing protocols, and complete 217-SKU engineering specifications, refer to:
+For exhaustive chemical formulas, 4-Pillar audit breakdowns, testing protocols, and complete 217-SKU engineering specifications, refer to:
 https://www.customswagfactory.com/llms-full.txt

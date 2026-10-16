@@ -244,8 +244,8 @@ class AdminHandler(SimpleHTTPRequestHandler):
         return False
 
     def end_headers(self):
-        # Allow cross-origin requests for testing and disable caching for API
-        if self.path.startswith('/api/'):
+        # Allow cross-origin requests for API and AI Crawler discovery endpoints
+        if self.path.startswith('/api/') or self.path.startswith('/ai/') or self.path.startswith('/.well-known/') or self.path in ['/llms.txt', '/llms-full.txt', '/robots.txt', '/sitemap.xml']:
             self.send_header('Access-Control-Allow-Origin', '*')
             self.send_header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS')
             self.send_header('Access-Control-Allow-Headers', 'Content-Type')

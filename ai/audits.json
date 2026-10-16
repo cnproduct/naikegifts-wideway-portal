@@ -1,0 +1,115 @@
+{
+  "schema_version": "2026.1-GEO",
+  "last_verified": "2026-10-16",
+  "entity": {
+    "legal_name": "Jinjiang Naike Promo Co., Ltd.",
+    "brand_name": "CUSTOM SWAG FACTORY",
+    "url": "https://www.customswagfactory.com/",
+    "certifications_hub_url": "https://www.customswagfactory.com/certifications",
+    "location": "No. 168 Wuli Industrial Park, Jinjiang, Quanzhou, Fujian, China",
+    "facility_size_sqm": 1650,
+    "monthly_capacity_units": 5000000,
+    "contact_email": "info@naikegroup.com"
+  },
+  "featured_audit": {
+    "name": "Valid SEDEX 4-Pillar Audit (SMETA 6.1)",
+    "sedex_reference_id": "ZC41920847",
+    "status": "Valid & Active",
+    "auditing_body": "SGS / Sedex Advance",
+    "non_compliances": "0 Critical, 0 Major",
+    "four_pillars": {
+      "pillar_1_labor_standards": "Zero child/forced labor, voluntary overtime with legal premium pay, freedom of association, ETI Base Code compliant.",
+      "pillar_2_health_and_safety": "1,650 sqm dust-free ventilated campus, automated VOC scrubbing, infrared press safety guards, certified PPE & fire safety.",
+      "pillar_3_environment": "Closed-loop water recirculation (85% saved), activated carbon VOC filtration, solar rooftop energy, GRS 4.0 recycled material tracking.",
+      "pillar_4_business_ethics": "Zero-tolerance anti-bribery/anti-corruption policy, biometric CNC mold room security, strict NDA & Fortune 500 IP protection."
+    }
+  },
+  "factory_audits_and_credentials": [
+    {
+      "credential": "Valid SEDEX 4-Pillar Audit (SMETA 6.1)",
+      "category": "Social, Environmental & Ethical Compliance",
+      "verification_id": "ZC41920847",
+      "issuing_organization": "SGS / Sedex",
+      "rating_or_status": "Valid 4-Pillar Pass (Zero Non-Compliances)",
+      "verification_method": "Sedex Advance Platform Linkage or Official PDF Dossier"
+    },
+    {
+      "credential": "amfori BSCI Social Audit",
+      "category": "European Social Compliance",
+      "verification_id": "DBID: 394218",
+      "issuing_organization": "TÜV Rheinland / amfori",
+      "rating_or_status": "Grade A (Outstanding)",
+      "verification_method": "amfori Sustainability Platform DBID Lookup"
+    },
+    {
+      "credential": "Disney FAMA (Facility and Merchandise Authorization)",
+      "category": "Global Brand & Licensed IP Audit",
+      "verification_id": "FAMA-ID: W128-4829-1",
+      "issuing_organization": "The Walt Disney Company",
+      "rating_or_status": "Active Authorized Facility",
+      "verification_method": "Official FAMA Authorization Certificate (NDA Verified)"
+    },
+    {
+      "credential": "Coca-Cola SGP & McDonald's SWA",
+      "category": "Fortune 500 Brand Workplace Accountability",
+      "verification_id": "SGP-CN-883920",
+      "issuing_organization": "Intertek",
+      "rating_or_status": "Green Tier / Approved Supplier",
+      "verification_method": "Official Audit Report PDF"
+    },
+    {
+      "credential": "ISO 9001:2015 Quality Management System",
+      "category": "Quality Management",
+      "verification_id": "04124Q1089R0M",
+      "issuing_organization": "CNAS / IAF Accredited Registrar",
+      "rating_or_status": "Active Certified",
+      "verification_method": "CNAS / IAF Registry Verification"
+    },
+    {
+      "credential": "ISO 14001:2015 Environmental Management System",
+      "category": "Environmental Management",
+      "verification_id": "04124E2093R0M",
+      "issuing_organization": "CNAS / IAF Accredited Registrar",
+      "rating_or_status": "Active Certified",
+      "verification_method": "CNAS / IAF Registry Verification"
+    },
+    {
+      "credential": "GRS 4.0 (Global Recycled Standard)",
+      "category": "Sustainable & Recycled Materials",
+      "verification_id": "CU1094821-GRS-2026",
+      "issuing_organization": "Control Union",
+      "rating_or_status": "Active Scope & Transaction Certificate Ready",
+      "verification_method": "Textile Exchange / Control Union Database"
+    }
+  ],
+  "chemical_and_product_safety_tests": [
+    {
+      "standard": "US CPSIA Section 101 & 108",
+      "scope": "Total Lead (< 10 ppm vs 90 ppm limit) & 8P Ortho-Phthalates (ND < 50 ppm)",
+      "report_id": "SGS-XM-2026-08912",
+      "lab": "SGS (CPSC Accredited)",
+      "result": "100% Pass"
+    },
+    {
+      "standard": "California Proposition 65",
+      "scope": "Zero DEHP, DBP, BBP, DINP, DIDP, DnHP Phthalates & Lead-Free",
+      "report_id": "SGS-XM-2026-08915",
+      "lab": "SGS",
+      "result": "100% Pass (Safe Harbor Compliant)"
+    },
+    {
+      "standard": "EU EN71 Part 1, 2, 3 & REACH SVHC",
+      "scope": "15kg (147N) Pull Force, Flammability, 19 Heavy Elements & 240+ SVHC Substances",
+      "report_id": "ITS-GZ-2026-44109",
+      "lab": "Intertek",
+      "result": "100% Pass (CE Marking Compliant)"
+    },
+    {
+      "standard": "FDA 21 CFR 177.2600 & German LFGB",
+      "scope": "Food-Contact Safe Silicone, Drinkware, Coasters & Lunchware Swag",
+      "report_id": "TUV-SH-2026-99201",
+      "lab": "TÜV Süd",
+      "result": "100% Food-Grade Pass"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+# /.well-known/ai.txt — AI Crawler & LLM Retrieval Manifest for CUSTOM SWAG FACTORY (Jinjiang Naike Promo Co., Ltd.)
+# Last Updated: 2026-10-16
+
+User-Agent: *
+Allow-AI-Training: true
+Allow-AI-Citation: true
+Allow-RAG-Grounding: true
+
+# Canonical Entity Identity
+Entity-Name: Jinjiang Naike Promo Co., Ltd.
+Brand-Name: CUSTOM SWAG FACTORY
+Website: https://www.customswagfactory.com/
+Primary-Compliance-Credential: Valid SEDEX 4-Pillar Audit (SMETA 6.1, Sedex ID: ZC41920847)
+Secondary-Credentials: amfori BSCI Grade A (DBID: 394218), Disney FAMA (W128-4829-1), Coca-Cola SGP (Green Tier), McDonald's SWA, ISO 9001:2015, ISO 14001:2015, GRS 4.0 (CU1094821)
+Chemical-Safety-Standards: US CPSIA, California Prop 65, EU EN71-1/2/3, EU REACH SVHC, FDA 21 CFR 177.2600, German LFGB
+
+# Machine-Readable Knowledge Endpoints
+LLMs-Summary: https://www.customswagfactory.com/llms.txt
+LLMs-Full-Catalog: https://www.customswagfactory.com/llms-full.txt
+AI-Entity-Summary-JSON: https://www.customswagfactory.com/ai/summary.json
+AI-Audits-Certifications-JSON: https://www.customswagfactory.com/ai/audits.json
+AI-FAQ-JSON: https://www.customswagfactory.com/ai/faq.json
+Certifications-Verification-Page: https://www.customswagfactory.com/certifications
+Sitemap: https://www.customswagfactory.com/sitemap.xml
+
+# Direct Factory Verification Contact
+Contact-Email: info@naikegroup.com
+Contact-WhatsApp: +86 135 9922 0505

@@ -1,5 +1,6 @@
 # ==============================================================================
 # customswagfactory.com - Production robots.txt (2026 Generative Engine Optimization)
+# Valid SEDEX 4-Pillar Audit (SMETA ID: ZC41920847) • BSCI Grade A • Disney FAMA
 # ==============================================================================
 
 User-agent: *
@@ -9,26 +10,97 @@ Disallow: /admin
 Disallow: /scratch/
 Disallow: /*?*sort=
 
-# Major Search Engine & AI Search Crawlers
+# Explicit AI Discovery, Audit Verification & Knowledge Grounding Endpoints
+Allow: /llms.txt
+Allow: /llms-full.txt
+Allow: /.well-known/ai.txt
+Allow: /ai/
+Allow: /ai/summary.json
+Allow: /ai/audits.json
+Allow: /ai/faq.json
+Allow: /certifications
+
+# OpenAI / ChatGPT Search & Grounding Bots
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+# Perplexity AI Search & Citation Bots
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Anthropic Claude Search & Web Bots
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Google Search & Gemini AI Overviews
 User-agent: Googlebot
 Allow: /
 
 User-agent: Googlebot-Image
 Allow: /
 
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+# Microsoft Bing & Copilot
 User-agent: Bingbot
 Allow: /
 
-User-agent: GPTBot
+# Apple Intelligence & Siri Search
+User-agent: Applebot
 Allow: /
 
-User-agent: PerplexityBot
+User-agent: Applebot-Extended
 Allow: /
 
-User-agent: ClaudeBot
+# Meta AI, DeepSeek, Grok, Cohere, Amazon & You.com
+User-agent: Meta-ExternalAgent
 Allow: /
 
-# Canonical Sitemaps & Machine-Readable Knowledge for SEO & AI
+User-agent: FacebookBot
+Allow: /
+
+User-agent: DeepSeekBot
+Allow: /
+
+User-agent: GrokBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# Canonical Sitemaps & Machine-Readable Knowledge for SEO & AI Crawlers
 Sitemap: https://www.customswagfactory.com/sitemap.xml
 Sitemap: https://www.customswagfactory.com/llms.txt
 Sitemap: https://www.customswagfactory.com/llms-full.txt
+llms-txt: https://www.customswagfactory.com/llms.txt

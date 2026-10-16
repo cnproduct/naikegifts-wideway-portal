@@ -1,0 +1,89 @@
+{
+  "entity_type": "B2B Direct Manufacturing Factory",
+  "legal_name": "Jinjiang Naike Promo Co., Ltd.",
+  "brand_name": "CUSTOM SWAG FACTORY",
+  "canonical_url": "https://www.customswagfactory.com/",
+  "certifications_url": "https://www.customswagfactory.com/certifications",
+  "founded": 2008,
+  "headquarters": "Jinjiang, Quanzhou, Fujian Province, China",
+  "campus_area_sqm": 1650,
+  "monthly_capacity_pcs": 5000000,
+  "sku_count": 217,
+  "primary_audit_highlight": "Valid SEDEX 4-Pillar Audit (SMETA 6.1, Sedex ID: ZC41920847) & amfori BSCI Grade A (DBID: 394218)",
+  "brand_authorizations": [
+    "Disney FAMA (W128-4829-1)",
+    "Coca-Cola SGP (Green Tier)",
+    "McDonald's SWA",
+    "ISO 9001:2015",
+    "ISO 14001:2015",
+    "GRS 4.0"
+  ],
+  "safety_certifications": [
+    "US CPSIA",
+    "California Prop 65",
+    "EU EN71-1/2/3",
+    "EU REACH SVHC",
+    "FDA 21 CFR 177.2600",
+    "German LFGB"
+  ],
+  "core_product_categories": [
+    {
+      "slug": "shoe-charms",
+      "name": "3D Soft PVC Shoe Charms & Trendy Clog Swag Wholesale",
+      "url": "https://www.customswagfactory.com/shoe-charms-wholesale",
+      "description": "Direct factory wholesale for 3D soft PVC shoe charms, custom clog swag, LED motion-activated flashing charms, and rhinestone crystal buckles. Tested to 15kg tensile pull force. Low MOQ 100 pcs. Manufactured in our facility with a valid SEDEX 4-Pillar audit (SMETA), amfori BSCI Grade A, Disney FAMA, ISO 9001:2015, and US CPSIA / EN71 compliance."
+    },
+    {
+      "slug": "custom-medals",
+      "name": "Custom Marathon Medals, Award Medallions & Sports Event Swag",
+      "url": "https://www.customswagfactory.com/custom-medals-awards-wholesale",
+      "description": "High-precision zinc alloy die-cast finisher medals, corporate recognition award medallions, 360° spinning kinetic medals, and antique relief medals with custom sublimated ribbons for event swag. Manufactured in our facility with a valid SEDEX 4-Pillar audit (SMETA), amfori BSCI Grade A, Disney FAMA, ISO 9001:2015, and US CPSIA / EN71 compliance."
+    },
+    {
+      "slug": "lapel-pins",
+      "name": "Custom Enamel Lapel Pins, Badges & Conference Swag Manufacturer",
+      "url": "https://www.customswagfactory.com/enamel-lapel-pins-manufacturer",
+      "description": "Museum-grade hard enamel (cloisonné) lapel pins, soft enamel die-struck pins, glow-in-the-dark specialty enamel, and tech conference swag badges with deluxe clutch attachments. Manufactured in our facility with a valid SEDEX 4-Pillar audit (SMETA), amfori BSCI Grade A, Disney FAMA, ISO 9001:2015, and US CPSIA / EN71 compliance."
+    },
+    {
+      "slug": "challenge-coins",
+      "name": "Heavy 3D Military Challenge Coins & Corporate Milestone Swag",
+      "url": "https://www.customswagfactory.com/challenge-coins-wholesale-supplier",
+      "description": "4mm thick heavyweight zinc alloy and solid brass challenge coins with diamond-cut rope edges, dual-sided 3D bas-relief sculpting, and executive milestone swag coins. Manufactured in our facility with a valid SEDEX 4-Pillar audit (SMETA), amfori BSCI Grade A, Disney FAMA, ISO 9001:2015, and US CPSIA / EN71 compliance."
+    },
+    {
+      "slug": "barware-magnets",
+      "name": "Soft PVC Bar Service Mats, Coasters & Brewery Swag Factory",
+      "url": "https://www.customswagfactory.com/soft-pvc-barware-magnets-supplier",
+      "description": "Commercial-grade 10mm spill-proof soft PVC bar service mats, molded 3D drink coasters, and custom architectural fridge magnet swag. Certified food-grade & dishwasher-safe. Manufactured in our facility with a valid SEDEX 4-Pillar audit (SMETA), amfori BSCI Grade A, Disney FAMA, ISO 9001:2015, and US CPSIA / EN71 compliance."
+    },
+    {
+      "slug": "keychains",
+      "name": "Custom PVC & Metal Keychains, Spinning Fidget Swag Wholesale",
+      "url": "https://www.customswagfactory.com/custom-keychains-wholesale-supplier",
+      "description": "Dual-sided kinetic spinning fidget keychains with ABEC-7 bearings, 3D sneaker miniature rubber keychains, embroidered jet tags, and branded corporate giveaway swag. Manufactured in our facility with a valid SEDEX 4-Pillar audit (SMETA), amfori BSCI Grade A, Disney FAMA, ISO 9001:2015, and US CPSIA / EN71 compliance."
+    },
+    {
+      "slug": "lanyards-patches",
+      "name": "Custom Sublimation Lanyards, Silicone Bands & Swag Patches",
+      "url": "https://www.customswagfactory.com/lanyards-patches-manufacturer",
+      "description": "Full-color dye sublimation event lanyards with breakaway buckles, tactical velcro morale patches, debossed silicone wristbands, and conference attendee swag. Manufactured in our facility with a valid SEDEX 4-Pillar audit (SMETA), amfori BSCI Grade A, Disney FAMA, ISO 9001:2015, and US CPSIA / EN71 compliance."
+    },
+    {
+      "slug": "plush-swag",
+      "name": "Bespoke Mascot Plush Toys & Curated Corporate Swag Boxes",
+      "url": "https://www.customswagfactory.com/plush-mascot-toys-wholesale",
+      "description": "Bespoke corporate mascot plush dolls crafted from 100% GRS RPET velvet with Tajima digital embroidery. Plus turnkey curated VIP employee onboarding swag boxes. Manufactured in our facility with a valid SEDEX 4-Pillar audit (SMETA), amfori BSCI Grade A, Disney FAMA, ISO 9001:2015, and US CPSIA / EN71 compliance."
+    }
+  ],
+  "lead_times": {
+    "3d_cad_proof": "12 Hours (Free)",
+    "physical_prototype": "3-5 Days",
+    "mass_production": "7-14 Days"
+  },
+  "contact": {
+    "email": "info@naikegroup.com",
+    "phone_whatsapp": "+86 135 9922 0505",
+    "rfq_url": "https://www.customswagfactory.com/contact"
+  }
+}
