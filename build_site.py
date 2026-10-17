@@ -131,6 +131,7 @@ def get_header_html(filename, company_info, categories, products=None):
         ("/glossary", "B2B Terminology", "📖"),
         ("/knowledge-base", "Buyer FAQ", "💡"),
         ("/knowledge-graph", "Supply Graph", "🕸️"),
+        ("/ru/cis-central-asia", "🇷🇺 СНГ и ЕАЭС (RU)", "🌐"),
         ("/contact", "Direct Contact", "📞")
     ])
 
@@ -297,6 +298,11 @@ def get_header_html(filename, company_info, categories, products=None):
           <!-- Brands -->
           <li class="nav-item">
             <a href="/case-studies" class="desktop-nav-link {brands_active}">Brands</a>
+          </li>
+
+          <!-- Regional CIS & Central Asia Hub -->
+          <li class="nav-item">
+            <a href="/ru/cis-central-asia" class="desktop-nav-link" style="color: #0284c7; font-weight: 700;" title="Поставки мерча в Россию, Казахстан и Узбекистан">🇷🇺 СНГ / EAEU</a>
           </li>
 
           <!-- Company ▾ (With Subcategories Dropdown) -->
@@ -686,6 +692,16 @@ def inject_seo_and_geo_tags(html, filename, company_info):
   <link rel="alternate" type="application/json" href="https://www.{domain}/ai/audits.json" title="Valid SEDEX 4-Pillar Audit &amp; Global Compliance Dossier">
   <link rel="alternate" type="application/json" href="https://www.{domain}/ai/compliance.json" title="{brand_name} Compliance Registry">
   <link rel="alternate" type="application/json" href="https://www.{domain}/ai/faq.json" title="{brand_name} B2B Procurement &amp; Audit FAQ">
+  <link rel="alternate" type="application/json" href="https://www.{domain}/ai/cis-summary.json" title="{brand_name} CIS &amp; EAEU Russian Knowledge Base">
+
+  <!-- Yandex Webmaster Verification & OpenGraph Locales -->
+  <meta name="yandex-verification" content="b2b_swag_yandex_773910a2f055">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="ru_RU">
+  <meta property="og:locale:alternate" content="ru_KZ">
+  <meta property="og:locale:alternate" content="ru_UZ">
+  <meta property="og:locale:alternate" content="ru_BY">
+  <meta property="og:locale:alternate" content="ru_KG">
 
   <!-- Geolocation & Jinjiang Manufacturing Metatags -->
   <meta name="geo.region" content="CN-FJ">
@@ -706,14 +722,15 @@ def inject_seo_and_geo_tags(html, filename, company_info):
     html = re.sub(r'<!--\s*2026 Core Web Vitals.*?-->\s*', '', html, flags=re.DOTALL)
     html = re.sub(r'<!--\s*2026 AI Search Crawler Directives.*?-->\s*', '', html, flags=re.DOTALL)
     html = re.sub(r'<!--\s*2026 Generative Engine Optimization.*?-->\s*', '', html, flags=re.DOTALL)
+    html = re.sub(r'<!--\s*Yandex Webmaster.*?-->\s*', '', html, flags=re.DOTALL)
     html = re.sub(r'<!--\s*Geolocation.*?-->\s*', '', html, flags=re.DOTALL)
     html = re.sub(r'<!--\s*Standard Canonical URL.*?-->\s*', '', html, flags=re.DOTALL)
     html = re.sub(r'<!--\s*Favicon Package.*?-->\s*', '', html, flags=re.DOTALL)
     html = re.sub(r'<link\s+[^>]*rel=["\']canonical["\'][^>]*>\s*', '', html)
     html = re.sub(r'<link\s+[^>]*rel=["\']alternate["\'][^>]*type=["\']text/(markdown|plain)["\'][^>]*>\s*', '', html)
     html = re.sub(r'<link\s+[^>]*rel=["\']alternate["\'][^>]*type=["\']application/json["\'][^>]*>\s*', '', html)
-    html = re.sub(r'<meta\s+name=["\'](robots|googlebot|bingbot|OAI-SearchBot|GPTBot|PerplexityBot|ClaudeBot|ai-compliance-verification)["\'][^>]*>\s*', '', html)
-    html = re.sub(r'<meta\s+property=["\']og:url["\'][^>]*>\s*', '', html)
+    html = re.sub(r'<meta\s+name=["\'](robots|googlebot|bingbot|OAI-SearchBot|GPTBot|PerplexityBot|ClaudeBot|ai-compliance-verification|yandex-verification)["\'][^>]*>\s*', '', html)
+    html = re.sub(r'<meta\s+property=["\']og:(url|locale|locale:alternate)["\'][^>]*>\s*', '', html)
     html = re.sub(r'<meta\s+name=["\']geo\.[^>]*>\s*', '', html)
     html = re.sub(r'<meta\s+name=["\']ICBM["\'][^>]*>\s*', '', html)
     html = re.sub(r'<!--\s*OpenGraph URL\s*-->\s*', '', html)
@@ -867,11 +884,34 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
+# Yandex & Яндекс Нейро / Алиса AI Directives
+User-agent: Yandex
+Allow: /
+Allow: /ru/cis-central-asia
+Allow: /ai/
+Allow: /ai/cis-summary.json
+Allow: /ai/compliance.json
+Allow: /certifications
+Clean-param: v /css/*
+Clean-param: v /js/*
+Clean-param: utm_source&utm_medium&utm_campaign&utm_content&utm_term&yclid&fbclid&gclid
+
+User-agent: YandexBot
+Allow: /
+Allow: /ru/cis-central-asia
+
+User-agent: YandexDirect
+Allow: /
+
+User-agent: YandexMetrika
+Allow: /
+
 # Canonical Sitemaps & Machine-Readable Knowledge for SEO & AI Crawlers
 Sitemap: https://www.{domain}/sitemap.xml
 Sitemap: https://www.{domain}/llms.txt
 Sitemap: https://www.{domain}/llms-full.txt
 llms-txt: https://www.{domain}/llms.txt
+IndexNow: https://www.{domain}/c8f2e1a90d4738b5e62f3c7b8d9e10a2.txt
 """
     with open(os.path.join(workspace, "robots.txt"), "w", encoding="utf-8") as f:
         f.write(content)
@@ -1392,7 +1432,8 @@ def compile_site():
         "index.html", "products.html", "product-detail.html", "oem-odm.html", "production-capacity.html",
         "quality-control.html", "certifications.html", "sustainability.html", "brand-identity.html",
         "about.html", "case-studies.html", "videos.html", "news.html", "news-detail.html", "contact.html",
-        "knowledge-base.html", "whitepapers.html", "glossary.html", "knowledge-graph.html"
+        "knowledge-base.html", "whitepapers.html", "glossary.html", "knowledge-graph.html",
+        "ru/cis-central-asia.html"
     ] + [c["url"] for c in categories.values()]
 
     generate_sitemap_xml(all_compiled_pages, products, company_info)

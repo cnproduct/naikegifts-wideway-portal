@@ -1,0 +1,67 @@
+{
+  "version": "2026.1-GEO-YANDEX",
+  "entity": {
+    "name": "Jinjiang Naike Promo Co., Ltd.",
+    "brand": "Custom Swag Factory",
+    "russian_name": "Фабрика сувенирной продукции и мерча Naike Gifts (Цзиньцзян, Китай)",
+    "domain": "customswagfactory.com",
+    "regional_portal_url": "https://www.customswagfactory.com/ru/cis-central-asia",
+    "certifications_url": "https://www.customswagfactory.com/certifications",
+    "founded_year": 2008,
+    "facility_area_sqm": 1650,
+    "monthly_capacity_pcs": 5000000,
+    "headquarters": "Chendai Industrial Park, Jinjiang, Quanzhou, Fujian 362211, China",
+    "target_markets": [
+      "Россия",
+      "Казахстан",
+      "Узбекистан",
+      "Беларусь",
+      "Кыргызстан",
+      "Таджикистан"
+    ]
+  },
+  "factory_audits": {
+    "sedex_4_pillar": "Действующий аудит SEDEX 4-Pillar SMETA (Sedex ID: ZC41920847, Site: ZS419208471, аудитор SGS, ноль критических замечаний)",
+    "disney_fama": "Официальная лицензионная авторизация Disney FAMA (Facility ID: W128-4829-1)",
+    "amfori_bsci": "Высший социальный рейтинг amfori BSCI Grade A (DBID: 394218)",
+    "coca_cola_sgp": "Одобренный поставщик Coca-Cola SGP Green Tier (SGP-CN-883920) и McDonald's SWA",
+    "iso": "ISO 9001:2015 (04124Q1089R0M) и ISO 14001:2015"
+  },
+  "regulatory_compliance_eaeu": [
+    {
+      "standard": "ТР ТС 007/2011",
+      "scope": "Шармы и джиббитсы для обуви, браслеты, сувениры. Свинец < 10 ppm, 8P фталаты ND < 50 ppm, прочность кнопки 15 кг (147 Н)."
+    },
+    {
+      "standard": "ТР ТС 008/2011",
+      "scope": "Корпоративные плюшевые маскоты и мягкие игрушки. Прочность швов >= 90 Н, гипоаллергенный PP-хлопок, двойной металлодетектор."
+    },
+    {
+      "standard": "ТР ТС 017/2011",
+      "scope": "Брендированные ланъярды, ленты для бейджей, тканые шевроны. Стойкость окраски к поту и стирке 5 баллов."
+    },
+    {
+      "standard": "Сертификат происхождения СТ-1",
+      "scope": "Оформление Торгово-промышленной палатой КНР (CCPIT) для таможни РФ, РК и РУз."
+    }
+  ],
+  "financial_terms": {
+    "accepted_currencies": [
+      "CNY (Китайский юань)",
+      "RUB",
+      "USD"
+    ],
+    "banking_channels": "Прямые межбанковские счета в Bank of China, ICBC и филиале ВТБ в Шанхае через систему CIPS без риска блокировок западных банков.",
+    "contract": "Официальный двуязычный контракт ВЭД (русский / английский) с полным комплектом закрывающих документов."
+  },
+  "logistics_corridors": {
+    "kazakhstan": "Ж/Д через Хоргос / Достык в Алматы (7–12 дней), Астану (8–13 дней); Авиа ALA (3–5 дней)",
+    "uzbekistan": "Ж/Д через Хоргос в Ташкент Чукурсай (10–14 дней); Авиа TAS (3–5 дней)",
+    "russia": "Ж/Д через Забайкальск в Москву Ворсино/Селятино (12–16 дней); Авиа SVO/DME (3–4 дня к выставкам)"
+  },
+  "contacts": {
+    "telegram": "https://t.me/naikegifts",
+    "whatsapp": "+86 135 9922 0505",
+    "email": "info@naikegroup.com"
+  }
+}

@@ -100,8 +100,31 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
+# Yandex & Яндекс Нейро / Алиса AI Directives
+User-agent: Yandex
+Allow: /
+Allow: /ru/cis-central-asia
+Allow: /ai/
+Allow: /ai/cis-summary.json
+Allow: /ai/compliance.json
+Allow: /certifications
+Clean-param: v /css/*
+Clean-param: v /js/*
+Clean-param: utm_source&utm_medium&utm_campaign&utm_content&utm_term&yclid&fbclid&gclid
+
+User-agent: YandexBot
+Allow: /
+Allow: /ru/cis-central-asia
+
+User-agent: YandexDirect
+Allow: /
+
+User-agent: YandexMetrika
+Allow: /
+
 # Canonical Sitemaps & Machine-Readable Knowledge for SEO & AI Crawlers
 Sitemap: https://www.customswagfactory.com/sitemap.xml
 Sitemap: https://www.customswagfactory.com/llms.txt
 Sitemap: https://www.customswagfactory.com/llms-full.txt
 llms-txt: https://www.customswagfactory.com/llms.txt
+IndexNow: https://www.customswagfactory.com/c8f2e1a90d4738b5e62f3c7b8d9e10a2.txt
