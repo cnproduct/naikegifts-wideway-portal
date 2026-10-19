@@ -44,7 +44,7 @@ def get_header_html(filename, company_info, categories, products=None):
     logo_text = company_info.get("logo_text", "CUSTOM SWAG FACTORY")
     domain = company_info.get("domain", "customswagfactory.com")
     phone = company_info.get("phone", "+86 135 9922 0505")
-    email = company_info.get("email", "info@naikegroup.com")
+    email = company_info.get("email", "sales@customswagfactory.com")
     wa_clean = company_info.get("whatsapp", "+86 135 9922 0505").replace("+", "").replace(" ", "").replace("-", "")
     prod_count = len(products) if products else 217
 
@@ -358,7 +358,7 @@ def get_header_html(filename, company_info, categories, products=None):
 def get_footer_html(company_info, categories):
     phone = company_info.get("phone", "+86 135 9922 0505")
     wa_clean = company_info.get("whatsapp", "+86 135 9922 0505").replace("+", "").replace(" ", "").replace("-", "")
-    email = company_info.get("email", "info@naikegroup.com")
+    email = company_info.get("email", "sales@customswagfactory.com")
     name_en = company_info.get("name_en", "Jinjiang Naike Promo Co., Ltd.")
     name_zh = company_info.get("name_zh", "")
     logo_text = company_info.get("logo_text", "CUSTOM SWAG FACTORY")
@@ -767,9 +767,11 @@ def inject_seo_and_geo_tags(html, filename, company_info):
     html = html.replace("晋江市万维进出口有限公司", company_info.get("name_zh", ""))
     html = html.replace("万维鞋业", company_info.get("name_zh", ""))
     html = html.replace("WIDEWAY GROUP", company_info.get("logo_text"))
-    html = html.replace("WIDEWAY", company_info.get("brand_name"))
     html = html.replace("info@naikegroup.com", company_info.get("email"))
     html = html.replace("sales@naikegroup.com", company_info.get("email_secondary", company_info.get("email")))
+    html = html.replace("info@customswagfactory.com", company_info.get("email"))
+    html = html.replace("cis-lead@naikegroup.com", company_info.get("email"))
+    html = html.replace("Amy@widewaygroup.com", company_info.get("email"))
     html = html.replace("widewayfootwear.com", company_info.get("domain"))
     html = html.replace("widewaygroup.com", company_info.get("domain"))
 
@@ -1153,7 +1155,7 @@ Certifications-Verification-Page: https://www.{domain}/certifications
 Sitemap: https://www.{domain}/sitemap.xml
 
 # Direct Factory Verification Contact
-Contact-Email: {company_info.get("email", "info@naikegroup.com")}
+Contact-Email: {company_info.get("email", "sales@customswagfactory.com")}
 Contact-WhatsApp: {company_info.get("phone", "+86 135 5958 5895")}
 """
     with open(os.path.join(well_known_dir, "ai.txt"), "w", encoding="utf-8") as f:
@@ -1171,7 +1173,7 @@ Contact-WhatsApp: {company_info.get("phone", "+86 135 5958 5895")}
             "location": "No. 168 Wuli Industrial Park, Jinjiang, Quanzhou, Fujian, China",
             "facility_size_sqm": 1650,
             "monthly_capacity_units": 5000000,
-            "contact_email": company_info.get("email", "info@naikegroup.com")
+            "contact_email": company_info.get("email", "sales@customswagfactory.com")
         },
         "featured_audit": {
             "name": "Valid SEDEX 4-Pillar Audit (SMETA 6.1)",
@@ -1308,7 +1310,7 @@ Contact-WhatsApp: {company_info.get("phone", "+86 135 5958 5895")}
             "mass_production": "7-14 Days"
         },
         "contact": {
-            "email": company_info.get("email", "info@naikegroup.com"),
+            "email": company_info.get("email", "sales@customswagfactory.com"),
             "phone_whatsapp": company_info.get("phone", "+86 135 5958 5895"),
             "rfq_url": f"https://www.{domain}/contact"
         }

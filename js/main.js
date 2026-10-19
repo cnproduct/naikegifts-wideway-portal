@@ -422,8 +422,8 @@ function initInquiryForm() {
       // Gather input data
       const formData = new FormData(form);
       const data = {
-        _to: 'info@naikegroup.com',
-        recipient: 'info@naikegroup.com',
+        _to: 'sales@customswagfactory.com',
+        recipient: 'sales@customswagfactory.com',
         _subject: 'New B2B Custom Swag RFQ Inquiry from Website',
         source_url: window.location.href
       };
@@ -451,17 +451,17 @@ function initInquiryForm() {
           submitBtn.innerHTML = originalText;
           submitBtn.disabled = false;
         }
-        showToast('✅ RFQ submitted successfully! Sent to info@naikegroup.com. We will respond within 8 hours.');
+        showToast('✅ RFQ submitted successfully! Sent to sales@customswagfactory.com. We will respond within 8 hours.');
         form.reset();
 
         const successMsg = form.querySelector('#inquirySuccess') || document.getElementById('inquirySuccess') || document.getElementById('rfqResultMsg');
         if (successMsg) {
           successMsg.style.display = 'block';
-          successMsg.textContent = '✅ Thank you! Your inquiry has been sent to info@naikegroup.com. We will reply within 8 hours.';
+          successMsg.textContent = '✅ Thank you! Your inquiry has been sent to sales@customswagfactory.com. We will reply within 8 hours.';
         }
 
         // Trigger background redundancy relay to FormSubmit
-        fetch('https://formsubmit.co/ajax/info@naikegroup.com', {
+        fetch('https://formsubmit.co/ajax/sales@customswagfactory.com', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -472,7 +472,7 @@ function initInquiryForm() {
       })
       .catch(error => {
         // 2. Direct fallback to FormSubmit
-        fetch('https://formsubmit.co/ajax/info@naikegroup.com', {
+        fetch('https://formsubmit.co/ajax/sales@customswagfactory.com', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -486,12 +486,12 @@ function initInquiryForm() {
             submitBtn.innerHTML = originalText;
             submitBtn.disabled = false;
           }
-          showToast('✅ Inquiry sent successfully to info@naikegroup.com!');
+          showToast('✅ Inquiry sent successfully to sales@customswagfactory.com!');
           form.reset();
           const successMsg = form.querySelector('#inquirySuccess') || document.getElementById('inquirySuccess');
           if (successMsg) {
             successMsg.style.display = 'block';
-            successMsg.textContent = '✅ Thank you! Your inquiry has been sent to info@naikegroup.com.';
+            successMsg.textContent = '✅ Thank you! Your inquiry has been sent to sales@customswagfactory.com.';
           }
         })
         .catch(err => {
@@ -499,7 +499,7 @@ function initInquiryForm() {
             submitBtn.innerHTML = originalText;
             submitBtn.disabled = false;
           }
-          showToast('Inquiry received! Sent to info@naikegroup.com.');
+          showToast('Inquiry received! Sent to sales@customswagfactory.com.');
           form.reset();
         });
       });
@@ -816,7 +816,7 @@ function initQuickQuoteModal() {
           <p class="rfq-modal-subtitle">Direct from Custom Swag Factory Jinjiang campus. 24/7 engineering response within 8 hours. Low MOQ from 50 pcs.</p>
         </div>
         <form id="globalRfqForm" class="b2b-inquiry-form" method="POST">
-          <input type="hidden" name="_to" value="info@naikegroup.com">
+          <input type="hidden" name="_to" value="sales@customswagfactory.com">
           <input type="hidden" name="_subject" value="[CUSTOM SWAG FACTORY] Modal Quick Quote RFQ">
           <div class="rfq-input-group">
             <label>Your Name *</label>
@@ -944,7 +944,7 @@ function initQuickQuoteModal() {
         product_interest: modalForm.category.value,
         quantity: modalForm.quantity.value,
         message: modalForm.message.value,
-        recipient: 'info@naikegroup.com',
+        recipient: 'sales@customswagfactory.com',
         source_url: window.location.href,
         date: new Date().toISOString()
       };
@@ -961,7 +961,7 @@ function initQuickQuoteModal() {
 
       // Redundant background delivery to FormSubmit
       try {
-        fetch('https://formsubmit.co/ajax/info@naikegroup.com', {
+        fetch('https://formsubmit.co/ajax/sales@customswagfactory.com', {
           method: 'POST',
           headers: {'Content-Type': 'application/json', 'Accept': 'application/json'},
           body: JSON.stringify({

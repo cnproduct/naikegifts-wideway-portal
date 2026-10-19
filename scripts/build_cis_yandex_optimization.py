@@ -90,7 +90,7 @@ CIS_HUB_HTML = """<!DOCTYPE html>
             "@type": "ContactPoint",
             "telephone": "+86-135-9922-0505",
             "contactType": "sales",
-            "email": "info@naikegroup.com",
+            "email": "sales@customswagfactory.com",
             "areaServed": ["RU", "KZ", "UZ", "BY", "KG"],
             "availableLanguage": ["Russian", "English", "Chinese"]
           }
@@ -1236,10 +1236,10 @@ CIS_HUB_HTML = """<!DOCTYPE html>
               </div>
             </a>
 
-            <a href="mailto:info@naikegroup.com" class="cis-channel-item">
+            <a href="mailto:sales@customswagfactory.com" class="cis-channel-item">
               <span class="cis-channel-icon">✉️</span>
               <div class="cis-channel-text">
-                <strong>info@naikegroup.com</strong>
+                <strong>sales@customswagfactory.com</strong>
                 <span>Отправка брендбуков, ТЗ и запросов на официальный расчет</span>
               </div>
             </a>
@@ -1374,7 +1374,7 @@ CIS_HUB_HTML = """<!DOCTYPE html>
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           name: name,
-          email: "cis-lead@naikegroup.com",
+          email: "sales@customswagfactory.com",
           message: `[CIS REGIONAL LEAD] Contact: ${contact} | Details: ${details}`
         })
       }).then(() => {
@@ -1460,7 +1460,7 @@ def write_ai_cis_summary():
         "contacts": {
             "telegram": "https://t.me/naikegifts",
             "whatsapp": "+86 135 9922 0505",
-            "email": "info@naikegroup.com"
+            "email": "sales@customswagfactory.com"
         }
     }
     target_path = os.path.join(ai_dir, "cis-summary.json")

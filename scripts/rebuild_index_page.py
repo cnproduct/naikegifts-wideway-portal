@@ -85,7 +85,7 @@ HTML_CONTENT = """<!DOCTYPE html>
             "@type": "ContactPoint",
             "telephone": "+86-135-9922-0505",
             "contactType": "export sales & engineering inquiry",
-            "email": "info@naikegroup.com",
+            "email": "sales@customswagfactory.com",
             "availableLanguage": ["English", "Chinese"]
           }
         ],
@@ -658,7 +658,7 @@ HTML_CONTENT = """<!DOCTYPE html>
       <span style="color: #00BFFF; font-weight: 700; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 1.5px;">Ready to Start Your Project?</span>
       <h2 style="font-size: 2.2rem; color: #fff; margin: 10px 0 15px 0; font-weight: 800;">Get a Direct Swag Factory Quote &amp; 12h Free Mockup</h2>
       <p style="color: #cbd5e1; font-size: 1rem; line-height: 1.6; margin-bottom: 30px;">
-        Contact our senior swag engineering and export sales team at info@naikegroup.com. Receive detailed FOB/DDP tier pricing, tooling lead times, and digital 3D CAD proofs within 12 hours.
+        Contact our senior swag engineering and export sales team at sales@customswagfactory.com. Receive detailed FOB/DDP tier pricing, tooling lead times, and digital 3D CAD proofs within 12 hours.
       </p>
       <div style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;">
         <a class="btn btn-primary" href="/contact" style="background: #00BFFF; border-color: #00BFFF; color: #0F172A; font-weight: 700; padding: 14px 28px; font-size: 1rem;">Open RFQ Form &rarr;</a>

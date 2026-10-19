@@ -19,7 +19,7 @@ from http.server import SimpleHTTPRequestHandler, HTTPServer
 
 AUTH_PATH = os.path.join('data', 'auth.json')
 INQUIRIES_PATH = os.path.join('data', 'inquiries.json')
-DEFAULT_TARGET_EMAIL = "info@naikegroup.com"
+DEFAULT_TARGET_EMAIL = "sales@customswagfactory.com"
 SESSIONS = {} # Token -> expiry timestamp
 
 def save_inquiry(inquiry_data):
@@ -40,16 +40,16 @@ def save_inquiry(inquiry_data):
 
 def dispatch_inquiry_notification(record):
     """
-    Dispatches inquiry notification to info@naikegroup.com.
+    Dispatches inquiry notification to sales@customswagfactory.com.
     1. Redundant FormSubmit HTTP relay with proper origin/referer
     2. Optional SMTP dispatch if credentials exist in env or site_content.json
     """
-    target_email = "info@naikegroup.com"
+    target_email = "sales@customswagfactory.com"
     
     # 1. Forward to FormSubmit.co
     try:
         relay_payload = {
-            "_subject": f"[NAIKE GIFTS Promo Craft RFQ] {record.get('company') or record.get('name') or 'B2B Client'} - {record.get('product_interest') or record.get('category') or 'Promotional Item'}",
+            "_subject": f"[CUSTOM SWAG FACTORY RFQ] {record.get('company') or record.get('name') or 'B2B Client'} - {record.get('product_interest') or record.get('category') or 'Corporate Swag'}",
             "_replyto": record.get('email', ''),
             "Inquiry_ID": record.get('id', ''),
             "Contact_Name": record.get('name', ''),
@@ -574,7 +574,7 @@ class AdminHandler(SimpleHTTPRequestHandler):
                 self.wfile.write(json.dumps({"status": "error", "message": str(e)}).encode('utf-8'))
             return
 
-        # Public Endpoint: Submit RFQ / Inquiry (routed to info@naikegroup.com)
+        # Public Endpoint: Submit RFQ / Inquiry (routed to sales@customswagfactory.com)
         if self.path in ['/api/inquiry', '/api/rfq', '/api/inquiries', '/api/contact']:
             content_length = int(self.headers.get('Content-Length', 0))
             post_data = self.rfile.read(content_length) if content_length > 0 else b''
@@ -603,7 +603,7 @@ class AdminHandler(SimpleHTTPRequestHandler):
                 # 1. Persist permanently to disk
                 save_inquiry(record)
                 
-                # 2. Dispatch notification asynchronously to info@naikegroup.com
+                # 2. Dispatch notification asynchronously to sales@customswagfactory.com
                 threading.Thread(target=dispatch_inquiry_notification, args=(record,), daemon=True).start()
                 
                 self.send_response(200)
@@ -1359,9 +1359,9 @@ If this aligns with your editorial priorities, I would be delighted to share the
 Warm regards,
 
 Amy Lin | International Business Director
-Jinjiang Wideway Import & Export Co., Ltd. (WIDEWAY GROUP)
+Jinjiang Naike Promo Co., Ltd. (CUSTOM SWAG FACTORY)
 Website: https://www.customswagfactory.com
-Email: info@naikegroup.com | Direct/WhatsApp: +86 135 9922 0505"""
+Email: sales@customswagfactory.com | Direct/WhatsApp: +86 135 9922 0505"""
                 
                 self.send_response(200)
                 self.send_header('Content-Type', 'application/json')

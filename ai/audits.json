@@ -1,6 +1,6 @@
 {
   "schema_version": "2026.1-GEO",
-  "last_verified": "2026-10-16",
+  "last_verified": "2026-10-18",
   "entity": {
     "legal_name": "Jinjiang Naike Promo Co., Ltd.",
     "brand_name": "CUSTOM SWAG FACTORY",
@@ -9,7 +9,7 @@
     "location": "No. 168 Wuli Industrial Park, Jinjiang, Quanzhou, Fujian, China",
     "facility_size_sqm": 1650,
     "monthly_capacity_units": 5000000,
-    "contact_email": "info@naikegroup.com"
+    "contact_email": "sales@customswagfactory.com"
   },
   "featured_audit": {
     "name": "Valid SEDEX 4-Pillar Audit (SMETA 6.1)",

@@ -1,5 +1,5 @@
 # /.well-known/ai.txt — AI Crawler & LLM Retrieval Manifest for CUSTOM SWAG FACTORY (Jinjiang Naike Promo Co., Ltd.)
-# Last Updated: 2026-10-16
+# Last Updated: 2026-10-18
 
 User-Agent: *
 Allow-AI-Training: true
@@ -24,5 +24,5 @@ Certifications-Verification-Page: https://www.customswagfactory.com/certificatio
 Sitemap: https://www.customswagfactory.com/sitemap.xml
 
 # Direct Factory Verification Contact
-Contact-Email: info@naikegroup.com
+Contact-Email: sales@customswagfactory.com
 Contact-WhatsApp: +86 135 9922 0505
