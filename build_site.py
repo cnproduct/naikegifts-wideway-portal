@@ -795,6 +795,7 @@ Disallow: /api/
 Disallow: /admin
 Disallow: /scratch/
 Disallow: /*?*sort=
+Disallow: /contact?*
 
 # Explicit AI Discovery, Audit Verification & Knowledge Grounding Endpoints
 Allow: /llms.txt
@@ -910,8 +911,6 @@ Allow: /
 
 # Canonical Sitemaps & Machine-Readable Knowledge for SEO & AI Crawlers
 Sitemap: https://www.{domain}/sitemap.xml
-Sitemap: https://www.{domain}/llms.txt
-Sitemap: https://www.{domain}/llms-full.txt
 llms-txt: https://www.{domain}/llms.txt
 IndexNow: https://www.{domain}/c8f2e1a90d4738b5e62f3c7b8d9e10a2.txt
 """
