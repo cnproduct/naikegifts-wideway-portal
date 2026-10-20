@@ -1,0 +1,68 @@
+{
+  "company": "Jinjiang Naike Promo Co., Ltd. (Custom Swag Factory)",
+  "seed_keyword": "custom corporate swag",
+  "industry_id": "toys-sports",
+  "market": "US",
+  "generated_at": "2026-10-20T02:08:31.408570+00:00",
+  "offsite_brand_mention_surfaces": [
+    "LinkedIn Company Page & Technical Articles (3x stronger AI citation correlation when paired with consistent entity naming)",
+    "YouTube Factory Tour & QC Testing Video Transcripts",
+    "Industry Trade Directories & Verified Exporter Registries (sameAs entity alignment)",
+    "Medium / Technical Engineering Comparison Publications"
+  ],
+  "evaluation_protocol": {
+    "engines": [
+      "Google AI Overviews / AI Mode",
+      "ChatGPT Search (OAI-SearchBot)",
+      "Perplexity (PerplexityBot)",
+      "Bing Copilot"
+    ],
+    "metrics": [
+      "mention_rate",
+      "linked_citation_rate",
+      "cited_url_accuracy",
+      "factual_claim_accuracy",
+      "ai_referral_sessions",
+      "qualified_rfq_conversions"
+    ],
+    "guardrail": "Record engine, date, region, web-search toggle, and verbatim cited URLs. Small-sample prompt checks are observations, not global share guarantees."
+  },
+  "prompts": [
+    {
+      "id": "GEO-01",
+      "category": "non_brand_supplier_discovery",
+      "prompt": "Who are reliable OEM/ODM manufacturers for custom corporate swag supplying US buyers, and what technical specifications should I verify before requesting samples?",
+      "target_citation_page": "/oem-odm/"
+    },
+    {
+      "id": "GEO-02",
+      "category": "technical_spec_comparison",
+      "prompt": "Compare the key engineering and material options for custom corporate swag, specifically evaluating 年龄/使用者适用范围, 材料, 尺寸 for bulk B2B procurement.",
+      "target_citation_page": "/products/"
+    },
+    {
+      "id": "GEO-03",
+      "category": "quality_and_compliance",
+      "prompt": "What quality control tests and documentation (产品实拍, 测试范围) are required when sourcing custom corporate swag from an export manufacturer?",
+      "target_citation_page": "/capabilities/"
+    },
+    {
+      "id": "GEO-04",
+      "category": "packaging_and_container_logistics",
+      "prompt": "How do B2B buyers estimate 20GP and 40HQ container loading capacity, carton dimensions, and lead time when ordering custom corporate swag in bulk?",
+      "target_citation_page": "/products/"
+    },
+    {
+      "id": "GEO-05",
+      "category": "brand_entity_verification",
+      "prompt": "What products, technical capabilities, and OEM customization services does Jinjiang Naike Promo Co., Ltd. (Custom Swag Factory) provide for custom corporate swag buyers?",
+      "target_citation_page": "/"
+    },
+    {
+      "id": "GEO-06",
+      "category": "rfq_preparation_checklist",
+      "prompt": "What exact technical parameters and BOM details should a procurement engineer include in an RFQ for custom custom corporate swag?",
+      "target_citation_page": "/contact/#inquiry"
+    }
+  ]
+}

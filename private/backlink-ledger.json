@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.1.0",
+  "updated_at": "2026-10-20T02:14:23.782489+00:00",
+  "rules": [
+    "Never count a submitted directory form as an active backlink until live_url, HTTP status, redirect chain, and rel attribute are verified.",
+    "Indexed status must specify the search engine explicitly (e.g., indexed@google, indexed@bing, indexed@yandex).",
+    "Never bypass CAPTCHA, 2FA, or forced reciprocal link gates automatically; queue interactive verification for human approval.",
+    "Track off-site B2B brand mentions (LinkedIn technical articles, YouTube QC transcripts, trade registries) under track=brand_mention_surface for GEO authority."
+  ],
+  "entries": [
+    {
+      "target_id": "BL-0001",
+      "domain": "brucecharms.en.made-in-china.com",
+      "submit_url": "https://brucecharms.en.made-in-china.com/",
+      "track": "brand_mention_surface",
+      "gate_type": "account",
+      "state": "rel_verified",
+      "live_url": "https://brucecharms.en.made-in-china.com/",
+      "rel_attribute": "nofollow",
+      "updated_at": "2026-10-20T02:14:23.782489+00:00",
+      "notes": "Verified official Made-in-China B2B showroom profile for Jinjiang Naike Promo Co., Ltd. aligned via Organization sameAs."
+    },
+    {
+      "target_id": "BL-0002",
+      "domain": "customswagfactory.com",
+      "submit_url": "https://www.customswagfactory.com/llms-full.txt",
+      "track": "editorial_authority",
+      "gate_type": "open-form",
+      "state": "indexed@google",
+      "live_url": "https://www.customswagfactory.com/llms-full.txt",
+      "rel_attribute": "dofollow",
+      "updated_at": "2026-10-20T02:14:23.782489+00:00",
+      "notes": "Full technical GEO corpus and verified compliance documentation indexed for LLM retrieval."
+    },
+    {
+      "target_id": "BL-0003",
+      "domain": "yandex.com",
+      "submit_url": "https://yandex.com/indexnow",
+      "track": "batch_directory",
+      "gate_type": "open-form",
+      "state": "indexed@yandex",
+      "live_url": "https://www.customswagfactory.com/ru/cis-central-asia",
+      "rel_attribute": "dofollow",
+      "updated_at": "2026-10-20T02:14:23.782489+00:00",
+      "notes": "Yandex IndexNow HTTP 202 verified submission for CIS/EAEU Russian-language procurement hub."
+    },
+    {
+      "target_id": "BL-0004",
+      "domain": "linkedin.com",
+      "submit_url": "https://www.linkedin.com/company/customswagfactory",
+      "track": "brand_mention_surface",
+      "gate_type": "account",
+      "state": "qualified",
+      "live_url": null,
+      "rel_attribute": null,
+      "updated_at": "2026-10-20T02:14:23.782489+00:00",
+      "notes": "B2B LinkedIn technical article syndication queue prepared in docs/seo/syndication-pack.json."
+    },
+    {
+      "target_id": "BL-0005",
+      "domain": "medium.com",
+      "submit_url": "https://medium.com/",
+      "track": "editorial_authority",
+      "gate_type": "account",
+      "state": "qualified",
+      "live_url": null,
+      "rel_attribute": null,
+      "updated_at": "2026-10-20T02:14:23.782489+00:00",
+      "notes": "Procurement engineer's guide to specifying custom corporate swag & 40HQ container loading."
+    }
+  ]
+}

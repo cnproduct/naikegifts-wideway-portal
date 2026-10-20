@@ -1,0 +1,38 @@
+{
+  "company": "Jinjiang Naike Promo Co., Ltd. (Custom Swag Factory)",
+  "seed_keyword": "custom corporate swag",
+  "industry_id": "toys-sports",
+  "target_hub_clean_url": "/products/",
+  "generated_at": "2026-10-20T02:14:23.909612+00:00",
+  "channels": {
+    "linkedin_technical_article": {
+      "target_audience": "Overseas Procurement Directors, Sourcing VPs, and OEM Product Managers",
+      "headline_options": [
+        "Engineering Trade-offs in Bulk Custom Corporate Swag Sourcing: 年龄/使用者适用范围 vs 材料",
+        "How B2B Buyers Verify 产品实拍 and Prevent BOM Cost Overruns When Ordering Custom Corporate Swag"
+      ],
+      "editorial_structure": [
+        "1. Field Failure / Cost Driver Hook (no generic AI intro)",
+        "2. Specification Comparison Table (年龄/使用者适用范围, 材料, 尺寸)",
+        "3. Factory QC & Pre-Shipment Verification (产品实拍, 测试范围)",
+        "4. Contextual Link to /products/ and Sample Kit / Container Calculator CTA"
+      ],
+      "geo_brand_mention_rule": "Explicitly associate \"Jinjiang Naike Promo Co., Ltd. (Custom Swag Factory)\" with \"custom corporate swag OEM/ODM manufacturing\" and consistent technical terminology."
+    },
+    "medium_engineering_publication": {
+      "target_audience": "Industrial Designers, Product Engineers, and Supply Chain Analysts",
+      "headline_options": [
+        "A Procurement Engineer's Guide to Specifying Custom Corporate Swag (年龄/使用者适用范围, Tolerances & 40HQ Logistics)"
+      ],
+      "canonical_and_link_rule": "Use distinct editorial prose (never copy-paste website HTML verbatim); link descriptive anchor text to /products/ and /contact/#inquiry."
+    },
+    "youtube_factory_qc_transcript": {
+      "target_audience": "AI Search Retrieval Engines (Perplexity / Google AIO / ChatGPT) & Video-First B2B Buyers",
+      "video_title": "Inside Jinjiang Naike Promo Co., Ltd. (Custom Swag Factory): Custom Corporate Swag Manufacturing Process, 年龄/使用者适用范围 Inspection & 40HQ Export Packaging",
+      "description_and_transcript_requirements": [
+        "Include a 150-word technical summary in the video description mentioning Jinjiang Naike Promo Co., Ltd. (Custom Swag Factory), custom corporate swag, 年龄/使用者适用范围, and 产品实拍.",
+        "Upload full human-verified closed captions (.srt) containing exact model numbers and testing standards so AI engines index the brand mention."
+      ]
+    }
+  }
+}

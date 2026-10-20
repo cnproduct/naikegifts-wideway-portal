@@ -452,7 +452,7 @@ img {
   font-size: 15px;
   font-weight: 600;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: transform 0.2s ease, opacity 0.2s ease, background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
   line-height: 1;
 }
 
@@ -911,7 +911,7 @@ header.scrolled, .site-header.scrolled {
   display: inline-flex !important;
   align-items: center !important;
   gap: 5px !important;
-  transition: all 0.2s ease !important;
+  transition: transform 0.2s ease, opacity 0.2s ease, background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease !important;
 }
 
 .header-cta-quote:hover {
@@ -930,7 +930,7 @@ header.scrolled, .site-header.scrolled {
   align-items: center !important;
   gap: 6px !important;
   cursor: pointer !important;
-  transition: all 0.2s ease !important;
+  transition: transform 0.2s ease, opacity 0.2s ease, background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease !important;
 }
 
 .compass-trigger:hover {
@@ -1011,7 +1011,7 @@ header.scrolled, .site-header.scrolled {
   padding: 6px 9px;
   border-radius: 6px;
   white-space: nowrap;
-  transition: all 0.2s ease;
+  transition: transform 0.2s ease, opacity 0.2s ease, background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
   display: inline-flex;
   align-items: center;
   gap: 4px;
@@ -1125,7 +1125,7 @@ header.scrolled, .site-header.scrolled {
   background: #f8fafc;
   border: 1px solid #f1f5f9;
   text-decoration: none;
-  transition: all 0.2s ease;
+  transition: transform 0.2s ease, opacity 0.2s ease, background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .dropdown-card:hover {
@@ -1537,7 +1537,7 @@ body {
   text-decoration: none !important;
   display: inline-flex !important;
   align-items: center !important;
-  transition: all 0.25s ease !important;
+  transition: transform 0.25s ease, opacity 0.25s ease, background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease, box-shadow 0.25s ease !important;
 }
 
 .btn-hero-cta:hover {
@@ -1560,7 +1560,7 @@ body {
   text-decoration: none !important;
   display: inline-flex !important;
   align-items: center !important;
-  transition: all 0.25s ease !important;
+  transition: transform 0.25s ease, opacity 0.25s ease, background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease, box-shadow 0.25s ease !important;
 }
 
 .btn-hero-secondary:hover {
@@ -1581,7 +1581,7 @@ body {
   text-decoration: none !important;
   display: inline-flex !important;
   align-items: center !important;
-  transition: all 0.25s ease !important;
+  transition: transform 0.25s ease, opacity 0.25s ease, background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease, box-shadow 0.25s ease !important;
 }
 
 .btn-hero-outline:hover {
@@ -1640,7 +1640,7 @@ body {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  transition: all 0.22s ease;
+  transition: transform 0.22s ease, opacity 0.22s ease, background-color 0.22s ease, border-color 0.22s ease, color 0.22s ease, box-shadow 0.22s ease;
   backdrop-filter: blur(8px);
 }
 
@@ -1676,7 +1676,7 @@ body {
   font-size: 0.84rem;
   font-weight: 600;
   cursor: pointer;
-  transition: all 0.22s ease;
+  transition: transform 0.22s ease, opacity 0.22s ease, background-color 0.22s ease, border-color 0.22s ease, color 0.22s ease, box-shadow 0.22s ease;
 }
 
 .indicator-pill .indicator-num {
@@ -1773,7 +1773,7 @@ body {
   justify-content: center;
   cursor: pointer;
   backdrop-filter: blur(6px);
-  transition: all 0.25s ease;
+  transition: transform 0.25s ease, opacity 0.25s ease, background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease, box-shadow 0.25s ease;
   font-size: 1.1rem;
 }
 
@@ -2882,7 +2882,7 @@ footer {
   padding: 8px 18px 8px 10px;
   box-shadow: 0 8px 24px rgba(37, 211, 102, 0.35), 0 2px 6px rgba(0,0,0,0.1);
   cursor: pointer;
-  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: transform 0.3s cubic-bezier, opacity 0.3s cubic-bezier, background-color 0.3s cubic-bezier, border-color 0.3s cubic-bezier, color 0.3s cubic-bezier, box-shadow 0.3s cubic-bezier(0.16, 1, 0.3, 1);
   outline: none;
 }
 
@@ -2977,7 +2977,7 @@ footer {
   opacity: 0;
   visibility: hidden;
   transform: translateY(12px) scale(0.95);
-  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: transform 0.25s cubic-bezier, opacity 0.25s cubic-bezier, background-color 0.25s cubic-bezier, border-color 0.25s cubic-bezier, color 0.25s cubic-bezier, box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1);
   pointer-events: none;
   z-index: 10000;
 }
@@ -3070,7 +3070,7 @@ footer {
   display: flex;
   gap: 12px;
   align-items: flex-start;
-  transition: all 0.2s ease;
+  transition: transform 0.2s ease, opacity 0.2s ease, background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
   box-shadow: 0 2px 6px rgba(0,0,0,0.03);
 }
 
@@ -3322,7 +3322,7 @@ footer {
   box-shadow: var(--shadow-sm);
   position: relative;
   overflow: hidden;
-  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: transform 0.3s cubic-bezier, opacity 0.3s cubic-bezier, background-color 0.3s cubic-bezier, border-color 0.3s cubic-bezier, color 0.3s cubic-bezier, box-shadow 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .cert-card::before {
@@ -3435,7 +3435,7 @@ footer {
   background: var(--primary-light);
   border: 1px solid rgba(0, 149, 232, 0.25);
   border-radius: var(--radius-pill);
-  transition: all 0.25s ease;
+  transition: transform 0.25s ease, opacity 0.25s ease, background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease, box-shadow 0.25s ease;
   margin-top: auto;
 }
 
@@ -3472,7 +3472,7 @@ footer {
   font-weight: 700;
   color: var(--gray-dark);
   box-shadow: var(--shadow-sm);
-  transition: all 0.22s ease;
+  transition: transform 0.22s ease, opacity 0.22s ease, background-color 0.22s ease, border-color 0.22s ease, color 0.22s ease, box-shadow 0.22s ease;
 }
 
 .partner-pill:hover {
@@ -3497,7 +3497,7 @@ footer {
   border-radius: var(--radius);
   overflow: hidden;
   box-shadow: var(--shadow-sm);
-  transition: all 0.22s ease;
+  transition: transform 0.22s ease, opacity 0.22s ease, background-color 0.22s ease, border-color 0.22s ease, color 0.22s ease, box-shadow 0.22s ease;
 }
 
 .faq-item.active {
@@ -3569,7 +3569,7 @@ footer {
   color: var(--dark);
   font-weight: 700;
   cursor: pointer;
-  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: transform 0.25s cubic-bezier, opacity 0.25s cubic-bezier, background-color 0.25s cubic-bezier, border-color 0.25s cubic-bezier, color 0.25s cubic-bezier, box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1);
   position: relative;
 }
 
@@ -3824,7 +3824,7 @@ footer {
   font-weight: 700;
   color: #475569;
   cursor: pointer;
-  transition: all 0.25s ease;
+  transition: transform 0.25s ease, opacity 0.25s ease, background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease, box-shadow 0.25s ease;
 }
 
 .trusted-filter-btn:hover,
@@ -3876,7 +3876,7 @@ footer {
   align-items: center;
   text-decoration: none;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.04);
-  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: transform 0.3s cubic-bezier, opacity 0.3s cubic-bezier, background-color 0.3s cubic-bezier, border-color 0.3s cubic-bezier, color 0.3s cubic-bezier, box-shadow 0.3s cubic-bezier(0.16, 1, 0.3, 1);
   position: relative;
   flex-shrink: 0;
 }
@@ -3913,7 +3913,7 @@ footer {
   font-size: 0.72rem;
   opacity: 0;
   transform: translateX(-4px);
-  transition: all 0.25s ease;
+  transition: transform 0.25s ease, opacity 0.25s ease, background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease, box-shadow 0.25s ease;
   display: flex;
   align-items: center;
   gap: 2px;
@@ -3982,7 +3982,7 @@ footer {
   font-size: 1.5rem;
   line-height: 1;
   color: var(--text-dark);
-  transition: all 0.2s ease;
+  transition: transform 0.2s ease, opacity 0.2s ease, background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .trusted-arrow:hover {
@@ -4089,7 +4089,7 @@ footer {
   font-weight: 700;
   color: #475569;
   cursor: pointer;
-  transition: all 0.25s ease;
+  transition: transform 0.25s ease, opacity 0.25s ease, background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease, box-shadow 0.25s ease;
 }
 
 .trusted-filter-btn:hover,
@@ -4141,7 +4141,7 @@ footer {
   align-items: center;
   text-decoration: none;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.04);
-  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: transform 0.3s cubic-bezier, opacity 0.3s cubic-bezier, background-color 0.3s cubic-bezier, border-color 0.3s cubic-bezier, color 0.3s cubic-bezier, box-shadow 0.3s cubic-bezier(0.16, 1, 0.3, 1);
   position: relative;
   flex-shrink: 0;
 }
@@ -4178,7 +4178,7 @@ footer {
   font-size: 0.72rem;
   opacity: 0;
   transform: translateX(-4px);
-  transition: all 0.25s ease;
+  transition: transform 0.25s ease, opacity 0.25s ease, background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease, box-shadow 0.25s ease;
   display: flex;
   align-items: center;
   gap: 2px;
@@ -4247,7 +4247,7 @@ footer {
   font-size: 1.5rem;
   line-height: 1;
   color: var(--text-dark);
-  transition: all 0.2s ease;
+  transition: transform 0.2s ease, opacity 0.2s ease, background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .trusted-arrow:hover {
@@ -4823,7 +4823,7 @@ footer {
   font-size: 18px;
   color: #64748b;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: transform 0.2s ease, opacity 0.2s ease, background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
 }
 .rfq-modal-close:hover {
   background: #e2e8f0;
@@ -4880,7 +4880,7 @@ footer {
   font-family: inherit;
   background: #f8fafc;
   color: #0f172a;
-  transition: all 0.2s ease;
+  transition: transform 0.2s ease, opacity 0.2s ease, background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
   box-sizing: border-box;
 }
 .rfq-input-group input:focus,
@@ -4913,7 +4913,7 @@ footer {
   font-weight: 700;
   cursor: pointer;
   box-shadow: 0 4px 14px rgba(229, 4, 8, 0.3);
-  transition: all 0.2s ease;
+  transition: transform 0.2s ease, opacity 0.2s ease, background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
 }
 .rfq-submit-btn:hover {
   transform: translateY(-1px);
@@ -5169,7 +5169,7 @@ footer {
   font-weight: 600;
   padding: 4px 11px;
   border-radius: 6px;
-  transition: all 0.2s ease;
+  transition: transform 0.2s ease, opacity 0.2s ease, background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .partner-chip:hover {

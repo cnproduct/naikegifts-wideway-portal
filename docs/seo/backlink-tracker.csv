@@ -1,0 +1,4 @@
+target_id,domain,submit_url,track,gate_type,state,live_url,rel_attribute,dr_estimate,updated_at,notes
+BL-0001,example-b2b-directory.com,https://example-b2b-directory.com/submit,batch_directory,open-form,candidate,,,,2026-10-20T02:14:23.907461+00:00,Verify live URL and rel attribute before marking rel_verified
+BL-0002,linkedin.com,https://www.linkedin.com/articles/,editorial_authority,account,candidate,,,98,2026-10-20T02:14:23.907461+00:00,Publish B2B material trade-off engineering guide linking to /products/
+BL-0003,youtube.com,https://www.youtube.com/,brand_mention_surface,account,candidate,,,99,2026-10-20T02:14:23.907461+00:00,Upload factory QC & production line video with full technical transcript

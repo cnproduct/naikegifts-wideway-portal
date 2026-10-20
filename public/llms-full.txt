@@ -1,0 +1,20 @@
+# Jinjiang Naike Promo Co., Ltd. (Custom Swag Factory)
+
+> B2B 玩具与运动器材 supply and OEM/ODM technical portal for custom corporate swag. All specifications and commercial terms are governed by verified public fact cards.
+
+## Core Procurement Pages
+- [Home & Capabilities](/): Overview of Jinjiang Naike Promo Co., Ltd. (Custom Swag Factory) scope
+- [Product Specification Catalog](/products/): Technical parameters (年龄/使用者适用范围, 材料, 尺寸, 结构) and model comparisons
+- [Capabilities & Quality](/capabilities/): Testing standards (产品实拍, 测试范围, 标签) and batch traceability
+- [OEM / ODM Customization](/oem-odm/): Custom BOM, tooling, sampling, and private label workflow
+- [Technical Resources](/resources/): Engineering selection guides and container loading optimization
+- [Request a Quote (RFQ)](/contact/#inquiry): Direct engineering inquiry and multi-SKU sample request
+
+## Technical Procurement Reference Summary
+- **Industry**: 玩具与运动器材 (`toys-sports`)
+- **Buyer Personas**: 品牌商, 渠道采购, 礼品采购
+- **Decision Path**: 使用者场景→结构材料→安全→包装→定制
+- **Core Specification Dimensions**: 年龄/使用者适用范围, 材料, 尺寸, 结构, 使用条件, 包装, 维护
+- **Standard Verification Evidence**: 产品实拍, 测试范围, 标签, 说明书, 样品记录
+- **Progressive RFQ Fields**: 使用者, 用途, 材料, 数量, 市场, 包装/品牌
+- **Note**: Only verified facts exported in `content/public-facts.json` constitute binding company claims.

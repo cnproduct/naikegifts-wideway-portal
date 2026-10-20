@@ -1,0 +1,133 @@
+{
+  "seed_keyword": "custom corporate swag",
+  "industry_id": "toys-sports",
+  "industry_topic_seeds": [
+    "toy product specification",
+    "sports equipment sourcing",
+    "toy testing documentation"
+  ],
+  "market": "US",
+  "generated_at": "2026-10-20T02:14:23.908988+00:00",
+  "anti_ai_slop_writing_rules": [
+    "Open every guide directly with a TL;DR engineering summary: constraints, BOM cost drivers, or procurement failure modes (Vercel writing-guidelines).",
+    "Ban generic filler openings (\"In today's fast-paced world...\", \"Look no further...\", \"easy\", \"simple\", \"world-class\").",
+    "Use non-breaking spaces (&nbsp; or white-space: nowrap) between numbers and units (e.g., 500&nbsp;pcs, 0.8&nbsp;mm, 40&nbsp;HQ) and font-variant-numeric: tabular-nums on all specification tables.",
+    "Include at least one semantic HTML <table> with explicit units/conditions and one 134-167 word self-contained GEO answer block per article.",
+    "Every spoke article must link to at least 1 Hub page (/products/ or /oem-odm/) and 1 conversion route (/contact/#inquiry) using descriptive technical anchor text."
+  ],
+  "hubs": [
+    {
+      "hub_id": "HUB-CATEGORY",
+      "page_type": "Pillar Category Hub",
+      "clean_url": "/products/",
+      "compiler_slug": "products",
+      "target_intent": "custom corporate swag manufacturer & industrial specification catalog",
+      "primary_cta_tier": "Tier 3: Container Load & Tiered FOB Quote",
+      "required_elements": [
+        "Zero-Friction First-Viewport Interactive Spec/Material Filter & Sample Basket Workbench",
+        "134-167 word self-contained engineering overview of custom corporate swag supply capabilities (bound to verified RW claim_ids)",
+        "Semantic HTML comparison table across 年龄/使用者适用范围, 材料, and 尺寸 with font-variant-numeric: tabular-nums",
+        "Faceted navigation guard: filter parameters canonicalize to /products/ unless promoted to static Clean URL"
+      ]
+    },
+    {
+      "hub_id": "HUB-OEM",
+      "page_type": "OEM / ODM Customization Hub",
+      "clean_url": "/oem-odm/",
+      "compiler_slug": "oem-odm",
+      "target_intent": "custom custom corporate swag OEM/ODM factory & private label tooling",
+      "primary_cta_tier": "Tier 2: Custom BOM / Drawing & Sample RFQ",
+      "required_elements": [
+        "First-viewport Interactive BOM / Customization Configurator (Option A vs Option B)",
+        "Asymmetrical 12-column 4-step DFM, tooling, and sample sign-off workflow",
+        "Verifiable quality control gates (产品实拍, 测试范围) and Intent-Driven PAA FAQ"
+      ]
+    }
+  ],
+  "spokes": [
+    {
+      "spoke_id": "SPOKE-01",
+      "article_type": "Material & Specification Trade-off Guide",
+      "clean_url": "/resources/custom-corporate-swag-material-specification-guide/",
+      "compiler_slug": "resources/custom-corporate-swag-material-specification-guide",
+      "headline": "How to Specify Custom Corporate Swag for Bulk Procurement: 年龄/使用者适用范围 vs 材料 Trade-offs",
+      "buyer_question_answered": "Which 年龄/使用者适用范围 and 材料 grades prevent field failure and optimize BOM unit cost?",
+      "internal_link_stitches": [
+        {
+          "target_url": "/products/",
+          "anchor_text": "industrial custom corporate swag specification catalog",
+          "placement": "First 200 words (context bridge)"
+        },
+        {
+          "target_url": "/oem-odm/",
+          "anchor_text": "custom custom corporate swag BOM allocation and sampling",
+          "placement": "Comparison table footer CTA"
+        }
+      ],
+      "primary_cta_tier": "Tier 1: Side-by-Side Spec Sample Kit Request"
+    },
+    {
+      "spoke_id": "SPOKE-02",
+      "article_type": "Quality Inspection & Compliance Protocol",
+      "clean_url": "/resources/custom-corporate-swag-quality-control-testing-checklist/",
+      "compiler_slug": "resources/custom-corporate-swag-quality-control-testing-checklist",
+      "headline": "B2B Quality Control Checklist for Sourcing Custom Corporate Swag: Verifying 产品实拍 and Batch Traceability",
+      "buyer_question_answered": "How do overseas procurement teams verify 产品实拍, 测试范围, and pre-shipment AQL standards?",
+      "internal_link_stitches": [
+        {
+          "target_url": "/capabilities/",
+          "anchor_text": "玩具与运动器材 quality management and lab testing workflow",
+          "placement": "Testing methodology section"
+        },
+        {
+          "target_url": "/contact/#inquiry",
+          "anchor_text": "request a sample batch inspection report and RFQ",
+          "placement": "Closing engineering summary"
+        }
+      ],
+      "primary_cta_tier": "Tier 1: Datasheet & Standard Sample Request"
+    },
+    {
+      "spoke_id": "SPOKE-03",
+      "article_type": "OEM Tooling, Packaging & Container Loading Playbook",
+      "clean_url": "/resources/custom-corporate-swag-packaging-container-loading-optimization/",
+      "compiler_slug": "resources/custom-corporate-swag-packaging-container-loading-optimization",
+      "headline": "Optimizing 20GP/40HQ Container Loading and Export Packaging for Bulk Custom Corporate Swag Orders",
+      "buyer_question_answered": "How do carton dimensions, palletization, and gross weight limits impact landed unit cost?",
+      "internal_link_stitches": [
+        {
+          "target_url": "/products/",
+          "anchor_text": "20GP/40HQ container volume and weight load estimator",
+          "placement": "Container calculation section"
+        },
+        {
+          "target_url": "/oem-odm/",
+          "anchor_text": "custom export packaging and private label custom corporate swag production",
+          "placement": "Packaging specification section"
+        }
+      ],
+      "primary_cta_tier": "Tier 3: Container Load & Tiered FOB Quote"
+    },
+    {
+      "spoke_id": "SPOKE-04",
+      "article_type": "Application Operating Conditions & Selection Note",
+      "clean_url": "/resources/custom-corporate-swag-application-engineering-selection/",
+      "compiler_slug": "resources/custom-corporate-swag-application-engineering-selection",
+      "headline": "Application Engineering Guide: Selecting Custom Corporate Swag for US Commercial & Industrial Environments",
+      "buyer_question_answered": "What operating conditions dictate 尺寸 selection in US applications?",
+      "internal_link_stitches": [
+        {
+          "target_url": "/capabilities/",
+          "anchor_text": "industry application solutions for custom corporate swag",
+          "placement": "Use-case matrix section"
+        },
+        {
+          "target_url": "/products/",
+          "anchor_text": "compare custom corporate swag model specifications",
+          "placement": "Selection summary table"
+        }
+      ],
+      "primary_cta_tier": "Tier 2: Application Engineering Consultation"
+    }
+  ]
+}

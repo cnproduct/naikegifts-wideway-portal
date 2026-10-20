@@ -1,0 +1,69 @@
+/* B2B Zero AI-Slop Design Tokens (agile_oem_lookbook | data-layout="oem" | Hue: 260) */
+:root {
+  /* 1. Major Third (1.25) Fluid Typographic Scale */
+  --text-xs: clamp(0.75rem, 0.72rem + 0.15vw, 0.875rem);
+  --text-sm: clamp(0.875rem, 0.82rem + 0.25vw, 1rem);
+  --text-base: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
+  --text-lg: clamp(1.25rem, 1.15rem + 0.5vw, 1.4rem);
+  --text-xl: clamp(1.56rem, 1.38rem + 0.9vw, 1.75rem);
+  --text-2xl: clamp(1.95rem, 1.68rem + 1.35vw, 2.25rem);
+  --text-3xl: clamp(2.44rem, 2.05rem + 1.95vw, 3rem);
+  --text-4xl: clamp(3.05rem, 2.45rem + 3vw, 4rem);
+
+  /* 2. Multi-Script Reading Measure Constraints (Latin 65ch / CJK 36em) */
+  --measure-prose: 65ch;
+  --measure-cjk: 36em;
+  --measure-narrow: 45ch;
+  --measure-wide: 75ch;
+
+  /* 3. OKLCH Tinted Neutrals (Zero Pure Hex Greys #777/#888/#999) */
+  --bg-surface: oklch(0.985 0.006 260);
+  --bg-elevated: oklch(0.965 0.008 260);
+  --text-primary: oklch(0.16 0.02 260);
+  --text-muted: color-mix(in oklch, var(--text-primary) 65%, transparent);
+  --border-subtle: color-mix(in oklch, var(--text-primary) 12%, transparent);
+  --accent-interactive: oklch(0.46 0.15 260);
+
+  /* 4. Strict 2+1 Font Stack */
+  --font-heading: 'General Sans', 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Geist Mono', ui-monospace, SFMono-Regular, monospace;
+}
+
+/* CJK Typography Adaptation (from references/web-design.md) */
+:lang(zh), :lang(ja), :lang(ko) {
+  --measure-prose: var(--measure-cjk);
+  line-height: 1.75;
+}
+:lang(zh) h1, :lang(zh) h2, :lang(ja) h1, :lang(ja) h2, :lang(ko) h1, :lang(ko) h2 {
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+/* Anti-AI-Slop Rule #4: Heading Proximity (margin-top = 1.8x to 2.5x margin-bottom) */
+h2, h3 {
+  font-family: var(--font-heading);
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  margin-top: 2.2em;
+  margin-bottom: 1em;
+}
+
+/* Anti-AI-Slop Rule #5: 12-Column Asymmetrical Engineering Grid */
+.b2b-asym-grid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: clamp(1.25rem, 2.5vw, 2.5rem);
+}
+
+/* Vercel Guideline: Tabular Numerals on B2B Spec Tables & Calculators */
+table, .spec-table, .container-readout, .moq-badge {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Anti-AI-Slop Rule #2: Hairline 1px Borders Instead of Heavy Shadow Cards */
+.b2b-spec-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  box-shadow: none;
+}

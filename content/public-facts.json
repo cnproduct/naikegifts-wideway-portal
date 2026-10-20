@@ -1,0 +1,220 @@
+{
+  "schema_version": "4.0.0",
+  "company": "Jinjiang Naike Promo Co., Ltd. (Custom Swag Factory)",
+  "domain": "https://www.customswagfactory.com",
+  "exported_at": "2026-10-20T02:14:23.782489+00:00",
+  "maturity_stage": "M2",
+  "total_verified_facts": 21,
+  "facts": [
+    {
+      "card_id": "RW-202610-0001",
+      "module": "00_company_identity",
+      "title": "Legal Entity & Manufacturing Campus",
+      "claim": "Jinjiang Naike Promo Co., Ltd. (Custom Swag Factory), founded in 2008, operates a 1,650 sqm clean manufacturing campus at Chendai Industrial Park, Jinjiang, Quanzhou, Fujian, China.",
+      "status": "public_fact",
+      "public_claim_approved": true,
+      "evidence_ref": "Business License & Factory Lease Deed (Jinjiang, Fujian)",
+      "updated_at": "2026-10-20T02:14:23.782489+00:00"
+    },
+    {
+      "card_id": "RW-202610-0002",
+      "module": "01_factory_capacity",
+      "title": "Micro-Injection & Die-Casting Equipment Capacity",
+      "claim": "Equipped with 18 automatic 12-color CNC micro-injection dispensing lines, 8 zinc-alloy die-casting presses (88T-280T), 6 hydraulic brass stamping presses, and Tajima multi-head embroidery machines with 1,500,000 pcs/month output.",
+      "status": "public_fact",
+      "public_claim_approved": true,
+      "evidence_ref": "Factory Equipment Asset Ledger 2026",
+      "updated_at": "2026-10-20T02:14:23.782489+00:00"
+    },
+    {
+      "card_id": "RW-202610-0003",
+      "module": "02_market_positioning",
+      "title": "Global Export Footprint & Primary B2B Markets",
+      "claim": "Direct OEM/ODM supplier to corporate swag distributors, HR onboarding platforms, marathon organizers, and retail merchandisers across North America, EU, UK, Australia, Middle East, and EAEU/CIS.",
+      "status": "public_fact",
+      "public_claim_approved": true,
+      "evidence_ref": "Customs Export Bill of Lading Summary 2023-2026",
+      "updated_at": "2026-10-20T02:14:23.782489+00:00"
+    },
+    {
+      "card_id": "RW-202610-0004",
+      "module": "03_buyer_icp",
+      "title": "Target B2B Procurement Personas",
+      "claim": "Serves ASI/PPAI/BPMA promotional distributors, corporate HR/People Ops teams, athletic race directors, craft brewery brand managers, and licensed IP retail merchandisers.",
+      "status": "public_fact",
+      "public_claim_approved": true,
+      "evidence_ref": "CRM Verified Buyer Segmentation Audit",
+      "updated_at": "2026-10-20T02:14:23.782489+00:00"
+    },
+    {
+      "card_id": "RW-202610-0005",
+      "module": "04_product_system",
+      "title": "7 Core Custom Swag Manufacturing Lines",
+      "claim": "Manufactures 3D Soft PVC Shoe Charms, Zinc Alloy Marathon Medals, Hard/Soft Enamel Lapel Pins, Heavyweight Bar Spill Mats, Custom Keychains, Sublimated Lanyards/Woven Patches, and GRS RPET Mascot Plush & Swag Packs.",
+      "status": "public_fact",
+      "public_claim_approved": true,
+      "evidence_ref": "Master Product Catalog v4.2 (217 Verified SKUs)",
+      "updated_at": "2026-10-20T02:14:23.782489+00:00"
+    },
+    {
+      "card_id": "RW-202610-0006",
+      "module": "05_process_technology",
+      "title": "Precision Mold Tooling & Tolerance Standards",
+      "claim": "In-house CNC and EDM mold shop holding ±0.02 mm cavity tolerance, 0.25 mm minimum metal relief line width, and 15 kg (110 N) ultrasonic POM rivet pull-test retention on shoe charms.",
+      "status": "public_fact",
+      "public_claim_approved": true,
+      "evidence_ref": "QC Engineering SOP & Tensile Test Log",
+      "updated_at": "2026-10-20T02:14:23.782489+00:00"
+    },
+    {
+      "card_id": "RW-202610-0007",
+      "module": "06_certification_compliance",
+      "title": "Ethical & Social Compliance Audits (SEDEX / BSCI / Disney FAMA)",
+      "claim": "Maintains a valid SEDEX 4-Pillar audit (SMETA Reference ID: ZC41920847), amfori BSCI Grade A verification, Disney FAMA authorization, Coca-Cola SGP compliance, and ISO 9001:2015 quality management certification.",
+      "status": "public_fact",
+      "public_claim_approved": true,
+      "evidence_ref": "SMETA 4-Pillar Audit Report ZC41920847 & ISO 9001 Certificate",
+      "updated_at": "2026-10-20T02:14:23.782489+00:00"
+    },
+    {
+      "card_id": "RW-202610-0008",
+      "module": "06_certification_compliance",
+      "title": "Chemical & Toy Safety Lab Testing (CPSIA / Prop 65 / EN71 / REACH / EAC)",
+      "claim": "All soft PVC, silicone, zinc alloy, and plush materials pass US CPSIA Lead/Phthalates (<90 ppm), California Prop 65, EU EN71-1/2/3, REACH SVHC (240+ substances), OEKO-TEX Standard 100, and EAEU TR CU 007/2011 & 008/2011.",
+      "status": "public_fact",
+      "public_claim_approved": true,
+      "evidence_ref": "SGS & TUV Rheinland Lab Test Reports 2025-2026",
+      "updated_at": "2026-10-20T02:14:23.782489+00:00"
+    },
+    {
+      "card_id": "RW-202610-0009",
+      "module": "07_quality_control",
+      "title": "4-Stage AQL 1.5/2.5 Inspection Protocol",
+      "claim": "Enforces incoming raw material XRF screening, 100% in-line color/dispensing inspection, needle detection for plush items, and pre-shipment inspection under ANSI/ASQ Z1.4 Level II (AQL 1.5 Major / 2.5 Minor).",
+      "status": "public_fact",
+      "public_claim_approved": true,
+      "evidence_ref": "Quality Manual QM-2026-AQL",
+      "updated_at": "2026-10-20T02:14:23.782489+00:00"
+    },
+    {
+      "card_id": "RW-202610-0010",
+      "module": "08_oem_odm_capability",
+      "title": "Rapid 3D CAD Proofing & Mold Turnaround",
+      "claim": "Provides free 2D/3D vector & relief proofs within 12 hours, CNC steel/copper mold cutting within 48-72 hours, and physical pre-production samples (PPS) in 3-5 days.",
+      "status": "public_fact",
+      "public_claim_approved": true,
+      "evidence_ref": "OEM/ODM Engineering SLA Log",
+      "updated_at": "2026-10-20T02:14:23.782489+00:00"
+    },
+    {
+      "card_id": "RW-202610-0011",
+      "module": "09_commercial_terms",
+      "title": "3-Tier MOQ, Sample Policy & Payment Terms",
+      "claim": "Supports Tier 1 sample kits (freight credit on first bulk order), Tier 2 custom OEM orders from 50-100 pcs MOQ, and Tier 3 20GP/40HQ container procurement under EXW, FOB Xiamen/Shenzhen, CIF, and DDP terms.",
+      "status": "public_fact",
+      "public_claim_approved": true,
+      "evidence_ref": "Standard Commercial Terms Policy 2026",
+      "updated_at": "2026-10-20T02:14:23.782489+00:00"
+    },
+    {
+      "card_id": "RW-202610-0012",
+      "module": "10_packaging_logistics",
+      "title": "Export Carton & 20GP/40HQ Container Loading Specs",
+      "claim": "Uses 5-ply K=K corrugated master cartons (max 15 kg gross weight for OSHA/EU handling safety), achieving 28 CBM in 20GP (~900 cartons) and 68 CBM in 40HQ (~2,150 cartons).",
+      "status": "public_fact",
+      "public_claim_approved": true,
+      "evidence_ref": "Export Packaging & Container Loading Specification Sheet",
+      "updated_at": "2026-10-20T02:14:23.782489+00:00"
+    },
+    {
+      "card_id": "RW-202610-0013",
+      "module": "11_competitive_intelligence",
+      "title": "Direct Factory vs Trading Company Cost & Lead-Time Advantage",
+      "claim": "In-house mold making, PVC micro-injection, die-casting, and electroplating eliminate 18-30% trading company markups and compress mass production lead times to 7-12 days.",
+      "status": "public_fact",
+      "public_claim_approved": true,
+      "evidence_ref": "Vendor Cost Breakdown Analysis 2026",
+      "updated_at": "2026-10-20T02:14:23.782489+00:00"
+    },
+    {
+      "card_id": "RW-202610-0014",
+      "module": "12_channel_strategy",
+      "title": "Clean URL & Multi-Engine AI Discovery Architecture",
+      "claim": "Implements 5-layer GEO discovery (/llms.txt, /llms-full.txt, /ai/company-profile.json, /ai/products.json, /ai/vendor-comparison.json, /ai/compliance-faq.json) plus Yandex IndexNow.",
+      "status": "public_fact",
+      "public_claim_approved": true,
+      "evidence_ref": "Technical SEO & GEO Architecture Audit",
+      "updated_at": "2026-10-20T02:14:23.782489+00:00"
+    },
+    {
+      "card_id": "RW-202610-0015",
+      "module": "13_content_playbook",
+      "title": "Engineering-First Anti-Slop Documentation Standard",
+      "claim": "All product and technical pages provide verifiable material grades, dimensional tolerances, test standards, and 20GP/40HQ logistics metrics without generic marketing filler.",
+      "status": "public_fact",
+      "public_claim_approved": true,
+      "evidence_ref": "Editorial Governance Standard v4.0",
+      "updated_at": "2026-10-20T02:14:23.782489+00:00"
+    },
+    {
+      "card_id": "RW-202610-0016",
+      "module": "14_customer_assets",
+      "title": "Verified Global Enterprise & Event Fulfillment Cases",
+      "claim": "Delivered 50,000+ custom 3D PVC clog charms for retail promotional campaigns, 25,000+ zinc-alloy marathon medals for international city races, and 10,000+ SaaS employee onboarding swag kits with 99.4% on-time delivery.",
+      "status": "public_fact",
+      "public_claim_approved": true,
+      "evidence_ref": "Anonymized B2B Case Study Archive 2024-2026",
+      "updated_at": "2026-10-20T02:14:23.782489+00:00"
+    },
+    {
+      "card_id": "RW-202610-0017",
+      "module": "15_inquiry_qualification",
+      "title": "12-Hour Engineering RFQ Response SLA",
+      "claim": "All inquiries submitted to sales@customswagfactory.com receive an itemized FOB/DDP quotation, mold fee breakdown, and 3D digital proof schedule within 12 business hours.",
+      "status": "public_fact",
+      "public_claim_approved": true,
+      "evidence_ref": "Sales Operations SLA Standard",
+      "updated_at": "2026-10-20T02:14:23.782489+00:00"
+    },
+    {
+      "card_id": "RW-202610-0018",
+      "module": "16_quoting_sampling",
+      "title": "Mold Fee Waiver & Sample Freight Credit Policy",
+      "claim": "Custom 2D/3D mold fees ($45-$95) are 100% refunded or waived for bulk orders exceeding 3,000-5,000 pcs per SKU, and physical sample courier costs are credited toward the first bulk PO.",
+      "status": "public_fact",
+      "public_claim_approved": true,
+      "evidence_ref": "Commercial Quoting & Mold Policy",
+      "updated_at": "2026-10-20T02:14:23.782489+00:00"
+    },
+    {
+      "card_id": "RW-202610-0019",
+      "module": "17_objection_negotiation",
+      "title": "Defect Replacement & Pantone Color Guarantee",
+      "claim": "Guarantees Pantone Solid Coated color matching within ±1 Delta-E and free 1:1 replacement or credit for any pre-shipment defect exceeding AQL 1.5.",
+      "status": "public_fact",
+      "public_claim_approved": true,
+      "evidence_ref": "Quality Warranty & Risk Reversal Agreement",
+      "updated_at": "2026-10-20T02:14:23.782489+00:00"
+    },
+    {
+      "card_id": "RW-202610-0020",
+      "module": "18_fulfillment_after_sales",
+      "title": "Mold Retention & Repeat Order Fast-Track",
+      "claim": "All custom steel and copper molds are archived in climate-controlled storage for 3 years, enabling repeat bulk orders to skip tooling and ship within 5-8 business days.",
+      "status": "public_fact",
+      "public_claim_approved": true,
+      "evidence_ref": "Mold Archive & After-Sales SOP",
+      "updated_at": "2026-10-20T02:14:23.782489+00:00"
+    },
+    {
+      "card_id": "RW-202610-0021",
+      "module": "20_review_analytics",
+      "title": "Search Console, Yandex Webmaster & GEO Citation Telemetry",
+      "claim": "Continuously monitored via Google Search Console, Bing Webmaster Tools, Yandex Webmaster (IndexNow key 7f8a9b2c4d6e1f3a5b7c9d0e2f4a6b8c), and 6-prompt GEO citation benchmarks.",
+      "status": "public_fact",
+      "public_claim_approved": true,
+      "evidence_ref": "Search & AI Indexing Telemetry Log 2026",
+      "updated_at": "2026-10-20T02:14:23.782489+00:00"
+    }
+  ]
+}

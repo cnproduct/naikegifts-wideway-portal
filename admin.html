@@ -1770,7 +1770,7 @@
             <span class="badge" style="background: rgba(148, 163, 184, 0.2); color: #cbd5e1;">当前在用</span>
           </div>
           <div style="width: 100%; height: 210px; background: #000; border-radius: var(--radius-sm); overflow: hidden; display: flex; align-items: center; justify-content: center; margin-bottom: 12px; border: 1px solid var(--border); position: relative;">
-            <img id="replaceCurrentPreviewImg" src="" style="max-width: 100%; max-height: 100%; object-fit: contain; display: block;" onload="handleOriginalImageLoaded(this)">
+            <img id="replaceCurrentPreviewImg" src="" style="max-width: 100%; max-height: 100%; object-fit: contain; display: block;" onload="handleOriginalImageLoaded(this)" alt="">
             <video id="replaceCurrentPreviewVideo" src="" controls style="max-width: 100%; max-height: 100%; display: none;" onloadedmetadata="handleOriginalVideoLoaded(this)"></video>
             <div id="replaceCurrentDimBadge" style="position: absolute; bottom: 8px; right: 8px; background: rgba(0,0,0,0.75); color: #fff; padding: 3px 8px; border-radius: 4px; font-size: 0.75rem; font-family: monospace;">测量中...</div>
           </div>
@@ -1797,7 +1797,7 @@
               <div style="font-size: 0.78rem; color: var(--text-muted); margin-top: 4px;">支持 JPG, PNG, WebP, SVG, MP4 (最大 100MB)</div>
             </div>
             <div id="replaceNewPreviewContainer" style="display: none; width: 100%; height: 190px; align-items: center; justify-content: center;">
-              <img id="replaceNewPreviewImg" src="" style="max-width: 100%; max-height: 100%; object-fit: contain; border-radius: 4px;" onload="handleNewImageLoaded(this)">
+              <img id="replaceNewPreviewImg" src="" style="max-width: 100%; max-height: 100%; object-fit: contain; border-radius: 4px;" onload="handleNewImageLoaded(this)" alt="">
               <video id="replaceNewPreviewVideo" src="" controls style="max-width: 100%; max-height: 100%; display: none; border-radius: 4px;" onloadedmetadata="handleNewVideoLoaded(this)"></video>
               <div id="replaceNewDimBadge" style="position: absolute; bottom: 8px; right: 8px; background: rgba(0,0,0,0.75); color: #fff; padding: 3px 8px; border-radius: 4px; font-size: 0.75rem; font-family: monospace;">-</div>
             </div>

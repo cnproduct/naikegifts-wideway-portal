@@ -1,0 +1,11 @@
+# Jinjiang Naike Promo Co., Ltd. (Custom Swag Factory)
+
+> B2B 玩具与运动器材 supply and OEM/ODM technical portal for custom corporate swag. All specifications and commercial terms are governed by verified public fact cards.
+
+## Core Procurement Pages
+- [Home & Capabilities](/): Overview of Jinjiang Naike Promo Co., Ltd. (Custom Swag Factory) scope
+- [Product Specification Catalog](/products/): Technical parameters (年龄/使用者适用范围, 材料, 尺寸, 结构) and model comparisons
+- [Capabilities & Quality](/capabilities/): Testing standards (产品实拍, 测试范围, 标签) and batch traceability
+- [OEM / ODM Customization](/oem-odm/): Custom BOM, tooling, sampling, and private label workflow
+- [Technical Resources](/resources/): Engineering selection guides and container loading optimization
+- [Request a Quote (RFQ)](/contact/#inquiry): Direct engineering inquiry and multi-SKU sample request

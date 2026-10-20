@@ -1,0 +1,386 @@
+{
+  "seed_keyword": "custom corporate swag",
+  "pillar_homepage_keyword": "custom corporate swag manufacturer",
+  "industry_id": "toys-sports",
+  "industry_name": "玩具与运动器材",
+  "industry_blueprint": {
+    "layout": "oem",
+    "buyers": [
+      "品牌商",
+      "渠道采购",
+      "礼品采购"
+    ],
+    "decision_path": "使用者场景→结构材料→安全→包装→定制",
+    "topic_cluster_seeds": [
+      "toy product specification",
+      "sports equipment sourcing",
+      "toy testing documentation"
+    ],
+    "red_lines": "不编年龄安全、承重、无毒或法规达标；玩具与运动用品分别核实用途",
+    "missing_data_fallback": "先拆分具体品类，收集测试与用途，再决定可公开字段"
+  },
+  "visual_archetype": {
+    "archetype_id": "agile_oem_lookbook",
+    "compiler_data_layout": "oem",
+    "industries": [
+      "apparel",
+      "footwear",
+      "bags",
+      "packaging",
+      "beauty",
+      "toys-sports",
+      "pet-products"
+    ],
+    "data_layout": "oem",
+    "palette_direction": "Editorial high-contrast neutral canvas with bespoke brand-extracted accent token",
+    "oklch_hue": 260,
+    "typography_pairing": "Syne / General Sans (headings) + Plus Jakarta Sans (body) + JetBrains Mono (GSM/oz, MOQ, carton specs)",
+    "signature_components": [
+      "First-viewport interactive OEM customization configurator (material, logo craft, packaging)",
+      "Sampling lead-time & tooling timeline",
+      "Multi-SKU Sample Kit Basket Drawer"
+    ]
+  },
+  "target_markets": [
+    "US",
+    "EU",
+    "UK",
+    "AU",
+    "CIS"
+  ],
+  "supported_locales": [
+    "en",
+    "es",
+    "pt",
+    "ja",
+    "de",
+    "fr"
+  ],
+  "generated_at": "2026-10-20T02:14:23.907859+00:00",
+  "gefei_b2b_competitor_teardown": {
+    "domain_to_keyword": "Extract top organic landing pages and inquiry keywords from 3-5 overseas B2B niche manufacturers/importers.",
+    "keyword_to_domain": "Inspect live SERP top 10 for each branch; confirm at least 60% are B2B supplier/spec pages rather than B2C retail listings, and check for inner-page rankings or DR < 30 weak spots.",
+    "multilingual_rule": "Never machine-translate keywords across languages; re-research native industrial nomenclature (e.g., DIN/EN for DE, ASTM for US, JIS for JA) per target market."
+  },
+  "excluded_b2c_modifiers": [
+    "cheap single piece",
+    "diy home craft",
+    "retail coupon",
+    "free shipping 1 pc",
+    "used second hand",
+    "paywall subscription"
+  ],
+  "branches": [
+    {
+      "branch_id": "oem_odm_custom",
+      "intent_label": "OEM / ODM & Private Label Manufacturing",
+      "buyer_stage": "Supplier Qualification & Custom Briefing",
+      "target_page_type": "oem-odm",
+      "target_clean_url": "/oem-odm/",
+      "kb_modules_required": [
+        "04_product_system",
+        "05_manufacturing_quality",
+        "16_solution_sampling"
+      ],
+      "primary_cta_tier": "Tier 2: Custom BOM / Drawing & Sample RFQ",
+      "primary_keyword": "custom corporate swag oem manufacturer",
+      "secondary_keywords": [
+        "custom corporate swag odm supplier",
+        "custom corporate swag private label factory",
+        "custom corporate swag custom tooling bulk",
+        "custom corporate swag bespoke specification"
+      ],
+      "h1_contract": "Must include \"custom corporate swag oem manufacturer\" or verified industrial equivalent in H1 and first 100 words",
+      "h2_contract": [
+        "custom corporate swag odm supplier",
+        "custom corporate swag private label factory"
+      ],
+      "serp_weakness_evidence": {
+        "top10_has_inner_pages": null,
+        "top10_dr_under_30_count": null,
+        "b2b_supplier_share_ge_60pct": null,
+        "search_volume_verified": null,
+        "status": "UNVERIFIED_VOLUME_AND_SERP"
+      },
+      "required_industry_fields": [
+        "年龄/使用者适用范围",
+        "材料",
+        "尺寸",
+        "结构"
+      ],
+      "required_evidence": [
+        "产品实拍",
+        "测试范围",
+        "标签"
+      ],
+      "industry_rfq_fields": [
+        "使用者",
+        "用途",
+        "材料",
+        "数量"
+      ],
+      "verification_status": "UNVERIFIED_VOLUME_AND_SERP",
+      "gate_rule": "Verify real SERP buyer intent, DR<30 weakness, and search volume before locking page TDK. Never fabricate volume or KD numbers."
+    },
+    {
+      "branch_id": "manufacturer_supplier",
+      "intent_label": "Direct Factory & Certified Industrial Supplier",
+      "buyer_stage": "Vendor Shortlisting",
+      "target_page_type": "home / capabilities",
+      "target_clean_url": "/",
+      "kb_modules_required": [
+        "02_company_identity",
+        "05_manufacturing_quality",
+        "06_certification_compliance"
+      ],
+      "primary_cta_tier": "Tier 3: Factory Audit & Volume Production Quote",
+      "primary_keyword": "custom corporate swag manufacturer",
+      "secondary_keywords": [
+        "custom corporate swag factory direct",
+        "custom corporate swag industrial supplier",
+        "custom corporate swag iso certified manufacturer",
+        "custom corporate swag export factory"
+      ],
+      "h1_contract": "Must include \"custom corporate swag manufacturer\" or verified industrial equivalent in H1 and first 100 words",
+      "h2_contract": [
+        "custom corporate swag factory direct",
+        "custom corporate swag industrial supplier"
+      ],
+      "serp_weakness_evidence": {
+        "top10_has_inner_pages": null,
+        "top10_dr_under_30_count": null,
+        "b2b_supplier_share_ge_60pct": null,
+        "search_volume_verified": null,
+        "status": "UNVERIFIED_VOLUME_AND_SERP"
+      },
+      "required_industry_fields": [
+        "年龄/使用者适用范围",
+        "材料",
+        "尺寸",
+        "结构"
+      ],
+      "required_evidence": [
+        "产品实拍",
+        "测试范围",
+        "标签"
+      ],
+      "industry_rfq_fields": [
+        "使用者",
+        "用途",
+        "材料",
+        "数量"
+      ],
+      "verification_status": "UNVERIFIED_VOLUME_AND_SERP",
+      "gate_rule": "Verify real SERP buyer intent, DR<30 weakness, and search volume before locking page TDK. Never fabricate volume or KD numbers."
+    },
+    {
+      "branch_id": "bulk_wholesale_logistics",
+      "intent_label": "Bulk Wholesale, MOQ & Container Loading",
+      "buyer_stage": "Commercial & Logistics Evaluation",
+      "target_page_type": "products / calculator",
+      "target_clean_url": "/products/",
+      "kb_modules_required": [
+        "04_product_system",
+        "07_commercial_delivery",
+        "19_fulfillment_aftersales"
+      ],
+      "primary_cta_tier": "Tier 3: Container Load & Tiered FOB Quote",
+      "primary_keyword": "custom corporate swag bulk wholesale",
+      "secondary_keywords": [
+        "custom corporate swag moq",
+        "custom corporate swag 20gp 40hq container load",
+        "custom corporate swag fob price list",
+        "custom corporate swag export carton specification"
+      ],
+      "h1_contract": "Must include \"custom corporate swag bulk wholesale\" or verified industrial equivalent in H1 and first 100 words",
+      "h2_contract": [
+        "custom corporate swag moq",
+        "custom corporate swag 20gp 40hq container load"
+      ],
+      "serp_weakness_evidence": {
+        "top10_has_inner_pages": null,
+        "top10_dr_under_30_count": null,
+        "b2b_supplier_share_ge_60pct": null,
+        "search_volume_verified": null,
+        "status": "UNVERIFIED_VOLUME_AND_SERP"
+      },
+      "required_industry_fields": [
+        "年龄/使用者适用范围",
+        "材料",
+        "尺寸",
+        "结构"
+      ],
+      "required_evidence": [
+        "产品实拍",
+        "测试范围",
+        "标签"
+      ],
+      "industry_rfq_fields": [
+        "使用者",
+        "用途",
+        "材料",
+        "数量"
+      ],
+      "verification_status": "UNVERIFIED_VOLUME_AND_SERP",
+      "gate_rule": "Verify real SERP buyer intent, DR<30 weakness, and search volume before locking page TDK. Never fabricate volume or KD numbers."
+    },
+    {
+      "branch_id": "technical_spec_material",
+      "intent_label": "Technical Parameters, Materials & Tolerances",
+      "buyer_stage": "Engineering & Specification Selection",
+      "target_page_type": "products / resources",
+      "target_clean_url": "/capabilities/",
+      "kb_modules_required": [
+        "04_product_system",
+        "05_manufacturing_quality",
+        "06_certification_compliance"
+      ],
+      "primary_cta_tier": "Tier 1: Datasheet & Standard Sample Request",
+      "primary_keyword": "custom corporate swag technical specifications",
+      "secondary_keywords": [
+        "custom corporate swag material grade chart",
+        "custom corporate swag dimension tolerance",
+        "custom corporate swag datasheet pdf",
+        "custom corporate swag performance test standard"
+      ],
+      "h1_contract": "Must include \"custom corporate swag technical specifications\" or verified industrial equivalent in H1 and first 100 words",
+      "h2_contract": [
+        "custom corporate swag material grade chart",
+        "custom corporate swag dimension tolerance"
+      ],
+      "serp_weakness_evidence": {
+        "top10_has_inner_pages": null,
+        "top10_dr_under_30_count": null,
+        "b2b_supplier_share_ge_60pct": null,
+        "search_volume_verified": null,
+        "status": "UNVERIFIED_VOLUME_AND_SERP"
+      },
+      "required_industry_fields": [
+        "年龄/使用者适用范围",
+        "材料",
+        "尺寸",
+        "结构"
+      ],
+      "required_evidence": [
+        "产品实拍",
+        "测试范围",
+        "标签"
+      ],
+      "industry_rfq_fields": [
+        "使用者",
+        "用途",
+        "材料",
+        "数量"
+      ],
+      "verification_status": "UNVERIFIED_VOLUME_AND_SERP",
+      "gate_rule": "Verify real SERP buyer intent, DR<30 weakness, and search volume before locking page TDK. Never fabricate volume or KD numbers."
+    },
+    {
+      "branch_id": "application_solution",
+      "intent_label": "Industry Application & Operating Conditions",
+      "buyer_stage": "Problem-to-Solution Mapping",
+      "target_page_type": "solutions",
+      "target_clean_url": "/resources/",
+      "kb_modules_required": [
+        "09_icp_personas",
+        "12_scenario_matching",
+        "18_content_assets"
+      ],
+      "primary_cta_tier": "Tier 2: Application Engineering Consultation",
+      "primary_keyword": "custom corporate swag for industrial application",
+      "secondary_keywords": [
+        "custom corporate swag heavy duty solution",
+        "custom corporate swag operating temperature range",
+        "custom corporate swag engineering selection guide",
+        "custom corporate swag application case"
+      ],
+      "h1_contract": "Must include \"custom corporate swag for industrial application\" or verified industrial equivalent in H1 and first 100 words",
+      "h2_contract": [
+        "custom corporate swag heavy duty solution",
+        "custom corporate swag operating temperature range"
+      ],
+      "serp_weakness_evidence": {
+        "top10_has_inner_pages": null,
+        "top10_dr_under_30_count": null,
+        "b2b_supplier_share_ge_60pct": null,
+        "search_volume_verified": null,
+        "status": "UNVERIFIED_VOLUME_AND_SERP"
+      },
+      "required_industry_fields": [
+        "年龄/使用者适用范围",
+        "材料",
+        "尺寸",
+        "结构"
+      ],
+      "required_evidence": [
+        "产品实拍",
+        "测试范围",
+        "标签"
+      ],
+      "industry_rfq_fields": [
+        "使用者",
+        "用途",
+        "材料",
+        "数量"
+      ],
+      "verification_status": "UNVERIFIED_VOLUME_AND_SERP",
+      "gate_rule": "Verify real SERP buyer intent, DR<30 weakness, and search volume before locking page TDK. Never fabricate volume or KD numbers."
+    },
+    {
+      "branch_id": "comparison_alternative",
+      "intent_label": "Material / Process Trade-off & Comparison",
+      "buyer_stage": "Trade-off Evaluation (High GEO Citation Value)",
+      "target_page_type": "resources",
+      "target_clean_url": "/resources/",
+      "kb_modules_required": [
+        "04_product_system",
+        "11_competitive_intelligence",
+        "17_objection_negotiation"
+      ],
+      "primary_cta_tier": "Tier 1: Side-by-Side Spec Sample Kit Request",
+      "primary_keyword": "custom corporate swag vs",
+      "secondary_keywords": [
+        "custom corporate swag material comparison table",
+        "custom corporate swag process alternative",
+        "custom corporate swag cost vs performance",
+        "custom corporate swag how to specify for bulk sourcing"
+      ],
+      "h1_contract": "Must include \"custom corporate swag vs\" or verified industrial equivalent in H1 and first 100 words",
+      "h2_contract": [
+        "custom corporate swag material comparison table",
+        "custom corporate swag process alternative"
+      ],
+      "serp_weakness_evidence": {
+        "top10_has_inner_pages": null,
+        "top10_dr_under_30_count": null,
+        "b2b_supplier_share_ge_60pct": null,
+        "search_volume_verified": null,
+        "status": "UNVERIFIED_VOLUME_AND_SERP"
+      },
+      "required_industry_fields": [
+        "年龄/使用者适用范围",
+        "材料",
+        "尺寸",
+        "结构"
+      ],
+      "required_evidence": [
+        "产品实拍",
+        "测试范围",
+        "标签"
+      ],
+      "industry_rfq_fields": [
+        "使用者",
+        "用途",
+        "材料",
+        "数量"
+      ],
+      "verification_status": "UNVERIFIED_VOLUME_AND_SERP",
+      "gate_rule": "Verify real SERP buyer intent, DR<30 weakness, and search volume before locking page TDK. Never fabricate volume or KD numbers."
+    }
+  ],
+  "handoff_contract": {
+    "phase_1_to_phase_2": "marketingskills (page-cro & copywriting) MUST read docs/seo/keyword-matrix.json, obey industry red_lines, and preserve each URL H1/H2 keyword contract.",
+    "phase_2_to_phase_3": "renwork-web-design-master & site_compiler.py enforce src/styles/design-tokens.css, data-layout, and the 6 Anti-AI-Slop visual rules.",
+    "phase_3_to_phase_4": "claude-seo, geo-seo-claude & validate_site.py enforce public-facts.json claim_ids parity, the 10-item Dual Audit Checklist, Cloudflare edge protection, and IndexNow/GSC push."
+  }
+}
