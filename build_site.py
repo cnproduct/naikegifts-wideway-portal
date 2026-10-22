@@ -662,6 +662,154 @@ def sync_global_components(html, filename, company_info, categories, products=No
 
     return html
 
+PAGE_SEO_REGISTRY = {
+    "index.html": {
+        "title": "Custom Swag Factory | SEDEX 4-Pillar & Disney Audited Swag Manufacturer",
+        "desc": "Direct manufacturer of corporate swag packs, onboarding kits & promotional gifts. Valid SEDEX 4-Pillar & Disney FAMA audited. Low 50 pcs MOQ, 12h CAD proof.",
+        "keywords": "custom swag factory, corporate swag manufacturer, custom swag packs, employee onboarding swag, promotional merchandise wholesale, SEDEX 4-Pillar audited factory, Disney FAMA approved gifts, direct factory swag, bulk branded corporate gifts, low moq swag supplier"
+    },
+    "products.html": {
+        "title": "Custom Swag Catalog | Corporate Promotional Gifts Wholesale | CSF",
+        "desc": "Explore 217+ export-ready custom corporate swag products: 3D PVC shoe charms, enamel lapel pins, custom keychains, coins & medals. 50 pcs low MOQ.",
+        "keywords": "custom swag catalog, corporate promotional gifts wholesale, branded merchandise catalog, wholesale custom swag, corporate gift suppliers, low moq promotional products"
+    },
+    "product-detail.html": {
+        "title": "Custom Swag Product Detail & Specifications | Custom Swag Factory",
+        "desc": "View technical engineering specifications, materials, packaging options, and compliance test reports for Custom Swag Factory products. 50 pcs MOQ.",
+        "keywords": "custom swag product detail, promotional merchandise specifications, custom swag technical data sheet"
+    },
+    "shoe-charms-wholesale.html": {
+        "title": "Custom Shoe Charms Manufacturer | Wholesale PVC Clog Pins | CSF",
+        "desc": "Direct manufacturer of custom 3D PVC shoe charms, rubber clog pins & sneaker accessories. US CPSIA & EN71 certified, lead-free. 50 pcs MOQ, 12h free CAD proof.",
+        "keywords": "custom shoe charms manufacturer, wholesale shoe charms bulk, custom clog charms, personalized jibbitz for crocs, 3d pvc shoe pins, custom croc charms no moq, lead free shoe charms factory, rubber clog accessories wholesale"
+    },
+    "enamel-lapel-pins-manufacturer.html": {
+        "title": "Custom Enamel Lapel Pins Manufacturer | Hard & Soft Enamel | CSF",
+        "desc": "Factory direct custom hard enamel pins, soft enamel badges & die-struck metal lapel pins. Disney FAMA & SEDEX audited. Real factory pricing, 50 pcs low MOQ.",
+        "keywords": "custom enamel pins manufacturer, hard enamel lapel pins factory, wholesale metal pins china, custom badge pins bulk, custom glitter enamel pins, custom lapel pins no middleman, die struck pins factory, Disney audited pin supplier"
+    },
+    "custom-keychains-wholesale-supplier.html": {
+        "title": "Custom Keychains Wholesale Supplier | Acrylic, PVC & Metal Keychains",
+        "desc": "Custom acrylic, 3D soft PVC and metal keychains direct from factory. SEDEX 4-Pillar audited, eco-friendly non-toxic materials, 50 pcs low MOQ.",
+        "keywords": "custom keychains wholesale supplier, custom acrylic keychains manufacturer, pvc rubber keychains factory, custom metal keychains bulk, hotel vintage keychains bulk, custom leather keychains factory, branded logo keychains"
+    },
+    "custom-medals-awards-wholesale.html": {
+        "title": "Custom Medals & Awards Wholesale | Marathon Finisher Medals Factory",
+        "desc": "Manufacturer of custom sports medals, marathon finisher awards & 3D zinc alloy race medals with custom ribbons. ISO 9001 certified. Turnkey factory delivery.",
+        "keywords": "custom medals awards wholesale, marathon finisher medals manufacturer, zinc alloy 3d medals supplier, custom sports medals with ribbon, custom race medals factory, bulk running medals manufacturer, corporate award medals"
+    },
+    "challenge-coins-wholesale-supplier.html": {
+        "title": "Challenge Coins Wholesale Supplier | Custom Military & Corporate Coins",
+        "desc": "Bespoke challenge coins manufacturer. High-relief 3D brass, zinc alloy, antique bronze & dual-plate coins with custom edge cuts. Direct factory, 12h proofing.",
+        "keywords": "challenge coins wholesale supplier, custom military coins manufacturer, custom brass challenge coins, antique bronze challenge coins, numbered commemorative coins bulk, bottle opener challenge coin factory"
+    },
+    "lanyards-patches-manufacturer.html": {
+        "title": "Custom Lanyards & Patches Manufacturer | Sublimated & Embroidered",
+        "desc": "Direct factory of custom printed sublimated lanyards, breakaway ID neck straps, and custom embroidered / woven / PVC patches. Low MOQ, fast global turnaround.",
+        "keywords": "custom lanyards patches manufacturer, wholesale sublimated lanyards, custom embroidered patches factory, breakaway lanyard custom logo, iron on patches bulk, woven patch manufacturer china, custom event lanyards"
+    },
+    "plush-mascot-toys-wholesale.html": {
+        "title": "Plush Mascot Toys Wholesale | Custom Corporate Mascot Manufacturer",
+        "desc": "Custom branded plush toys, company mascot plushies & stuffed character merchandise. ASTM F963 & EN71 non-toxic safety tested. Direct factory OEM/ODM production.",
+        "keywords": "plush mascot toys wholesale, custom stuffed corporate mascot manufacturer, oem plush toy factory china, company mascot plushie bulk, custom mini plush keychain, brand mascot soft toys, custom plushie supplier"
+    },
+    "soft-pvc-barware-magnets-supplier.html": {
+        "title": "Soft PVC Barware & Magnets Supplier | Custom Bar Spill Mats & Magnets",
+        "desc": "Custom molded soft PVC rubber bar service mats, drip runners & 3D fridge magnets. FDA food-safe & LFGB certified materials. 50 pcs low MOQ.",
+        "keywords": "soft pvc barware magnets supplier, custom rubber bar runner mats wholesale, custom 3d fridge magnets factory, custom led bar service mat, souvenir rubber fridge magnets, counter drip spill mat custom"
+    },
+    "certifications.html": {
+        "title": "Factory Audits & Certifications | SEDEX 4-Pillar, Disney FAMA & BSCI",
+        "desc": "Verified audit dossiers for Custom Swag Factory: SEDEX SMETA 4-Pillar (ZC41920847), Disney FAMA, Coca-Cola SGP, amfori BSCI Grade A, ISO 9001, CPSIA & EN71.",
+        "keywords": "SEDEX 4-Pillar audited swag factory, Disney FAMA approved custom factory, Coca-Cola SGP compliant gifts manufacturer, amfori BSCI Grade A factory, CPSIA lead free compliant supplier, ethical promotional product manufacturer"
+    },
+    "about.html": {
+        "title": "About Custom Swag Factory | Direct Manufacturer in Jinjiang China",
+        "desc": "Learn about Custom Swag Factory (Jinjiang Naike Promo Co., Ltd.): established in 2008, 1,650㎡ cleanroom injection facility, serving global Fortune 500 brands.",
+        "keywords": "about custom swag factory, naike gifts jinjiang, promotional products manufacturer china, direct swag factory story, ethical swag manufacturing"
+    },
+    "contact.html": {
+        "title": "Contact Custom Swag Factory | Free 12-Hour 3D CAD Mockup & Quote",
+        "desc": "Contact Custom Swag Factory for fast quotes and free 12h CAD proofing. Low 50 pcs MOQ, turnkey DDP worldwide shipping. Email: sales@customswagfactory.com.",
+        "keywords": "contact custom swag factory, custom swag quote, free swag mockup, swag manufacturer contact, jinjiang swag factory email"
+    },
+    "case-studies.html": {
+        "title": "Client Case Studies & Enterprise Swag Projects | Custom Swag Factory",
+        "desc": "Explore real-world enterprise case studies: 15,000 tech summit onboarding swag kits, marathon finisher medals, and Fortune 500 corporate gift campaigns.",
+        "keywords": "corporate swag case studies, employee onboarding swag box examples, marathon medal production case study, tech conference swag showcase"
+    },
+    "brand-identity.html": {
+        "title": "Brand Identity & Design Guidelines | Custom Swag Factory",
+        "desc": "Official brand design system, Pantone PMS color matching standards, vector logo specifications, and custom merchandise customization guidelines.",
+        "keywords": "custom swag brand identity, pantone color matching swag, custom merchandise design guidelines, vector logo proofing"
+    },
+    "glossary.html": {
+        "title": "Promotional Merchandise & Manufacturing Glossary | Custom Swag Factory",
+        "desc": "Comprehensive B2B glossary of 40+ technical terms covering micro-injection, cloisonné enamel, die casting, SMETA 4-Pillar, and CPSIA compliance standards.",
+        "keywords": "promotional merchandise glossary, swag manufacturing terms, micro injection molding definition, smeta 4-pillar audit glossary"
+    },
+    "knowledge-base.html": {
+        "title": "B2B Procurement Knowledge Base & Swag FAQ | Custom Swag Factory",
+        "desc": "Answers to B2B corporate swag procurement FAQs: SEDEX 4-Pillar audit verification, mold tooling costs, DDP shipping timelines, and low MOQ policies.",
+        "keywords": "corporate swag faq, b2b promotional gifts knowledge base, swag procurement guide, mold tooling cost faq, swag import ddp shipping"
+    },
+    "knowledge-graph.html": {
+        "title": "Supply Chain Traceability & Material Knowledge Graph | Custom Swag Factory",
+        "desc": "Explore our end-to-end supply chain ontology mapping raw polymers, non-toxic zinc alloys, CNC engraving, and ethical factory audit compliance.",
+        "keywords": "swag supply chain traceability, ethical manufacturing knowledge graph, non-toxic polymer certification, raw material audit tracking"
+    },
+    "news.html": {
+        "title": "Trade Insights & Manufacturing News | Custom Swag Factory",
+        "desc": "Stay updated on promotional gift trade dynamics, factory compliance updates, global import tariffs, and material innovation trends in custom swag.",
+        "keywords": "custom swag news, promotional merchandise industry trends, b2b gifting trade insights, factory audit compliance updates"
+    },
+    "news-detail.html": {
+        "title": "Tensile Safety Engineering & SMETA Compliance | Custom Swag Factory",
+        "desc": "Technical engineering whitepaper on 15kg tensile pull force safety testing, ultrasonic welding, and SMETA 4-Pillar ethical factory audit compliance.",
+        "keywords": "swag safety engineering, tensile pull test shoe charms, smeta compliance whitepaper, non-toxic promo gifts technical report"
+    },
+    "oem-odm.html": {
+        "title": "OEM & ODM Custom Swag Manufacturing | 3D CAD to DDP Delivery | CSF",
+        "desc": "Turnkey OEM & ODM manufacturing for custom corporate swag: 12-hour 3D CAD modeling, in-house CNC mold tooling, and global DDP delivery. 50 pcs MOQ.",
+        "keywords": "oem swag manufacturer, odm corporate gifts factory, custom swag product development, turnkey promotional merchandise oem"
+    },
+    "precision-mold-tooling.html": {
+        "title": "Precision Mold Tooling & CNC Prototyping Workshop | Custom Swag Factory",
+        "desc": "In-house 5-axis CNC mold engraving, copper electrode EDM, and S136H steel tooling workshop delivering 12-hour precision rapid prototyping.",
+        "keywords": "cnc mold tooling swag, rapid prototyping custom merchandise, 5-axis cnc engraving factory, injection mold manufacturing china"
+    },
+    "production-capacity.html": {
+        "title": "Manufacturing Infrastructure & Production Capacity | Custom Swag Factory",
+        "desc": "Tour our 1,650㎡ cleanroom injection workshop, 12 automatic micro-injection lines, and 2,000,000 pcs monthly capacity in Jinjiang, China.",
+        "keywords": "swag factory production capacity, promotional merchandise factory scale, jinjiang injection workshop, high volume swag manufacturer"
+    },
+    "quality-control.html": {
+        "title": "5-Gate Quality Assurance & Zero-Defect Inspection | Custom Swag Factory",
+        "desc": "Rigorous 5-gate quality control protocol: 100% full inspection, tensile pull testing, salt spray corrosion testing, and RoHS lead-free verification.",
+        "keywords": "swag quality control protocol, promotional gift inspection standards, zero defect manufacturing, aql 1.5 inspection gifts"
+    },
+    "sustainability.html": {
+        "title": "Sustainable Corporate Swag & ESG Eco Manufacturing | Custom Swag Factory",
+        "desc": "Discover our verified ESG eco-friendly initiatives: GRS 4.0 recycled RPET fabrics, biodegradable PLA resins, and zero-effluent clean production.",
+        "keywords": "sustainable corporate swag, eco friendly promotional products, grs certified recycled gifts, esg compliant swag manufacturer"
+    },
+    "videos.html": {
+        "title": "Factory Video Tour & Manufacturing Showcase | Custom Swag Factory",
+        "desc": "Watch inside Custom Swag Factory: 1,650㎡ cleanroom injection lines, CNC mold tooling, automatic color dispensing, and strict quality inspection.",
+        "keywords": "swag factory video tour, promotional gifts manufacturing video, custom merchandise production line, jinjiang factory virtual tour"
+    },
+    "whitepapers.html": {
+        "title": "Technical Whitepapers & Engineering Research | Custom Swag Factory",
+        "desc": "Download technical research whitepapers on polymer rheology, zinc alloy metallurgy, environmental safety compliance, and supply chain ethics.",
+        "keywords": "promotional merchandise whitepapers, polymer micro injection engineering, ethical supply chain research, technical manufacturing whitepaper"
+    },
+    "ru/cis-central-asia.html": {
+        "title": "Производитель Корпоративного Мерча и Сувениров | Custom Swag Factory",
+        "desc": "Прямой завод-производитель корпоративного мерча, джиббитсов для сабо, значков, брелоков, медалей и монет. Аудит SEDEX 4-Pillar, Disney FAMA. Доставка DDP в СНГ.",
+        "keywords": "производитель мерча оптом, корпоративные сувениры фабрика китай, джиббитсы оптом от производителя, металлические значки на заказ, медали с лентой оптом, доставка в россию казахстан"
+    }
+}
+
 def inject_seo_and_geo_tags(html, filename, company_info):
     if not company_info:
         return html
@@ -671,6 +819,70 @@ def inject_seo_and_geo_tags(html, filename, company_info):
     canonical_url = f"https://www.{domain}{clean_slug}"
     brand_name = company_info.get("brand_name", "CUSTOM SWAG FACTORY")
 
+    rel_key = filename.replace("\\", "/")
+    base_key = os.path.basename(rel_key)
+    meta_info = PAGE_SEO_REGISTRY.get(rel_key) or PAGE_SEO_REGISTRY.get(base_key, {})
+
+    page_title = meta_info.get("title", f"{brand_name} | Valid SEDEX 4-Pillar Audited Swag Factory")
+    page_desc = meta_info.get("desc", company_info.get("meta_description", "Custom Swag Factory is a direct manufacturer of corporate swag packs, onboarding kits & promotional gifts."))
+    page_keywords = meta_info.get("keywords", company_info.get("meta_keywords", "custom swag factory, corporate swag manufacturer, custom swag packs, promotional gifts"))
+
+    # 1. Clean existing title, description, keywords, og tags, twitter cards, canonical, alternate links, crawler directives
+    html = re.sub(r"""<title(?:\s+id=["'][^"']*["'])?>.*?</title>\s*""", "", html, flags=re.DOTALL | re.IGNORECASE)
+    html = re.sub(r"""<meta\s+[^>]*name=["']description["'][^>]*>\s*""", "", html, flags=re.IGNORECASE)
+    html = re.sub(r"""<meta\s+[^>]*name=["']keywords["'][^>]*>\s*""", "", html, flags=re.IGNORECASE)
+    html = re.sub(r"""<meta\s+[^>]*property=["']og:[^"']*["'][^>]*>\s*""", "", html, flags=re.IGNORECASE)
+    html = re.sub(r"""<meta\s+[^>]*name=["']twitter:[^"']*["'][^>]*>\s*""", "", html, flags=re.IGNORECASE)
+    html = re.sub(r"""<link\s+[^>]*rel=["']canonical["'][^>]*>\s*""", "", html, flags=re.IGNORECASE)
+    html = re.sub(r"""<link\s+[^>]*rel=["']alternate["'][^>]*type=["']text/(markdown|plain)["'][^>]*>\s*""", "", html, flags=re.IGNORECASE)
+    html = re.sub(r"""<link\s+[^>]*rel=["']alternate["'][^>]*type=["']application/json["'][^>]*>\s*""", "", html, flags=re.IGNORECASE)
+    html = re.sub(r"""<meta\s+[^>]*name=["'](robots|googlebot|bingbot|OAI-SearchBot|GPTBot|PerplexityBot|ClaudeBot|ai-compliance-verification|yandex-verification|geo\.[^"']*|ICBM)["'][^>]*>\s*""", "", html, flags=re.IGNORECASE)
+    html = re.sub(r"""<link\s+rel=["']preconnect["'][^>]*>\s*""", "", html, flags=re.IGNORECASE)
+    html = re.sub(r"""<!--\s*2026 Core Web Vitals.*?-->\s*""", "", html, flags=re.DOTALL)
+    html = re.sub(r"""<!--\s*2026 AI Search Crawler Directives.*?-->\s*""", "", html, flags=re.DOTALL)
+    html = re.sub(r"""<!--\s*2026 Generative Engine Optimization.*?-->\s*""", "", html, flags=re.DOTALL)
+    html = re.sub(r"""<!--\s*Yandex Webmaster.*?-->\s*""", "", html, flags=re.DOTALL)
+    html = re.sub(r"""<!--\s*Geolocation.*?-->\s*""", "", html, flags=re.DOTALL)
+    html = re.sub(r"""<!--\s*Standard Canonical URL.*?-->\s*""", "", html, flags=re.DOTALL)
+    html = re.sub(r"""<!--\s*OpenGraph & Social Cards.*?-->\s*""", "", html, flags=re.DOTALL)
+    html = re.sub(r"""<!--\s*OpenGraph URL\s*-->\s*""", "", html)
+    html = re.sub(r"""<!--\s*Favicon Package.*?-->\s*""", "", html, flags=re.DOTALL)
+    html = re.sub(r"""<link\s+[^>]*rel=["']icon["'][^>]*>\s*""", "", html, flags=re.IGNORECASE)
+    html = re.sub(r"""<link\s+[^>]*href=["']images/favicon-[^>]*>\s*""", "", html, flags=re.IGNORECASE)
+    html = re.sub(r"""<link\s+[^>]*href=["']favicon\.ico["'][^>]*>\s*""", "", html, flags=re.IGNORECASE)
+    html = re.sub(r"""(<link\s+[^>]*rel=["']apple-touch-icon["'][^>]*>\s*){2,}""", r'\1', html, flags=re.IGNORECASE)
+
+    # 2. Prepare Top Meta Block
+    title_attr = ' id="pageTitle"' if base_key == 'product-detail.html' else ''
+    desc_attr = ' id="metaDesc"' if base_key == 'product-detail.html' else ''
+
+    top_meta_block = f"""  <title{title_attr}>{page_title}</title>
+  <meta{desc_attr} name="description" content="{page_desc}">
+  <meta name="keywords" content="{page_keywords}">
+  <link rel="canonical" href="{canonical_url}">
+
+  <!-- OpenGraph & Social Cards -->
+  <meta property="og:title" content="{page_title}">
+  <meta property="og:description" content="{page_desc}">
+  <meta property="og:url" content="{canonical_url}">
+  <meta property="og:site_name" content="{brand_name}">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://www.{domain}/images/hero-showcase.svg">
+  <meta name="twitter:card" content="summary_large_image">"""
+
+    # Insert top_meta_block right after viewport (or head)
+    vp_match = re.search(r"""<meta[^>]*name=["']viewport["'][^>]*>\s*""", html, re.I)
+    if not vp_match:
+        vp_match = re.search(r"""<meta[^>]*content=["'][^"']*viewport[^"']*["'][^>]*>\s*""", html, re.I)
+
+    if vp_match:
+        html = html[:vp_match.end()] + '\n' + top_meta_block + '\n' + html[vp_match.end():]
+    else:
+        head_match = re.search(r'<head[^>]*>', html, re.I)
+        if head_match:
+            html = html[:head_match.end()] + '\n' + top_meta_block + '\n' + html[head_match.end():]
+
+    # 3. Prepare Deep GEO, Crawlers, & Schemas block to inject before </head>
     seo_geo_header_block = f"""  <!-- 2026 Core Web Vitals Font Acceleration -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -712,45 +924,11 @@ def inject_seo_and_geo_tags(html, filename, company_info):
   <meta name="geo.position" content="24.7865;118.5833">
   <meta name="ICBM" content="24.7865, 118.5833">
 
-  <!-- Standard Canonical URL (Global Clean URLs Standard) -->
-  <link rel="canonical" href="{canonical_url}">
-
-  <!-- OpenGraph URL -->
-  <meta property="og:url" content="{canonical_url}">
-
   <!-- Favicon Package -->
   <link rel="icon" type="image/svg+xml" href="images/logo.svg">"""
 
-    # Remove existing tags to avoid duplicate injection
-    html = re.sub(r'<!--\s*2026 Core Web Vitals.*?-->\s*', '', html, flags=re.DOTALL)
-    html = re.sub(r'<!--\s*2026 AI Search Crawler Directives.*?-->\s*', '', html, flags=re.DOTALL)
-    html = re.sub(r'<!--\s*2026 Generative Engine Optimization.*?-->\s*', '', html, flags=re.DOTALL)
-    html = re.sub(r'<!--\s*Yandex Webmaster.*?-->\s*', '', html, flags=re.DOTALL)
-    html = re.sub(r'<!--\s*Geolocation.*?-->\s*', '', html, flags=re.DOTALL)
-    html = re.sub(r'<!--\s*Standard Canonical URL.*?-->\s*', '', html, flags=re.DOTALL)
-    html = re.sub(r'<!--\s*Favicon Package.*?-->\s*', '', html, flags=re.DOTALL)
-    html = re.sub(r'<link\s+[^>]*rel=["\']canonical["\'][^>]*>\s*', '', html)
-    html = re.sub(r'<link\s+[^>]*rel=["\']alternate["\'][^>]*type=["\']text/(markdown|plain)["\'][^>]*>\s*', '', html)
-    html = re.sub(r'<link\s+[^>]*rel=["\']alternate["\'][^>]*type=["\']application/json["\'][^>]*>\s*', '', html)
-    html = re.sub(r'<meta\s+name=["\'](robots|googlebot|bingbot|OAI-SearchBot|GPTBot|PerplexityBot|ClaudeBot|ai-compliance-verification|yandex-verification)["\'][^>]*>\s*', '', html)
-    html = re.sub(r'<meta\s+property=["\']og:(url|locale|locale:alternate)["\'][^>]*>\s*', '', html)
-    html = re.sub(r'<meta\s+name=["\']geo\.[^>]*>\s*', '', html)
-    html = re.sub(r'<meta\s+name=["\']ICBM["\'][^>]*>\s*', '', html)
-    html = re.sub(r'<!--\s*OpenGraph URL\s*-->\s*', '', html)
-    html = re.sub(r'<link\s+[^>]*rel=["\']icon["\'][^>]*>\s*', '', html)
-    html = re.sub(r'<link\s+[^>]*href=["\']images/favicon-[^>]*>\s*', '', html)
-    html = re.sub(r'<link\s+[^>]*href=["\']favicon\.ico["\'][^>]*>\s*', '', html)
-    html = re.sub(r'<link\s+rel=["\']preconnect["\'][^>]*>\s*', '', html)
-
-    # Clean redundant apple touch icons
-    html = re.sub(r'(<link\s+[^>]*rel=["\']apple-touch-icon["\'][^>]*>\s*){2,}', r'\1', html)
-
     # Auto-inject Same-Source B2B JSON-LD if page has no application/ld+json script
     if 'application/ld+json' not in html:
-        title_m = re.search(r'<title>(.*?)</title>', html, flags=re.DOTALL | re.IGNORECASE)
-        desc_m = re.search(r'<meta\s+name=["\']description["\']\s+content=["\'](.*?)["\']', html, flags=re.DOTALL | re.IGNORECASE)
-        page_title = title_m.group(1).strip() if title_m else f"{brand_name} | {company_info.get('name_en')}"
-        page_desc = desc_m.group(1).strip() if desc_m else company_info.get("meta_description", "")
         json_ld_obj = {
             "@context": "https://schema.org",
             "@graph": [
@@ -833,6 +1011,7 @@ def inject_seo_and_geo_tags(html, filename, company_info):
     html = html.replace('"晋江耐客生态科技有限公司"', f'"{company_info.get("name_en")}"')
 
     return html
+
 
 def generate_robots_txt(domain):
     content = f"""# ==============================================================================

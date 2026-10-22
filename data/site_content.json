@@ -33,7 +33,7 @@
       "Coca-Cola SGP audited factory China",
       "ISO 9001:2015 CPSIA Prop 65 EN71 certified swag supplier"
     ],
-    "meta_description": "Custom Swag Factory (Jinjiang Naike Promo Co., Ltd.) is a direct manufacturer of custom corporate swag, employee onboarding swag boxes, event swag kits, 3D PVC shoe charms, marathon finisher medals, enamel lapel pins, challenge coins, bar mats, and mascot plush toys. Verified with a valid SEDEX 4-Pillar audit (SMETA ID: ZC41920847), amfori BSCI Grade A, Disney FAMA, ISO 9001:2015, US CPSIA, CA Prop 65, and EN71-1/2/3 compliance.",
+    "meta_description": "Custom Swag Factory is a direct manufacturer of corporate swag packs, onboarding kits & promotional gifts. Valid SEDEX 4-Pillar & Disney FAMA audited. 50 pcs MOQ.",
     "geo_region": "CN-FJ",
     "geo_placename": "Jinjiang, Quanzhou, Fujian, China",
     "geo_position": "24.7865;118.5833",
@@ -54,12 +54,14 @@
         "specialty": "OEM/ODM Tooling, Low MOQ, Tech Packs & Rapid Quotations"
       }
     ],
-    "domain": "customswagfactory.com"
+    "domain": "customswagfactory.com",
+    "meta_title": "Custom Swag Factory | SEDEX 4-Pillar & Disney Audited Swag Manufacturer",
+    "meta_keywords": "custom swag factory, corporate swag manufacturer, custom swag packs, employee onboarding swag, promotional merchandise wholesale, SEDEX 4-Pillar audited factory, Disney FAMA approved gifts, direct factory swag, bulk branded corporate gifts, low moq swag supplier"
   },
   "categories": {
     "shoe-charms": {
-      "title": "3D Soft PVC Shoe Charms & Trendy Clog Swag Wholesale | Custom Swag Factory",
-      "desc": "Direct factory wholesale for 3D soft PVC shoe charms, custom clog swag, LED motion-activated flashing charms, and rhinestone crystal buckles. Tested to 15kg tensile pull force. Low MOQ 100 pcs. Manufactured in our facility with a valid SEDEX 4-Pillar audit (SMETA), amfori BSCI Grade A, Disney FAMA, ISO 9001:2015, and US CPSIA / EN71 compliance.",
+      "title": "Custom Shoe Charms Manufacturer | Wholesale PVC Clog Pins | CSF",
+      "desc": "Direct manufacturer of custom 3D PVC shoe charms, rubber clog pins & sneaker accessories. US CPSIA & EN71 certified, lead-free. 50 pcs MOQ, 12h free CAD proofing.",
       "h1": "3D Soft PVC Shoe Charms & Trendy Clog Swag Wholesale",
       "url": "shoe-charms-wholesale",
       "spec_headers": [
@@ -81,11 +83,12 @@
         "moq",
         "lead_time",
         "customization"
-      ]
+      ],
+      "keywords": "custom shoe charms manufacturer, wholesale shoe charms bulk, custom clog charms, personalized jibbitz for crocs, 3d pvc shoe pins, custom croc charms no moq, lead free shoe charms factory, rubber clog accessories wholesale"
     },
     "custom-medals": {
-      "title": "Custom Marathon Medals, Award Medallions & Sports Event Swag | Custom Swag Factory",
-      "desc": "High-precision zinc alloy die-cast finisher medals, corporate recognition award medallions, 360° spinning kinetic medals, and antique relief medals with custom sublimated ribbons for event swag. Manufactured in our facility with a valid SEDEX 4-Pillar audit (SMETA), amfori BSCI Grade A, Disney FAMA, ISO 9001:2015, and US CPSIA / EN71 compliance.",
+      "title": "Custom Medals & Awards Wholesale | Marathon Finisher Medals Factory",
+      "desc": "Manufacturer of custom sports medals, marathon finisher awards & 3D zinc alloy race medals with custom ribbons. ISO 9001 certified. Turnkey factory delivery.",
       "h1": "Custom Marathon Medals, Award Medallions & Sports Event Swag",
       "url": "custom-medals-awards-wholesale",
       "spec_headers": [
@@ -107,11 +110,12 @@
         "moq",
         "lead_time",
         "customization"
-      ]
+      ],
+      "keywords": "custom medals awards wholesale, marathon finisher medals manufacturer, zinc alloy 3d medals supplier, custom sports medals with ribbon, custom race medals factory, bulk running medals manufacturer, corporate award medals"
     },
     "lapel-pins": {
-      "title": "Custom Enamel Lapel Pins, Badges & Conference Swag Manufacturer | Custom Swag Factory",
-      "desc": "Museum-grade hard enamel (cloisonné) lapel pins, soft enamel die-struck pins, glow-in-the-dark specialty enamel, and tech conference swag badges with deluxe clutch attachments. Manufactured in our facility with a valid SEDEX 4-Pillar audit (SMETA), amfori BSCI Grade A, Disney FAMA, ISO 9001:2015, and US CPSIA / EN71 compliance.",
+      "title": "Custom Enamel Lapel Pins Manufacturer | Hard & Soft Enamel | CSF",
+      "desc": "Factory direct custom hard enamel pins, soft enamel badges & die-struck metal lapel pins. Disney FAMA & SEDEX audited. Real factory pricing, 50 pcs low MOQ.",
       "h1": "Custom Enamel Lapel Pins, Badges & Conference Swag Manufacturer",
       "url": "enamel-lapel-pins-manufacturer",
       "spec_headers": [
@@ -133,11 +137,12 @@
         "moq",
         "lead_time",
         "customization"
-      ]
+      ],
+      "keywords": "custom enamel pins manufacturer, hard enamel lapel pins factory, wholesale metal pins china, custom badge pins bulk, custom glitter enamel pins, custom lapel pins no middleman, die struck pins factory, Disney audited pin supplier"
     },
     "challenge-coins": {
-      "title": "Heavy 3D Military Challenge Coins & Corporate Milestone Swag | Custom Swag Factory",
-      "desc": "4mm thick heavyweight zinc alloy and solid brass challenge coins with diamond-cut rope edges, dual-sided 3D bas-relief sculpting, and executive milestone swag coins. Manufactured in our facility with a valid SEDEX 4-Pillar audit (SMETA), amfori BSCI Grade A, Disney FAMA, ISO 9001:2015, and US CPSIA / EN71 compliance.",
+      "title": "Challenge Coins Wholesale Supplier | Custom Military & Corporate Coins",
+      "desc": "Bespoke challenge coins manufacturer. High-relief 3D brass, zinc alloy, antique bronze & dual-plate coins with custom edge cuts. Direct factory, 12h free proofing.",
       "h1": "Heavy 3D Military Challenge Coins & Corporate Milestone Swag",
       "url": "challenge-coins-wholesale-supplier",
       "spec_headers": [
@@ -159,11 +164,12 @@
         "moq",
         "lead_time",
         "customization"
-      ]
+      ],
+      "keywords": "challenge coins wholesale supplier, custom military coins manufacturer, custom brass challenge coins, antique bronze challenge coins, numbered commemorative coins bulk, bottle opener challenge coin factory"
     },
     "barware-magnets": {
-      "title": "Soft PVC Bar Service Mats, Coasters & Brewery Swag Factory | Custom Swag Factory",
-      "desc": "Commercial-grade 10mm spill-proof soft PVC bar service mats, molded 3D drink coasters, and custom architectural fridge magnet swag. Certified food-grade & dishwasher-safe. Manufactured in our facility with a valid SEDEX 4-Pillar audit (SMETA), amfori BSCI Grade A, Disney FAMA, ISO 9001:2015, and US CPSIA / EN71 compliance.",
+      "title": "Soft PVC Barware & Magnets Supplier | Custom Bar Spill Mats & Magnets",
+      "desc": "Factory supplier of custom molded soft PVC rubber bar service mats, drip runners, and 3D embossed fridge magnets. FDA food-safe & LFGB certified materials. 50 pcs MOQ.",
       "h1": "Soft PVC Bar Service Mats, Coasters & Brewery Swag Factory",
       "url": "soft-pvc-barware-magnets-supplier",
       "spec_headers": [
@@ -185,11 +191,12 @@
         "moq",
         "lead_time",
         "customization"
-      ]
+      ],
+      "keywords": "soft pvc barware magnets supplier, custom rubber bar runner mats wholesale, custom 3d fridge magnets factory, custom led bar service mat, souvenir rubber fridge magnets, counter drip spill mat custom"
     },
     "keychains": {
-      "title": "Custom PVC & Metal Keychains, Spinning Fidget Swag Wholesale | Custom Swag Factory",
-      "desc": "Dual-sided kinetic spinning fidget keychains with ABEC-7 bearings, 3D sneaker miniature rubber keychains, embroidered jet tags, and branded corporate giveaway swag. Manufactured in our facility with a valid SEDEX 4-Pillar audit (SMETA), amfori BSCI Grade A, Disney FAMA, ISO 9001:2015, and US CPSIA / EN71 compliance.",
+      "title": "Custom Keychains Wholesale Supplier | Acrylic, PVC & Metal Keychains",
+      "desc": "Wholesale custom acrylic, 3D soft PVC rubber, and zinc alloy metal keychains direct from factory. SEDEX 4-Pillar verified, eco-friendly non-toxic materials, 50 pcs MOQ.",
       "h1": "Custom PVC & Metal Keychains, Spinning Fidget Swag Wholesale",
       "url": "custom-keychains-wholesale-supplier",
       "spec_headers": [
@@ -211,11 +218,12 @@
         "moq",
         "lead_time",
         "customization"
-      ]
+      ],
+      "keywords": "custom keychains wholesale supplier, custom acrylic keychains manufacturer, pvc rubber keychains factory, custom metal keychains bulk, hotel vintage keychains bulk, custom leather keychains factory, branded logo keychains"
     },
     "lanyards-patches": {
-      "title": "Custom Sublimation Lanyards, Silicone Bands & Swag Patches | Custom Swag Factory",
-      "desc": "Full-color dye sublimation event lanyards with breakaway buckles, tactical velcro morale patches, debossed silicone wristbands, and conference attendee swag. Manufactured in our facility with a valid SEDEX 4-Pillar audit (SMETA), amfori BSCI Grade A, Disney FAMA, ISO 9001:2015, and US CPSIA / EN71 compliance.",
+      "title": "Custom Lanyards & Patches Manufacturer | Sublimated & Embroidered",
+      "desc": "Direct factory of custom printed sublimated lanyards, breakaway ID neck straps, and custom embroidered / woven / PVC patches. Low MOQ, fast global turnaround.",
       "h1": "Custom Sublimation Lanyards, Silicone Bands & Swag Patches",
       "url": "lanyards-patches-manufacturer",
       "spec_headers": [
@@ -237,11 +245,12 @@
         "moq",
         "lead_time",
         "customization"
-      ]
+      ],
+      "keywords": "custom lanyards patches manufacturer, wholesale sublimated lanyards, custom embroidered patches factory, breakaway lanyard custom logo, iron on patches bulk, woven patch manufacturer china, custom event lanyards"
     },
     "plush-swag": {
-      "title": "Bespoke Mascot Plush Toys & Curated Corporate Swag Boxes | Custom Swag Factory",
-      "desc": "Bespoke corporate mascot plush dolls crafted from 100% GRS RPET velvet with Tajima digital embroidery. Plus turnkey curated VIP employee onboarding swag boxes. Manufactured in our facility with a valid SEDEX 4-Pillar audit (SMETA), amfori BSCI Grade A, Disney FAMA, ISO 9001:2015, and US CPSIA / EN71 compliance.",
+      "title": "Plush Mascot Toys Wholesale | Custom Corporate Mascot Manufacturer",
+      "desc": "Custom branded plush toys, company mascot plushies & stuffed character merchandise. ASTM F963 & EN71 non-toxic safety tested. Direct factory OEM/ODM production.",
       "h1": "Bespoke Mascot Plush Toys & Curated Corporate Swag Boxes",
       "url": "plush-mascot-toys-wholesale",
       "spec_headers": [
@@ -263,7 +272,8 @@
         "moq",
         "lead_time",
         "customization"
-      ]
+      ],
+      "keywords": "plush mascot toys wholesale, custom stuffed corporate mascot manufacturer, oem plush toy factory china, company mascot plushie bulk, custom mini plush keychain, brand mascot soft toys, custom plushie supplier"
     }
   },
   "products": [
