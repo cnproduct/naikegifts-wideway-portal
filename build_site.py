@@ -810,6 +810,19 @@ PAGE_SEO_REGISTRY = {
     }
 }
 
+# Dynamically register 121 new landing pages for 150-page expansion
+try:
+    from scripts.build_150_pages_suite import NEW_PAGES_CONFIG
+    for _cfg in NEW_PAGES_CONFIG:
+        _fname = f"{_cfg['slug']}.html"
+        PAGE_SEO_REGISTRY[_fname] = {
+            "title": _cfg["title"],
+            "desc": _cfg["desc"],
+            "keywords": _cfg["keywords"]
+        }
+except Exception as _e:
+    print(f"Warning importing NEW_PAGES_CONFIG into PAGE_SEO_REGISTRY: {_e}")
+
 def inject_seo_and_geo_tags(html, filename, company_info):
     if not company_info:
         return html
@@ -1773,6 +1786,16 @@ def compile_site():
         "knowledge-base.html", "whitepapers.html", "glossary.html", "knowledge-graph.html",
         "precision-mold-tooling.html", "ru/cis-central-asia.html"
     ] + cat_filenames
+
+    # Scale to 150 pages with the 121 new landing pages
+    try:
+        from scripts.build_150_pages_suite import NEW_PAGES_CONFIG
+        for _cfg in NEW_PAGES_CONFIG:
+            _fname = f"{_cfg['slug']}.html"
+            if _fname not in all_compiled_pages:
+                all_compiled_pages.append(_fname)
+    except Exception as _e:
+        print(f"Warning adding new pages to sitemap: {_e}")
 
     generate_sitemap_xml(all_compiled_pages, products, company_info)
 

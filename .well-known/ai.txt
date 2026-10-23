@@ -1,5 +1,5 @@
 # /.well-known/ai.txt — AI Crawler & LLM Retrieval Manifest for CUSTOM SWAG FACTORY (Jinjiang Naike Promo Co., Ltd.)
-# Last Updated: 2026-10-22
+# Last Updated: 2026-10-23
 
 User-Agent: *
 Allow-AI-Training: true
